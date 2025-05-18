@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  checkmk:
+    image: checkmk/check-mk-raw:2.3.0-latest
+    container_name: monitoring
+    ports:
+      - "8080:5000"  # Interfaz web
+      - "8000:8000"  # Agente (si se usa el agent receiver)
+    volumes:
+      - monitoring:/omd/sites
+      - /etc/localtime:/etc/localtime:ro
+    tmpfs:
+      - /opt/omd/sites/cmk/tmp:uid=1000,gid=1000
+    restart: always
+    tty: true
+    stdin_open: true
+
+volumes:
+  monitoring:
+

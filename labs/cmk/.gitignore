@@ -2,3 +2,5 @@
 __pycache__
 venv/
 
+# para el volumen de docker
+checkmk_data/
