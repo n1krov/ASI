@@ -16,8 +16,13 @@ Este proyecto levanta una instancia de [Checkmk Raw Edition](https://checkmk.com
 
 1. Ejecuta:
 
+- Para Linux:
 ```bash
 docker-compose up
+```
+- Para Windows
+```bash
+docker compose up
 ```
 
 2. En la salida del terminal (solo la primera vez) verás:
