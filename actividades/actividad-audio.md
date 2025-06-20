@@ -148,8 +148,6 @@ El artículo destaca la creciente inversión en seguridad informática, remarcan
   - La **alta dirección comprenda y acepte los riesgos elegidos**.
   - Exista **comunicación transparente** sobre decisiones en seguridad.
 
----
-
 ## 📝 Reflexión Final
 
 > El artículo genera una profunda **alerta sobre la realidad de la seguridad empresarial actual**: no solo se trata de tecnología, sino de cultura, conciencia y estructura. Como Gerente de SI/TI de Agunsa, me impulsa a revisar todo el modelo de seguridad con una mirada **humana, organizacional y estratégica**.
