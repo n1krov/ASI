@@ -2,225 +2,165 @@
 
 > Elegir **cómo y dónde ubicar** los Sistemas de Información no es solo una cuestión técnica: depende de la **estrategia organizacional**, los **objetivos del SI** y el **modelo de gestión**.
 
+
+Lo vamos a dividir en:
+
+1. Qué es la ubicación de un SI.    
+2. Los 3 tipos principales (centralizada, descentralizada, delegada).
+3. Ventajas y desventajas.
+4. Cuándo conviene usar cada uno.
+
 ---
 
-## 🧭 Tipos de ubicación de SI
+## 📍 ¿Qué significa la "ubicación" de los Sistemas de Información?
+
+No hablamos solo del **lugar físico**, sino también de **cómo están organizados y quién toma las decisiones**.
+
+La **ubicación de un SI** se analiza según tres cosas:
+
+- **Localización**: dónde está instalado el sistema.
+    
+- **Control**: quién decide sobre su funcionamiento.
+    
+- **Estructura**: quién es responsable del sistema (el área de sistemas o los usuarios).
+    
+
+---
+
+## 🧭 Tipos de Ubicación de SI
 
 ### 🔒 1. (Re)Centralizada
 
-- **Todo se gestiona desde un único lugar**.
+- **Todo está concentrado en un solo lugar**.
     
-- Acceso, decisiones, administración, personal → todo centralizado.
+- Las decisiones las toma **una única unidad central**.
+    
+- Los usuarios acceden al sistema, pero **no lo controlan**.
     
 
-📌 **Ejemplo:** sistema contable del gobierno provincial.
+📌 **Ejemplo**: Sistema de contabilidad del Estado.
 
 #### ✅ Ventajas:
 
-- Mayor control central.
+- Más **control y seguridad**.
     
-- Menos duplicación de esfuerzos.
+- Menos duplicación → se ahorra dinero.
     
-- Economías de escala → menor costo total.
+- Menos riesgo de incompatibilidades.
     
-- Menos incompatibilidades técnicas.
+- Ideal para **proyectos complejos**.
     
-- Más fácil conseguir personal técnico especializado.
+- Más fácil contratar personal especializado.
     
 
 #### ❌ Desventajas:
 
-- El sistema se aleja de las realidades del negocio.
+- El sistema está **lejos de los usuarios**.
     
-- Menor flexibilidad.
+- **No se adapta bien a necesidades particulares**.
     
-- Riesgo de políticas inadecuadas por falta de contexto local.
+- Riesgo de aplicar **reglas que no encajan** con la realidad.
     
-- Lentitud en horas pico.
+- Puede haber lentitud o congestión.
     
-- Altos costos de comunicación si hay distancias grandes.
-    
-- Posibles fraudes si se cobra por uso sin controles adecuados.
+- **Altos costos de comunicación** si hay muchas sedes.
     
 
-#### 🔍 Ideal cuando:
+#### 🧠 Cuándo conviene:
 
-- Se necesita **control corporativo** (ej. alta dirección).
+- Si es un **sistema crítico o sensible**.
     
-- Los sistemas son **críticos pero no urgentes** (ej. liquidación de sueldos).
+- Si se busca **eficiencia**.
     
-- El foco es **la eficiencia**.
+- Si se necesita **integración total** entre sectores.
     
 
 ---
 
 ### 🧩 2. Descentralizada
 
-- Hay **múltiples centros de SI**, cada uno con su acceso y administración.
+- Hay **varios centros de SI**, cada uno con control parcial.
     
-- Son **réplicas** o subdivisiones del sistema central.
+- Es como tener **mini sistemas** en cada área o sede.
+    
+- Todos usan una versión del sistema central, pero **desde lugares diferentes**.
     
 
-📌 **Ejemplo:** el Sysacad de la UTN, con una versión por regional.
+📌 **Ejemplo**: Sysacad en cada regional de la UTN.
 
 #### ✅ Ventajas:
 
-- Mayor cercanía física al usuario.
+- Más **cercanía con los usuarios**.
     
-- Motiva la participación.
+- Motiva e involucra más a cada área.
     
-- Foco en la **efectividad** más que en la eficiencia.
+- Mejor adaptación a lo que necesita cada unidad.
     
-- El usuario se siente más dueño del sistema.
+- Foco en la **efectividad**, no solo en ahorrar.
     
 
 #### ❌ Desventajas:
 
-- Aumento de costos por **duplicación de recursos**.
+- **Duplicación de esfuerzos**.
     
-- Aislamiento del personal técnico.
+- Más difícil **coordinar todo**.
     
-- Pérdida de visión unificada.
+- Aislamiento entre sectores.
     
 
-#### 🔍 Ideal cuando:
+#### 🧠 Cuándo conviene:
 
-- Se necesita una **mayor integración con los usuarios**.
+- Si cada sede necesita **responder rápido y con autonomía**.
     
-- Se prioriza la **reacción rápida y el conocimiento local**.
+- Cuando los servicios son **parecidos**, pero **requieren cierta personalización**.
     
 
 ---
 
 ### 🌐 3. Delegada
 
-- Los usuarios finales tienen un **alto grado de control**.
+- Cada área o usuario tiene **control casi total sobre su propio sistema**.
     
-- Cada departamento o área **toma sus propias decisiones** sobre su sistema.
+- El área central de sistemas **no gestiona directamente**, solo da soporte si es necesario.
+    
+- Los sistemas están **distribuidos**, con **alta autonomía local**.
     
 
-📌 **Ejemplo:** sistema de expedientes en cada sede UTN.
+📌 **Ejemplo**: Registro de expedientes en cada sede de la UTN.
 
 #### ✅ Ventajas:
 
-- Alta autonomía y rapidez.
+- El sistema está **cerca del usuario**, en todos los sentidos.
     
-- Bajo costo de comunicación.
+- **Más autonomía**, más compromiso del usuario.
     
-- Mejor percepción de costo-beneficio por parte del usuario.
+- Bajos costos de comunicación.
     
-- Los sistemas son más fáciles de mantener.
+- Más fácil adaptarse a lo que se necesita.
+    
+- Mejor percepción de costo-beneficio por parte de los usuarios.
     
 
 #### ❌ Desventajas:
 
-- Alta posibilidad de **incompatibilidades**.
+- **Altos costos totales** por duplicación.
     
-- Difícil integrar todo a futuro.
+- Riesgo de que los sistemas **no se puedan integrar** después.
     
-- Menor posibilidad de carreras técnicas sólidas en la organización.
+- Puede haber **limitaciones técnicas** si el sistema es complejo.
     
-- Puede generar conflictos internos si no se gestiona bien el cambio.
+- Dificultad para que los técnicos hagan **carrera profesional**.
     
-
-#### 🔍 Ideal cuando:
-
-- Se necesita **velocidad y flexibilidad**.
-    
-- El servicio es único para un área específica.
-    
-- El foco es la **efectividad**, no la eficiencia.
+- **Conflictos internos** si no se gestiona bien el cambio.
     
 
----
+#### 🧠 Cuándo conviene:
 
-## 🧩 Tres aspectos a considerar al decidir la ubicación
-
-1. **Localización:** lugar físico del sistema.
+- Cuando se necesita **velocidad y flexibilidad**.
     
-2. **Control:** ¿quién toma las decisiones (central o local)?
+- Si un servicio es **exclusivo de un área**.
     
-3. **Estructura:** ¿quién tiene la responsabilidad (IS o usuarios)?
+- Cuando el foco es la **efectividad**, no la eficiencia.
     
 
 ---
-
-## 📄 Resumen en Markdown para Obsidian
-
-```markdown
-# 🗺️ Ubicación de los Sistemas de Información (SI)
-
-## Tipos de ubicación
-
-### 🔒 (Re)Centralizada
-- Único punto de control, acceso y gestión.
-- Ejemplo: sistema contable del Estado.
-
-**Ventajas:**
-- Mayor control central.
-- Menor duplicación.
-- Economías de escala.
-- Menor incompatibilidad técnica.
-
-**Desventajas:**
-- Desconexión con el negocio real.
-- Lentitud en picos de uso.
-- Posibles fraudes si hay cobros por uso sin controles.
-- Costos altos de comunicación.
-
-**Ideal cuando:**
-- Se necesita control corporativo.
-- Los sistemas son complejos pero no urgentes.
-- El foco es la eficiencia.
-
----
-
-### 🧩 Descentralizada
-- Varios centros IS con su propio acceso.
-- Ejemplo: Sysacad regional UTN.
-
-**Ventajas:**
-- Cercanía al usuario.
-- Mayor participación.
-- Foco en la efectividad.
-
-**Desventajas:**
-- Duplicación de esfuerzos y costos.
-- Aislamiento del personal técnico.
-
-**Ideal cuando:**
-- Se prioriza integración con el usuario.
-- Se necesita reacción local rápida.
-
----
-
-### 🌐 Delegada
-- Alta autonomía del usuario final.
-- Ejemplo: registro de expedientes UTN.
-
-**Ventajas:**
-- Rápida reacción y flexibilidad.
-- Bajo costo de comunicación.
-- Mejor percepción de costo/beneficio.
-
-**Desventajas:**
-- Incompatibilidades futuras.
-- Difícil integración.
-- Riesgo de conflicto si no se maneja bien el cambio.
-
-**Ideal cuando:**
-- Se necesita flexibilidad.
-- El servicio es único por área.
-- Se prioriza la efectividad.
-
----
-
-## 📌 Aspectos clave de ubicación:
-- **Localización:** lugar físico del sistema.
-- **Control:** quién toma decisiones.
-- **Estructura:** quién se responsabiliza.
-
-**Conclusión:**  
-No hay una única forma “correcta”. Las empresas suelen combinar modelos según sus necesidades y deben evaluar qué y cuánto centralizar.
-
-```
