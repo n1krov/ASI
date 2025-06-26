@@ -1,0 +1,130 @@
+## 💡 El Rol de las Tecnologías de la Información (TI)
+
+### 🤖 ¿Qué son las TI?
+
+Las **Tecnologías de la Información** (TI) son:
+
+> 👉 Todos los recursos tecnológicos que usamos para **construir y hacer funcionar un Sistema de Información (SI)**.
+
+Incluyen:
+
+- **Aplicaciones** (por ejemplo: un sistema contable, un CRM)
+    
+- **Redes y comunicaciones** (como internet, Wi-Fi, LAN)
+    
+- **Dispositivos** (como notebooks, servidores, teléfonos, etc.)
+    
+
+---
+
+## 🔗 ¿Qué relación hay entre TI y SI?
+
+> El **SI es la necesidad**, y la **TI es la herramienta** que permite llevarlo a cabo.
+
+### 🧠 ¿Ejemplo práctico?
+
+- El gerente necesita saber cuánto se vendió este mes (eso es **SI**: una necesidad de información).
+    
+- El sistema de ventas genera el reporte desde la base de datos (eso es **TI**: cómo se hace técnicamente).
+    
+
+---
+
+## 📌 Puntos clave a entender
+
+### 1. **TI ≠ SI**
+
+- El foco no es usar tecnología “porque sí”.
+    
+- Lo importante es **resolver necesidades de información**.
+    
+
+### 2. **La TI es relevante**
+
+Aunque el punto de partida es el SI, **la tecnología sí importa**, y **mucho**:
+
+- Ayuda a:
+    
+    - Almacenar grandes volúmenes de datos 📦
+        
+    - Acceder a la información rápido ⚡
+        
+    - Evitar errores 🙅‍♂️
+        
+    - Comunicar automáticamente 📡
+        
+
+---
+
+### 3. **La tecnología no es neutra**
+
+Esto es clave:
+
+> No podés usar una tecnología “nueva” y seguir haciendo todo exactamente igual.
+
+💡 **La tecnología cambia el modo en que se hacen las cosas** (para bien o para mal).
+
+Ejemplo:
+
+- Antes se anotaban pedidos en papel → ahora se usa una app que hace cálculos automáticos.
+    
+- Pero esa app **también puede limitar cómo se hacen ciertas tareas**, y cambiar la dinámica de trabajo.
+    
+
+---
+
+## 🧠 Entonces... ¿qué debe hacer la empresa?
+
+Debe haber **alguien responsable** de:
+
+- **Estar al tanto de las nuevas TI**
+    
+- Evaluar si esas tecnologías **realmente ayudan** al SI
+    
+- **Criticar con criterio**: no todo lo nuevo es útil.
+    
+
+---
+
+## ⚠️ Dos situaciones posibles al implementar TI:
+
+|Situación|¿Qué pasa?|Ejemplo|
+|---|---|---|
+|✅ **Mejoras**|Hacemos las cosas de forma más eficiente y efectiva.|Automatizar facturación ahorra tiempo y reduce errores.|
+|❌ **Limitaciones**|Hacemos las cosas de forma menos efectiva (aunque parezca más rápida).|Cambiar un sistema simple por otro más complejo que confunde a los usuarios.|
+
+---
+
+## 📝 Resumen en Markdown para repasar
+
+```markdown
+## 💡 El Rol de las Tecnologías de la Información (TI)
+
+### ¿Qué son las TI?
+Recursos tecnológicos usados para implementar Sistemas de Información (SI):
+- Aplicaciones
+- Comunicaciones
+- Dispositivos
+
+### Relación entre TI y SI:
+- **El SI es la necesidad.**
+- **La TI es la herramienta.**
+
+### Puntos clave:
+1. TI ≠ SI: la tecnología no es el objetivo, sino el medio.
+2. La tecnología **sí es relevante**: permite almacenar, procesar y comunicar datos de manera eficiente.
+3. **La tecnología no es neutral**: cambia cómo se hacen las cosas.
+
+### ¿Qué debe hacer la empresa?
+- Tener alguien que:
+  - Esté al día con las TI.
+  - Evalúe su utilidad para el SI.
+  - Tome decisiones informadas.
+
+### Dos escenarios posibles:
+1. La TI mejora procesos.
+2. La TI complica o limita procesos (aunque parezca más eficiente).
+
+📌 Conclusión: hay que usar la tecnología con **criterio**, en función de las necesidades reales del Sistema de Información.
+```
+
