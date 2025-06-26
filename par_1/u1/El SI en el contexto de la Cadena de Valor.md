@@ -1,3 +1,4 @@
+# VARIANTE 1
 ## 🏗️ ¿Qué es la **cadena de valor**?
 
 Imaginá que una empresa fabrica zapatillas.
@@ -67,5 +68,90 @@ Ejemplo:
     
 - Lo importante es que el SI ayude a **coordinar bien las actividades** y que cada parte de la empresa **tenga la info que necesita en el momento justo**.
     
+
+
+---
+# VARIANTE 2
+
+## 🧩 ¿Qué es la Cadena de Valor?
+
+La **cadena de valor** es una forma de ver cómo una empresa **genera valor paso a paso**.
+
+Imaginá que una empresa es como una fábrica: para que un producto salga al final, tiene que pasar por **varios eslabones** (etapas).  
+Cada etapa debe **agregar algo útil** al producto o servicio final.
+
+---
+
+## ⚙️ Tipos de Actividades en la Cadena de Valor
+
+En una empresa hay **dos tipos de actividades**:
+
+1. 🔧 **Actividades básicas o de línea**  
+    → Son las que **crean directamente el valor**.  
+    Ej: Producción, logística, atención al cliente.
+    
+2. 🛠️ **Actividades de soporte**  
+    → Ayudan a que las básicas funcionen bien.  
+    Ej: Recursos Humanos, Finanzas, Infraestructura… y **Sistemas de Información (SI)**.
+    
+
+![[Pasted image 20250626191731.png]]
+
+> En la figura, una de las actividades de soporte se denomina **infraestructura** **de la empresa**. 
+> 
+> Dado que el **SI** de una empresa forma parte precisamente de la infraestructura de esta, se entiende que todas las actividades de línea precisan apoyo del SI. 
+> 
+> También, dado que las distintas actividades de soporte se apoyan entre si se llega a la conclusión de que el **SI está llamado a interaccionar** con todas las demás actividades de cualquier empresa, ya sean básicas o de soporte, y además en un grado no trivial.
+
+## 🖥️ ¿Dónde entra el SI?
+
+El **Sistema de Información** forma parte de la **infraestructura de la empresa**, que es una actividad de soporte.
+
+Pero no se queda ahí. El SI **interactúa con todas las actividades** (básicas y de soporte) porque:
+
+- **Todas generan información.**
+    
+- **Todas necesitan información para funcionar.**
+    
+
+Entonces, el SI **recopila, organiza y distribuye** esa información para que cada área pueda hacer su tarea de forma coordinada.
+
+📌 **Ejemplo:** El área de ventas genera datos de clientes → el área de producción los usa para ajustar la fabricación → todo eso lo coordina el SI.
+
+---
+
+## 🔗 El SI como Conector
+
+El SI es como el **pegamento** que une los eslabones de la cadena de valor:
+
+- Coordina las actividades entre sí.
+- Asegura que la información fluya correctamente.
+- Hace que todas las áreas estén alineadas.
+
+🧠 _No pertenece a un solo sector, sino que sirve a toda la empresa._
+
+---
+
+## 🧱 ¿Qué pasa cuando un área necesita algo muy específico?
+
+A veces, una actividad necesita manejar mucha información que **no es útil para las otras**.
+
+En esos casos, se pueden crear **subsistemas de información** particulares, diseñados **solo para esa área**.
+
+📌 Ejemplo: Un sistema exclusivo para Recursos Humanos que maneje evaluaciones internas detalladas.
+
+Esos subsistemas:
+
+- **No forman parte del SI "básico"**.
+    
+- Son independientes.
+    
+- Pueden usar o generar info que le sirva a otras áreas, pero **en pequeña escala**.
+    
+
+![[Pasted image 20250626192107.png]]
+
+---
+
 
 [[u1]]
