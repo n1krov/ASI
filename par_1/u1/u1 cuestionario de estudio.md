@@ -43,7 +43,9 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 	1. [[Planificacion estrategica]]
 	2. [[Primera etapa - Etapa filosofica]]
 	3. [[Segunda etapa - Etapa analitica]]
-	4. [[]]
+	4. [[Tercera Etapa - Etapa operativa]]
+	5. [[Cuarta etapa - Etapa de accion y desrrollo]]
+	6. [[Etapas]]
 7. 🗂️ ¿En qué consiste la **administración de los recursos de SI**?
 8. 🎯 ¿Cuáles son los **roles de los SI** desde el punto de vista del gerenciamiento?
 9. 🗺️ ¿Qué **decisiones deben tomarse sobre la ubicación** de los SI?
