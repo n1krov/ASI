@@ -1,21 +1,17 @@
-## 🖥️ ¿Qué es un Sistema de Información (SI)?
+## 🖥️ ¿Qué es un **SISTEMA DE INFORMACIÓN (SI)**?
 
 Un **SI** es como el **cerebro digital de la empresa**.
 
-> Es un **conjunto formal de procesos** que:
-> 
-> - Usa **datos organizados** según lo que necesita la empresa,
->     
-> - Para **recopilar, procesar y distribuir información**,
->     
-> - Que **sirve para operar, controlar y tomar decisiones** en la empresa.
->     
+> Es un ***CONJUNTO FORMAL DE PROCESOS*** que:
+> - Usa ***DATOS* ORGANIZADOS** según lo que necesita la empresa,
+> - Para **RECOPILAR, PROCESAR Y DISTRIBUIR *INFORMACIÓN***,
+> - Que **sirve para OPERAR, CONTROLAR Y TOMAR DECISIONES** en la empresa.
 
 ---
 
 ## 🔍 Desglosemos la definición parte por parte
 
-### 📌 1. **“Conjunto formal de procesos”**
+### 📌 1. **“CONJUNTO FORMAL DE PROCESOS”**
 
 - **Formal** = está definido, todos saben cómo funciona, se puede estudiar y mejorar.
     
@@ -26,7 +22,7 @@ Un **SI** es como el **cerebro digital de la empresa**.
 
 ---
 
-### 📦 2. **“Colección de datos estructurada según necesidades”**
+### 📦 2. **“COLECCIÓN DE DATOS ESTRUCTURADA SEGÚN NECESIDADES”**
 
 - No son datos tirados al azar.
     
@@ -37,7 +33,7 @@ Un **SI** es como el **cerebro digital de la empresa**.
 
 ---
 
-### 🔧 3. **“Operaciones y toma de decisiones”**
+### 🔧 3. **“OPERACIONES Y TOMA DE DECISIONES”**
 
 El SI **no solo sirve para hacer tareas operativas** (como vender, comprar, facturar).
 
@@ -52,9 +48,9 @@ También:
 
 ---
 
-### 🎯 4. **“Funciones, procesos y estrategia de negocio”**
+### 🎯 4. **“FUNCIONES, PROCESOS Y ESTRATEGIA DE NEGOCIO”**
 
-El SI **tiene que estar alineado con los objetivos de la empresa**.
+El SI **tiene que estar *ALINEADO* con los objetivos de la empresa**.
 
 > No es un sistema para jugar o probar cosas. Es una herramienta **estratégica**.
 
