@@ -37,6 +37,7 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 4. 🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones?
 5. 🧭 ¿Cuáles son las **etapas propuestas por Edwards, Ward y Bytheway** para determinar prioridades?
 
+
 6. 🗂️ ¿En qué consiste la **administración de los recursos de SI**?
 7. 🎯 ¿Cuáles son los **roles de los SI** desde el punto de vista del gerenciamiento?
 8. 🗺️ ¿Qué **decisiones deben tomarse sobre la ubicación** de los SI?
@@ -47,6 +48,7 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 10. 🧱 ¿Cuáles son los **enfoques estructurales** para la organización de los SI?
 11. 🧩 Sintetice las **tres cuestiones principales** que requiere una estrategia de SI para implementarse, en el contexto del **“Valor de la inversión en IS”**.
 12. 💸 ¿Cuáles son los **costos de un SI**?
+
 13. 📋 Sintetice la **“Auditoría de los Costos de SI”**.
 14. 🎁 ¿Qué son los **beneficios de un SI**?
 15. 🧾 ¿Cómo se **clasifican los beneficios genéricos** de los SI?
