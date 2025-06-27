@@ -18,8 +18,11 @@ El modelo de cartera nos permite ver equilibrio de las inversiones en términos 
 fondos. Podemos ver donde se están aplicando recursos y esfuerzos, y donde está planificado
 hacerlo. Si esto no se ajusta a los objetivos de la empresa, entonces los recursos se pueden
 modificar o reasignar.
-[[Aplicaciones de alto potencial]]
-[[Aplicaciones estrategicas]]
-[[Aplicaciones claves para las operaciones]]
-[[Aplicaciones de apoyo]]
+
+La deficino de prioridades dentro de cada segmento de la cartera considera los siguientes factores
+
+1. [[Aplicaciones de alto potencial]]
+2. [[Aplicaciones estrategicas]]
+3. [[Aplicaciones claves para las operaciones]]
+4. [[Aplicaciones de apoyo]]
 
