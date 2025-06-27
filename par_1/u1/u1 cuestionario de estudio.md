@@ -33,8 +33,11 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 > hay que hacer apunte de esto
 1. 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización?
 2. 🗃️ ¿Qué es el **análisis de la cartera de aplicaciones**?
+	1. [[Analisis de la cartera de aplicaciones]]
 3. 🛠️ ¿Qué son y cuáles son las **estrategias genéricas para la gestión de los SI/TI**?
+	1. [[Las estrategias genericas de gestion de SI-TI]]
 4. 🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones?
+	1. 
 5. 🧭 ¿Cuáles son las **etapas propuestas por Edwards, Ward y Bytheway** para determinar prioridades?
 
 
