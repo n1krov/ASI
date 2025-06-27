@@ -75,7 +75,7 @@ Ejemplo:
 
 ## 🧩 ¿Qué es la Cadena de Valor?
 
-La **cadena de valor** es una forma de ver cómo una empresa **genera valor paso a paso**.
+La **cadena de valor** es una *forma de ver* cómo una empresa **GENERA VALOR paso a paso**.
 
 Imaginá que una empresa es como una fábrica: para que un producto salga al final, tiene que pasar por **varios eslabones** (etapas).  
 Cada etapa debe **agregar algo útil** al producto o servicio final.
@@ -86,13 +86,13 @@ Cada etapa debe **agregar algo útil** al producto o servicio final.
 
 En una empresa hay **dos tipos de actividades**:
 
-1. 🔧 **Actividades básicas o de línea**  
+1. 🔧 **Actividades BASICAS o DE LINEA**  
     → Son las que **crean directamente el valor**.  
     Ej: Producción, logística, atención al cliente.
     
-2. 🛠️ **Actividades de soporte**  
+2. 🛠️ **Actividades DE SOPORTE**
     → Ayudan a que las básicas funcionen bien.  
-    Ej: Recursos Humanos, Finanzas, Infraestructura… y **Sistemas de Información (SI)**.
+    Ej: Recursos Humanos, Finanzas, Infraestructura… y **[[Sistemas de Informacion (SI) en la empresa]]**.
     
 
 ![[Pasted image 20250626191731.png]]
@@ -103,15 +103,17 @@ En una empresa hay **dos tipos de actividades**:
 > 
 > También, dado que las distintas actividades de soporte se apoyan entre si se llega a la conclusión de que el **SI está llamado a interaccionar** con todas las demás actividades de cualquier empresa, ya sean básicas o de soporte, y además en un grado no trivial.
 
+> Basicamente el SI interactua con todas las areas.
+
 ## 🖥️ ¿Dónde entra el SI?
 
-El **Sistema de Información** forma parte de la **infraestructura de la empresa**, que es una actividad de soporte.
+El **Sistema de Información** forma parte de la **infraestructura de la empresa**, que es una *actividad de soporte*.
 
 Pero no se queda ahí. El SI **interactúa con todas las actividades** (básicas y de soporte) porque:
 
-- **Todas generan información.**
+- **Todas las actividades GENERAN INFORMACION.**
     
-- **Todas necesitan información para funcionar.**
+- **Todas las actividades NECESITAN información para funcionar.**
     
 
 Entonces, el SI **recopila, organiza y distribuye** esa información para que cada área pueda hacer su tarea de forma coordinada.
@@ -150,6 +152,9 @@ Esos subsistemas:
     
 
 ![[Pasted image 20250626192107.png]]
+
+
+- Se incluye ademas una interpretacion -> [[Ubicacion del SI-TI en la cadena de valor (Interpretacion)]]
 
 ---
 
