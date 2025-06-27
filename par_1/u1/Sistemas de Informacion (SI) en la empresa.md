@@ -73,28 +73,3 @@ Los SI **sirven para manejar transacciones** (como vender, comprar, pagar, cobra
 - Ejercer control
     
 
----
-
-## ✅ En resumen:
-
-```markdown
-## 🖥️ Los Sistemas de Información (SI) en la Empresa
-
-### ¿Qué es un SI?
-Es un conjunto formal de procesos que:
-- Usa datos estructurados,
-- Para recopilar, procesar y distribuir información,
-- Que ayuda a operar, tomar decisiones y controlar la empresa.
-
-### Características clave:
-- **Formal:** definido y conocido por la organización.
-- **Basado en datos estructurados:** organizados según las necesidades de la empresa.
-- **Sirve para decisiones y control**, no solo tareas operativas.
-- **Debe alinearse con la estrategia del negocio.**
-
-### ¿Qué actividades abarca?
-- Transacciones (ventas, compras, pagos).
-- Coordinación de operaciones.
-- Toma de decisiones.
-- Control de procesos.
-```

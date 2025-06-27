@@ -27,15 +27,20 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 
 ## ❓ Preguntas del Cuestionario
 
-1. ✍️ Interpretar, teniendo en cuenta la definición de sistemas de información propuesta por **Andreu, Ricart y Valor**, la ubicación y función de los **SI/TI en la cadena de valor** de la organización.
+1 ✍️ Interpretar, teniendo en cuenta la definición de sistemas de información propuesta por **Andreu, Ricart y Valor**, la ubicación y función de los **SI/TI en la cadena de valor** de la organización.
 	1. [[El SI en el contexto de la Cadena de Valor]]
-	2. [[Ubicacion de los SI (Area de sistemas)]]
-	3. [[Ubicacion del SI-TI en la cadena de valor (Interpretacion)]]
-2. 📡 Explicar la **relación entre Sistemas de Información y Tecnologías de Información**.
+	2. [[Ubicacion del SI-TI en la cadena de valor (Interpretacion)]]
+
+2📡 Explicar la **relación entre Sistemas de Información y Tecnologías de Información**.
+[[Sistemas de Informacion (SI) en la empresa]]
+[[Rol de las tecnologias de la informacion (TI)]]
+[[Relacion entre SI y TI]]
+
 
 > hay que hacer apunte de esto
+
 3 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización? (criterio)
-[[Por que deben alineearse los SI con las estrategias de la organizacion]]
+- [[Por que deben alineearse los SI con las estrategias de la organizacion]]
 4 🗃️ ¿Qué es el **análisis de la cartera de aplicaciones**?  
 [[Analisis de la cartera de aplicaciones]]
 
