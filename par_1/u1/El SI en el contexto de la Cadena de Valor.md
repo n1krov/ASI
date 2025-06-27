@@ -124,13 +124,13 @@ Entonces, el SI **recopila, organiza y distribuye** esa información para que ca
 
 ## 🔗 El SI como Conector
 
-El SI es como el **pegamento** que une los eslabones de la cadena de valor:
+El **SI** es como el **pegamento** que une los eslabones de la cadena de valor:
 
 - Coordina las actividades entre sí.
-- Asegura que la información fluya correctamente.
-- Hace que todas las áreas estén alineadas.
+- Asegura que la **información fluya** correctamente.
+- Hace que todas las áreas estén **alineadas**.
 
-🧠 _No pertenece a un solo sector, sino que sirve a toda la empresa._
+🧠 _No pertenece a un solo sector, sino que **sirve** a toda la empresa._
 
 ---
 
@@ -140,18 +140,17 @@ A veces, una actividad necesita manejar mucha información que **no es útil par
 
 En esos casos, se pueden crear **subsistemas de información** particulares, diseñados **solo para esa área**.
 
-📌 Ejemplo: Un sistema exclusivo para Recursos Humanos que maneje evaluaciones internas detalladas.
+📌 Ejemplo: Un sistema exclusivo para Recursos Humanos que maneje **evaluaciones internas detalladas**.
 
 Esos subsistemas:
 
-- **No forman parte del SI "básico"**.
-    
+- **NO forman parte del SI "básico"**.
 - Son independientes.
-    
-- Pueden usar o generar info que le sirva a otras áreas, pero **en pequeña escala**.
-    
+- Pueden **usar** o **generar** info que le sirva a otras áreas, pero **en pequeña escala**.
 
 ![[Pasted image 20250626192107.png]]
+
+en la imagen se puede ver en detalle como existe un subsitema dentro del las actividades de logistica entrada, operaciones y salida, 
 
 
 - Se incluye ademas una interpretacion -> [[Ubicacion del SI-TI en la cadena de valor (Interpretacion)]]
