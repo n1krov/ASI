@@ -29,25 +29,28 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 
 1. ✍️ Interpretar, teniendo en cuenta la definición de sistemas de información propuesta por **Andreu, Ricart y Valor**, la ubicación y función de los **SI/TI en la cadena de valor** de la organización.
 2. 📡 Explicar la **relación entre Sistemas de Información y Tecnologías de Información**.
-3. 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización?
-4. 🗃️ ¿Qué es el **análisis de la cartera de aplicaciones**?
-5. 🛠️ ¿Qué son y cuáles son las **estrategias genéricas para la gestión de los SI/TI**?
-6. 🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones?
-7. 🧭 ¿Cuáles son las **etapas propuestas por Edwards, Ward y Bytheway** para determinar prioridades?
-8. 🗂️ ¿En qué consiste la **administración de los recursos de SI**?
-9. 🎯 ¿Cuáles son los **roles de los SI** desde el punto de vista del gerenciamiento?
-10. 🗺️ ¿Qué **decisiones deben tomarse sobre la ubicación** de los SI?
-11. ⚖️ Comparar los **SI centralizados y no centralizados** según:
+
+> hay que hacer apunte de esto
+1. 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización?
+2. 🗃️ ¿Qué es el **análisis de la cartera de aplicaciones**?
+3. 🛠️ ¿Qué son y cuáles son las **estrategias genéricas para la gestión de los SI/TI**?
+4. 🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones?
+5. 🧭 ¿Cuáles son las **etapas propuestas por Edwards, Ward y Bytheway** para determinar prioridades?
+
+6. 🗂️ ¿En qué consiste la **administración de los recursos de SI**?
+7. 🎯 ¿Cuáles son los **roles de los SI** desde el punto de vista del gerenciamiento?
+8. 🗺️ ¿Qué **decisiones deben tomarse sobre la ubicación** de los SI?
+9. ⚖️ Comparar los **SI centralizados y no centralizados** según:
     - a) Grado de control sobre los sistemas  
     - b) Entorno requerido  
     - c) Costos asociados  
-12. 🧱 ¿Cuáles son los **enfoques estructurales** para la organización de los SI?
-13. 🧩 Sintetice las **tres cuestiones principales** que requiere una estrategia de SI para implementarse, en el contexto del **“Valor de la inversión en IS”**.
-14. 💸 ¿Cuáles son los **costos de un SI**?
-15. 📋 Sintetice la **“Auditoría de los Costos de SI”**.
-16. 🎁 ¿Qué son los **beneficios de un SI**?
-17. 🧾 ¿Cómo se **clasifican los beneficios genéricos** de los SI?
-18. 📊 ¿Cómo se **clasifican los factores generadores de valor** de la información, según la **Economía de la Información**?
+10. 🧱 ¿Cuáles son los **enfoques estructurales** para la organización de los SI?
+11. 🧩 Sintetice las **tres cuestiones principales** que requiere una estrategia de SI para implementarse, en el contexto del **“Valor de la inversión en IS”**.
+12. 💸 ¿Cuáles son los **costos de un SI**?
+13. 📋 Sintetice la **“Auditoría de los Costos de SI”**.
+14. 🎁 ¿Qué son los **beneficios de un SI**?
+15. 🧾 ¿Cómo se **clasifican los beneficios genéricos** de los SI?
+16. 📊 ¿Cómo se **clasifican los factores generadores de valor** de la información, según la **Economía de la Información**?
 
 > 💬 **Indicación especial**  
 Las preguntas **1 y 3** requieren **elaboración de conclusiones personales** por parte del alumno.
