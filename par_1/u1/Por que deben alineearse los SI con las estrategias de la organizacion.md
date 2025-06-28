@@ -33,18 +33,19 @@
     > “¿**Para qué** lo necesito? ¿Qué decisiones y acciones del negocio va a apoyar?”  
     > Más que centrarse en el _cómo_ o el _qué_, **el foco está en** ***RESOLVER NECESIDADES REALES DEL NEGOCIO***.
     
-7.  🧠 **Perspectiva de *NEGOCIO*, NO *tecnológica***
+7.  🧠 ***Perspectiva de NEGOCIO*, NO TECNOLÓGICA**
     
-    Aunque se hable de sistemas, **el plan de SI/TI no se escribe con lenguaje técnico**, sino con enfoque estratégico. Se piensa desde el negocio hacia la tecnología, no al revés.
+    Aunque se hable de sistemas, **el plan de SI/TI no se escribe con lenguaje técnico**, sino con enfoque estratégico. **Se piensa desde el negocio hacia la tecnología, no al revés.**
     
-8.  💡 **Optimización de recursos**
-    
+8.  💡 ***OPTIMIZACIÓN DE RECURSOS***
+
     A través del **modelo de cartera de aplicaciones**, se puede ver qué tan alineadas están las aplicaciones actuales con los objetivos empresariales. Si no encajan, se pueden **revisar o reasignar recursos** para que sí lo hagan.
     
 
 
 ### 📌 En resumen:
 
-> La alineación entre SI y estrategia **convierte la tecnología en una inversión útil**, y no en un simple gasto. Garantiza que los SI acompañen el crecimiento de la empresa, **apoyando tanto el presente como el futuro del negocio**.
+> La alineación entre SI y estrategia ***CONVIERTE LA TECNOLOGÍA EN UNA INVERSIÓN ÚTIL***, y no en un simple gasto. 
+> Garantiza que los SI *acompañen el crecimiento de la empresa*, **apoyando tanto el presente como el futuro del negocio**.
 
 ---

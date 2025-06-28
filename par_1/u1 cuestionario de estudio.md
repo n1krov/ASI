@@ -38,7 +38,7 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 [[Rol de las tecnologias de la informacion (TI)]]
 [[Relacion entre SI y TI]]
 
-- [ ] 
+- [x] 
 ## 3 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización? (criterio)
 - [[Por que deben alineearse los SI con las estrategias de la organizacion]]
 

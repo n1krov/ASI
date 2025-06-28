@@ -1,28 +1,35 @@
-Análisis de la Cartera de Aplicaciones
-Hay muchas maneras de clasificar los sistemas de información. Un esquema particularmente útil
-tiene la forma de una matriz y clasifica una aplicación como:
-● de alto potencial
-● estratégica
-● clave para las operaciones
-● de apoyo
-Según sus contribuciones presentes y futuras, y tal y como las percibe la dirección de la empresa.
 
+## 🧠 Análisis de la Cartera de Aplicaciones
+
+> **Comprender este análisis es fundamental** para saber **dónde, cómo y por qué se está invirtiendo en los Sistemas de Información (SI)** de una organización. Ayuda a alinear la tecnología con la estrategia del negocio y optimiza el uso de recursos.
+
+---
+
+### 📦 ¿Qué es la Cartera de Aplicaciones?
+
+La **cartera de aplicaciones** es una **herramienta de análisis y gestión** que *permite clasificar* todas las aplicaciones o sistemas de información de una empresa **según su [[valor estratégico]] actual y futuro**.
+
+Se representa como una **matriz** que considera **dos dimensiones clave**:
+
+- **Contribución actual al negocio**
+- **Contribución futura esperada**
+
+Con esta clasificación, *SE PUEDE TOMAR DECISIONES FUNDAMENTADAS* sobre:
+
+- ***QUÉ SISTEMAS MANTENER***, potenciar o reemplazar.
+- ***DÓNDE INVERTIR RECURSOS*** (dinero, tiempo, personal).
+- ***QUÉ APLICACIONES TIENEN MÁS VALOR*** estratégico o potencial.
+
+---
+
+### 🔢 Clasificación: los 4 tipos de aplicaciones
+
+Según su **utilidad presente y futura**, las aplicaciones se clasifican en 4 cuadrantes:
+
+| Tipo de aplicación                                   | Descripción breve                                                                    |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 🧪 **[[Aplicaciones de alto potencial]]**            | Aún no tienen impacto actual, pero **podrían ser clave en el futuro**.               |
+| 🎯 **[[Aplicaciones estrategicas]]**                 | Son **fundamentales hoy y en el futuro**. Alineadas con la estrategia del negocio.   |
+| 🛠️ **[[Aplicaciones claves para las operaciones]]** | Tienen **alto impacto hoy**, pero **no son clave a futuro**. Necesarias para operar. |
+| 🧩 **[[Aplicaciones de apoyo]]**                     | No son críticas hoy ni lo serán mañana, pero **ayudan en tareas específicas**.       |
 ![[Pasted image 20250627175905.png]]
-
-La cartera de aplicaciones es una HERRAMIENTA para clasificar las aplicaciones, en función de
-los beneficios y los recursos utilizados en ella.
-Algunos sistemas pueden existir ya, otros pueden estar en desarrollo, y otros pueden ser
-solamente una idea, pero todos ellos deben estar situados en la matriz según su contribución
-actual y futura, real o potencial, que ofrecen.
-El modelo de cartera nos permite ver equilibrio de las inversiones en términos de recursos y
-fondos. Podemos ver donde se están aplicando recursos y esfuerzos, y donde está planificado
-hacerlo. Si esto no se ajusta a los objetivos de la empresa, entonces los recursos se pueden
-modificar o reasignar.
-
-La deficino de prioridades dentro de cada segmento de la cartera considera los siguientes factores
-
-1. [[Aplicaciones de alto potencial]]
-2. [[Aplicaciones estrategicas]]
-3. [[Aplicaciones claves para las operaciones]]
-4. [[Aplicaciones de apoyo]]
-
