@@ -4,7 +4,7 @@
 
 Las **Tecnologías de la Información** (TI) son:
 
-> 👉 Todos los recursos tecnológicos que usamos para **construir y hacer funcionar un Sistema de Información (SI)**.
+> 👉 Todos los **RECURSOS TECNOLÓGICOS** que usamos para **construir y hacer funcionar un Sistema de Información (SI)**.
 
 Incluyen:
 
@@ -19,7 +19,7 @@ Incluyen:
 
 ## 🔗 ¿Qué relación hay entre TI y SI?
 
-> El **SI es la necesidad**, y la **TI es la herramienta** que permite llevarlo a cabo.
+> El **SI** es la ***NECESIDAD***, y la **TI** es la ***HERRAMIENTA*** que permite llevarlo a cabo.
 
 ### 🧠 ¿Ejemplo práctico?
 
@@ -35,9 +35,7 @@ Incluyen:
 ### 1. **TI ≠ SI**
 
 - El foco no es usar tecnología “porque sí”.
-    
-- Lo importante es **resolver necesidades de información**.
-    
+- Lo importante es ***RESOLVER* necesidades de información**.    
 
 ### 2. **La TI es relevante**
 

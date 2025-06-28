@@ -1,4 +1,18 @@
 
+
+## 🔗 ¿Qué relación hay entre TI y SI?
+
+> El **SI es la necesidad**, y la **TI es la herramienta** que permite llevarlo a cabo.
+
+### 🧠 ¿Ejemplo práctico?
+
+- El gerente necesita saber cuánto se vendió este mes (eso es **SI**: una necesidad de información).
+    
+- El sistema de ventas genera el reporte desde la base de datos (eso es **TI**: cómo se hace técnicamente).
+    
+
+
+
 Para comprender la relación entre Sistemas de Información (SI) y Tecnologías de la Información (TI), es útil primero definir cada concepto según las fuentes y luego ver cómo se complementan:
 
 - **Sistema de Información (SI)**: Un SI se define como un **"conjunto formal de procesos que... recopila, elabora y distribuye información necesaria para la operación, dirección y control, apoyando la toma de decisiones y los procesos de negocio en línea con la estrategia"**. La clave de esta definición radica en el **"para qué" del SI**, es decir, su propósito de servir a las necesidades de información de la empresa y su estrategia de negocio, más allá de cómo o con qué se implementa.

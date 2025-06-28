@@ -27,11 +27,11 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 
 ## ❓ Preguntas del Cuestionario
 
-1 ✍️ Interpretar, teniendo en cuenta la definición de sistemas de información propuesta por **Andreu, Ricart y Valor**, la ubicación y función de los **SI/TI en la cadena de valor** de la organización.
-	1. [[El SI en el contexto de la Cadena de Valor]]
-	2. [[Ubicacion del SI-TI en la cadena de valor (Interpretacion)]]
+## 1 ✍️ Interpretar, teniendo en cuenta la definición de si stemas de información propuesta por **Andreu, Ricart y Valor**, la ubicación y función de los **SI/TI en la cadena de valor** de la organización.
+1. [[El SI en el contexto de la Cadena de Valor]]
+2. [[Ubicacion del SI-TI en la cadena de valor (Interpretacion)]]
 
-2📡 Explicar la **relación entre Sistemas de Información y Tecnologías de Información**.
+## 2📡 Explicar la **relación entre Sistemas de Información y Tecnologías de Información**.
 [[Sistemas de Informacion (SI) en la empresa]]
 [[Rol de las tecnologias de la informacion (TI)]]
 [[Relacion entre SI y TI]]
@@ -39,25 +39,28 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 
 > hay que hacer apunte de esto
 
-3 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización? (criterio)
+## 3 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización? (criterio)
 - [[Por que deben alineearse los SI con las estrategias de la organizacion]]
-4 🗃️ ¿Qué es el **análisis de la cartera de aplicaciones**?  
+
+
+## 4 🗃️ ¿Qué es el **análisis de la cartera de aplicaciones**?  
 [[Analisis de la cartera de aplicaciones]]
 
-5 🛠️ ¿Qué son y cuáles son las **estrategias genéricas para la gestión de los SI/TI**? 
+## 5 🛠️ ¿Qué son y cuáles son las **estrategias genéricas para la gestión de los SI/TI**? 
 [[Las estrategias genericas de gestion de SI-TI]]
 
-6  🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones 
+## 6  🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones 
 
 [[Factores para la evaluacion de prioridades]]
 
-3. 🧭 ¿Cuáles son las **etapas propuestas por Edwards, Ward y Bytheway** para determinar prioridades?
-	1. [[Planificacion estrategica]]
-	2. [[Primera etapa - Etapa filosofica]]
-	3. [[Segunda etapa - Etapa analitica]]
-	4. [[Tercera Etapa - Etapa operativa]]
-	5. [[Cuarta etapa - Etapa de accion y desrrollo]]
-	6. [[Etapas]]
+## 7 🧭 ¿Cuáles son las **etapas propuestas por Edwards, Ward y Bytheway** para determinar prioridades?
+1. [[Planificacion estrategica]]
+2. [[Primera etapa - Etapa filosofica]]
+3. [[Segunda etapa - Etapa analitica]]
+4. [[Tercera Etapa - Etapa operativa]]
+5. [[Cuarta etapa - Etapa de accion y desrrollo]]
+6. [[Etapas]]
+
 4. 🗂️ ¿En qué consiste la **administración de los recursos de SI**?
 5. 🎯 ¿Cuáles son los **roles de los SI** desde el punto de vista del gerenciamiento?
 6. 🗺️ ¿Qué **decisiones deben tomarse sobre la ubicación** de los SI?
