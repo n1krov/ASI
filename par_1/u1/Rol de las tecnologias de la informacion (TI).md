@@ -26,7 +26,8 @@ Incluyen:
 - El gerente necesita saber cuánto se vendió este mes (eso es **SI**: una necesidad de información).
     
 - El sistema de ventas genera el reporte desde la base de datos (eso es **TI**: cómo se hace técnicamente).
-    
+
+[[Relacion entre SI y TI]]
 
 ---
 
@@ -35,30 +36,25 @@ Incluyen:
 ### 1. **TI ≠ SI**
 
 - El foco no es usar tecnología “porque sí”.
-- Lo importante es ***RESOLVER* necesidades de información**.    
+- Lo importante es ***RESOLVER* necesidades de información**.   (Y eso lo logras con el **SI**)
 
 ### 2. **La TI es relevante**
 
-Aunque el punto de partida es el SI, **la tecnología sí importa**, y **mucho**:
+Aunque el punto de partida es el **SI**, **la tecnología sí importa**, y **mucho**:
 
-- Ayuda a:
-    
-    - Almacenar grandes volúmenes de datos 📦
-        
-    - Acceder a la información rápido ⚡
-        
-    - Evitar errores 🙅‍♂️
-        
-    - Comunicar automáticamente 📡
-        
+- Ayuda a:    
+    - *Almacenar* grandes volúmenes de datos 📦
+    - *Acceder* a la información rápido ⚡
+    - *Evitar* errores 🙅‍♂️
+    - *Comunicar* automáticamente 📡
 
 ---
 
-### 3. **La tecnología no es neutra**
+### 3. **La tecnología *NO* es neutra**
 
 Esto es clave:
 
-> No podés usar una tecnología “nueva” y seguir haciendo todo exactamente igual.
+> ***NO*** podés usar una tecnología “nueva” y seguir haciendo todo exactamente igual.
 
 💡 **La tecnología cambia el modo en que se hacen las cosas** (para bien o para mal).
 
