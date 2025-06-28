@@ -1,4 +1,4 @@
-## 📝 Cuestionario de Estudio  
+# 📝 Cuestionario de Estudio  
 **Unidad I – Planificación Estratégica de los SI/TI**  
 📆 Ciclo: 2025  
 🎓 Asignatura: Administración de Sistemas de Información  
@@ -16,7 +16,7 @@ Los cuestionarios brindados por la cátedra tienen como fin facilitar al alumno 
 
 ---
 
-## 📌 Unidad Temática: Planificación Estratégica de los SI/TI
+# 📌 Unidad Temática: Planificación Estratégica de los SI/TI
 
 ### 🧠 Conceptos previos:
 Visualizar los videos disponibles en el **aula virtual** sobre *Administración*.
@@ -25,23 +25,22 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 
 ---
 
-## ❓ Preguntas del Cuestionario
+# ❓ Preguntas del Cuestionario
 
+- [x] 
 ## 1 ✍️ Interpretar, teniendo en cuenta la definición de si stemas de información propuesta por **Andreu, Ricart y Valor**, la ubicación y función de los **SI/TI en la cadena de valor** de la organización.
 1. [[El SI en el contexto de la Cadena de Valor]]
 2. [[Ubicacion del SI-TI en la cadena de valor (Interpretacion)]]
 
+- [x] 
 ## 2📡 Explicar la **relación entre Sistemas de Información y Tecnologías de Información**.
 [[Sistemas de Informacion (SI) en la empresa]]
 [[Rol de las tecnologias de la informacion (TI)]]
 [[Relacion entre SI y TI]]
 
-
-> hay que hacer apunte de esto
-
+- [ ] 
 ## 3 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización? (criterio)
 - [[Por que deben alineearse los SI con las estrategias de la organizacion]]
-
 
 ## 4 🗃️ ¿Qué es el **análisis de la cartera de aplicaciones**?  
 [[Analisis de la cartera de aplicaciones]]
@@ -50,7 +49,6 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 [[Las estrategias genericas de gestion de SI-TI]]
 
 ## 6  🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones 
-
 [[Factores para la evaluacion de prioridades]]
 
 ## 7 🧭 ¿Cuáles son las **etapas propuestas por Edwards, Ward y Bytheway** para determinar prioridades?
@@ -80,9 +78,8 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 > 💬 **Indicación especial**  
 Las preguntas **1 y 3** requieren **elaboración de conclusiones personales** por parte del alumno.
 
----
 
-## 📚 Bibliografía de Referencia
+# 📚 Bibliografía de Referencia
 
 - **ANDREU, Rafael**, **RICART, Joan** y **VALOR, Josep**  
   *“Estrategia y Sistemas de Información”* – McGraw Hill, 2ª ed., 1996 – España  

@@ -62,21 +62,18 @@ Ejemplo:
 
 - Antes se anotaban pedidos en papel → ahora se usa una app que hace cálculos automáticos.
     
-- Pero esa app **también puede limitar cómo se hacen ciertas tareas**, y cambiar la dinámica de trabajo.
+- Pero esa app **también PUEDE limitar cómo se hacen ciertas tareas**, y cambiar la dinámica de trabajo.
     
 
 ---
 
-## 🧠 Entonces... ¿qué debe hacer la empresa?
+## 🧠 Entonces... ¿QUÉ DEBE HACER LA EMPRESA?
 
 Debe haber **alguien responsable** de:
 
-- **Estar al tanto de las nuevas TI**
-    
-- Evaluar si esas tecnologías **realmente ayudan** al SI
-    
-- **Criticar con criterio**: no todo lo nuevo es útil.
-    
+- **Estar al tanto de las nuevas *TI*** 
+- Evaluar si esas tecnologías **realmente ayudan** al ***SI***
+- **Criticar con criterio**: *NO* todo lo nuevo es útil.
 
 ---
 
