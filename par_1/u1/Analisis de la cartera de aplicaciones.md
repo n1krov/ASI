@@ -1,7 +1,7 @@
 
 ## 🧠 Análisis de la Cartera de Aplicaciones
 
-> **Comprender este análisis es fundamental** para saber **dónde, cómo y por qué se está invirtiendo en los Sistemas de Información (SI)** de una organización. Ayuda a alinear la tecnología con la estrategia del negocio y optimiza el uso de recursos.
+> **Comprender este análisis es fundamental** para saber ***dónde*, *cómo* y *por qué* se está invirtiendo en los Sistemas de Información (SI)** de una organización. Ayuda a [alinear](alinear.md) la **tecnología** con la **estrategia** **del negocio** y optimiza el uso de recursos.
 
 ---
 

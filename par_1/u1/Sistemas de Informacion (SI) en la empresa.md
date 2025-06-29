@@ -50,7 +50,7 @@ También:
 
 ### 🎯 4. **“FUNCIONES, PROCESOS Y ESTRATEGIA DE NEGOCIO”**
 
-El SI **tiene que estar *[[alineado]]* con los objetivos de la empresa**.
+El SI **tiene que estar *[[alinear]]* con los objetivos de la empresa**.
 
 > No es un sistema para jugar o probar cosas. Es una herramienta **estratégica**.
 

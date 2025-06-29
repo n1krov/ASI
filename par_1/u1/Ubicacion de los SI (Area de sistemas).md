@@ -5,7 +5,7 @@
 
 Lo vamos a dividir en:
 
-1. Qué es la ubicación de un SI.    
+1. Qué es[[u1]] la ubicación de un SI.    
 2. Los 3 tipos principales (centralizada, descentralizada, delegada).
 3. Ventajas y desventajas.
 4. Cuándo conviene usar cada uno.

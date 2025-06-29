@@ -42,12 +42,15 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 ## 3 🤝 ¿Por qué deben **alinearse los SI con las estrategias** de la organización? (criterio)
 - [[Por que deben alineearse los SI con las estrategias de la organizacion]]
 
+- [x] 
 ## 4 🗃️ ¿Qué es el **análisis de la cartera de aplicaciones**?  
 [[Analisis de la cartera de aplicaciones]]
 
+- [x] 
 ## 5 🛠️ ¿Qué son y cuáles son las **estrategias genéricas para la gestión de los SI/TI**? 
 [[Las estrategias genericas de gestion de SI-TI]]
 
+- [x] 
 ## 6  🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones 
 [[Factores para la evaluacion de prioridades]]
 
@@ -59,21 +62,32 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 5. [[Cuarta etapa - Etapa de accion y desrrollo]]
 6. [[Etapas]]
 
-4. 🗂️ ¿En qué consiste la **administración de los recursos de SI**?
-5. 🎯 ¿Cuáles son los **roles de los SI** desde el punto de vista del gerenciamiento?
-6. 🗺️ ¿Qué **decisiones deben tomarse sobre la ubicación** de los SI?
-7. ⚖️ Comparar los **SI centralizados y no centralizados** según:
+7. 🗂️ ¿En qué consiste la **administración de los recursos de SI**?
+[[Management de los recursos de SI (Area de sistemas)]]
+8. 🎯 ¿Cuáles son los **roles de los SI** desde el punto de vista del gerenciamiento?
+[[Rol de los SI (Area de sistemas)]]
+9. 🗺️ ¿Qué **decisiones deben tomarse sobre la ubicación** de los SI?
+[[Ubicacion de los SI (Area de sistemas)]]
+10. ⚖️ Comparar los **SI centralizados y no centralizados** según:
     - a) Grado de control sobre los sistemas  
     - b) Entorno requerido  
     - c) Costos asociados  
-8. 🧱 ¿Cuáles son los **enfoques estructurales** para la organización de los SI?
-9. 🧩 Sintetice las **tres cuestiones principales** que requiere una estrategia de SI para implementarse, en el contexto del **“Valor de la inversión en IS”**.
-10. 💸 ¿Cuáles son los **costos de un SI**?
 
-11. 📋 Sintetice la **“Auditoría de los Costos de SI”**.
-12. 🎁 ¿Qué son los **beneficios de un SI**?
-13. 🧾 ¿Cómo se **clasifican los beneficios genéricos** de los SI?
-14. 📊 ¿Cómo se **clasifican los factores generadores de valor** de la información, según la **Economía de la Información**?
+11. 🧱 ¿Cuáles son los **enfoques estructurales** para la organización de los SI?
+
+
+12. 🧩 Sintetice las **tres cuestiones principales** que requiere una estrategia de SI para implementarse, en el contexto del **“Valor de la inversión en IS”**.
+
+13. 💸 ¿Cuáles son los **costos de un SI**?
+	1. [[Costos de los SI]]
+
+14. 📋 Sintetice la **“Auditoría de los Costos de SI”**.
+[[Auditoria de Costos de los IS]]
+15. 🎁 ¿Qué son los **beneficios de un SI**?
+[[Beneficios de los IS]]
+16. 🧾 ¿Cómo se **clasifican los beneficios genéricos** de los SI?
+[[Beneficios de los IS]]
+17. 📊 ¿Cómo se **clasifican los factores generadores de valor** de la información, según la **Economía de la Información**?
 
 > 💬 **Indicación especial**  
 Las preguntas **1 y 3** requieren **elaboración de conclusiones personales** por parte del alumno.

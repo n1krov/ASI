@@ -1,6 +1,6 @@
 ## 🎯 Alineación de los SI con la Estrategia Organizacional
 
-> La **[alineación](alineado) entre los *SISTEMAS DE INFORMACIÓN* (SI)** y la ***ESTRATEGIA* de la empresa** es clave para asegurar que la tecnología aporte _valor real_ y ayude a alcanzar los objetivos del negocio.
+> La **[alineación](alinear.md) entre los *SISTEMAS DE INFORMACIÓN* (SI)** y la ***ESTRATEGIA* de la empresa** es clave para asegurar que la tecnología aporte _valor real_ y ayude a alcanzar los objetivos del negocio.
 
 ---
 
