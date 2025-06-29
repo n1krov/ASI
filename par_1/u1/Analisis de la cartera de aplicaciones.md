@@ -28,8 +28,8 @@ Según su **utilidad presente y futura**, las aplicaciones se clasifican en 4 cu
 
 | Tipo de aplicación                                   | Descripción breve                                                                    |
 | ---------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| 🧪 **[[Aplicaciones de alto potencial]]**            | Aún no tienen impacto actual, pero **podrían ser clave en el futuro**.               |
-| 🎯 **[[Aplicaciones estrategicas]]**                 | Son **fundamentales hoy y en el futuro**. Alineadas con la estrategia del negocio.   |
-| 🛠️ **[[Aplicaciones claves para las operaciones]]** | Tienen **alto impacto hoy**, pero **no son clave a futuro**. Necesarias para operar. |
-| 🧩 **[[Aplicaciones de apoyo]]**                     | No son críticas hoy ni lo serán mañana, pero **ayudan en tareas específicas**.       |
+| 🧪 **[[Aplicaciones de ALTO POTENCIAL]]**            | Aún no tienen impacto actual, pero **podrían ser clave en el futuro**.               |
+| 🎯 **[[Aplicaciones ESTRATEGICAS]]**                 | Son **fundamentales hoy y en el futuro**. Alineadas con la estrategia del negocio.   |
+| 🛠️ **[[Aplicaciones CLAVES PARA LAS OPERACIONES]]** | Tienen **alto impacto hoy**, pero **no son clave a futuro**. Necesarias para operar. |
+| 🧩 **[[Aplicaciones de APOYO]]**                     | No son críticas hoy ni lo serán mañana, pero **ayudan en tareas específicas**.       |
 ![[Pasted image 20250627175905.png]]
