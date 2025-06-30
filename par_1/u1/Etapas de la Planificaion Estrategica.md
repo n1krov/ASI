@@ -64,7 +64,7 @@ Implica un **diagnóstico profundo de la situación actual**, tanto **interna** 
 
 ---
 
-### 3. 🎯 Etapa Operativa
+### 3. 🎯 [[Tercera Etapa - Etapa operativa]]
 
 Aquí se **formulan los objetivos específicos y medibles**, y se definen las **estrategias y programas de acción** para alcanzarlos.
 
@@ -83,7 +83,7 @@ Aquí se **formulan los objetivos específicos y medibles**, y se definen las **
 
 ---
 
-### 4. 🛠️ Etapa de Acción y Desarrollo
+### 4. 🛠️ [[Cuarta etapa - Etapa de accion y desrrollo]]
 
 Es la etapa donde se **ejecuta el plan** y se le da seguimiento. Se pasa de la teoría a la práctica.
 
@@ -102,7 +102,4 @@ Es la etapa donde se **ejecuta el plan** y se le da seguimiento. Se pasa de la t
 > 📌 **En resumen:**  
 > La planificación estratégica no solo sirve para prever el futuro, sino para **dirigir de forma proactiva** el camino de la organización, alineando todos sus componentes hacia un mismo propósito.
 
----
-
-¿Querés que también convierta el gráfico del PDF a un resumen visual o esquema en texto para incluirlo aquí mismo?
 
