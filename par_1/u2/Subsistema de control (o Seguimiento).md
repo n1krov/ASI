@@ -40,7 +40,7 @@ El subsistema incluye principalmente **dos grandes procesos**, que aplican a dif
 
 #### 📋 b. ***AUDITORÍA DE LA FUNCIÓN DE RRHH O SI/TI***
 
-- **En Recursos Humanos**:  
+- **En Recursos Humanos** ([[Auditoria de la funcion del paersonal (o de los RRHH)]]):  
     Es el análisis **crítico y sistemático** de cómo se gestionan los RRHH.  
     Incluye:
     
