@@ -27,14 +27,14 @@ Para **monitorizar** computadoras personales (PC) y **smartphones**, se utilizan
 
 Algunos ejemplos de herramientas utilizadas:
 
-|Herramienta|Plataforma|Características clave|
-|---|---|---|
-|**htop / top**|Linux|Monitoriza procesos, uso de CPU/RAM en consola.|
-|**Task Manager**|Windows|Gestor visual de procesos, recursos y rendimiento.|
-|**Activity Monitor**|macOS|Similar al Task Manager para Mac.|
-|**Netdata**|Linux/macOS|Monitorización en tiempo real vía web.|
-|**HWMonitor**|Windows|Muestra temperaturas, voltajes, ventiladores.|
-|**Perf, dstat, iostat**|Linux (avanzado)|Herramientas en consola para distintos recursos.|
+| Herramienta             | Plataforma       | Características clave                              |
+| ----------------------- | ---------------- | -------------------------------------------------- |
+| **htop / top**          | Linux            | Monitoriza procesos, uso de CPU/RAM en consola.    |
+| **Task Manager**        | Windows          | Gestor visual de procesos, recursos y rendimiento. |
+| **Activity Monitor**    | macOS            | Similar al Task Manager para Mac.                  |
+| **Netdata**             | Linux/macOS      | Monitorización en tiempo real vía web.             |
+| **HWMonitor**           | Windows          | Muestra temperaturas, voltajes, ventiladores.      |
+| **Perf, dstat, iostat** | Linux (avanzado) | Herramientas en consola para distintos recursos.   |
 
 ---
 
