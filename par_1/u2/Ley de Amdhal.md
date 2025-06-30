@@ -10,13 +10,13 @@ La **Ley de Amdahl** es un **modelo matemático** que permite estimar ***EL LÍM
 
 ### 🧮 Fórmula
 
-~~~A=1(1−f)+fkA = \frac{1}{(1 - f) + \frac{f}{k}}~~~
+$A = \frac{1}{(1 - f) + \frac{f}{k}}$
 
-- **A**: Aceleración total del sistema.
+- **$A$**: Aceleración total del sistema.
     
-- **f**: Fracción del tiempo en que el sistema usa la parte mejorada.
+- **$f$**: Fracción del tiempo en que el sistema usa la parte mejorada.
     
-- **k**: Cuánto se mejora esa parte (factor de aceleración).
+- **$k$**: Cuánto se mejora esa parte (factor de aceleración).
     
 
 ---
