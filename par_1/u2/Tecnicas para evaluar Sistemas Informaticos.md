@@ -65,7 +65,7 @@ Se utiliza cuando el sistema **aún no está completamente instalado o disponibl
 
 #### 🎯 Objetivo:
 
-Simular el comportamiento del sistema para tomar decisiones sin necesidad de probar directamente sobre él.
+***SIMULAR EL COMPORTAMIENTO*** del sistema para tomar decisiones sin necesidad de probar directamente sobre él.
 
 #### Tipos de modelado:
 
@@ -95,26 +95,17 @@ Es una **evaluación comparativa**: se somete un sistema a una carga determinada
 #### 📌 ¿Para qué sirve?
 
 - Comparar equipos, configuraciones o arquitecturas.
-    
 - Evaluar el rendimiento antes de una compra.
-    
 - Afinar el sistema para lograr mejor performance.
-    
 - Diagnosticar problemas o puntos débiles.
-    
 
 #### 🔎 Pasos para realizar un benchmarking:
 
-1. Definir el objetivo (¿qué queremos medir y por qué?).
-    
+1. Definir el objetivo (¿qué queremos medir y por qué?). 
 2. Elegir el tipo de benchmark adecuado.
-    
 3. Documentar el entorno de prueba y parámetros.
-    
 4. Ejecutar la prueba.
-    
 5. Analizar resultados y causas de diferencias.
-    
 
 #### 🎯 Resultado:
 
@@ -126,6 +117,3 @@ Un conjunto de valores que indican **qué tan bien responde el sistema frente a 
 
 La **sintonización** no es una técnica de evaluación en sí, pero **utiliza los resultados del modelado, la monitorización o el benchmarking** para hacer **ajustes y mejoras al sistema**. Es un proceso experimental de mejora continua.
 
----
-
-¿Querés que pasemos ahora a la **pregunta 3 sobre la Ley de Amdahl** o preferís revisar primero la del benchmark vs benchmarking?
