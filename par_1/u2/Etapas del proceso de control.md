@@ -4,6 +4,7 @@
 El proceso de control **sirve para verificar si todo se está haciendo como debería** y, si no es así, **tomar medidas para corregirlo**. Es un proceso **cíclico y continuo**, lo que significa que se repite una y otra vez para mantener todo funcionando bien.
 
 ![[Pasted image 20250629222801.png]]
+![[Pasted image 20250629222825.png]]
 
 Tiene **cuatro etapas principales**:
 
@@ -25,6 +26,9 @@ Tiene **cuatro etapas principales**:
         
     - 💰 **Costos**: ej. cuánto debería costar cada tarea.
         
+
+![[Pasted image 20250629222851.png]]
+
 
 > Son importantes porque **definen el nivel de desempeño ideal** en la organización.
 
@@ -54,6 +58,8 @@ Tiene **cuatro etapas principales**:
 - Pero si hay una diferencia **muy grande o que causa problemas**, se considera **una desviación fuera del límite de tolerancia**.
     
 
+![[Pasted image 20250629222951.png]]
+
 > Acá es donde **identificamos si algo necesita corregirse**.
 
 ---
@@ -82,8 +88,7 @@ Estas cuatro etapas ayudan a la empresa a:
 - **Mejorar constantemente los procesos.**
     
 
+![[Pasted image 20250629223011.png]]
+
 > 🧠 **Controlar no es castigar, sino aprender y corregir.**
 
----
-
-¿Querés que sigamos con la Pregunta 4?
