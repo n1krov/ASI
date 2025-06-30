@@ -89,6 +89,8 @@ Estas cuatro etapas ayudan a la empresa a:
     
 
 ![[Pasted image 20250629223011.png]]
+![[Pasted image 20250629231405.png]]
+
 
 > 🧠 **Controlar no es castigar, sino aprender y corregir.**
 

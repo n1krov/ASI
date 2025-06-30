@@ -21,26 +21,18 @@ El subsistema incluye principalmente **dos grandes procesos**, que aplican a dif
     Sirve para detectar:
     
     - Si se necesita capacitación.
-        
     - Si hay fallos de supervisión.
-        
-    - Si el trabajador está bien integrado al equipo.
-        
+    - Si el trabajador está bien integrado al equipo.        
 
 > 📌 _Ejemplo:_ Un empleado que cumple con sus objetivos a tiempo, pero tiene conflictos con el equipo, requiere intervención en habilidades sociales más que en productividad.
 
 - **En SI/TI (sistemas informáticos)**:  
     Se mide cómo un sistema (software) **utiliza los recursos de hardware bajo una carga determinada**.  
     Permite:
-    
     - Detectar **cuellos de botella**.
-        
     - Saber si el sistema **soporta bien la carga actual**.
-        
     - Prever cómo responderá ante **mayores exigencias**.
-        
     - **Tomar decisiones** sobre ajustes, compras o rediseños.
-        
 
 > 📌 _Ejemplo:_ Si una base de datos se vuelve muy lenta con más de 1000 usuarios, se evalúa si necesita más memoria, optimización o migración.
 
@@ -77,16 +69,16 @@ El subsistema incluye principalmente **dos grandes procesos**, que aplican a dif
 
 ### 2. ¿Cuál es la diferencia entre Evaluación del Desempeño y Auditoría?
 
-|Característica|Evaluación del Desempeño|Auditoría|
-|---|---|---|
-|🔍 Enfoque|Medición individual o técnica|Revisión integral y estructural|
-|📈 Objetivo|Saber si se cumplen metas o estándares|Saber si los métodos y políticas son eficaces|
-|🔁 Frecuencia|Recurrente (mensual, anual)|Esporádica o programada|
-|🧑‍⚖️ Resultado|Calificaciones, informes de rendimiento|Informe con recomendaciones de mejora|
-|🎯 Finalidad|Mejorar el desempeño actual o futuro|Corregir deficiencias estructurales o estratégicas|
+| Característica  | Evaluación del Desempeño                | Auditoría                                          |
+| --------------- | --------------------------------------- | -------------------------------------------------- |
+| 🔍 Enfoque      | Medición individual o técnica           | Revisión integral y estructural                    |
+| 📈 Objetivo     | Saber si se cumplen metas o estándares  | Saber si los métodos y políticas son eficaces      |
+| 🔁 Frecuencia   | Recurrente (mensual, anual)             | Esporádica o programada                            |
+| 🧑‍⚖️ Resultado | Calificaciones, informes de rendimiento | Informe con recomendaciones de mejora              |
+| 🎯 Finalidad    | Mejorar el desempeño actual o futuro    | Corregir deficiencias estructurales o estratégicas |
 
 ---
-#### Extra: Etapas de proceso de control
+#### Extra: [[Etapas del proceso de control]]
 El proceso de control es **un ciclo compuesto por 4 etapas**, aplicables a personas o sistemas:
 
 ---
