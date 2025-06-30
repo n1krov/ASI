@@ -7,7 +7,8 @@ Un **cuello de botella** es un **punto del sistema que limita su rendimiento** g
 > Es decir, **es el componente que más tarda o más recursos consume**, y por eso **ralentiza todo el sistema**.
 
 Este concepto se aplica tanto a **personas** como a **recursos tecnológicos** (hardware o software).  
-Si hay una parte del sistema que es más lenta que las demás, todo lo demás se ve afectado.
+
+> Si hay una parte del sistema que es más lenta que las demás, todo lo demás se ve afectado.
 
 ### 📊 Ejemplo práctico:
 
