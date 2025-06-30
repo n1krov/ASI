@@ -60,7 +60,7 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 3. [[Segunda etapa - Etapa analitica]]
 4. [[Tercera Etapa - Etapa operativa]]
 5. [[Cuarta etapa - Etapa de accion y desrrollo]]
-6. [[Etapas]]
+6. [[Etapas de la Planificaion Estrategica]]
 
 7. 🗂️ ¿En qué consiste la **administración de los recursos de SI**?
 [[Management de los recursos de SI (Area de sistemas)]]
