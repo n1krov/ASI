@@ -105,6 +105,7 @@ En una empresa hay **dos tipos de actividades**:
 
 > Basicamente el SI interactua con todas las areas.
 
+
 ## 🖥️ ¿Dónde entra el SI?
 
 El **Sistema de Información** forma parte de la **infraestructura de la empresa**, que es una *actividad de soporte*.
