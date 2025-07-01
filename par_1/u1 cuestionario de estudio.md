@@ -48,7 +48,7 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 
 - [x] 
 ## 5 🛠️ ¿Qué son y cuáles son las **estrategias genéricas para la gestión de los SI/TI**? 
-[[Las estrategias genericas de gestion de SI-TI]]
+[[Las estrategias GENERICAS de gestion de SI-TI]]
 
 - [x] 
 ## 6  🧮 ¿Cuáles son los **factores para la evaluación de prioridades** de las aplicaciones 
