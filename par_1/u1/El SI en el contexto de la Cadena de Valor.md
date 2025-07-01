@@ -138,7 +138,7 @@ El **SI** es como el **pegamento** que une los eslabones de la cadena de valor:
 
 A veces, una actividad necesita manejar mucha información que **no es útil para las otras**.
 
-En esos casos, se pueden crear **subsistemas de información** particulares, diseñados **solo para esa área**.
+En esos casos, se pueden crear **subsistemas de información CIRCUNSCRITOS** particulares, diseñados **solo para esa área**.
 
 📌 Ejemplo: Un sistema exclusivo para Recursos Humanos que maneje **evaluaciones internas detalladas**.
 
