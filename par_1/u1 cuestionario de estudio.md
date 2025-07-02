@@ -75,7 +75,7 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 - c) Costos asociados  
 
 ## 12. 🧱 ¿Cuáles son los **enfoques estructurales** para la organización de los SI?
-
+[[Organizacion de los SI (Estructura interna del area)]]
 
 ## 13. 🧩 Sintetice las **tres cuestiones principales** que requiere una estrategia de SI para implementarse, en el contexto del **“Valor de la inversión en IS”**.
 
@@ -91,6 +91,8 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 [[Beneficios de los IS]]
 
 ## 18. 📊 ¿Cómo se **clasifican los factores generadores de valor** de la información, según la **Economía de la Información**?
+[[Factores Generadores de VALOR]]
+
 
 > 💬 **Indicación especial**  
 Las preguntas **1 y 3** requieren **elaboración de conclusiones personales** por parte del alumno.
