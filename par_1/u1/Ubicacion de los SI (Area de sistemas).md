@@ -29,6 +29,9 @@ La **ubicación de un SI** se analiza según tres cosas:
 
 ## 🧭 Tipos de Ubicación de SI
 
+>[!NOTE]
+>[[Comparacion entre SI Centralizados y SI Descentralizados]]
+
 ### 🔒 1. (Re)Centralizada
 
 - **Todo está concentrado en un solo lugar**.
@@ -111,9 +114,7 @@ La **ubicación de un SI** se analiza según tres cosas:
 #### 🧠 Cuándo conviene:
 
 - Si cada sede necesita **responder rápido y con autonomía**.
-    
 - Cuando los servicios son **parecidos**, pero **requieren cierta personalización**.
-    
 
 ---
 
