@@ -475,4 +475,3 @@ También llamado Gestión de Relaciones con Clientes, es una herramienta que las
 Es un tipo de sistema de información diseñado para apoyar a los trabajadores del conocimiento en la creación e integración de nuevos conocimientos en una organización. Los KWS facilitan la gestión y el intercambio de conocimientos, permitiendo que los empleados aprovechen la sabiduría colectiva para tomar mejores decisiones y resolver problemas.
 
   
-**

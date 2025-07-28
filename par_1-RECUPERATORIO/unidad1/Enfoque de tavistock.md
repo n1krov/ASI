@@ -3,10 +3,8 @@
 
 Las organizaciones cumplen una **doble función**:
 
-- **Función técnica**: relacionada con la coordinación del trabajo y la ejecución de tareas mediante tecnología.
-    
-- **Función social**: orientada a cómo se interrelacionan las personas y cómo trabajan juntas.
-    
+- **Función *TÉCNICA***: relacionada con la **coordinación** del *trabajo y la ejecución de tareas mediante tecnología*.
+- **Función *SOCIAL***: orientada a cómo se **interrelacionan** *las personas y cómo trabajan juntas*.
 
 ---
 
@@ -14,16 +12,11 @@ Las organizaciones cumplen una **doble función**:
 
 El sistema técnico (o tecnológico) **depende de las tareas propias de cada organización**, las cuales varían según:
 
-- El tipo de conocimiento especializado.
-    
+- El tipo de conocimiento especializado.    
 - Las habilidades requeridas.
-    
 - Los modelos de máquinas operadas.
-    
 - Los equipos y materias primas utilizadas.
-    
 - La disposición física del espacio.
-    
 
 > ⚙️ La **tecnología determina los perfiles** que necesita una organización: conocimientos, experiencia, calificación, habilidades y destrezas.
 
@@ -47,13 +40,9 @@ El **sistema socio-técnico** se compone de **tres subsistemas principales**:
 ### 1. Sistema técnico o de tareas
 
 - Flujo de trabajo
-    
 - Tecnología utilizada
-    
 - Roles exigidos por las tareas
-    
 - Variables tecnológicas asociadas
-    
 
 ### 2. Sistema gerencial o administrativo
 
