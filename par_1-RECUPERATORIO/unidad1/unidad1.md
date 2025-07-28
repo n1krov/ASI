@@ -294,7 +294,7 @@ Esta lista ayuda a las empresas a identificar, cuantificar y evaluar los costos 
 - Costos amplios organizacionales: en este ítem globalizador se ubican los costos de incompatibilidad, las estructuras nuevas de salarios, los costos transicionales y los costos de management.
     
 
-# Beneficios de los IS
+# [[Beneficios de los Sistemas de Informacion]]
 
 Por otra parte, un beneficio es ganar algún recurso o atributo que se considera útil. También en este caso, los recursos incluyen el capital y, además, el poder, el status, la conformidad, la certeza, etc.
 
@@ -336,7 +336,7 @@ Así como existen costos tangibles e intangibles, las inversiones en los IS tamb
 
   
 
-# Planificación de los SI/TI a partir de la estrategia del negocio
+# [[Planificación de los SI-TI a partir de la estrategia del negocio]]
 
 Estrategia: Es el conjunto de acciones que va a indicar el curso de acción para llegar al objetivo y que después va a tener que marcar con qué prioridad se asignan recursos y ejecutan esas acciones. Una estrategia se puede definir como un conjunto integrado de acciones encaminadas a incrementar a largo plazo la prosperidad y las fortalezas de la empresa.
 
@@ -463,7 +463,7 @@ Es preciso comprender totalmente los puntos fuertes y débiles de los sistemas e
 
 Es necesario determinar si la capacidad y la tecnología actuales de la organización son adecuadas para las necesidades futuras. Esto no es solamente una auditoría de la tecnología disponible (hardware, software, etc.), sino también una evaluación del equipo humano, de sus habilidades, de la forma en que son dirigidos y de los métodos empleados para desarrollar y soportar los sistemas y la tecnología de base. 
 
-# Alineación de las estrategias de SI/TI con las estrategias organizacionales.
+# [[Alineación de las estrategias de SI-TI con las estrategias organizacionales]]
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyzmlyV0dnas2R_WPnXEIc4j7H3Dr1iN7ucl2vpHhV7QP1mivnaiM-GeJB_f5KC2CbItlHiJfyfCXvoThavcL33anVtISxWMn3jkyqd1VDtPHy138neW3-rXIIlPeY__iHEbHv?key=pSXgBAnsFKCLlD9I8kI19Q)
 
@@ -518,7 +518,7 @@ El procedimiento de planificación precisa de varios grupos de trabajo para su i
   
   
 
-## Fase 1: Presentación y compromiso del equipo
+# [[Fase 1 - Presentación y compromiso del equipo]]
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfP0ij3VMKPmWOdygCdlwvUH5EwZ1sMNDzFOmTNZpPKgDMzkDfw00i9rdxoalLuSjnLKLIYDYOiDusHFqs3h_IRAXowPMuBUcx-oeic_7mzuvP15sRsD8GBwU3KK-XpRMSnh-GdQQ?key=pSXgBAnsFKCLlD9I8kI19Q)
 
@@ -553,7 +553,7 @@ Así, el paso inicial debe partir de la dirección general, que debe convencer a
 
   
 
-## Fase 2: Descripción de la situación actual
+# [[Fase 2 - Descripción de la situación actual]]
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcT8_1LiYhWPcBljoQruBQGce34lF_Y_MAOmDZDNrGb4fCQNqKCpK6DsDjj1d9kcZ4S1jrbDOtwMCdn59eIZbsVILmrJeyYouvZDqr6Khtgcs5hMzG7bhy_ORpVQ1Xme2Lrj2Tigg?key=pSXgBAnsFKCLlD9I8kI19Q)
 
@@ -620,7 +620,7 @@ Finalmente, el contenido del análisis crítico elaborado debe ser validado por 
 
   
 
-## Fase 3: Elaboración del Plan SI/TI
+# [[Fase 3 - Elaboración del Plan SI-TI]]
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfZKtNcZkuM_vV7r-T0AO0AwFucZ73Dwsga-nQm8lNsUrV-rVyiEWBet5PF0IdpTEGvxkZ55m0d31bWLvg3AnaxPFzmbcPFlhb80Cbti4As0BQjrYEwa0dWK8CuQQVtgl9dhJku?key=pSXgBAnsFKCLlD9I8kI19Q)
 
@@ -729,7 +729,7 @@ Con las necesidades documentadas se deben formular propuestas de actuación que 
 
   
 
-## Fase 4: Programación de Actividades
+# [[Fase 4 - Programación de Actividades]]
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe57LBB-iZey4UhKy8L6CIZsogMyK50DGoQKoUGJosiqxtElDH_6RfkAEli-yF80c1piaxRt_6K5S6kdjdGVGX8qa4u4Cg_7COofvWsVSOirCRUIAFEU_DEqkOVxihQuB59eCCHcQ?key=pSXgBAnsFKCLlD9I8kI19Q)
 
@@ -756,11 +756,11 @@ Esta fase es, en su mayor parte, responsabilidad de los técnicos. El DOP es el 
 
 Con un calendario detallado para el primer periodo (normalmente un año) de validez del plan, lo anterior debería ser sometido a la aprobación del comité de SI.
 
-## Estructura general del procedimiento de planificación
+# [[Estructura general del procedimiento de planificación]]
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcFtzUMD3TFeTjwD44JBl29cCJHgXdXDoFxpSHW8RvMU_ceHwbVolMB7bFpfH7rmeZJDzvwZTCdS45_FOeLAwt9HKD59LYosR6Ozos1yeX4Ft1XJnSbJPu10ypdc4sh1p3UrHFv?key=pSXgBAnsFKCLlD9I8kI19Q)
 
-# Análisis de la cartera de aplicaciones
+# [[Análisis de la cartera de aplicaciones]]
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctS9-nvJXfsIsuXKy9n0LX0wSNZlRDk6jnKRRPuhyI2C3shMgvsr6jPCByIP4Q2SNxSQNKvUvetEhacgGh0vVvZEJm-TWq3pMIeb6mcvimaqGOgeMaQqb2y8dkL35usLg2lFQ8?key=pSXgBAnsFKCLlD9I8kI19Q)
 
@@ -835,7 +835,7 @@ Una aplicación de apoyo es aquella externa a la organización pero que se las n
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXchfQJd67XM672gj6OJZQ4qd0dSqPUdoODLIZR1a9Xkh26MxC6oqGe7OIZ7U767W1GSFi8MChCg_NFcPMPqoE_EB2Z1GRAnv_mLm12zEUMVa3291uJJmN7ivlkzGSlZdDA4fqVS8A?key=pSXgBAnsFKCLlD9I8kI19Q)
 
-# Las estrategias genéricas de gestión de SI/TI
+# [[Las estrategias genéricas de gestión de SI-TI]]
 
 Las cuestiones a abordar en cada segmento de la matriz son diferentes, de igual forma que lo son los riesgos de error y los beneficios potenciales. Se describen seis estrategias por las que una organización puede vincular la gestión de los SI/TI con la dirección general de la empresa. 
 
@@ -1021,7 +1021,3 @@ La definición de prioridades para los sistemas clave para las operaciones es m�
   
 
 Debe compararse el costo y los recursos empleados por el proyecto con su importancia en cada una de las cuatro categorías para establecer las prioridades globales.
-
-  
-  
-**
