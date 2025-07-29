@@ -10,11 +10,11 @@ Los **objetivos** son las **metas que una empresa quiere alcanzar**. Son como el
 
 Porque:
 
-- **Guían** lo que hace la empresa.
+- ***GUÍAN*** lo que hace la empresa.
     
-- **Justifican** su existencia.
+- ***JUSTIFICAN*** su existencia.
     
-- **Permiten medir** si está funcionando bien.
+- ***PERMITEN MEDIR*** si está funcionando bien.
     
 
 ---
