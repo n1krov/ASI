@@ -27,29 +27,29 @@ Tavistock dice que **una organización es como una máquina con dos motores** qu
 
 Imaginá estos 3 sistemas como **círculos que se tocan y se influyen** constantemente:
 
-#### 🛠️ 1. Sistema Técnico
+#### 🛠️ 1. Sistema ***TÉCNICO***
 
-- Define **cómo** se hacen las tareas.
+- Define ***CÓMO SE HACEN LAS TAREAS***.
     
 - Marca qué **tipo de personas** necesitás: si tenés tecnología compleja, necesitás gente capacitada.
     
 - Afecta al sistema social: si el trabajo es más automatizado, cambia cómo se relacionan los empleados.
     
 
-#### 👔 2. Sistema Gerencial
+#### 👔 2. Sistema ***GERENCIAL***
 
-- Es el "cerebro organizador".
+- Es el ***"CEREBRO ORGANIZADOR"***.
     
 - Define **los [[Objetivos organizacionales]]**, estructura, reglas y cómo se toman **decisiones**.
     
-- Intenta **equilibrar lo técnico con lo social** para lograr resultados.
+- Intenta **EQUILIBRAR*** lo ***TÉCNICO*** con lo ***SOCIAL*** para lograr resultados.
     
 
-#### 🧑‍🤝‍🧑 3. Sistema Social
+#### 🧑‍🤝‍🧑 3. Sistema ***SOCIAL***
 
-- Las personas y cómo se sienten trabajando: su **motivación**, **actitudes**, y si hay buen clima laboral.
+- ***Las personas y cómo se sienten trabajando***: su **motivación**, **actitudes**, y si hay buen clima laboral.
     
-- Afecta al técnico (si están motivados, trabajan mejor) y también al gerencial (si participan, toman mejores decisiones).
+- Afecta al ***TÉCNICO*** (si están motivados, trabajan mejor) y también al ***GERENCIAL*** (si participan, toman mejores decisiones).
     
 
 ---
