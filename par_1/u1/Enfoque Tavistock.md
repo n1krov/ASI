@@ -15,11 +15,11 @@ Tavistock dice que **una organización es como una máquina con dos motores** qu
 
 ### 🧠 El sistema socio-técnico tiene 3 partes:
 
-|Sistema|¿Qué hace?|¿Qué incluye?|
-|---|---|---|
-|**1. Técnico o de tareas**|Es lo que se hace.|Flujo de trabajo, máquinas, roles técnicos.|
-|**2. Gerencial o administrativo**|Es quien dirige y organiza.|Estructura, reglas, decisiones, premios y castigos.|
-|**3. Social o humano**|Es cómo trabaja la gente.|Cultura, valores, motivación, actitudes.|
+| Sistema                           | ¿Qué hace?                        | ¿Qué incluye?                                       |
+| --------------------------------- | --------------------------------- | --------------------------------------------------- |
+| **1. Técnico o de tareas**        | Es lo que se ***HACE***.          | Flujo de trabajo, máquinas, roles técnicos.         |
+| **2. Gerencial o administrativo** | Es quien ***DIRIGE Y ORGANIZA***. | Estructura, reglas, decisiones, premios y castigos. |
+| **3. Social o humano**            | Es cómo trabaja la ***GENTE***.   | Cultura, valores, motivación, actitudes.            |
 
 ---
 
@@ -40,7 +40,7 @@ Imaginá estos 3 sistemas como **círculos que se tocan y se influyen** constant
 
 - Es el "cerebro organizador".
     
-- Define **los [[Objetivos organizacionales]]**, estructura, reglas y cómo se toman decisiones.
+- Define **los [[Objetivos organizacionales]]**, estructura, reglas y cómo se toman **decisiones**.
     
 - Intenta **equilibrar lo técnico con lo social** para lograr resultados.
     
