@@ -4,9 +4,9 @@
 
 Tavistock dice que **una organización es como una máquina con dos motores** que siempre funcionan juntos:
 
-1. **Motor Técnico** 🛠️ → lo que hace la empresa, con qué herramientas, máquinas, procesos.
+1. Motor ***TÉCNICO*** 🛠️ → **lo que HACE LA EMPRESA**, con qué herramientas, máquinas, procesos.
     
-2. **Motor Social** 🧑‍🤝‍🧑 → las personas que hacen que todo eso funcione.
+2. Motor ***SOCIAL*** 🧑‍🤝‍🧑 → ***las personas** que hacen que todo eso funcione*.
     
 
 💡 **Lo importante**: **no se pueden separar**. Si tocas uno, el otro cambia también. Van de la mano.
@@ -40,7 +40,7 @@ Imaginá estos 3 sistemas como **círculos que se tocan y se influyen** constant
 
 - Es el "cerebro organizador".
     
-- Define **los objetivos**, estructura, reglas y cómo se toman decisiones.
+- Define **los [[Objetivos organizacionales]]**, estructura, reglas y cómo se toman decisiones.
     
 - Intenta **equilibrar lo técnico con lo social** para lograr resultados.
     
