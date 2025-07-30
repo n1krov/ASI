@@ -1,6 +1,6 @@
 ## 🎯 ¿Qué son los Objetivos Organizacionales?
 
-Los **objetivos** son las **metas que una empresa quiere alcanzar**. Son como el "norte", la dirección hacia donde va todo el esfuerzo y los recursos.
+Los **objetivos** son las ***METAS* que una empresa quiere alcanzar**. Son como el "norte", la dirección hacia donde va todo el esfuerzo y los recursos.
 
 > 👉 Si la empresa fuera un GPS, los objetivos serían el destino que ponés.
 
