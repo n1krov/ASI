@@ -58,7 +58,7 @@ Es el **modo en que la organización planifica su comportamiento** para lograr c
 
 - Usa **métodos, procesos y reglas** diseñados para lograr un fin.
     
-- Si los medios son coherentes con los objetivos → hay racionalidad.
+- Si los *medios son coherentes* con los objetivos → ***HAY RACIONALIDAD***.
     
 
 ---
