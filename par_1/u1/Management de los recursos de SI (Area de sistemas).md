@@ -18,7 +18,7 @@ Se refiere a:
 
 - ¿Para qué está el área de sistemas?
     
-- ¿Qué tareas y responsabilidades tiene?
+- ¿Qué ***TAREAS*** y ***RESPONSABILIDADES*** tiene?
     
 - ¿Qué servicios le brinda al resto de la empresa?
     
@@ -26,7 +26,7 @@ Se refiere a:
     
 
 💡 Ejemplo:  
-¿El área de SI solo mantiene computadoras o también desarrolla software interno, analiza datos, da soporte, etc.?
+¿El área de SI ***SOLO MANTIENE COMPUTADORAS O TAMBIÉN DESARROLLA SOFTWARE INTERNO***, analiza datos, da soporte, etc.?
 
 ---
 
