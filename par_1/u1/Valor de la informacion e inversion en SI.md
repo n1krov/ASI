@@ -80,7 +80,7 @@ En la economía de la información se usan **6 criterios** para evaluar si convi
 
 La teoría lo define así:
 
-Valordelainformacioˊn=Gananciaconlainformacioˊn−GananciasinlainformacioˊnValor de la información = Ganancia con la información - Ganancia sin la información
+Valor De La Informacion = Ganancia Con La Informacion − Ganancia Sin La Informacion 
 
 🧾 Esto significa que **cuanto más nos ayuda la información a ganar (o evitar pérdidas)**, **más vale**.
 
