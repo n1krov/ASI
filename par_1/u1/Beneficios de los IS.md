@@ -15,7 +15,6 @@ Un **beneficio** es todo lo que una empresa **gana o mejora** al usar bien sus s
 |💰 Tangibles|Se pueden **medir en dinero**.|Ahorro de costos, reducción de personal.|
 |🌫️ Intangibles|Son **cualitativos**, difíciles de medir.|Satisfacción del usuario, imagen de marca.|
 
----
 
 ### 🔄 2. Según cómo se generan:
 
