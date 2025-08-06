@@ -81,7 +81,7 @@ graph TD
 
 
 ## Fase 2 - Descripcion de la Situacion actual
-1. Identificar Areas y procesos de negocio
+1. Identificar ***AREAS Y PROCESOS*** de negocio
 2. Describir SI existentes
 3. Criticar SI existentes
 	1. Den negocio -> soporte adecuado
@@ -91,11 +91,17 @@ graph TD
 ## Fase 3 - Elaboracion de plan de SI/TI
 1. Agregar Areas detectadas en Fase 2 al equipo
 2. Determinar necesidades de Informacion
-	- Matriz de necesidades: Funciones/procesos - **Estrategia de SI**
+	- ***MATRIZ DE NECESIDADES***: Funciones/procesos - **Estrategia de SI**
 3. Estructura globnal de SI Emergente
 	- Director de SI-TI y DOP refinan
 	- Comite de SI-TI aprueba
-	- Se obtiene **SUBSISTEMAS A  CONSTRUIR + RECURSOS NECESARIOS***
-
+	- Se obtiene ***SUBSISTEMAS A  CONSTRUIR + RECURSOS NECESARIOS***
+4. Evaluacion de recursos y escenarios
+	- Propuestas tecnicas
+5. Evaluacion + seleccion + priorizacion 
+	- ***CARTERA DE APLICACIONES***
 ## Fase 4 - Programacion de Actividades
-
+1. Listar proyectos necesarios para 1 año
+2. Cronograma detallado para 1 año
+3. Asignar recursos a los proyectos para 1 año
+4. plan de evaluacion y recvision
