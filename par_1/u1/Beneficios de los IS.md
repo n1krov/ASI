@@ -18,10 +18,10 @@ Un **beneficio** es todo lo que una empresa **gana o mejora** al usar bien sus s
 
 ### 🔄 2. Según cómo se generan:
 
-|Tipo|¿Cómo se obtienen?|Ejemplo|
-|---|---|---|
-|🎯 Directos|Se generan **rápidamente y de forma visible**.|Reducción en tiempos de procesamiento.|
-|🔁 Indirectos|Se dan **con el tiempo o como efecto secundario**.|Mejora en la comunicación interna o atención al cliente.|
+| Tipo          | ¿Cómo se obtienen?                                 | Ejemplo                                                  |
+| ------------- | -------------------------------------------------- | -------------------------------------------------------- |
+| 🎯 Directos   | Se generan **rápidamente y de forma visible**.     | Reducción en tiempos de procesamiento.                   |
+| 🔁 Indirectos | Se dan **con el tiempo o como efecto secundario**. | Mejora en la comunicación interna o atención al cliente. |
 
 ---
 
