@@ -1,3 +1,166 @@
+# Apunte Detallado: RUO, DyAC y Sistema de Gestión de Flotas
+
+## 📌 Introducción
+
+En **Administración de Sistemas de Información (ASI)** nos interesa responder a una pregunta clave:  
+👉 ¿Cómo organizamos, gestionamos y dimensionamos el área de SI/TI para que apoye estratégicamente al negocio?
+
+Este apunte recorre tres ejes:
+1. **RUO**: Rol, Ubicación y Organización del área SI/TI.  
+2. **DyAC**: Descripción y Análisis de Cargo.  
+3. **Gestión de Flotas**: cómo planificar capacidad y rendimiento en un sistema transaccional.
+
+> [!tip]  
+> El objetivo es **conectar teoría con práctica**, usando el caso de AGUNSA (empresa logística).
+
+---
+
+## PARTE 1 – RUO, DyAC y comparación con Líder de Proyecto
+
+### 1. RUO (Rol, Ubicación y Organización)
+
+#### Concepto básico
+- **Rol**: ¿para qué existe el área de SI/TI?  
+- **Ubicación**: ¿a qué nivel jerárquico y con qué autonomía opera?  
+- **Organización**: ¿cómo se estructura internamente?  
+
+#### En la práctica (AGUNSA)
+- **Rol:** *“Hacer algo con ellos”* → coproducción con áreas usuarias.  
+  - Ejemplo: Sistemas trabaja junto a Logística para diseñar un módulo de ruteo.
+- **Ubicación:** *Delegada* → descentralización con lineamientos comunes.  
+  - Permite adaptarse a distintos países/regulaciones.  
+- **Organización:** *Proyectos funcionales* → equipos mixtos y flexibles.  
+  - **Desarrollo de Aplicaciones** (analistas, arquitectos, devs, QA).  
+  - **Infraestructura** (IT Manager, DBA, soporte, seguridad).  
+  - **Líderes de Proyecto** integran ambos para proyectos específicos.
+
+> [!note]  
+> RUO es un marco para alinear la gestión de SI con la estrategia empresarial.  
+
+---
+
+### 2. DyAC (Descripción y Análisis de Cargo)
+
+#### Concepto básico
+- Herramienta de **Recursos Humanos** para definir un puesto.  
+- Incluye: misión, responsabilidades, autoridad, requisitos, competencias, condiciones.
+
+#### En la práctica (Gerente de SI/TI)
+- **Misión:** alinear SI/TI con el negocio, garantizar continuidad.  
+- **Responsabilidades:** estrategia, seguridad, proveedores, presupuesto.  
+- **Autoridad:** aprobar estándares, contratos, inversiones.  
+- **Requisitos:** Ingeniero en Sistemas, +10 años experiencia.  
+- **Competencias:** liderazgo, negociación, visión estratégica.  
+- **Condiciones:** trabajo de oficina + visitas operativas.  
+- **Indicadores (SLA/KPIs):** disponibilidad, satisfacción usuarios, cumplimiento presupuestario.
+
+> [!example] Ejemplo de responsabilidad  
+> “Asegurar que los sistemas críticos de logística estén disponibles 99,9% del tiempo”.
+
+---
+
+### 3. Comparación: Gerente de SI/TI vs Líder de Proyecto
+
+| Atributo          | Gerente de SI/TI (estratégico)                          | Líder de Proyecto (táctico)                 |
+|-------------------|--------------------------------------------------------|---------------------------------------------|
+| **Atribuciones**  | Define estrategia, estándares y presupuesto             | Define alcance, cronograma y entregables     |
+| **Funciones**     | Estrategia TI, seguridad, gestión global del área       | Planificar, coordinar y ejecutar proyectos   |
+| **Responsables**  | ROI, disponibilidad, seguridad                          | Proyecto en tiempo, costo y calidad          |
+| **Formación**     | Ingeniería en Sistemas, posgrado deseable               | Gestión de proyectos (PMI, Scrum, Ágil)      |
+
+> [!warning] Error común  
+> Confundir al **Líder de Proyecto** con un “mini gerente de TI”.  
+> El primero gestiona **proyectos concretos**, el segundo **la visión estratégica del área**.
+
+---
+
+## PARTE 2 – Sistema de Gestión de Flotas
+
+### i) Tipo de sistema
+
+- **Transaccional en tiempo real**: procesa eventos cortos y frecuentes.  
+- Ejemplos de transacciones:  
+  - GPS cada pocos segundos.  
+  - Sensores (motor, combustible, incidentes).  
+  - Rutas calculadas en base a tráfico.  
+
+> [!tip]  
+> Lo importante en logística no es “guardar datos”, sino **procesarlos rápido para reaccionar en el momento**.
+
+---
+
+### ii) UPNs (Unidades de Predicción Natural)
+
+#### Concepto
+- Medidas de negocio que generan carga en el sistema.  
+- Relacionan crecimiento del negocio con crecimiento de la carga.
+
+#### UPNs elegidas
+- **APM (Actualizaciones de Posición):** GPS/minuto.  
+- **LSM (Lecturas de Sensores):** motor, combustible, tacógrafo.  
+- **ROCD (Rutas Optimizadas Calculadas por Día).**  
+- **AIGD (Alertas e Incidentes Generados).**  
+- **RGU (Reportes Generados por Usuario).**
+
+> [!example]  
+> Si duplico los vehículos de 300 → 600, también se duplican las APM y LSM.
+
+---
+
+### iii) Variables y SLA
+
+#### Externas (usuario percibe)
+- GPS ≤ **3s**  
+- Ruta ≤ **10s**  
+- Reporte ≤ **30s**  
+- Productividad: ≥ **300 rutas/hora**
+
+#### Internas (sistema)
+- Uso CPU/Disco ≤ 70–80%  
+- Latencia red ≤ 1–2s  
+- Solapamiento CPU+I/O 40–60%
+
+> [!note]  
+> Estos SLA se diseñan para **evitar que la logística se frene**.  
+> 3 segundos de retraso en GPS puede significar una decisión equivocada de ruteo.
+
+---
+
+### iv) Variables de comportamiento
+
+- **Fiabilidad:** sistema no falla frecuentemente (MTBF alto).  
+- **Disponibilidad:** ≥ 99,9% (servicio casi continuo).  
+- **Seguridad:** proteger datos de vehículos y conductores.  
+- **Mantenibilidad:** facilidad para reparar tras un fallo.  
+- **Performabilidad:** mantener un rendimiento aceptable incluso ante fallos.
+
+> [!tip]  
+> Piensa estas variables como la “salud” del sistema.  
+> No basta con que funcione: debe ser **seguro, confiable y mantenible**.
+
+---
+
+## En la puesta en común
+
+- “El RUO que planteamos es colaborativo porque TI necesita coproducir con las áreas operativas”.  
+- “Definimos el sistema como transaccional en tiempo real: lo central son posiciones GPS y sensores cada pocos segundos”.  
+- “La UPN clave son las actualizaciones de posición: si duplicamos la flota, duplicamos los mensajes por segundo”.  
+- “Un SLA de GPS ≤ 3s es crítico: si tarda más, el monitoreo pierde valor en logística”.
+
+---
+
+## ✅ Conclusión
+
+Este apunte te lleva de cero a experto en tres pasos:
+1. **RUO**: cómo ubicar estratégicamente al área de TI.  
+2. **DyAC**: cómo definir roles y cargos clave.  
+3. **Gestión de Flotas**: cómo traducir necesidades de negocio en métricas técnicas (UPN, SLA, comportamiento).  
+
+Con esto no solo podés **explicar la resolución**, sino también **defenderla con lógica de negocio y fundamentos técnicos**.
+
+
+
+
 
 La consigna no pide solo hablar de **RUO** (Rol, Ubicación y Organización), sino también de **DyAC** (Dirección y Administración de los Sistemas de Información) y de la **comparación con el Líder de Proyecto**.
 
