@@ -1,196 +1,431 @@
-Quiero que actúes como un **experto en Administración de Sistemas de Información (ASI)** y que me ayudes a **aclarar, enriquecer y organizar mejor** un texto que te voy a proporcionar.  
+# Apunte Detallado (ASI): RUO, DyAC y Sistema de Gestión de Flotas
 
-### Requisitos:
-1. **Enfoque pedagógico**  
-   - Reescribe el contenido para que sea más claro y fácil de comprender.  
-   - Explica no solo el *qué*, sino también el *por qué* de cada concepto o práctica en ASI.  
-   - Aporta contexto y relaciones con el mundo real (ejemplos de empresas, sistemas, procesos).  
-
-2. **Formato Obsidian (Markdown)**  
-   - Usa encabezados `#`, `##`, `###` para jerarquía de ideas.  
-   - Aplica notas con:  
-     > [!note] Contextualización o dato clave  
-     > [!tip] Consejo o buena práctica  
-     > [!example] Caso o ejemplo práctico  
-     > [!warning] Error común o precaución  
-   - Usa listas claras y, si corresponde, tablas en Markdown.  
-
-3. **Profundidad y claridad**  
-   - No resumas demasiado: prioriza **explicación eficiente** en lugar de “menos palabras”.  
-   - Añade comparaciones, analogías y ejemplos reales para reforzar el entendimiento.  
-   - Incluye secciones de **errores comunes**, **buenas prácticas** y **tendencias actuales** en la gestión de sistemas de información.  
-
-4. **Estilo experto pero accesible**  
-   - Explica de forma progresiva: de lo básico a lo avanzado.  
-   - Usa un tono cercano pero técnico, como si fueras un profesor experto guiando a un estudiante hacia el dominio del tema.  
+> [!note] Propósito del apunte  
+> Llevarte de **cero** a **experto** en tres pilares de Administración de Sistemas de Información (ASI):
+> 
+> 1. **RUO** (Rol, Ubicación y Organización del área de SI/TI), 2) **DyAC** (Descripción y Análisis de Cargos) y 3) **modelado/capacidad** de un **Sistema de Gestión de Flotas**.  
+>     Avanzamos de lo básico a lo avanzado, con contexto, ejemplos y buenas prácticas.
+>     
 
 ---
 
-### Instrucción final
-A continuación, te voy a proporcionar un texto relacionado con **Administración de Sistemas de Información**.  
-Tu tarea es **reescribirlo, aclararlo y enriquecerlo** siguiendo las pautas anteriores.
+## 0) Mapa mental del contenido
 
-# Apunte Detallado: RUO, DyAC y Sistema de Gestión de Flotas
-# 📌 PARTE 1 – RUO, DyAC y comparación con Líder de Proyecto
-
-### 1. RUO (Rol, Ubicación y Organización)
-
-En la resolución, tu grupo propuso:
-
-- **Rol:** _“Hacer algo con ellos”_ → significa que el área de SI/TI no trabaja aislada, sino **en coproducción con las áreas usuarias**.  
-    Ejemplo: el área de Sistemas no se limita a “dar soporte”, sino que escucha a logística, comercial, finanzas, etc., y juntos diseñan soluciones (co-diseño, pruebas, mejora continua).
+- **RUO** → Por qué SI/TI existe, dónde se ubica y cómo se organiza.
     
-- **Ubicación:** _Delegada_ → AGUNSA opera en varios países con distintas leyes y clientes. Entonces, Sistemas necesita cierta **autonomía local** para adaptarse rápidamente a cada contexto. Por eso no está 100% centralizado, sino con decisiones descentralizadas pero bajo lineamientos comunes.
+- **DyAC** → Cómo definir puestos clave (p. ej., Gerente de SI/TI) con criterios de RR.HH. y métricas.
     
-- **Organización:** _Por proyectos funcionales_ → en vez de departamentos rígidos, se arman **equipos de proyecto** que mezclan gente de Desarrollo + Infraestructura según la necesidad. Esto permite enfocarse en un objetivo (ej: sistema de flotas) y luego integrar los resultados al estándar corporativo.
+- **Flotas** → Cómo traducir negocio en carga técnica (UPN, SLA, variables de comportamiento) y dimensionar.
     
-    - **Jefatura de Desarrollo de Aplicaciones**: analistas funcionales, arquitectos de software, desarrolladores, QA.
-        
-    - **Jefatura de Infraestructura**: IT Manager, DBA, soporte, seguridad.
-        
-    - **Líderes de Proyecto**: arman equipos mixtos para proyectos concretos.
-        
 
-👉 **Cómo defenderlo:**  
-“Planteamos un RUO colaborativo porque AGUNSA necesita que Sistemas no solo dé soporte, sino que co-diseñe soluciones con las áreas operativas. Por eso lo pusimos como ‘hacer algo con ellos’. La ubicación es delegada, para adaptarse a distintos mercados y regulaciones. Y la organización es por proyectos funcionales, para priorizar soluciones ágiles con equipos mixtos”.
+> [!tip] Lectura recomendada  
+> Recorre en orden. Al final hay **checklists**, **errores comunes**, **buenas prácticas** y **tendencias**.
 
 ---
 
-### 2. DyAC del Gerente de SI/TI
+## 1) RUO (Rol, Ubicación y Organización)
 
-Armaron una **Descripción y Análisis del Cargo (Chiavenato)** para el máximo responsable:
+### 1.1 ¿Qué es RUO?
 
-- **Misión:** garantizar los niveles de servicio de TI y alinear TI con el negocio.
+- **Rol:** la **razón de ser** del área de SI/TI (qué valor entrega al negocio).
     
-- **Responsabilidades:** estrategia de TI, continuidad de operaciones, seguridad de la info, gestión de proveedores, presupuesto.
+- **Ubicación:** **dónde** se inserta en la organización (reportes, autonomía, centralización/descentralización).
     
-- **Autoridad:** puede aprobar presupuestos, políticas, estándares y contratos.
-    
-- **Requisitos:** Ingeniero en Sistemas/afín, +10 años de experiencia, liderazgo.
-    
-- **Competencias:** liderazgo, negociación, comunicación, análisis.
-    
-- **Condiciones:** trabajo de oficina + visitas a bodegas.
-    
-- **Indicadores (implícitos):** disponibilidad de sistemas, cumplimiento de SLA, satisfacción de usuarios.
+- **Organización:** **cómo** se estructura (funcional, por proyectos, híbrida; qué subáreas y relaciones tiene).
     
 
-👉 **Cómo defenderlo:**  
-“El Gerente de SI/TI es un rol estratégico: define la visión de TI, asegura continuidad y seguridad, y administra recursos y presupuesto. Lo diferenciamos de otros roles porque tiene poder de decisión sobre inversiones y estándares”.
+> [!example] Analogía  
+> RUO es como el **diseño de un equipo deportivo**:
+> 
+> - **Rol**: a qué juega (defensivo/ofensivo).
+>     
+> - **Ubicación**: en qué liga y con qué independencia decide.
+>     
+> - **Organización**: cómo distribuye posiciones y coordinaciones en la cancha.
+>     
+
+### 1.2 Por qué importa en ASI
+
+- Alinea SI/TI con **estrategia** y **modelo operativo** del negocio.
+    
+- Reduce fricción entre áreas (operaciones, comercial, finanzas) → **flujo de valor** más rápido.
+    
+- Permite **priorizar** inversiones, **gobernar** riesgos y **medir** resultados (KPIs/SLA).
+    
+
+### 1.3 RUO propuesto (caso AGUNSA)
+
+#### Rol: “Hacer algo con ellos” (coproducción)
+
+- **Qué es:** SI/TI trabaja **junto a** las áreas usuarias (co-diseño, pruebas en sitio, adopción).
+    
+- **Cómo se usa:** squads mixtos negocio–tecnología, discovery con usuarios, iteraciones cortas.
+    
+- **Por qué así:** en logística multi-país los procesos varían por **leyes/clientes**; coproducir acelera adopción y reduce retrabajo.
+    
+
+> [!example] Caso práctico  
+> Planificación de rutas: logística define reglas y restricciones; SI/TI integra motores de ruteo, UI y telemetría en ciclos de mejora continua.
+
+#### Ubicación: Delegada (descentralizada con estándares)
+
+- **Qué es:** autonomía local para responder a mercados/regulaciones, con **lineamientos corporativos** (arquitectura, seguridad, datos).
+    
+- **Cómo se usa:** decisiones tácticas locales + gobierno corporativo común (comités, blueprints).
+    
+- **Por qué así:** cambia **rápido** la realidad de cada plaza (combustible, normativa, tráfico).
+    
+
+#### Organización: por **proyectos funcionales** (estructura híbrida)
+
+- **Qué es:** equipos temporales orientados a objetivos (p. ej., “Flotas”), integrando personas de Desarrollo e Infraestructura.
+    
+- **Cómo se usa:**
+    
+    - **Desarrollo de Aplicaciones:** Analista Funcional, Arquitecto SW, Devs, QA.
+        
+    - **Infraestructura/SecOps:** IT Manager, DBA, Soporte, Seguridad.
+        
+    - **Líderes de Proyecto:** orquestan equipos mixtos y relacionamiento con usuarios.
+        
+- **Por qué así:** **acopla** entrega rápida con **estándares comunes** (datos/seguridad).
+    
+
+> [!note] Variantes
+> 
+> - **Funcional pura:** eficiencia y especialización, pero menos flexibilidad.
+>     
+> - **Por productos/squads:** autonomía y foco, pero riesgo de “islas” si no hay gobierno de arquitectura.
+>     
 
 ---
 
-### 3. Comparación con Líder de Proyecto
+## 2) DyAC (Descripción y Análisis de Cargos)
 
-Armaron un cuadro comparativo:
+### 2.1 ¿Qué es y para qué sirve?
 
-|Atributo|Gerente de SI/TI|Líder de Proyecto|
+- **Qué es:** ficha estructurada (formato Chiavenato) que define **misión, responsabilidades, autoridad, requisitos, competencias** y **métricas** de un cargo.
+    
+- **Para qué:** alinea expectativas, habilita selección/inducción, gestión del desempeño y **gobierno** del área.
+    
+
+### 2.2 Plantilla práctica (Gerente de SI/TI)
+
+```markdown
+### DyAC – Gerente de SI/TI
+- **Misión:** Alinear SI/TI con objetivos de negocio; asegurar disponibilidad, seguridad y eficiencia de la plataforma tecnológica.
+- **Dependencia:** Dirección General / COO.  
+- **Reportes directos:** Jefes de Desarrollo e Infraestructura.  
+- **Relaciones clave:** Operaciones, Comercial, Finanzas, RR.HH., Proveedores.
+
+#### Responsabilidades (qué hace)
+- Estrategia y portafolio de TI; roadmap y priorización.  
+- Arquitectura y seguridad (IAM, datos, continuidad, DRP).  
+- Gestión de proveedores y contratos; presupuesto.  
+- Gobierno de proyectos (PMO), KPIs y SLA; auditoría y cumplimiento.
+
+#### Autoridad (qué puede decidir)
+- Estándares tecnológicos y de datos; políticas de seguridad.  
+- Asignación de recursos; contratación tecnológica dentro de budget.  
+- Priorización de iniciativas y escalamiento de incidentes críticos.
+
+#### Requisitos (qué se espera)
+- Educación: Ing. en Sistemas (o afín); posgrado deseable (PM/Negocios).  
+- Experiencia: 8–10 años en TI, 5+ en liderazgo.  
+- Competencias: liderazgo, negociación, storytelling ejecutivo, data literacy.
+
+#### Indicadores (cómo se mide)
+- Disponibilidad (%), MTTR/MTBF, cumplimiento de SLA.  
+- Desvío presupuestario (%), ROI de proyectos.  
+- Satisfacción de usuario (CSAT/NPS), seguridad (incidentes, hallazgos).
+```
+
+> [!tip] Métricas que “mueven la aguja”  
+> Prioriza 5–7 KPIs accionables y acordados con negocio. Evitá paneles “navideños”.
+
+### 2.3 RACI recomendado (alto nivel)
+
+|Actividad / Rol|Gerente SI/TI|Jefe Desarrollo|Jefe Infra/SecOps|Líder de Proyecto|Usuario Clave|
+|---|--:|--:|--:|--:|--:|
+|Definir estrategia TI|**A/R**|C|C|I|C|
+|Priorizar portafolio|**A/R**|C|C|C|C|
+|Arquitectura/Seguridad|**A**|C|**R**|I|I|
+|Entrega de proyecto|A|C|C|**R**|C|
+|Operación/Soporte|I|I|**R**|I|C|
+
+> **A** = Accountable, **R** = Responsible, **C** = Consulted, **I** = Informed.
+
+---
+
+## 3) Gerente de SI/TI vs Líder de Proyecto (LP)
+
+### 3.1 Diferencias esenciales
+
+|Dimensión|Gerente de SI/TI|Líder de Proyecto|
 |---|---|---|
-|**Atribuciones**|Decide sobre estrategia, presupuesto, estándares|Decide sobre alcance, cronograma y entregables|
-|**Funciones**|Estrategia TI, continuidad, seguridad, gestión de proveedores, presupuesto|Planificar y ejecutar proyectos, coordinar equipo, controlar cronograma/costos|
-|**Responsabilidades**|Éxito global de TI, ROI, disponibilidad y seguridad|Proyecto entregado en tiempo, costo y calidad|
-|**Formación**|Ingeniería en Sistemas, posgrado deseable, visión estratégica|Formación en gestión de proyectos (PMI, Scrum), visión táctica|
+|**Horizonte**|Estratégico (área completa)|Táctico (proyecto específico)|
+|**Decisiones**|Estándares, inversiones, talento|Alcance, plan, riesgos, calidad|
+|**Éxito**|SLA, seguridad, ROI portafolio|Entrega a tiempo/costo/calidad|
+|**Stakeholders**|Comité ejecutivo, áreas core|Sponsor, equipo, usuarios finales|
+|**Habilidades**|Negocio+arquitectura, gobierno|PMBOK/Ágil, facilitación, reporting|
 
-👉 **Cómo defenderlo:**  
-“El Gerente de SI/TI es estratégico: maneja toda el área y sus recursos. El Líder de Proyecto es táctico: se centra en entregar un proyecto específico en tiempo y forma”.
-
----
-
-# 📌 PARTE 2 – Sistema de Gestión de Flotas
-
-### i) Tipo de sistema
-
-Definieron que es un **sistema transaccional en tiempo real**:
-
-- Muchas transacciones cortas (GPS cada pocos segundos, sensores, incidentes).
-    
-- Requiere baja latencia (respuesta rápida).
-    
-- Procesa gran volumen de datos concurrentes.
-    
-
-👉 **Cómo defenderlo:**  
-“Lo definimos como sistema transaccional en tiempo real porque lo central es atender transacciones breves y continuas, como posiciones GPS y lecturas de sensores”.
+> [!warning] Error común  
+> “Como liderás un proyecto grande, sos Gerente de TI”. **No**: el gerente gobierna **toda** la función TI (estrategia+operaciones).
 
 ---
 
-### ii) UPNs (Unidades de Predicción Natural)
+## 4) Sistema de Gestión de Flotas (capacidad y rendimiento)
 
-Son los _drivers de carga_. Eligieron:
+### 4.1 ¿Qué es y por qué “transaccional en tiempo real”?
 
-- **Actualizaciones de Posición (APM):** cuántas posiciones GPS entran por minuto.
+- **Qué:** plataforma que ingiere **telemetría** (GPS/sensores), calcula rutas, gestiona planillas/turnos/incidentes e integra con ERP/BI.
     
-- **Lecturas de Sensores (LSM):** motor, combustible, tacógrafo, etc.
-    
-- **Rutas Optimizadas (ROCD):** cantidad de cálculos de ruta.
-    
-- **Alertas/Incidentes (AIGD):** notificaciones de fallos.
-    
-- **Reportes Generados (RGU):** informes pedidos por usuarios.
+- **Por qué transaccional:** predominan **transacciones cortas y frecuentes** (eventos/seg) con **baja latencia** esperada por operación.
     
 
-👉 **Cómo defenderlo:**  
-“Las UPNs elegidas son las que más afectan la carga: más vehículos o más sensores → más transacciones; más usuarios → más reportes; más imprevistos → más alertas”.
+> [!example] Flujo típico  
+> GPS (vehículo) → API/MQ → validación/reglas → persistencia → actualización de mapa/UI → alertas.
+
+### 4.2 UPN (Unidades de Predicción Natural)
+
+#### Concepto
+
+- Métricas **de negocio** que **explican** la carga técnica.
+    
+- Se diseñan para **predecir** crecimiento de uso vs. recursos.
+    
+
+#### UPN clave (caso flotas)
+
+- **APM**: Actualizaciones de Posición por Minuto.
+    
+- **LSM**: Lecturas de Sensores por Minuto.
+    
+- **ROCD**: Rutas Optimizadas Calculadas por Día.
+    
+- **AIGD**: Alertas/Incidentes Generados por Día.
+    
+- **RGU**: Reportes Generados por Usuario.
+    
+
+> [!note] Regla de oro  
+> Si duplicás la **flota activa**, suben **APM/LSM** ~linealmente (manteniendo intervalos).
+
+### 4.3 Relaciones simples (para estimar carga)
+
+```[text]
+# Llegadas (throughput)
+APM (msg/s) ≈ (N_vehículos) / (intervalo_GPS_en_segundos)
+
+# Ejemplo:
+# 300 vehículos, 1 GPS cada 5 s → 300/5 = 60 msg/s
+
+LSM (msg/s) ≈ N_vehículos × tasa_evento_por_vehículo
+```
+
+> [!example] Cálculo rápido de almacenamiento  
+> 300 veh × 12 msg/min × 1440 min/día = **5.184.000** posiciones/día.  
+> A 150 B efectivos/registro ≈ **~740 MB/día** solo GPS (sin índices ni sensores).
+
+### 4.4 SLA (externos) y objetivos (internos)
+
+**Externos (experiencia usuario):**
+
+- GPS en UI: **≤ 3 s** (p95)
+    
+- Ruta: **≤ 10 s** (p95)
+    
+- Reporte on-demand: **≤ 30 s** (p95)
+    
+- Disponibilidad servicios críticos: **≥ 99,9%** mensual
+    
+
+**Internos (salud del sistema):**
+
+- Utilización CPU/Disco: **≤ 70–80%** en picos
+    
+- Latencia extremo a extremo (vehículo→UI): **≤ 1–2 s** media
+    
+- **Back-pressure** controlado (colas con límites y reintentos exponenciales)
+    
+
+> [!tip] Pirámide de control  
+> **SLA** visibles se sostienen con **SLO** internos (p95/p99), telemetría (APM/LSM), y **pruebas de carga** periódicas.
+
+### 4.5 Variables de comportamiento (fiabilidad operacional)
+
+- **Fiabilidad** (MTBF alto), **Disponibilidad** (≥ 99,9%), **Mantenibilidad** (MTTR bajo).
+    
+- **Seguridad** (IAM, cifrado en tránsito/descanso, hardening).
+    
+- **Performabilidad**: degradación **graciosa** ante fallos (graceful degradation).
+    
+
+### 4.6 Arquitectura de referencia (high level)
+
+- **Ingesta**: HTTP/MQTT + cola de mensajería (event streaming).
+    
+- **Procesamiento**: microservicios con **autoscaling**; validación, enriquecimiento, reglas.
+    
+- **Persistencia**:
+    
+    - **OLTP** (posiciones recientes, incidentes);
+        
+    - **TSDB**/Data Lake (históricos);
+        
+    - **Cache** (map tiles, últimas posiciones).
+        
+- **APIs/UI**: web para despacho + móvil para choferes.
+    
+- **Observabilidad**: métricas (APM/LSM), trazas, logs, tableros de SLO/SLA.
+    
+- **Seguridad**: IAM, roles por contexto, cifrado, rotación de secretos.
+    
+
+> [!warning] Errores frecuentes en flotas
+> 
+> - Persistir **todo** en una única base OLTP (crece y se vuelve lenta).
+>     
+> - No definir **UPN** → incapacidad de proyectar capacidad.
+>     
+> - Omitir **back-pressure** → tormenta de reintentos y caídas en cascada.
+>     
+> - Olvidar **retención/archiving** de históricos (costos y performance).
+>     
 
 ---
 
-### iii) Variables + SLA
+## 5) Cómo defender la propuesta (speech técnico–negocio)
 
-Propusieron:
-
-- **Externas (percibidas por usuario):**
+1. **RUO colaborativo** porque la operación logística varía por plaza y cliente: coproducir acelera adopción y reduce retrabajo.
     
-    - GPS ≤ 3s
-        
-    - Ruta ≤ 10s
-        
-    - Reporte ≤ 30s
-        
-    - Productividad: ≥ 300 rutas/hora
-        
-- **Internas (del sistema):**
+2. **Ubicación delegada** con estándares globales equilibra velocidad local y control corporativo.
     
-    - Uso de CPU/Disco ≤ 70–80%
-        
-    - Latencia de red ≤ 1–2s
-        
-    - Solapamiento de componentes (CPU+I/O): 40–60% en picos
-        
-
-👉 **Cómo defenderlo:**  
-“Los SLA los definimos pensando en logística: si un GPS tarda más de 3 segundos en aparecer, el monitoreo pierde valor; si una ruta demora más de 10 segundos, no es útil para la toma de decisiones rápida”.
+3. **Organización por proyectos funcionales** permite foco (objetivos claros) + gobierno (arquitectura/seguridad).
+    
+4. **UPN** traducen negocio a carga; si sube la flota, suben APM/LSM y planificamos recursos.
+    
+5. **SLA** centrados en operación: si GPS > 3 s, se pierden decisiones en tiempo real.
+    
+6. **Variables de comportamiento** garantizan continuidad (99,9%), seguridad y recuperación rápida (MTTR).
+    
 
 ---
 
-### iv) Variables de comportamiento
+## 6) Buenas prácticas (resumen accionable)
 
-Agregaron:
-
-- **Fiabilidad (MTBF alto).**
+- **RUO**
     
-- **Disponibilidad (≥ 99,9%).**
+    - Acordá el **rol** con negocio (valor esperado).
+        
+    - Definí **foros de gobierno**: comité de demanda, arquitectura, seguridad.
+        
+    - Mantené **catálogo de servicios** TI con **SLA**.
+        
+- **DyAC**
     
-- **Seguridad (datos sensibles).**
+    - Escribí **misión** en 1–2 oraciones medibles.
+        
+    - Ligá **responsabilidades** a **KPIs** concretos.
+        
+    - Usá **RACI** para evitar solapamientos.
+        
+- **Flotas**
     
-- **Mantenibilidad (resolver rápido fallos).**
-    
-- **Performabilidad (que siga funcionando aceptablemente aun con fallos).**
-    
-
-👉 **Cómo defenderlo:**  
-“Estas variables son críticas porque la logística no se puede detener: si el sistema falla o es inseguro, se generan pérdidas económicas y riesgos operativos”.
+    - Definí **UPN** y fórmulas simples (APM/LSM).
+        
+    - Diseñá **SLO p95/p99** previos al SLA.
+        
+    - Separá **OLTP** (reciente) de **histórico** (TSDB/Lake).
+        
+    - Implementá **colas**, **circuit breakers** y **retry con jitter**.
+        
+    - Plan de **retención/archiving** y **simulaciones de carga** trimestrales.
+        
 
 ---
 
-# 🎤 Cómo sonar como experto
+## 7) Errores comunes (y cómo evitarlos)
 
-Cuando hables, no recites: **contá la lógica** detrás de cada punto. Ejemplos de frases útiles:
+- **Confiar en organigramas sin procesos** → agrega **procesos de priorización** y **métricas**.
+    
+- **SLA sin monitoreo** → define **métricas** y visibilidad real-time.
+    
+- **Arquitectura monolítica para eventos** → usa colas/event streaming y caché.
+    
+- **No probar picos** (fin de mes, campañas) → ejecuta **tests estacionales** y **runbooks**.
+    
 
-- “El rol que definimos es coproducción, porque AGUNSA necesita que TI trabaje con las áreas operativas, no separado”.
+---
+
+## 8) Tendencias actuales en ASI aplicables
+
+- **Producto digital/Value stream** sobre proyectos aislados (foco en outcomes continuos).
     
-- “El sistema es transaccional en tiempo real porque lo central son las posiciones GPS y sensores que llegan continuamente”.
+- **FinOps**: costo como métrica de diseño (autoescalado, right-sizing).
     
-- “Definimos como UPN principal las actualizaciones de posición, porque si duplicamos la flota, se duplican los mensajes por segundo”.
+- **Plataformas de datos**: separación claro **OLTP/analítica**, feature stores.
     
-- “Los SLA que propusimos tienen sentido en logística: más de 3 segundos en actualizar GPS ya afecta la operación”.
+- **Security by design**: Zero Trust, IAM granular, SBOM y gestión de secretos.
     
+- **Observabilidad** integral: métricas, trazas distribuidas y SLOs como contrato.
+    
+
+---
+
+## 9) Checklists rápidos
+
+### 9.1 RUO
+
+-  Rol definido con outcomes de negocio.
+    
+-  Ubicación (reportes, autonomía, foros).
+    
+-  Organización (subáreas, perfiles, RACI).
+    
+-  Gobierno (priorización, arquitectura, seguridad).
+    
+
+### 9.2 DyAC
+
+-  Misión y responsabilidades claras.
+    
+-  Autoridad explícita.
+    
+-  KPIs/SLA de puesto.
+    
+-  Competencias y experiencia requeridas.
+    
+
+### 9.3 Flotas
+
+-  UPN (APM, LSM, ROCD, AIGD, RGU).
+    
+-  Fórmulas de llegada y almacenamiento.
+    
+-  SLA externos y SLO internos p95/p99.
+    
+-  Arquitectura con colas, cache y storage por tipo.
+    
+-  Observabilidad y planes de pico/fallo.
+    
+
+---
+
+## 10) Frases para la puesta en común (sonar experto)
+
+- “Elegimos **coproducción** en el Rol porque reduce el time-to-value y mejora la adopción en operaciones multi-país.”
+    
+- “La **ubicación delegada** balancea respuesta local con **estándares** globales de arquitectura y seguridad.”
+    
+- “Modelamos la carga con **UPN**: al subir la flota, crecen **APM/LSM**; por eso escalamos ingesta y storage.”
+    
+- “Nuestros **SLA** (GPS ≤ 3 s, Rutas ≤ 10 s) responden al impacto operativo; detrás hay **SLO p95/p99** y pruebas de carga.”
+    
+- “Separamos **OLTP** de **histórico** para mantener latencias bajas hoy y explotar analítica mañana.”
+    
+
+---
+
+> [!note] Cierre  
+		> Con RUO bien definido, DyAC profesionalizado y un modelo de flotas sustentado en **UPN+SLA+arquitectura de eventos**, podés defender la propuesta ante negocio y sostenerla en operación.%% %% %%  %% %% %%
