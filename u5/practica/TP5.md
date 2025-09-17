@@ -203,7 +203,25 @@ Estas variables aseguran que el sistema no solo sea rápido, sino también **con
         
 - **Seguridad:** proteger datos sensibles (ubicación de camiones, identidad de conductores, datos comerciales).
 
-1
+
+### Ejemplos:
+- **95% de disponibilidad**  
+    → 5% de caída → 0,05 × 720 h = **36 horas** de caída al mes.
+- **99% de disponibilidad**  
+    → 1% de caída → 0,01 × 720 h = **7,2 horas** de caída al mes.
+- **99,9% de disponibilidad**  
+    → 0,1% de caída → 0,001 × 720 h = **0,72 h ≈ 43 minutos** de caída al mes.
+- **99,99% de disponibilidad**  
+    → 0,01% de caída → 0,0001 × 720 h = **4,3 minutos** de caída al mes.
+
+
+> [!note] Conclusión
+> 
+> - El grupo puso **95%**, que en logística es muy bajo (36 horas de caída al mes).
+>     
+> - Lo habitual para un **sistema crítico de flotas** es apuntar al menos a **99,9%** → menos de 1 hora de caída al mes.
+>
+
 
 
 - **Mantenibilidad:** si hay un fallo, debe repararse rápido (**MTTR bajo**).
