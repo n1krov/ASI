@@ -1,16 +1,16 @@
 
---## ⚙️ Subsistema de Provisión de SW y HW
+## ⚙️ Subsistema de Provisión de SW y HW
 
 ---
 
-### **1. ¿Qué incluye el subsistema de provisión de SW y HW?
+### 1. ¿Qué incluye el subsistema de provisión de SW y HW?
 
-El subsistema de provisión de SW y HW incluye el **conjunto de procedimientos, técnicas de calificación y pautas** cuya finalidad es la **selección de soluciones de SW y/o HW más convenientes** para la organización, de acuerdo con las necesidades especificadas1. Su meta es abastecer a la organización de los recursos de SI/TI según la arquitectura planeada2.
+El subsistema de provisión de SW y HW incluye el **conjunto de procedimientos, técnicas de calificación y pautas** cuya finalidad es la **selección de soluciones de SW y/o HW más convenientes** para la organización, de acuerdo con las necesidades especificadas1. Su meta es abastecer a la organización de los recursos de SI/TI según la arquitectura planeada.
 
 
 ![[Pasted image 20251101180806.png]]
 
-### ¿Qué cuestiones deben tenerse en cuenta en la provisión?**
+### **¿Qué cuestiones deben tenerse en cuenta en la provisión?**
 
 Las **cuestiones clave** que deben tenerse en cuenta en la provisión son:
 - Determinar la **mejor alternativa técnico-operativa-económica** para proveer el SW y/o HW.
@@ -23,15 +23,23 @@ Las **cuestiones clave** que deben tenerse en cuenta en la provisión son:
 
 ### **2. Teniendo en cuenta la ubicación de SI/TI, concluya cómo afecta cada esquema de organización a las políticas y proceso de provisión de SW y HW.**
 
->
-La **ubicación de los SI/TI** (Centralizada, Descentralizada o Delegada) 8 afecta directamente a las **políticas y al proceso de provisión de SW y HW** al definir **quién tiene la autoridad para decidir, qué se compra y cómo se logra la integración**.
 
-| **Esquema de Ubicación**      | **Característica Principal**                                                                     | **Conclusión sobre la Provisión (Políticas y Proceso)**                                                                                                                                                                                                                                              |
-| ----------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **(Re)Centralizada** 9        | **Única función de acceso y decisión**; los niveles superiores toman todas las decisiones.       | Favorece **políticas de provisión uniformes y rígidas** (ej., **Normas fijas** para paquetes). El proceso está **orientado a la eficiencia** y busca **economías de escala**. **Se reduce el potencial de incompatibilidad**.                                                                        |
-| **Descentralizada/ Delegada** | La función de SI se divide o el control se dispersa, dando **mayor autonomía al usuario** final. | Requiere **políticas de provisión más flexibles** (ej., **Libertad total** o **Intercambio de datos** para paquetes). El proceso se centra en la **efectividad** y la **capacidad de respuesta** a necesidades específicas de cada área.                                                             |
-| **General (Ambos)**           | La ubicación no es mutuamente excluyente; las empresas combinan facetas de cada tipo.            | Las **políticas de adquisición** (como la **Política de adquisición** en la estrategia de Management de SI) deben ser un **marco estratégico** que defina los límites de la provisión y asegure la **coordinación** e **integración** de los recursos, independientemente de quién tome la decisión. |
+#### 🗺️ Conclusión: Impacto de la Ubicación de SI/TI en la Provisión de SW y HW
 
+La **Ubicación de los SI/TI** (Centralizada, Descentralizada o Delegada) afecta directamente las políticas y el proceso de provisión de SW y HW porque define **quién tiene la autoridad para tomar decisiones** y cuál es el **objetivo estratégico** principal de la tecnología en la empresa (Eficiencia vs. Efectividad).
+
+El esquema de ubicación impone un **marco de control** que la provisión debe obedecer:
+
+|**Esquema de Ubicación**|**Foco Estratégico y Control**|**Efecto en Políticas y Proceso de Provisión**|
+|---|---|---|
+|**(Re)Centralizada**|Foco en la **Eficiencia**, el **Control Total** y la **Integración**.|✅ **Políticas Rígidas y Uniformes**: Se favorecen políticas de provisión de **Normas Fijas**, donde el catálogo de SW y HW es limitado y estandarizado.|
+||**Decisiones de Control Centralizadas**.|✅ **Proceso Orientado a la Eficiencia**: Busca **economías de escala** y evita la **duplicación** de recursos (mínima incompatibilidad), aunque puede ser lento y **separado de las prioridades del negocio real**.|
+|**Descentralizada/ Delegada**|Foco en la **Efectividad**, la **Velocidad** y la **Autonomía** del usuario final.|✅ **Políticas Flexibles y Adaptables**: Se requieren políticas de **Libertad Total** o **Intercambio de Datos** para que cada área pueda responder a sus necesidades específicas.|
+||**Decisiones de Control Dispersas** (al usuario final).|✅ **Proceso Orientado a la Efectividad**: Prioriza la **capacidad de respuesta** y la **integración con el negocio**; sin embargo, aumenta el riesgo de **incompatibilidades futuras** y **altos costos agregados** por la duplicación.|
+
+##### Conclusión Final
+
+> Independientemente de la ubicación, la **Política de Adquisición** (que forma parte del Subsistema de Provisión) debe servir como un **marco estratégico** que asegure la **coordinación** entre las compras (ej., imponiendo la compatibilidad en la infraestructura básica), garantizando que la autonomía no comprometa la coherencia de la arquitectura de SI de la empresa.
 
 ### **3. ¿Quiénes intervienen en la provisión de SW y HW?**
 
@@ -103,56 +111,87 @@ Antes de iniciar el proceso de provisión (que se enmarca en la primera etapa de
 
 ### **6. ¿Qué significan y qué importancia tienen los parámetros cualitativos y cuantitativos?**
 
-Los parámetros cualitativos y cuantitativos son esenciales para la **calificación objetiva** y la **selección de alternativas** de HW/SW34343434.
+Los parámetros cualitativos y cuantitativos son esenciales para la **calificación objetiva** y la **selección de alternativas** de HW/SW.
 
-| **Parámetro**                        | **Significado**                                                                                                                 | **Ejemplos**                                                                                                       | **Importancia**                                                                                                                                                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Cuantitativos** [cite: 2369, 2370] | **Medidas o proyecciones numéricas** (fórmulas matemáticas) de una capacidad o cantidad.                                        | Tasa de transferencia, Capacidad de almacenamiento, _tps_ (transacciones por segundo).                             | Proporcionan una **apreciación altamente objetiva** sobre una característica del HW/SW.                                                                                                                      |
-| **Cualitativos** [cite: 2372, 2375]  | Medidas determinadas por **experiencia, observación, convenciones, restricciones o políticas**; poseen cierta **subjetividad**. | Estética, tecnología de disco, dimensiones de pantalla, variables de consumo de electricidad (frecuencia/voltaje). | Permiten seleccionar el equipo con la **mejor _performance_ aplicada a las capacidades manejadas por la organización**. Deben transformarse en cuantitativos o limitarse al **20% del total de parámetros**. |
+| **Parámetro**     | **Significado**                                                                                                                 | **Ejemplos**                                                                                                       | **Importancia**                                                                                                                                                                                              |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Cuantitativos** | **Medidas o proyecciones numéricas** (fórmulas matemáticas) de una capacidad o cantidad.                                        | Tasa de transferencia, Capacidad de almacenamiento, _tps_ (transacciones por segundo).                             | Proporcionan una **apreciación altamente objetiva** sobre una característica del HW/SW.                                                                                                                      |
+| **Cualitativos**  | Medidas determinadas por **experiencia, observación, convenciones, restricciones o políticas**; poseen cierta **subjetividad**. | Estética, tecnología de disco, dimensiones de pantalla, variables de consumo de electricidad (frecuencia/voltaje). | Permiten seleccionar el equipo con la **mejor _performance_ aplicada a las capacidades manejadas por la organización**. Deben transformarse en cuantitativos o limitarse al **20% del total de parámetros**. |
 
 ---
 
 ### **7. Detalle las pautas que guían la selección general del SW y HW.**
 
-Las pautas que guían la selección buscan asegurar que las decisiones sean **empresariales**, **simples** y **flexibles**, en lugar de meramente técnicas o económicas35.
+Las pautas que guían la selección buscan asegurar que las decisiones sean **empresariales**, **simples** y **flexibles**, en lugar de meramente técnicas o económicas.
 
-1. **Prioridad del SW:** Es el **SW, y no el HW, el que debe guiar casi todas las decisiones de selección**36. El flujo de decisión debe ser: Necesidad empresarial → SW de Aplicación → SW de Sistema (base) → HW37.
+1. **Prioridad del SW:** Es el **SW, y no el HW, el que debe guiar casi todas las decisiones de selección**. El flujo de decisión debe ser: Necesidad empresarial → SW de Aplicación → SW de Sistema (base) → HW.
     
-2. **Vida Útil:** El **SW tiene mayor vida útil que el HW** sobre el que corre; es mejor mantener el mismo SW con distinto HW38.
+2. **Vida Útil:** El **SW tiene mayor vida útil que el HW** sobre el que corre; es mejor mantener el mismo SW con distinto HW.
     
-3. **Flexibilidad vs. Adecuación:** La **flexibilidad** es muy importante y recibe **mayor puntaje que la adecuación** (capacidad de adaptarse y crecer continuamente, ya que los requerimientos de información cambian)39.
+3. **Flexibilidad vs. Adecuación:** La **flexibilidad** es muy importante y recibe **mayor puntaje que la adecuación** (capacidad de adaptarse y crecer continuamente, ya que los requerimientos de información cambian).
     
-4. **Arquitectura:** Elegir una **arquitectura** es más importante y duradero que elegir un tipo particular de componente40. No se debe migrar de una arquitectura a otra sin una buena razón41.
+4. **Arquitectura:** Elegir una **arquitectura** es más importante y duradero que elegir un tipo particular de componente. No se debe migrar de una arquitectura a otra sin una buena razón.
     
-5. **Compatibilidad y Ensamblaje:** Es mejor si el componente es **compatible con la arquitectura actual**42. Ensamblar HW de distintas marcas solo se justifica si los beneficios superan la complejidad introducida43.
+5. **Compatibilidad y Ensamblaje:** Es mejor si el componente es **compatible con la arquitectura actual**. Ensamblar HW de distintas marcas solo se justifica si los beneficios superan la complejidad introducida.
     
-6. **Desarrollo de SW:** Se recomienda usar **lenguajes de 4° nivel** a menos que haya una buena razón para usar lenguajes de más bajo nivel, para **aumentar la productividad**44.
+6. **Desarrollo de SW:** Se recomienda usar **lenguajes de 4° nivel** a menos que haya una buena razón para usar lenguajes de más bajo nivel, para **aumentar la productividad**.
     
-7. **Foco Empresarial:** Se debe partir de las **necesidades empresariales** para determinar la necesidad del cambio, no de las posibilidades del HW/SW45.
+7. **Foco Empresarial:** Se debe partir de las **necesidades empresariales** para determinar la necesidad del cambio, no de las posibilidades del HW/SW.
     
 
 ---
 
 ### **8. ¿Qué ventajas y desventajas considera usted que tienen los denominados sistemas abiertos, actualmente?**
 
-Un **sistema abierto** es un sistema que utiliza equipos o componentes **no propietarios** y que incentiva la capacidad de compartir datos46.
+Un **Sistema Abierto** es aquel que utiliza **equipos o componentes no propietarios** y que está diseñado para **interactuar y compartir datos** con sistemas de diferentes fabricantes.
 
-|**Ventajas (Conclusión)**|**Desventajas (Conclusión)**|
-|---|---|
-|**Fomenta la integración:** Los desarrollos de _downsizing_ (migración a plataformas más pequeñas) se adecuan mejor al equipo no propietario, lo que **incentiva compartir datos**47.|**Dependencia de la compatibilidad:** Conectar componentes de **distintos fabricantes puede ser difícil** a menos que se hayan diseñado específicamente para la interconexión[cite: 2388].|
-|**Mayor innovación y variedad:** Promueve que las soluciones se construyan con **componentes de diferentes proveedores** (aumenta la variedad de opciones)[cite: 2836].|**Mayor complejidad técnica:** El ensamblaje de HW de distintas marcas puede ser **técnicamente posible, pero introduce complejidad**[cite: 2389].|
-|**Evita el _Vendor Lock-in_**: La adopción de estándares abiertos **reduce la dependencia** de un solo proveedor o plataforma monolítica (como un _mainframe_)48.|**Incertidumbre en la confiabilidad:** Aunque ha mejorado, los sistemas basados en PC (más abiertos) **aún no superan a los _mainframes_ en términos de confiabilidad** para la disposición de datos[cite: 2843].|
+##### 🔑 Conceptos Clave
 
+1. **No Propietario:** Significa que el sistema no está atado a la tecnología exclusiva de un solo fabricante (a diferencia de un _mainframe_ tradicional, que usa hardware y software del mismo vendedor).
+    
 
-## ⚙️ Subsistema de Provisión de SW y HW (Preguntas 9 - 16)
+- **Interoperabilidad:** Su principal ventaja es que **fomenta compartir datos** e incentiva la **integración** de soluciones con componentes de distintos proveedores.
+    
+
+- **Tendencia:** Este concepto es clave en el _downsizing_ (migración de plataformas grandes a redes de PC o minicomputadoras), ya que las plataformas más pequeñas suelen ser de equipos no propietarios.
+    
+
+##### 💡 Ejemplos
+
+- **Sistemas Operativos (SO):** **Linux** es un ejemplo clásico de un SO abierto, a diferencia de los sistemas propietarios de _mainframes_.
+    
+- **Protocolos:** El uso de protocolos de red y estándares industriales como **TCP/IP** o **SQL** (para bases de datos) en lugar de protocolos específicos de un solo proveedor.
+    
+- **Hardware:** Usar **servidores estándar basados en arquitectura x86** (no propietarios) en lugar de depender de un servidor de diseño cerrado y especializado.
+
+| **Ventajas (Conclusión)**                                                                                                                                                           | **Desventajas (Conclusión)**                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fomenta la integración:** Los desarrollos de _downsizing_ (migración a plataformas más pequeñas) se adecuan mejor al equipo no propietario, lo que **incentiva compartir datos**. | **Dependencia de la compatibilidad:** Conectar componentes de **distintos fabricantes puede ser difícil** a menos que se hayan diseñado específicamente para la interconexión.                        |
+| **Mayor innovación y variedad:** Promueve que las soluciones se construyan con **componentes de diferentes proveedores** (aumenta la variedad de opciones).                         | **Mayor complejidad técnica:** El ensamblaje de HW de distintas marcas puede ser **técnicamente posible, pero introduce complejidad**.                                                                |
+| **Evita el _Vendor Lock-in_**: La adopción de estándares abiertos **reduce la dependencia** de un solo proveedor o plataforma monolítica (como un _mainframe_).                     | **Incertidumbre en la confiabilidad:** Aunque ha mejorado, los sistemas basados en PC (más abiertos) **aún no superan a los _mainframes_ en términos de confiabilidad** para la disposición de datos. |
+
 
 ---
 
+## ⚙️ Subsistema de Provisión de SW y HW (Preguntas 9 - 16)
+
 ### **9. ¿En qué radica la diferencia entre la provisión de SW y la de HW?**
 
-La diferencia fundamental radica en que la provisión de **Software (SW)** ofrece un **continuo de posibilidades de obtención** que va desde el **desarrollo interno** hasta la **adquisición de paquetes estándar**1111.
+Con el software, una empresa tiene un **"continuo de posibilidades de obtención"**1. Esto significa que puede elegir **dónde** está la fuente de la solución:
 
-En cambio, la provisión de **Hardware (HW)** se adquiere casi en su totalidad de **fuentes externas** (Fabricante, VARs, minoristas, etc.)222222222.
+- **Desarrollo Interno (Hacerlo tú mismo):** Lo construye el propio personal de TI de la empresa.
+- **Adquisición Externa (Comprarlo):** Se compra un paquete estándar ya hecho (ej., un ERP).
+- **Puntos Intermedios:** Pagar a un tercero para que lo desarrolle a medida, o modificar un paquete existente (adaptación).
+
+> El software ofrece esta **flexibilidad** porque es un producto lógico que se puede crear o adaptar dentro de la organización.
+
+
+En cambio, para el hardware (servidores, computadoras, cables), la opción es mucho más simple:
+
+- Se adquiere **casi en su totalidad de fuentes externas**.
+- La empresa no puede "desarrollar" internamente un chip o una placa madre, solo puede **comprar el equipo ya fabricado** a proveedores (Fabricantes, revendedores VARs, minoristas).
+
+> **En resumen:** Para el **Software**, decides **si lo haces o lo compras**. Para el **Hardware**, siempre **lo compras**.
 
 #### **a. Determinación del enfoque del canal de provisión de SW: considere tres factores que puedan representar un impacto estratégico que determine el desarrollo interno.**
 
