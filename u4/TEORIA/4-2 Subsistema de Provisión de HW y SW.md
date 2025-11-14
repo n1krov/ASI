@@ -5,17 +5,16 @@
 
 ### 1. ¿Qué incluye el subsistema de provisión de SW y HW?
 
-El subsistema de provisión de SW y HW incluye el **conjunto de procedimientos, técnicas de calificación y pautas** cuya finalidad es la **selección de soluciones de SW y/o HW más convenientes** para la organización, de acuerdo con las necesidades especificadas1. Su meta es abastecer a la organización de los recursos de SI/TI según la arquitectura planeada.
-
+El subsistema de provisión de SW y HW incluye el **conjunto de procedimientos, técnicas de calificación y pautas** cuya finalidad es la **selección de soluciones de SW y/o HW más convenientes** para la organización, de acuerdo con las necesidades especificadas. Su meta es abastecer a la organización de los recursos de SI/TI según la arquitectura planeada.
 
 ![[Pasted image 20251101180806.png]]
 
-### **¿Qué cuestiones deben tenerse en cuenta en la provisión?**
+### ¿Qué cuestiones deben tenerse en cuenta en la provisión?
 
 Las **cuestiones clave** que deben tenerse en cuenta en la provisión son:
 - Determinar la **mejor alternativa técnico-operativa-económica** para proveer el SW y/o HW.
-- La selección debe basarse en **técnicas de calificación y priorización**, siguiendo **pautas formales y el criterio profesional**4.
-- El proceso de determinar las **fuentes de provisión no es un proceso puramente técnico**, sino un **proceso de toma de decisiones**5.
+- La selección debe basarse en **técnicas de calificación y priorización**, siguiendo **pautas formales y el criterio profesional**.
+- El proceso de determinar las **fuentes de provisión no es un proceso puramente técnico**, sino un **proceso de toma de decisiones**.
 - **Evaluar la implicancia de todas las aplicaciones** con sumo cuidado, ya que el **sentido empresarial** a menudo impone limitaciones estrictas al proceso.  
 - Elegir y planificar los **enfoques de conversión** (Abrupto, En fases, Paralelo, Piloto) antes de la adquisición, ya que esto influye en otras opciones del proceso de selección.
 
@@ -230,16 +229,17 @@ La opción de paquetes estándar se recomienda idealmente en tres situaciones 9:
 
 ### **10. ¿Cuáles son las soluciones al desajuste entre las capacidades de un paquete y las necesidades organizacionales?**
 
-Cuando se produce un desajuste entre los **requerimientos empresariales priorizados** y las **capacidades del paquete estándar** (Plano de Discrepancias), existen cuatro estrategias para manejar esta disparidad 10101010:
+Cuando se produce un desajuste entre los **requerimientos empresariales priorizados** y las **capacidades del paquete estándar** (Plano de Discrepancias), existen cuatro estrategias para manejar esta disparidad:
 
-1. **Adecuar el paquete:** Modificar el código fuente del paquete para ajustarlo a las necesidades de la empresa. **Genera conflictos legales y técnicos**, ya que se puede perder la licencia y la responsabilidad de la implementación 11.
+1. **Adecuar el paquete:** Modificar el código fuente del paquete para ajustarlo a las necesidades de la empresa. **Genera conflictos legales y técnicos**, ya que se puede perder la licencia y la responsabilidad de la implementación.
     
-2. **Modificar el proceso empresarial:** Cambiar los flujos de trabajo de la organización para que se adapten a las funcionalidades estándar del paquete12121212.
+2. **Modificar el proceso empresarial:** Cambiar los flujos de trabajo de la organización para que se adapten a las funcionalidades estándar del paquete.
     
-3. **Tolerar el desajuste:** Aceptar el desfase si es tolerable y no impacta significativamente en el negocio13131313.
+3. **Tolerar el desajuste:** Aceptar el desfase si es tolerable y no impacta significativamente en el negocio.
     
-4. **Complementar el paquete con funcionalidad adicional:** Desarrollar módulos o _software_ a medida para cubrir las necesidades no satisfechas por el paquete, integrándolo a la solución estándar14141414.
-    
+4. **Complementar el paquete con funcionalidad adicional:** Desarrollar módulos o _software_ a medida para cubrir las necesidades no satisfechas por el paquete, integrándolo a la solución estándar.
+
+    ![[desajuste entre necesidades y paquetes.png]]
 
 ---
 
@@ -247,11 +247,18 @@ Cuando se produce un desajuste entre los **requerimientos empresariales prioriza
 
 Las **políticas de selección de paquetes** son el mecanismo que permite a la organización, según su **esquema de ubicación de SI/TI** (pregunta 2), controlar el grado de libertad del usuario y asegurar la coherencia o integración.
 
-| **Esquema de Ubicación de SI/TI (Pregunta 2)** | **Políticas de Selección de Paquetes**                                       | **Impacto y Coherencia**                                                                                                                                                                                                                                          |
-| ---------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Descentralizada / Delegada**                 | **Libertad Total** [cite: 2429, 2430]/ **Intercambio de Datos** [cite: 2431] | **Coherente con la autonomía del usuario.** La _Libertad Total_ (extrema descentralización) puede llevar al **caos e incompatibilidad**. El _Intercambio de Datos_ mitiga el riesgo exigiendo **integración** mínima.                                             |
-| **Centralizada**                               | **Lista** / **Normas Fijas**                                                 | **Coherente con el control corporativo.** La _Lista_ o _Normas Fijas_ (extrema centralización) aseguran la **uniformidad, control de costos y la integración**[cite: 2436]. Se evitan duplicaciones y se optimizan recursos, a costa de menor flexibilidad local. |
-|                                                |                                                                              |                                                                                                                                                                                                                                                                   |
+Existen cuatro enfoques diferentes (políticas) para definir el grado de libertad que pueden tener las áreas empresariales al seleccionar los paquetes:
+
+1. **Libertad total:** este enfoque permite que todas las áreas empresariales elijan su paquete preferido y puede provocar el caos, donde nadie sabe qué comprar, cuáles son los costos de instalación, capacitación y soporte, ni tampoco los costos futuros, posiblemente enormes, que surgen de las oportunidades perdidas de integración. Sin embargo, cada área puede optar por un paquete que se adecue bien a sus requerimientos sin compromiso.
+    
+2. **Intercambio de datos:** este enfoque permite que los sectores individuales adquieran el paquete que desean siempre que soporte el intercambio de datos con otros paquetes y sistemas, según sea necesario. Consiste en comprar un paquete integrado o bien un juego de paquetes, en lugar de seleccionar paquete por paquete, por ejemplo, Microsoft 365. 
+    
+3. **Lista:** en este enfoque, algún área de la empresa dedicada a la definición de normas confecciona una lista breve de los paquetes aceptables; los sectores individuales sólo pueden optar sobre la base de esa lista.
+    
+4.  **Normas fijas:** El área dedicada a la definición de normas establece el paquete permitido, y de ese modo los sectores individuales pueden optar por “cualquier color que deseen, siempre que sea negro”.
+    
+
+**Los dos primeros enfoques se refieren a un área de sistemas descentralizada, mientras que los últimos a áreas de sistemas centralizadas.**
 
 En resumen, los esquemas descentralizados tienden a utilizar políticas con mayor libertad para que las áreas locales respondan a sus necesidades (_efectividad_), mientras que los esquemas centralizados aplican políticas más rígidas para asegurar la coherencia corporativa (_eficiencia_).
 
@@ -259,31 +266,36 @@ En resumen, los esquemas descentralizados tienden a utilizar políticas con mayo
 
 ### **12. Resuma el procedimiento para evaluar paquetes estándar.**
 
-El procedimiento de evaluación de paquetes estándar implica dos etapas principales: una **evaluación inicial** basada en criterios de usuario y una posible **evaluación técnica** más profunda (como el Método de Evaluación Manual - MEM)15151515.
+El procedimiento de evaluación de paquetes estándar implica dos etapas principales: una **evaluación inicial** basada en criterios de usuario y una posible **evaluación técnica** más profunda (como el Método de Evaluación Manual - MEM).
 
 1. **Establecimiento y Ponderación de Criterios (Evaluación Inicial):**
     
-    - Definir un conjunto de **criterios de selección** que reflejen las necesidades del usuario (ej. Funcionalidad, Capacidad, Flexibilidad, Uso, Confiabilidad, Seguridad) 16.
+    - Definir un conjunto de **criterios de selección** que reflejen las necesidades del usuario (ej. Funcionalidad, Capacidad, Flexibilidad, Uso, Confiabilidad, Seguridad).
         
-    - **Ponderar** los criterios según la importancia relativa a las necesidades de la empresa (asignar **pesos**)17.
+    - **Ponderar** los criterios según la importancia relativa a las necesidades de la empresa (asignar **pesos**).
         
     - **Calificar** a cada paquete propuesto en cada criterio y calcular el **puntaje total ponderado** (ej. tabla de la fuente 18).
         
-    - Descartar los paquetes que no alcancen un **nivel de corte** preestablecido19.
+    - Descartar los paquetes que no alcancen un **nivel de corte** preestablecido.
         
 2. **Evaluación Técnica Avanzada (Si es necesario):**
     
-    - Si varios paquetes tienen puntajes similares, se aplica el **Método de Evaluación Manual (MEM)** para una evaluación técnica más rigurosa20.
+    - Si varios paquetes tienen puntajes similares, se aplica el **Método de Evaluación Manual (MEM)** para una evaluación técnica más rigurosa.
         
     - El MEM incluye:
-        
-        - **Lista de Requerimientos y Tabla de Ponderación** (incluyendo componentes, facilidades, características y sub-características) 21.
-            
-        - **Cuestionario** para obtener respuestas objetivas de los oferentes22.
-            
-        - **Planilla Comparativa** para descartar las ofertas que no cumplan con los requisitos **imprescindibles** (obligatorios)23232323.
-            
-        - **Planillas de Evaluación y Resultados** para calcular un puntaje final **técnico** por oferta (Orden de Mérito) 24.
+	    1. **Lista de requerimientos:** Es el documento que detalla y formaliza todo lo que el sistema debe tener y hacer. Define las necesidades técnicas y funcionales que los proveedores deben cumplir.
+	    
+	    2. **Tabla de ponderación:** Asigna un peso o valor de importancia a cada requerimiento de la lista. Permite priorizar lo que es más crítico o valioso para la organización.
+	    
+	    3. **Cuestionario:** Es el formulario que se envía a los proveedores. Contiene la lista de requerimientos para que ellos respondan de manera estructurada cómo su producto cumple con cada punto.
+	    
+	    4. **Planilla comparativa:** Organiza las respuestas de todos los proveedores en una única tabla, una al lado de la otra. Su principal utilidad es comparar las ofertas y descartar rápidamente las que no cumplen con los requisitos fundamentales.
+	    
+	    5. **Planilla de evaluación:** Es la "hoja de calificación" donde se puntúa objetivamente cada característica de cada oferta. Se aplica un puntaje a la respuesta del proveedor y se multiplica por el peso (ponderación) para obtener un resultado numérico.
+	    
+	    6. **Planilla de resultados:** Resume los puntajes totales de cada oferta. Suma los resultados de las planillas de evaluación para obtener una calificación final por proveedor, determinando cuál es la oferta técnicamente más viable.
+	    
+	    7. **Informe final:** Es el documento final que presenta la recomendación técnica. Ordena las ofertas de mejor a peor según su puntaje (Orden de Mérito) y sirve de base para las siguientes etapas del proceso de compra, como la evaluación económica.
             
 
 ---
@@ -292,15 +304,14 @@ El procedimiento de evaluación de paquetes estándar implica dos etapas princip
 
 #### **Fuentes de Provisión de Hardware (Canales de Adquisición)**
 
-Las fuentes de provisión de HW varían según el tamaño de la plataforma25252525:
+Las fuentes de provisión de HW varían **según el tamaño** de la plataforma:
 
-- **Mainframe:** Fabricante o Terceros especializados 26.
+- **Mainframe:** Fabricante o Terceros especializados.
     
-- **Minicomputadora:** Fabricante o Revendedores de valor agregado (**VARs**) 27.
+- **Minicomputadora:** Fabricante o Revendedores de valor agregado (**VARs**).
     
 - **Microcomputadoras:** Equipos de ventas "tradicionales" del fabricante, VARs, Comercios minoristas, Supermercados de computadoras, Compra por correo, y Ensamblaje de componentes realizado en la empresa 28282828.
     
-
 También se puede adquirir HW de cualquier tipo en el **mercado de segunda mano**29.
 
 #### **Criterios para Determinar la Fuente**
@@ -318,7 +329,7 @@ Los criterios clave a considerar son la **integración de servicios** y la **nat
 
 ### **14. ¿Qué es el downsizing? Detalle sus ventajas y desventajas. ¿Cuáles son los costos implícitos de downsizing?**
 
-El **Downsizing** es la **migración** de un sistema o un conjunto de sistemas desde una plataforma grande (mainframe o minicomputadora) a una **red de PC o minicomputadoras**33. Implica un alto grado de **distribución y procesamiento en red**34.
+El **Downsizing** es la **migración** de un sistema o un conjunto de sistemas desde una plataforma grande (mainframe o minicomputadora) a una **red de PC o microcomputadoras**33. Implica un alto grado de **distribución y procesamiento en red**34.
 
 #### **Ventajas y Desventajas**
 
@@ -334,9 +345,9 @@ El **Downsizing** es la **migración** de un sistema o un conjunto de sistemas d
 
 A pesar del potencial ahorro de costos, existen costos que a menudo se **subestiman o son ocultos**35:
 
-1. **Costo Operativo Real:** Los gastos operativos reales de la nueva infraestructura distribuida.
+1. **Costo Operativo Real:** Los costos operativos reales de la nueva infraestructura distribuida.
     
-2. **Costo de Migración:** Los gastos asociados al proceso de transferencia y al _know-how_ (ej. el entrenamiento necesario para el personal).
+2. **Costo de Migración:** Los costos asociados al proceso de transferencia y al _know-how_ (ej. el entrenamiento necesario para el personal).
     
 
 Aun así, se determinó que, a pesar de estos costos, el _downsizing_ puede ofrecer un **rendimiento que supera de dos a cinco veces la inversión total**36.

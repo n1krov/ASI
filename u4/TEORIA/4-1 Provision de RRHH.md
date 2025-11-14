@@ -1,14 +1,13 @@
- 
 
 ## 💡 ¿Por Qué Estudiamos la Provisión de Recursos Humanos (RRHH) en ASI?
 
-Estudiamos el subsistema de Provisión de Recursos Humanos porque los **Recursos Humanos** son uno de los **recursos esenciales** de todo Sistema de Información (SI) y, por lo tanto, la administración de estos recursos es **crítica para el éxito** del negocio1. La forma en que una organización maneja a su personal tiene un **impacto profundo** en la organización y es **fundamental en la competitividad organizacional**2.
+Estudiamos el subsistema de Provisión de Recursos Humanos porque los **Recursos Humanos** son uno de los **recursos esenciales** de todo Sistema de Información (SI) y, por lo tanto, la administración de estos recursos es **crítica para el éxito** del negocio. La forma en que una organización maneja a su personal tiene un **impacto profundo** en la organización y es **fundamental en la competitividad organizacional**.
 
 Para el rol de un futuro ingeniero o gerente de Sistemas de Información:
 
-- **Recurso Clave:** El recurso humano es el **único recurso vivo y dinámico** de la organización, y **decide el manejo de los demás** recursos3.
+- **Recurso Clave:** El recurso humano es el **único recurso vivo y dinámico** de la organización, y **decide el manejo de los demás** recursos.
     
-- **Decisiones de Provisión:** Los procesos de provisión (reclutamiento, selección) son la **puerta de entrada** de las personas4. Estudiar esto permite **garantizar que la organización se abastezca de los talentos humanos necesarios** para su funcionamiento55.
+- **Decisiones de Provisión:** Los procesos de provisión (reclutamiento, selección) son la **puerta de entrada** de las personas. Estudiar esto permite **garantizar que la organización se abastezca de los talentos humanos necesarios** para su funcionamiento.
     
 
 ![[Pasted image 20251030192704.png]]
@@ -19,11 +18,12 @@ El Subsistema de Provisión de Recursos Humanos (RRHH) es uno de los cinco proce
 
 ### 🎯 Finalidad y Alcance
 
-La finalidad de este subsistema es el **suministro de personas** a la organización8.
+La finalidad de este subsistema es el **suministro de personas** a la organización.
 
-| **Proceso Principal** | **Objetivo**                                            | **Actividades Comprendidas**                                                                          |
-| --------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Provisión**         | Determinar **quién irá a trabajar** en la organización. | * Investigación de mercado de RH <br><br>* Reclutamiento de personal <br><br>* Selección de personal  |
+| **Proceso Principal** | **Objetivo**                                            | **Actividades Comprendidas**                                                                           |
+| --------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Provisión**         | Determinar **quién irá a trabajar** en la organizació * Investigación de mercado de RH <br><br>* Reclutamiento de personal <br><br>* Selección de personal sonal |
+
 
 ### 🔄 Contexto y Proceso Clave
 
@@ -42,6 +42,8 @@ El proceso de provisión, que incluye el **Reclutamiento** (actividad de divulga
 ---
 
 ### **1. ¿Qué procesos incluye el subsistema de provisión? ¿Cuál es el resultado de estos procesos?**
+
+![[Pasted image 20251111204422.png]]
 
 El subsistema de provisión se relaciona con el **suministro de personas** a la organización.
 
@@ -194,15 +196,16 @@ Las técnicas de selección se clasifican en:
     - Expresivas, Proyectivas, Inventarios.
 5. **Técnicas de simulación:** Pasan del tratamiento individual al grupal y del método verbal a la **acción social** (ej. Psicodrama, Dramatización o _role-playing_).
 
+![[Pasted image 20251111220809.png]]
+
 #### **e. El proceso de selección es una secuencia de etapas que el candidato atraviesa hasta la admisión. ¿En qué se diferencian las principales alternativas de procesos de selección?**
 
 La diferencia principal radica en el **número de etapas secuenciales** y en cómo se gestiona el **costo de la obtención de la información**:
 
-| **Alternativa**                                    | **Descripción**                                                                                                         | **Venta principal**                                                                                                                                                                               |
+| **Alternativa**                                    | **Descripción**                                                                                                         | **Ventaja principal**                                                                                                                                                                             |
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Selección de una sola etapa**                    | La decisión se basa en **una sola técnica** de selección.                                                               | Es el tipo **más sencillo** (pero más imperfecto).                                                                                                                                                |
 | **Selección secuencial en dos, tres o más etapas** | Se emplean **múltiples técnicas** en secuencia, donde cada etapa exige una decisión definitiva de continuar o rechazar. | **Disminuye el costo de la obtención de la información**, al aplicar las pruebas más sencillas y económicas al inicio, y las más complejas y costosas al final. Recomendada para pruebas costosas |
-|                                                    |                                                                                                                         |                                                                                                                                                                                                   |
 
 ---
 
@@ -254,7 +257,7 @@ El Gerente/Jefe de línea, como responsable del área, interviene principalmente
         
         $$\text{Cociente de Selección} = \frac{\text{Número de candidatos admitidos}}{\text{Número de candidatos examinados}} \times 100$$
         
-    - **Importante:** La eficacia (o **SELECTIVIDAD**) **aumenta cuando este cociente _disminuye_**3.
+    - **Importante:** La eficacia (o **SELECTIVIDAD**) **aumenta cuando este cociente _disminuye_.
     
         - Imagina que para una vacante se entrevistan 100 personas, y solo se contrata a 1 (**Cociente = 1%**). Esto indica que la selección fue **muy rigurosa y selectiva** (alta eficacia).
             
