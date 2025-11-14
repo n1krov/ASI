@@ -356,7 +356,7 @@ Aun así, se determinó que, a pesar de estos costos, el _downsizing_ puede ofre
 
 ### **15. Repase los criterios para determinar la alternativa más adecuada en el rightsizing.**
 
-El **Rightsizing** es el proceso de **elegir la arquitectura de SI más adecuada** para la organización37. Los criterios a considerar son 38383838:
+El **Rightsizing** es el proceso de **elegir la arquitectura de SI más adecuada** para la organización37. Los criterios a considerar son:
 
 - **Costo-Beneficio:** Considerar **todos los aspectos financieros**, incluyendo los **costos ocultos**, para establecer si los costos serán realmente menores.
     
@@ -390,19 +390,29 @@ Se clasifican según el grado al cual el _management_ de los SI se transfiere a 
 3. **Management completo de servicios:** La **cesión es completa**. El _management_ y la operación de todos los elementos del SI son responsabilidad del tercero contratado42.
     
 
-#### **Principio General de Outsourcing**
+#### El Principio General del Outsourcing: ¡Retén el control!
 
-El principio general del _outsourcing_ es **retener el control de las actividades esenciales** de la organización.
+El principio dice que debes externalizar (dar a terceros) las tareas de **apoyo**, pero **nunca** las tareas que definen tu negocio.
 
-Las actividades esenciales que se deben retener son aquellas que:
+##### ¿Qué Tareas NO debes Externalizar? (Tus Actividades Esenciales)
 
-- Se llevan a cabo de forma interna con precedente de larga data.
+Debes mantener el control de todo aquello que:
+
+1.  **Es tu "Salsa Secreta":** La actividad principal por la que tus clientes te eligen y te pagan (ej. hacer tu producto o dar tu servicio único).
+2.  **Define tu Futuro:** Las áreas de **innovación, estrategia e investigación** que te permitirán crecer y mejorar mañana.
+3.  **Es tu Experiencia Acumulada:** El *saber hacer* que has perfeccionado a lo largo de los años y que es difícil de replicar.
+
+> **En resumen:** Externaliza la limpieza y la contabilidad, pero **nunca externalices el cerebro y el corazón** de tu empresa.
+
+Un principio general del outsourcing es **retener el control** de las actividades esenciales, que pueden ser:
+
+- Actividades que se llevan a cabo de forma interna, con precedente de larga data.
     
-- Son **fundamentales para el rendimiento empresarial**.
+- Actividades fundamentales para el rendimiento empresarial.
     
-- Crean un **flujo de potencial** (que conducen a **crecimiento futuro e innovación** o actualización).
+- Actividades que crean un flujo de potencial.
     
-
+- Actividades que conducen a crecimiento futuro e innovación o actualización de la organización.
 
 ---
 
@@ -436,7 +446,7 @@ Una organización puede enfocar a un proveedor de servicios de SI de dos maneras
 
 ### **19. Realice una síntesis del punto 4.3 Recursos humanos y _outsourcing_.**
 
-El _outsourcing_ impacta significativamente al personal, ya que el ahorro de costos que busca a menudo implica reducir la planta.
+El _outsourcing_ impacta significativamente al personal, ya que **el ahorro de costos que busca a menudo implica reducir la planta**.
 
 - **Impacto Negativo (Temor y Pérdida de Vínculo):** El _outsourcing_ es causa de **gran temor** entre los empleados10. Puede reducir la **comunicación informal** y la **motivación** al ubicar al personal "fuera" de la empresa (costo oculto). Las transferencias pueden ser obligatorias, y existe el riesgo de que el proveedor se deshaga del personal original.
     
