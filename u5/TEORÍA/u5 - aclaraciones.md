@@ -1,6 +1,7 @@
 # Rol de los SI
 
 ![[Pasted image 20251114205757.png]]
+
 ### 1. La Tabla: El Rol como una **Relación Evolutiva** con el Usuario
 
 Esta tabla no describe las tareas funcionales del área de SI, sino que describe la **filosofía de la relación** entre el área de SI y el resto de la organización (los usuarios). Es una perspectiva **estratégica y cultural** que ha evolucionado con el tiempo.
@@ -91,3 +92,37 @@ Si una empresa opta por una **Ubicación Descentralizada o Delegada**, donde la 
 La decisión sobre la **ubicación** de los SI es una decisión estratégica que define el rol que la tecnología jugará en la empresa. El **enfoque estructural** es la consecuencia táctica de esa decisión. No se puede tener una estrategia de SI delegada y ágil si la organización interna del departamento es un "Centro de Datos" rígido y tradicional, ya que la estructura impediría ejecutar la estrategia.
 
 Por lo tanto, la **estructura organizacional debe estar siempre al servicio de la estrategia de ubicación** para evitar conflictos y asegurar que el área de Sistemas de Información pueda cumplir su misión eficazmente.
+
+# Ejemplo: Modelo de carga
+
+## Un sitio de E-commerce preparándose para el Black Friday
+
+**1. La Carga Real y sus Dificultades**
+
+El equipo técnico del sitio "TiendaGenial.com" necesita asegurarse de que el sistema no se caiga durante el Black Friday. Si simplemente observan la **carga real** en un día normal (por ejemplo, un martes de octubre), verán:
+
+*   **Dificultad 1 (Fluctuación):** El tráfico es bajo por la mañana, sube un poco al mediodía y tiene un pico por la noche. Hay muchos más usuarios navegando que comprando. Esta carga no se parece en NADA a la que tendrán en el Black Friday, que será un pico masivo y constante durante horas, con muchos más usuarios intentando pagar al mismo tiempo.
+*   **Dificultad 2 (Interacción con el entorno):** La carga del Black Friday dependerá de factores externos. ¿A qué hora enviará el equipo de marketing el correo masivo? ¿Qué pasa si un influencer publica una oferta de "TiendaGenial.com" en sus redes sociales? Esos eventos externos provocarán picos de demanda impredecibles y violentos.
+
+**Conclusión del problema:** Medir la carga real de un día cualquiera es inútil para prepararse para el Black Friday. Es imposible esperar a que llegue el evento para ver si el sistema aguanta.
+
+**2. La Solución: Crear un "Modelo de la Carga"**
+
+El equipo decide crear una **carga de prueba** (un modelo de la carga que esperan tener) para simular el Black Friday en un entorno controlado. Para ello, definen los siguientes **parámetros cuantitativos**:
+
+*   **Número de usuarios simultáneos:** Basándose en proyecciones, estiman que en la hora pico habrá **50,000 usuarios** conectados al mismo tiempo.
+*   **Distribución de trabajos:** No todos los usuarios hacen lo mismo. Definen que, de esos 50,000 usuarios, el modelo simulará el siguiente comportamiento:
+    *   Un 70% estará navegando por las páginas de productos (lecturas de base de datos).
+    *   Un 20% estará agregando productos al carrito (escrituras en la base de datos).
+    *   Un 10% estará en el proceso de pago (transacciones complejas y críticas).
+*   **Frecuencia de llegada:** El modelo simulará que se realizan **1,000 peticiones por segundo** al servidor.
+
+**3. El Resultado de Usar el Modelo**
+
+Ahora el equipo tiene un **modelo de carga** definido: "Simular 50,000 usuarios con una distribución de comportamiento 70-20-10 y una tasa de 1,000 peticiones/segundo". Con este modelo:
+
+*   Ejecutan una prueba y descubren que el sistema se vuelve extremadamente lento cuando llega a los 35,000 usuarios. El cuello de botella está en la base de datos durante el proceso de pago.
+*   Con esa información, optimizan las consultas a la base de datos y aumentan la capacidad del servidor.
+*   Vuelven a ejecutar **exactamente el mismo modelo de carga** y ahora el sistema soporta los 50,000 usuarios sin problemas y con un tiempo de respuesta aceptable.
+
+En este ejemplo, el **modelo de carga** permitió al equipo **reproducir, medir y predecir** el comportamiento del sistema bajo condiciones extremas, resolviendo así los problemas de la fluctuación e imprevisibilidad de la carga real, y permitiéndoles arreglar los problemas *antes* de que ocurrieran.
