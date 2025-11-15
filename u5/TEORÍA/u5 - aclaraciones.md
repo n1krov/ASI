@@ -126,3 +126,77 @@ Ahora el equipo tiene un **modelo de carga** definido: "Simular 50,000 usuarios 
 *   Vuelven a ejecutar **exactamente el mismo modelo de carga** y ahora el sistema soporta los 50,000 usuarios sin problemas y con un tiempo de respuesta aceptable.
 
 En este ejemplo, el **modelo de carga** permitió al equipo **reproducir, medir y predecir** el comportamiento del sistema bajo condiciones extremas, resolviendo así los problemas de la fluctuación e imprevisibilidad de la carga real, y permitiéndoles arreglar los problemas *antes* de que ocurrieran.
+
+# Técnicas analíticas para predecir el crecimiento de la carga y los patrones de datos históricos.
+
+Esta es una de las relaciones más importantes en el análisis de datos y la planificación de la capacidad. La relación es la de **diagnóstico y prescripción**: primero se debe identificar la "enfermedad" o el patrón de los datos, y solo entonces se puede recetar el "medicamento" o el método de predicción correcto.
+
+Usar el método equivocado para un patrón de datos es como usar un martillo para atornillar un tornillo: puede que funcione un poco, pero el resultado será malo y poco fiable.
+
+A continuación, una explicación completa y detallada de esta relación.
+
+---
+
+### **La Relación Fundamental: Patrón → Método**
+
+La idea central es que cada método de predicción se basa en un conjunto de **suposiciones matemáticas** sobre cómo se comportan los datos. Si tus datos históricos se ajustan a esas suposiciones (es decir, muestran un patrón específico), el método funcionará bien. Si no, la predicción será inexacta.
+
+El proceso siempre debe ser de dos pasos:
+
+1.  **Paso 1: Diagnóstico (Análisis Visual y Estadístico):** Observar los datos históricos graficados a lo largo del tiempo para identificar su patrón fundamental.
+2.  **Paso 2: Prescripción (Selección del Método):** Elegir la técnica de predicción cuyas suposiciones matemáticas coincidan con el patrón que has identificado.
+
+### **Los 4 Patrones de Datos Históricos (El Diagnóstico)**
+
+![[Pasted image 20251115182942.png]]
+
+El autor Xavier Molero en su libro *"Evaluación y modelado del rendimiento de los sistemas informáticos"* describe cuatro patrones básicos que se pueden encontrar en la carga de un sistema:
+
+1.  **Tendencia (Trend):** Los datos muestran un movimiento sostenido a largo plazo, ya sea hacia arriba (crecimiento) o hacia abajo (decrecimiento).
+    *   **¿Cómo se ve?:** Como una línea que, en general, sube o baja.
+    *   **Ejemplo:** El número de usuarios activos mensuales de una nueva aplicación (tiende a crecer). El espacio libre en un disco duro (tiende a decrecer).
+
+2.  **Estacional (Seasonal):** Los datos muestran picos y valles que se repiten en intervalos de tiempo fijos y predecibles (horas del día, días de la semana, meses del año).
+    *   **¿Cómo se ve?:** Como una onda regular y repetitiva.
+    *   **Ejemplo:** El tráfico de una red corporativa, que tiene un pico de 9 a.m. a 5 p.m. y es casi nulo por la noche, repitiéndose cada día. Las ventas de un e-commerce, que siempre tienen un pico en diciembre.
+
+3.  **Cíclico (Cyclical):** Similar a la estacionalidad, pero los picos y valles ocurren en intervalos de tiempo más largos e irregulares. A menudo están ligados a ciclos económicos o de negocio.
+    *   **¿Cómo se ve?:** Como ondas más largas y menos predecibles que las estacionales.
+    *   **Ejemplo:** Los ciclos de inversión en hardware de una empresa, que pueden ocurrir cada 3-5 años sin una fecha fija.
+
+4.  **Estacionario o Aleatorio (Stationary / Random):** Los datos no muestran ninguna tendencia ni patrón estacional. Fluctúan alrededor de un valor promedio constante. Puede haber variaciones, pero son impredecibles a corto plazo.
+    *   **¿Cómo se ve?:** Como un conjunto de puntos dispersos horizontalmente alrededor de una media.
+    *   **Ejemplo:** El número de fallos de red por día en un sistema estable.
+
+### **La Relación con los Métodos de Predicción (La Prescripción)**
+
+Ahora conectemos cada patrón con su método de predicción adecuado, explicando *por qué* funciona.
+
+#### **Patrón: Tendencia → Método: Regresión Lineal**
+
+*   **La Relación:** La regresión lineal es, por definición, una técnica para encontrar la **línea recta** que mejor representa una serie de datos. Si tus datos muestran un patrón de crecimiento o decrecimiento constante, este método es perfecto porque su suposición matemática (que los datos pueden ser descritos por una línea) coincide con la realidad de tus datos.
+*   **Por qué funciona:** Extiende esa línea hacia el futuro para predecir dónde estarán los próximos puntos.
+*   **Cuándo NO funciona:** Si los datos tienen un fuerte componente estacional, la línea recta ignorará los picos y valles, generando grandes errores en la predicción.
+
+#### **Patrón: Estacionario → Método: Medias Móviles**
+
+*   **La Relación:** Si los datos no tienen tendencia y solo "ruido" aleatorio alrededor de un promedio, la suposición más lógica es que el futuro se parecerá al promedio del pasado reciente. Las medias móviles formalizan exactamente esto.
+*   **Por qué funciona:** Al promediar los últimos 'N' valores, se "suaviza" el ruido aleatorio y se obtiene una estimación estable del promedio central. Es una predicción conservadora pero robusta para datos estables.
+*   **Cuándo NO funciona:** Si aparece una tendencia, las medias móviles siempre irán "por detrás" del crecimiento real, subestimando constantemente los valores futuros.
+
+#### **Patrón: Estacionario (o con cambios leves) → Método: Suavizado Exponencial**
+
+*   **La Relación:** Este método también es para datos sin una tendencia sistemática, pero su suposición clave es que **el pasado inmediato es más relevante que el pasado lejano**. Si tus datos son mayormente estables pero a veces cambian de nivel bruscamente, el suavizado exponencial se adaptará más rápido que las medias móviles.
+*   **Por qué funciona:** Da más peso a los datos nuevos, permitiendo que la predicción "aprenda" y se ajuste rápidamente a los cambios recientes en el comportamiento de la carga.
+*   **Cuándo NO funciona:** La versión simple descrita en tu material no maneja bien ni la tendencia ni la estacionalidad por sí sola (aunque existen versiones avanzadas como Holt-Winters que sí lo hacen).
+
+### **Tabla Resumen de la Relación**
+
+| Patrón de Datos Históricos (Diagnóstico) | Descripción Visual | Método de Predicción Adecuado (Prescripción) | Razón de la Relación (Por qué funciona) |
+| :--- | :--- | :--- | :--- |
+| **Tendencia** | Los puntos siguen una dirección general (arriba o abajo). | **Regresión Lineal** | Modela matemáticamente esa línea de tendencia y la proyecta. |
+| **Estacional** | Ondas regulares y predecibles. | **Suavizado** (Métodos estacionales como Holt-Winters) | Estos métodos aprenden el patrón de la onda y lo replican en el futuro. |
+| **Cíclico** | Ondas largas e irregulares. | **Suavizado** (Análisis más complejo) | Intenta capturar la duración y amplitud de las ondas, aunque es más difícil. |
+| **Estacionario** | Puntos dispersos horizontalmente sin dirección. | **Medias Móviles / Suavizado Exponencial** | Asumen que el futuro será similar al promedio del pasado. El suavizado es más rápido para adaptarse a cambios. |
+
+En conclusión, la relación es intrínseca y fundamental: **la forma de tus datos históricos dicta la herramienta que debes usar para predecir su futuro.**
