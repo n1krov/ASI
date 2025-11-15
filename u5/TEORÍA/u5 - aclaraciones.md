@@ -192,11 +192,11 @@ Ahora conectemos cada patrón con su método de predicción adecuado, explicando
 
 ### **Tabla Resumen de la Relación**
 
-| Patrón de Datos Históricos (Diagnóstico) | Descripción Visual | Método de Predicción Adecuado (Prescripción) | Razón de la Relación (Por qué funciona) |
-| :--- | :--- | :--- | :--- |
-| **Tendencia** | Los puntos siguen una dirección general (arriba o abajo). | **Regresión Lineal** | Modela matemáticamente esa línea de tendencia y la proyecta. |
-| **Estacional** | Ondas regulares y predecibles. | **Suavizado** (Métodos estacionales como Holt-Winters) | Estos métodos aprenden el patrón de la onda y lo replican en el futuro. |
-| **Cíclico** | Ondas largas e irregulares. | **Suavizado** (Análisis más complejo) | Intenta capturar la duración y amplitud de las ondas, aunque es más difícil. |
-| **Estacionario** | Puntos dispersos horizontalmente sin dirección. | **Medias Móviles / Suavizado Exponencial** | Asumen que el futuro será similar al promedio del pasado. El suavizado es más rápido para adaptarse a cambios. |
+| Patrón de Datos Históricos (Diagnóstico) | Descripción Visual                                        | Método de Predicción Adecuado (Prescripción)           | Razón de la Relación (Por qué funciona)                                                                        |
+| :--------------------------------------- | :-------------------------------------------------------- | :----------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| **Tendencia**                            | Los puntos siguen una dirección general (arriba o abajo). | **Regresión Lineal**                                   | Modela matemáticamente esa línea de tendencia y la proyecta.                                                   |
+| **Estacional**                           | Ondas regulares y predecibles.                            | **Suavizado** (Métodos estacionales como Holt-Winters) | Estos métodos aprenden el patrón de la onda y lo replican en el futuro.                                        |
+| **Cíclico**                              | Ondas largas e irregulares.                               | **Suavizado** (Análisis más complejo)                  | Intenta capturar la duración y amplitud de las ondas, aunque es más difícil.                                   |
+| **Estacionario**                         | Puntos dispersos horizontalmente sin dirección.           | **Medias Móviles**                                     | Asumen que el futuro será similar al promedio del pasado. El suavizado es más rápido para adaptarse a cambios. |
 
 En conclusión, la relación es intrínseca y fundamental: **la forma de tus datos históricos dicta la herramienta que debes usar para predecir su futuro.**
