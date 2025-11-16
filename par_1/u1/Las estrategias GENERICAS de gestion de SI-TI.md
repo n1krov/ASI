@@ -1,7 +1,7 @@
 
 ## 🧭 Estrategias Genéricas de Gestión de SI/TI
 
-Estas [estrategias](estrategia) definen ***CÓMO LA EMPRESA GESTIONA* los Sistemas y Tecnologías de Información ([[SI-TI]])** *en relación con su **DIRECCIÓN GENERAL***. Determinan:
+Estas [estrategias](estrategia.md) definen ***CÓMO LA EMPRESA GESTIONA* los Sistemas y Tecnologías de Información ([[SI-TI]])** *en relación con su **DIRECCIÓN GENERAL***. Determinan:
 
 - Cómo se detectan y aprovechan las oportunidades de TI,
 - Qué recursos se asignan a TI,
@@ -180,6 +180,6 @@ Se las llama "genéricas" porque **son marcos amplios de referencia**. Cada orga
     
 - Son la base para ***EVALUAR CÓMO SE TOMAN DECISIONES SOBRE PROYECTOS, PRESUPUESTO Y RECURSOS EN SI/TI***.
     
-- Cada estrategia ***IMPLICA UNA FORMA DIFERENTE DE [[ALINEAR]] LA TI CON LA ESTRATEGIA DEL NEGOCIO***.
+- Cada estrategia ***IMPLICA UNA FORMA DIFERENTE DE [[alinear]] LA TI CON LA ESTRATEGIA DEL NEGOCIO***.
     
 - *Identificar la estrategia predominante* permite ***DETECTAR DEBILIDADES Y OPORTUNIDADES*** en la gestión tecnológica.
