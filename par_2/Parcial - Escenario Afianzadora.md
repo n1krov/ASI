@@ -31,7 +31,12 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 Para ganar en disponibilidad y escalabilidad, Afianzadora implementó una solución de virtualización y mejoró su correo con una inversión de U$S 50.000.
 
-**E**mpresa joven. Optimización tecnológica. Baja inversión. Alta disponibilidad. Cuatro variables, todas relacionadas con Afianzadora Latinoamericana. Esta compañía ofrece seguros de caución que son instrumentos de garantía por los cuales el asegurador garantiza al beneficiario el cumplimiento de las obligaciones no dinerarias de un tercero que es el tomador de las pólizas. Dentro del mercado asegurador es uno de los rubros más pequeños y, aunque las grandes compañías lo ofrecen, también es provisto por empresas especializadas, como es el caso de Afianzadora, que factura $100 millones al año. La firma nació en el 2005 con un plantel compuesto por los tres dueños más ocho personas. Con solo once empleados, en ese momento la infraestructura tecnológica que se desplegó fue básica: un servidor (en realidad, era una computadora personal que cumplía tal fin) y las estaciones de trabajo para los usuarios. 
+Empresa joven. Optimización tecnológica. Baja inversión. Alta disponibilidad. Cuatro variables, todas relacionadas con Afianzadora Latinoamericana.
+
+**Esta compañía ofrece seguros de caución** que son instrumentos de garantía por los cuales el asegurador garantiza al beneficiario el cumplimiento de las obligaciones no dinerarias de un tercero que es el tomador de las pólizas. 
+Dentro del mercado asegurador es uno de los rubros más pequeños y, aunque las grandes compañías lo ofrecen, también es provisto por empresas especializadas, como es el caso de Afianzadora, que factura $100 millones al año.
+
+La firma **nació en el 2005 con un plantel compuesto por los tres dueños más ocho personas**. Con solo once empleados, en ese momento la infraestructura tecnológica que se desplegó fue básica: **un servidor** (en realidad, era *una computadora personal* que cumplía tal fin) y **las estaciones de trabajo para los usuarios**. 
 
 > **"No se paraliza ningún procedimiento ni proceso y se asegura la continuidad de la operación"**
 >
