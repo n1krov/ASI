@@ -1,4 +1,4 @@
-# Administracion de Sistemas de Informacion
+# Administración de Sistemas de Información
 
 ### Parcial 1
 -  2 Julio (Unidad 1, 2, 3)
