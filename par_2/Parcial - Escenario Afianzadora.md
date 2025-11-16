@@ -31,52 +31,39 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 Para ganar en disponibilidad y escalabilidad, Afianzadora implementó una solución de virtualización y mejoró su correo con una inversión de U$S 50.000.
 
-**E**n seguros breves. Optimizando la infraestructura para ganar en agilidad y escalabilidad. Con ese objetivo en mente, todo el equipo de Afianzadora Latinoamericana, una de las líderes en seguros de caución, se abocó a un proyecto de reingeniería de procesos que les garantizara no solo el cumplimiento de las pólizas, que es el mercado donde operan, sino también dar una respuesta ágil a las grandes y pequeñas empresas a las que atienden. "Teníamos necesidades específicas, como en el caso de Afianzadora, donde sus especialistas deben emitir pólizas de hasta $100 millones, con la agilidad y el *expertise* del caso. La empresa creció en 2005 con un Blade Center de IBM y el plantel comercial pasó de ocho a 25. En ese momento, la infraestructura con la que contaba la empresa era básica: un centro de cómputos de dos servidores (en realidad, computadoras de escritorio) que comprendía el file server y los sistemas core de trabajo. La estructura tenía un presupuesto acotado".
+**E**mpresa joven. Optimización tecnológica. Baja inversión. Alta disponibilidad. Cuatro variables, todas relacionadas con Afianzadora Latinoamericana. Esta compañía ofrece seguros de caución que son instrumentos de garantía por los cuales el asegurador garantiza al beneficiario el cumplimiento de las obligaciones no dinerarias de un tercero que es el tomador de las pólizas. Dentro del mercado asegurador es uno de los rubros más pequeños y, aunque las grandes compañías lo ofrecen, también es provisto por empresas especializadas, como es el caso de Afianzadora, que factura $100 millones al año. La firma nació en el 2005 con un plantel compuesto por los tres dueños más ocho personas. Con solo once empleados, en ese momento la infraestructura tecnológica que se desplegó fue básica: un servidor (en realidad, era una computadora personal que cumplía tal fin) y las estaciones de trabajo para los usuarios. 
 
 > **"No se paraliza ningún procedimiento ni proceso y se asegura la continuidad de la operación"**
 >
-> — Fernando Galazzi, Gerente de Operaciones de Afianzadora
+> — Fernando Gagazzi, Gerente de Operaciones de Afianzadora
 
 ---
 
 (Página 2)
 
-to mínimo, por lo que buscaba una solución estable para no tener problemas legales", comenta Gustavo Estigarribia, CIO, quien, a su vez, se hizo cargo de Operaciones de la compañía. "La decisión, si bien recaía como responsable de la empresa en mí, sumó a las áreas operativas".
-
-El llamado se apoyó en la consultora Manas IT, que sugirió una solución que realiza el soporte de usuarios y servidores. Fue, precisamente, esta consultora la que en 2011 alertó a Afianzadora de que la estructura les estaba quedando chica. "Hacía 5 años no habían pasado de 2 servidores y en los últimos 2 años habían pasado a 32 físicos, con los problemas que esto supone en la disponibilidad como en la escalabilidad. Si bien venían experimentando en el datacenter de la disponibilidad, necesitábamos centralizarla y lograr un buen *disaster recovery* de los datos".
-
-"Manas nos sugirió que la mejor opción era virtualizar. Pensé también que agrupar todo a la nube, pero no me terminaba de convencer", dice Galazzi. Entonces, se consideraron tres opciones: Microsoft Hyper-V, XenServer o VMware. "La versión de Hyper-V de ese momento era más barata en la adquisición de licencias, pero era cruda en estabilidad", recuerda. "La elección de vSphere, socio de Manas IT, tiene lo mejor del mundo Microsoft con la facilidad y lo mejor de Linux en cuanto a la estabilidad", opina Estigarribia.
-
-De este modo, se eligió a Sirtac (una empresa local que se armó con mis ex compañeros de facultad), por lo que se decidió construir el DC Core de Sirtac. "Arrancaron con un *assessment* y, de ahí, se cotizó la infraestructura de siete servidores de pruebas y los pusieron en un ambiente de prueba. 'A esto no lo creo, no tenía un punto de error', dice Estigarribia. Se migró de Zimbra (del cual Afianzadora es un *reseller*) y también de Microsoft.
-
-La implementación se realizó con seis servidores Dell 8710 y está basada en su correo electrónico, más U$S 8.000 en licencias de Zimbra (el correo electrónico, que está en Windows e Intranet, ya es un servidor que maneja aplicaciones con AFIP, "ya que tenemos la obligación de facturar con Código de Barras y factura electrónica y hacer las pólizas electrónicas que se presentan a la AFIP y a la Superintendencia de Seguros". También se migró Sirtac, una solución de Afianzadora y un producto para la facturación con productos).
-
-Una de las ventajas que rescata Galazzi sobre Zimbra es que ahora tienen para ampliar o achicar la capacidad del disco bajo en estos temas desde 1979 en forma de cascada. "Además, cada vez que hay que agregar espacio al disco sigue siendo un proceso muy lento; la modificación es totalmente transparente, los resultados son fabulosos", destaca, y agrega: "Se hizo lo mínimamente necesario para una empresa que no tiene un equipo de IT propio".
-
-La migración del correo a Zimbra implicó que nada por el cambio de interfaz del usuario final, acostumbrados al Outlook. "Se migraron en fases los correos de las 40 personas, durante un mes, sin contar en Buenos Aires, más las sucursales de Salta, Mendoza, Mar del Plata y Rosario. Era la primera gran migración".
-
-"La migración de Zimbra fue un éxito. Se hizo por proveedor nuevo, migrando cada cuenta de los usuarios a que estaban en servidores distintos a uno solo en rack, permitiendo el uso en cascada".
-
-El cuello de botella fue una "mala implementación de BlackBerry, que para Estigarribia 'requería reiniciarla bastante', aunque pondera que 'el resultado que obtuvimos del nuevo proveedor fue bueno'. La verdad es que fue una experiencia positiva", afirma el gerente de Operaciones de Afianzadora. "Teníamos caídas de servicio y no podíamos estimar el riesgo de que haya roto".
-
-"Otro beneficio que no se tuvo en cuanto a la capacidad de crecimiento es la posibilidad de escalar en la cantidad de servidores. No se para ningún procedimiento ni proceso y se asegura la continuidad de la operación".
-
-La administración también tiene ventajas. "La practicidad de hacerlo vía remota nos da más celeridad. Hacemos ajustes replicando el servidor físico, lo que la herramienta nos permite hacer transparente, más las alarmas visuales se pueden prender cuando el servidor necesita más mantenimiento", cierra Galazzi.
-
-#### **A paso seguro**
-La nueva infraestructura incluyó servidores Dell, provistos por el sistema de leasing replicados con VMware, virtualizados. La implementación, desde el *assessment* del servicio, duró entre 15 y 20 días. "Pudimos balancear la carga y transcurrir el verano sin serios inconvenientes, tras lo que la empresa pudo certificarla", aclara Estigarribia.
-
+Teníamos un presupuesto mínimo, por lo que buscábamos software open source para no tener problemas legales. Recuerda Fernando Gagazzi, gerente de operaciones de Afianzadora. Con esa estructura, a su cargo quedó también el área de sistemas, y actualmente continúa como responsable de la misma, además de sus tareas operativas. 
+Desde el inicio, Afianzadora se apoyó en la consultora Manas TI para la gestión tecnológica, que realiza el soporte de usuarios y el mantenimiento. Fue precisamente esta consultora la que en el 2011 alertó a Afianzadora de que la estructura les estaba quedando chica. Es que seis años no habían pasado en vano. De los originales 11 usuarios, habían pasado a 35, y eso era evidente tanto en la disponibilidad como en la lentitud que estaban experimentando en el uso de los aplicativos. El objetivo fue darle alta disponibilidad a la plataforma sin complejizarla y lograr un buen respaldo de los datos. 
+«Manas nos sugirió que la mejor opción era virtualizar. Pensé también en migrar todo a la nube, pero no me terminó de cerrar», reconoce Gagazzi. Entonces la consultora les propuso dos opciones, Microsoft Hyper-V y VMware. «La versión de Hyper-V de ese momento era un poco más barata en la adquisición, pero estaba más cruda en estabilidad», recuerda Enrique Estigavirga, socio de Manas-TI. «La de VMware es fácil de manejar, tiene lo mejor del mundo Microsoft en la facilidad y lo mejor de Linux en cuanto a la estabilidad», opina Estigavirga. 
+Para ese entonces la arquitectura de Afianzadora era un mix de los mundos de Microsoft y Linux, por lo que se decidió continuar con esa mezcla. La implementación se realizó con un presupuesto de U\$S42.000 para invertir en servidores, storage, cintas de backup y en las licencias de Zimbra (también de VMware) para correo electrónico, más U\$S 8.000 dólares en consultoría, que fue provista por Manas TI.
+#### A paso seguro. 
+La nueva infraestructura incluye servidores Dell —adquiridos con el sistema de leasing—, replicados con máquinas virtualizadas. La implementación, desde que llegaron los servidores, duró entre 15 y 20 días, con virtualización y simulacro de carga y transacciones para evitar inconvenientes, tras lo que se migró en forma definitiva. «Arrancaron con una infraestructura de 7 servidores, y ahora tienen 20. Crearon un ambiente de prueba y de calidad que no tenían», detalla Estigavirga. 
+Se migró también el core de seguros (que es de DC Sistemas y está basado en Linux) así como las autorizaciones de usuarios; otras funcionalidades están en Windows e Integra, que es un servidor que maneja aplicaciones con AFIP, «ya que tenemos la obligación de facturar con código de autorización electrónica y hacer las pólizas electrónicas a favor de la aduana, que se presentan a la AFIP a través del SIAP», detalla, Gagazzi. También se migró Sirius, un servidor que maneja la relación de afianzadora con productores y brokers.
+Una de las ventajas que resalta Gagazzi es la flexibilidad que ahora tienen para ampliar o modificar los servidores. «Trabajo en estos temas desde 1979, y con la tecnología tradicional, cada vez que hay que agregar memoria o espacio en discos sigue siendo un problema. Ahora, cualquier modificación es totalmente simple. Las máquinas virtuales son fabulosas», destaca, y agrega que eso es algo sumamente necesario para una empresa que no tiene un equipo interno de sistemas. 
+La migración del correo a Zimbra fue algo más traumática, más que nada por el cambio de interfaz para los usuarios acostumbrados al Outlook. «Se migró el histórico de correos de las 40 personas distribuidas entre la sede en Buenos Aires, más las sucursales en Córdoba, Mendoza, Mar del Plata y Rosario, que acceden a esta prestación», enumera Gagazzi.
+Este cambio se hizo en paralelo. «La migración de Zimbra fue conviviendo con el servidor nuevo, migrando cada cuenta de a una, pese a que estaban en servidores distintos y de distintas marcas, permitiendo el uso en paralelo».
+El cuello de botella fue una pequeña parte: El servidor de BlackBerry, que para Estigavirga «es una herramienta bastante tosca», aunque para Gagazzi sigue siendo bueno el resultado que obtienen los smartphones del proveedor canadiense. En cuanto a la disponibilidad, el gerente de operaciones es terminante: «No tuvimos caídas de servicio y ni una máquina virtual que se haya roto». Otro beneficio ganado es en cuanto a la capacidad de crecimiento «La posibilidad de escalar en las máquinas, sea en memoria o disco, es enorme. No se paraliza ningún procedimiento y proceso, mientras tanto, y se asegura la continuidad de la operación». 
+La administración también ganó ventajas. «La practicidad más concreta es cuando hacemos ajustes replicando el servidor físico, lo que la herramienta hace automáticamente, más las alarmas visuales que se encienden cuando el servidor necesita más rendimiento, cierra Gagazzi.
 #### **HIGHLIGHTS**
-Solución de alta disponibilidad a la plataforma de correo, que también sirve de entorno al sistema de facturación electrónica.
-**Inversión:** U$S 42.000 en hardware y U$S 8.000 en consultoría e implementación.
-**Protagonista:** Fernando Galazzi, Gerente de Operaciones de Afianzadora.
-
+**Objetivo:** Darle alta disponibilidad a la plataforma sin tener que complejizarla y mejorar el sistema de correo electrónico. 
+**Plazo:** Cuatro meses.
+**Inversión:** U\$S42.000 en hardware y software, U\$S 8.000 en consultoría e implementación. 
+**Líder de proyecto:** Fernando Gagazzi, gerente de operaciones de afianzadora.
 #### **TECNOLOGÍA**
-**Software:** VMware vSphere 5, Sirtac.
-**Consultoría:** Manas IT, Zimbra.
-**Hardware:** 2 Servidores Dell 8710, 2 servidores Quad Core, 50 diskettes ReoIgb y 8 Gb de ram.
-**Almacenamiento:** Dell PowerVault.
-**Proveedores:** Sirtac, Silver, Jabber.
-**Telecomunicaciones:** Personal, Movistar, Telefónica/Telefónica Fija.
+**Solución:** VMware Sphere 5, VMware Simbra.
+**Proveedor:** Manas-TI y VMware. 
+**IT Corporativa:** 
+**Hardware:** Dos servidores del R710 32 GB de RAM, dos procesadores Quad-Core, cincuenta Desktops Banghó Y tres notebooks Dell.
+**Software:** VMware vCenter, Zimbra Integra, Sirius, DC Sistemas, SQL Server.
+**Telecomunicaciones:** IPLAN (internet), Movistar (móvil), Telefónica (telefonía fija).
 
 ## Resolución
