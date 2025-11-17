@@ -1,6 +1,15 @@
 
 # Tipos de parámetros: Cuantitativos y Cualitativos.
 ![[Pasted image 20251116204458.png]]
+
+> [!cite] *Los parámetros cuantitativos surgen de mediciones y/o proyecciones de cantidades y capacidades...*
+ 
+> [!warning] *Según la profe, los parámetros cualitativos se manifiestan como un porcentaje también.*
+
+> [!cite] Citando a Rosina...
+> *«Relacionados con requerimientos que se basan en la CARGA DE TRABAJO (real o proyectada), es decir que surgen de la operatoria de la empresa».*
+
+
 ## **Explicación de los Conceptos**
 
 Cuando necesitas elegir un nuevo software (SW) o hardware (HW), no puedes simplemente decir "quiero el mejor". Tienes que definir una lista de criterios medibles para comparar las distintas opciones de forma objetiva. Estos criterios se dividen en dos grandes grupos: cuantitativos y cualitativos.
@@ -41,7 +50,6 @@ Piensa en ellos como **los atributos o características que no se pueden medir c
     *   **Reputación de la marca:** ¿Es un fabricante conocido por su fiabilidad o por sus fallos?
     *   **Compatibilidad con sistemas existentes:** ¿El nuevo software se integra bien con nuestro sistema de facturación actual?
 
----
 
 ## **Analogía: Comprar un Auto para una Familia**
 
@@ -53,8 +61,6 @@ Imagina que estás eligiendo un auto nuevo. Tu proceso de decisión usaría ambo
 | **Consumo de combustible:** 5 litros cada 100 km. | **Seguridad percibida:** ¿La marca tiene buena reputación en seguridad? |
 | **Capacidad del baúl:** 500 litros. | **Diseño y Estética:** ¿Te gusta cómo se ve el auto? |
 | **Número de asientos:** 5. | **Facilidad de manejo:** ¿Es ágil para estacionar en la ciudad? |
-
----
 
 ## **Ejemplo Práctico en la Selección de un Servidor (Tu Escenario)**
 
@@ -80,3 +86,35 @@ Supongamos que Afianzadora necesita comprar un nuevo servidor.
 | **Total Cualitativo** | **27** | **18** |
 
 **Decisión:** Aunque ambos servidores tenían la misma "potencia" (parámetros cuantitativos), eliges el del **Proveedor A** porque sus parámetros cualitativos, una vez ponderados, demuestran que se adapta mejor a las necesidades y políticas de la organización.
+
+## Ejemplos de los distintos parámetros según prácticos
+
+
+> [!info] *Esto salió del TP de provisión de SI/TI del año 2025.*
+
+### Parámetros Cuantitativos
+​
+* La capacidad de gestionar al menos 10 proyectos simultáneamente.
+* Manejar al menos 10 plantillas en edición en simultáneo.
+* La aplicación debe permitir el seguimiento de al menos 100 tareas por proyecto, con alertas automáticas para cambios de estado y fechas de entrega.
+* Debe permitir la exportación de datos con al menos 1.000 registros por proyecto.
+* La herramienta debe permitir el registro de hasta 500 recursos por proyecto, junto con la capacidad de asignar hasta 100 tareas por cada RRHH.
+* La aplicación debe manejar al menos 100 hitos por proyecto con alertas automáticas configurables para cada uno.
+* Debe soportar al menos 50 roles de usuario diferentes con niveles de acceso definidos.
+
+### Parámetros Cualitativos
+
+* Las plantillas deben ser flexibles y adaptables a los diferentes tipos de proyectos que maneja la organización (edificios, viviendas, obras viales, etc.).
+* La herramienta debe ofrecer visibilidad clara y accesible sobre cada proyecto, lo que permitirá una fácil supervisión y control.
+* Disponibilidad de API para integrar con otras herramientas (**acá hay que especificar las herramientas**).
+* Las alertas deben ser configurables para adaptarse a las necesidades de cada proyecto, incluyendo diferentes niveles de urgencia y tipos de notificaciones (correo electrónico, SMS, etc.).
+* Exportación de datos a múltiples formatos (.csv, .pdf, .xls, .tsv).
+* La exportación debe ser intuitiva y fácil de usar, sin necesidad de formación avanzada.
+* La herramienta debe proporcionar una vista integral de los recursos disponibles, incluyendo la utilización de cada recurso en tiempo real, y ser flexible para adaptarse a cambios rápidos en la asignación de recursos.
+* Las notificaciones deben ser personalizables en cuanto a su formato y frecuencia, permitiendo que los usuarios se ajusten a sus preferencias y necesidades de gestión.
+* Las métricas deben ser fáciles de interpretar, con gráficos visuales que permitan una rápida toma de decisiones.
+* Los reportes deben ser fáciles de personalizar y adaptarse al estilo de presentación de la organización.
+* La gestión de roles debe ser flexible y permitir una configuración precisa de los permisos, de modo que se respete la estructura jerárquica de la organización.
+* La herramienta debe permitir la personalización de plantillas de proyecto.
+* La aplicación debe contar con la posibilidad de generar al menos 5 métricas clave por proyecto, como tiempo de ejecución, costo, avance de obra, cumplimiento de plazos, entre otras.
+* La herramienta debe generar reportes automáticos con una cobertura de al menos el 90% de las métricas y datos relevantes de cada proyecto.
