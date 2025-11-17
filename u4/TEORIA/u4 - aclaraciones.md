@@ -106,7 +106,10 @@ Supongamos que Afianzadora necesita comprar un nuevo servidor.
 
 * Las plantillas deben ser flexibles y adaptables a los diferentes tipos de proyectos que maneja la organización (edificios, viviendas, obras viales, etc.).
 * La herramienta debe ofrecer visibilidad clara y accesible sobre cada proyecto, lo que permitirá una fácil supervisión y control.
-* Disponibilidad de API para integrar con otras herramientas (**acá hay que especificar las herramientas**).
+* Disponibilidad de API para integrar con otras herramientas 
+
+> [!warning] **Para que sea correcto este punto hay que especificar las herramientas que deben integrarse con la API.**
+
 * Las alertas deben ser configurables para adaptarse a las necesidades de cada proyecto, incluyendo diferentes niveles de urgencia y tipos de notificaciones (correo electrónico, SMS, etc.).
 * Exportación de datos a múltiples formatos (.csv, .pdf, .xls, .tsv).
 * La exportación debe ser intuitiva y fácil de usar, sin necesidad de formación avanzada.
