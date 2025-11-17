@@ -1,6 +1,5 @@
-## Exologística se prepara para los tiempos de cambio
+#### Exologística se prepara para los tiempos de cambio
 La compañía destinó U$S 1 millón para renovar su infraestructura tecnológica, que por su negocio necesita integrarse de manera segura a los sistemas de sus clientes. Exologística cuenta con más de 300.000 metros cuadrados de depósitos en la Argentina, Brasil y Uruguay, y pertenece al grupo ITL (International Trade Logistics), que opera en 28 terminales portuarias en 16 países.
-
 
 Mantenerse a la vanguardia tecnológica para mejorar los servicios y agregar valor puede ser clave para fidelizar y obtener clientes. En Exologística era necesario, además, por un factor adicional: el sistema core de la empresa llevaba 15 años de uso. Por eso, tras casi medio año de análisis y selección, y con una inversión de U$S 250.000, este operador logístico regional implementó el sistema de WMS (Warehouse Management System o sistema gestión de almacenes) Infor WMS 9.1.4, que le permite gestionar y administrar sus depósitos de productos y mercaderías, así como integrarse de manera segura y transparente con las plataformas de grandes clientes como Chandon, Honda, Unilever, Nike, Pirelli, Siderca y Shell, entre otros.
 
@@ -9,7 +8,7 @@ La empresa contaba con un sistema de gestión de almacén desde hacía 15 años 
 
 El nuevo sistema gestiona y confirma la recepción de mercadería, registra su guardado y sus posiciones, recibe los pedidos, prepara los despachos, genera el recorrido y el modo en el que se distribuirán, despacha los pedidos y, finalmente, rinde el remito. Una problemática que surgió era cómo integrar este WMS con el ERP y los sistemas del cliente. Para resolver esta tarea se implementó la solución Biztalk, de Microsoft, que gestiona el intercambio de archivos entre Exologística y los clientes: “Una implementación estándar tiene no menos de entre 8 y 12 interfaces, algunas simples y otras muy complejas , detalla Castelló.
 
-Empate técnico
+#### Empate técnico
 El proceso de selección no fue ni corto ni sencillo. Tal como relata Castelló, primero armaron un grupo interdisciplinario dentro de la empresa, con especialistas técnicos y de negocios, y luego evaluaron a una terna de posibles proveedores compuesta por Infor, RedPraire y WMS Manhattan.  Finalmente preseleccionaron a los dos primeros. Entonces, comenzó la  etapa de pruebas de ambas soluciones, para lo cual, incluso, tuvieron que viajar a Brasil y México para conocer casos de implementación, ya que no los había en el mercado local: “Así vimos cómo funcionaban, pero llegamos a un empate técnico , expresa. 
 
 Entonces, ¿qué fue lo que los llevó a decidirse? “Una simple y lógica razón: por un lado, el sistema que teníamos era de Infor y teníamos una buena experiencia con ellos; por el otro, nos ofrecieron algunas ventajas comerciales por seguir con ellos , revela el IT manager.
@@ -24,7 +23,7 @@ Así comenzó el proceso de implementación, que todavía continúa. Esto es as�
 A principios de 2009, Exologística comenzó a realizar las primeras implementaciones para Cadbury e YPF, pero debió modificar su cronograma de trabajo al tener que absorber a tres clientes (Philips, Alicorp y Carrier) de otro operador logístico (Ryder), que dejó sus negocios en el país por la crisis internacional.
 Según Castelló, dichas implementaciones tuvieron que realizarse en tiempo récord (las tres estuvieron concluidas en alrededor de cuatro meses). Además, “no fue poca la incidencia que tuvo (el contar con el nuevo sistema de WMS) cuando tomamos prácticamente el 40 por ciento de la facturación de los negocios que dejó Ryder . Estos cambios también se ven reflejados en la facturación de Exologística, que en 2009 alcanzó los $ 500 millones, registrando un incremento del 19 por ciento con respecto a 2008.
 
-Efecto dominó
+#### Efecto dominó
 La implementación del nuevo sistema de WMS generó un “efecto dominó : dado que la empresa tenía una arquitectura y una plataforma tradicional y estable, constituida por “unos cuantos servidores para todo lo que era el paquete Office, algunas aplicaciones y ruteadores, junto a nuestro negocio de gestión de transporte y gestión de almacén, en un AS7400 que se gestionaba solo . La nueva plataforma, en cambio, utiliza seis servidores y tiene varias capas —compara Castelló—. “Era una plataforma que no manejábamos y tuvimos que incorporar y capacitar gente, así como también comprar tecnología; entonces, ampliamos la inversión al equipamiento y al ver cómo iba creciendo decidimos armar un nuevo data center.
 
 Así, los 35 servidores con los que contaban fueron reemplazados por un equipo Blade de IBM, en el cual incorporaron tres hojas IBM HS21 y tres hojas IBM HS22, en ambos casos de 32 GB de memoria, específicamente destinadas a soportar el WMS. A esto se sumó una solución de almacenamiento IBM Storage DS4700 con 12 discos de 146 GB en raid. “Los elegimos porque somos clientes satisfechos de la marca , afirma el IT manager y agrega que si bien los compararon con equipos HP, también “hubo cuestiones comerciales, de precio y financiamiento , que inclinaron la balanza hacia el proveedor que finalmente eligieron.
@@ -33,7 +32,12 @@ El centro de datos, además, está construido con una infraestructura de red con
 
 Como si eso fuera poco, junto a esta reestructuración los especialistas de Exologística también decidieron sumar un sistema de comunicaciones IP que les permitió disminuir sus costos de telecomunicaciones en un 70 por ciento. Esto se debe, básicamente, a que antes pagaban tarifas mensuales a proveedores telefónicos y ahora cuentan con una red MPLS propia, así como con enlaces de Internet dedicados. “Hacía dos años que estábamos haciendo pruebas de telefonía IP con Asterisk, pero consideramos que había que esperar a que se estandarizaran las cosas; el año pasado el mercado  ya estaba bastante maduro  y Cisco, que fue la empresa con la que cerramos el proyecto, nos dio una muy buena y robusta alternativa , recuerda Mario Leiva, responsable de Tecnología y Comunicaciones de Exologística. Y concluye: “Para dar un mejor servicio sobre telefonía IP era necesario migrar el tipo de enlace, de frame relay a MPLS, e integramos toda la red corporativa a MPLS para que las comunicaciones fueran más fluidas y de mayor calidad .
 
+### Consignas
 
+1. Definir RUO para el área de SI/TI de Exogaguística.
+2. Esquema de provisión de SI/TI.  Describirlo de forma completa.
+3. UPN: Definir las que se ajusten al escenario. ¿Qué comportamiento tiene la carga de trabajo? ¿Cuál es la técnica más adecuada para proyectar la carga de trabajo?.
+4. Parámetros. Identificar 3 y clasificar.
 
 
 
