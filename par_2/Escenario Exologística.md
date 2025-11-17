@@ -35,10 +35,33 @@ Como si eso fuera poco, junto a esta reestructuración los especialistas de Exol
 ### Consignas
 
 1. Definir RUO para el área de SI/TI de Exogaguística.
-2. Esquema de provisión de SI/TI.  Describirlo de forma completa.
-3. UPN: Definir las que se ajusten al escenario. ¿Qué comportamiento tiene la carga de trabajo? ¿Cuál es la técnica más adecuada para proyectar la carga de trabajo?.
-4. Parámetros. Identificar 3 y clasificar.
 
+> [!info] RUO: Rol, Ubicación y Organización. 
+
+El ***rol*** para el área de SI/TI de la empresa Exologística es el de **hacer algo con ellos**, porque se menciona que se armó un equipo interdisciplinario dentro de la empresa, con especialistas técnicos y de negocios, y luego evaluaron a una terna de posibles proveedores compuesta por Infor, RedPraire y WMS Manhattan.
+
+La ***ubicación*** del área de SI/TI es **centralizada** porque así se lo indica en el escenario. Más precisamente en el siguiente fragmento: "... comenzó el proceso de implementación, que todavía continúa. Esto es así porque se trata de un sistema centralizado que cuenta con 100 licencias para usuarios concurrentes (cuya implementación se realizó en alrededor de seis meses), que además...". 
+
+La ***organización*** es por **proyectos funcionales**. Esto es así porque por cada iniciativa de SI/TI se arman equipos para llevarlos a cabo.
+
+2. Esquema de provisión de SI/TI.  Describirlo de forma completa.
+
+El esquema es el de **adquisición**. Los programas que se adquieren son **paquetes estándar**.
+
+3. UPN: Definir las que se ajusten al escenario. ¿Qué comportamiento tiene la carga de trabajo? ¿Cuál es la técnica más adecuada para proyectar la carga de trabajo?.
+
+Algunos UPNs que se nos ocurrieron...
+
+* Inventario o mercadería.
+* Pedidos.
+* Clientes (suponiendo que los clientes se conectan con el sistema o forman parte de la carga de trabajo).
+
+4. Parámetros. Identificar algunos y clasificar.
+
+Los **parámetros cuantitativos** pueden ser los 100 usuarios que tiene que soportar el sistema además de todo el HW que compraron en el cual se especificaron sus características detalladamente.
+Un **parámetro cualitativo** podría ser que se hayan quedado con el SW de "Infor" por el hecho de que es una empresa con la que trabajan hace mucho tiempo.
+
+Partiendo de la mercadería, podemos pensar que la carga de trabajo tiene un comportamiento **estacionario** debido a que en el escenario no se menciona en ningún momento un crecimiento o comportamiento predecible o cíclico. Tampoco el cambio de sistema tiene una relación directa, en este caso, con el flujo de mercadería que procese la empresa.
 
 
 
