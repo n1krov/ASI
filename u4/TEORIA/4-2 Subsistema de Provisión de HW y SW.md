@@ -334,14 +334,30 @@ También se puede adquirir HW de cualquier tipo en el **mercado de segunda mano*
 
 #### **Criterios para Determinar la Fuente**
 
-Los criterios clave a considerar son la **integración de servicios** y la **naturaleza del soporte** ofrecido por la fuente:
+Con la pequeña excepción del ensamblaje de las microcomputadoras, todo el hardware se adquiere en forma externa; el *tamaño* de la plataforma define principalmente el alcance y la índole de los canales de adquisición disponibles. En la figura siguiente se describen someramente las diferentes fuentes de adquisición de HW:
 
-- **Consignatarios de Fabricantes:** Ofrecen **conocimientos técnicos profundos**, soluciones **diseñadas a medida**, y **mantenimiento intensivo y seguridad** de piezas de repuesto. La desventaja es que suelen tener un **gasto mayor** y **falta de soporte de integración** con otros vendedores 30.
-    
-- **VARs (Revendedores de Valor Agregado):** Venden y apoyan una **amplia gama de productos** y añaden un margen para cubrir la provisión de **servicios** (instalación y mantenimiento)31.
-    
-- **Minoristas/Supermercados/Correo:** Ofrecen **asesoramiento limitado** y poca variedad. Se orientan más a compras de **uso generalizado**32323232.
-    
+| Plataforma            | Canales de Adquisición                                                                                                                                                                                                            | Notas                                                                                    |
+| :-------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| **Mainframe**         | - Fabricante<br>- Terceros especializados                                                                                                                                                                                         |                                                                                          |
+| **Minicomputadora**   | - Fabricante<br>- Revendedores de valor agregado (VARs)                                                                                                                                                                           |                                                                                          |
+| **Microcomputadoras** | - Equipos de ventas "tradicionales" del fabricante<br>- Revendedores de valor agregado<br>- Comercios minoristas<br>- Supermercados de computadoras<br>- Compra por correo<br>- Ensamblaje de componentes realizado en la empresa | No obstante, se puede adquirir hardware de cualquier tipo en el mercado de segunda mano. |
+
+
+> [!hint] Las siguientes son las fuentes para este esquema de provisión (adquisición).
+
+#### Fuentes de provisión de hardware
+
+-   **Consignatarios de fabricantes:** si el cliente es muy importante, es posible que se presente la opción de comprar directamente al fabricante. El equipo de ventas, gracias a sus conocimientos técnicos, diseña a medida soluciones muy específicas además de ofrecer un mantenimiento intensivo y la seguridad de contar con piezas de repuesto. La desventaja es que suelen tener un gasto mayor y una orientación más restringida la falta de soporte de integración con otros vendedores.
+
+-   **Revendedores de valor agregado (VARs):** generalmente están preparados para vender y apoyar una amplia gama de productos. Los VARs agregan un margen al costo básico del software para cubrir su provisión de “servicios” (por ejemplo: instalación y mantenimiento).
+
+-   **Comercios minoristas:** dado que las microcomputadoras ya son un artículo de uso cotidiano, se venden de la misma forma que otros bienes de consumo. Si bien los comercios minoristas brindan asesoramiento muy limitado, normalmente ofrecen poca variedad, y siempre dentro de la línea de uso generalizado.
+
+-   **Supermercados de computadoras:** como ocurre con los comercios minoristas, no suelen estar orientados a las grandes empresas, pero buscan ofrecer el rango de opciones del canal directo junto con un servicio personal, además de permitir ver los productos antes de comprar. Sólo las empresas más grandes excluyen las compras mediante este canal.
+
+-   **Compra por correo:** tiene como competidores a los supermercados de computadoras y a los comercios minoristas. Las agencias y los VARs de los fabricantes ofrecen un tipo de servicio tan diferente que pueden considerarse como canales complementarios.
+
+-   **Ensamble de componentes por parte del personal:** algunas compañías compran componentes tales como motherboards, monitores, disqueteras, etc., que luego ensambla el personal de la empresa. La brusca reducción en los precios de hardware hace que este canal de adquisición no sea muy usado, excepto cuando se requieren configuraciones muy específicas o especiales.  
 
 ---
 
