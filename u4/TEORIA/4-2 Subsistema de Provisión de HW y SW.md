@@ -328,9 +328,9 @@ Las fuentes de provisión de HW varían **según el tamaño** de la plataforma:
     
 - **Minicomputadora:** Fabricante o Revendedores de valor agregado (**VARs**).
     
-- **Microcomputadoras:** Equipos de ventas "tradicionales" del fabricante, VARs, Comercios minoristas, Supermercados de computadoras, Compra por correo, y Ensamblaje de componentes realizado en la empresa 28282828.
+- **Microcomputadoras:** Equipos de ventas "tradicionales" del fabricante, VARs, Comercios minoristas, Supermercados de computadoras, Compra por correo, y Ensamblaje de componentes realizado en la empresa.
     
-También se puede adquirir HW de cualquier tipo en el **mercado de segunda mano**29.
+También se puede adquirir HW de cualquier tipo en el **mercado de segunda mano**.
 
 #### **Criterios para Determinar la Fuente**
 

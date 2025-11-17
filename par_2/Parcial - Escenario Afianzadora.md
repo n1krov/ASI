@@ -13,6 +13,11 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 **II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos)**
 
+Outsourcing | Adquisicion de HW | Desarrollo interno
+
+>[!ERROR] Por lo visto es outsourcing, y el esquema uque de provision que mantienen  es **Agencia de Servicios** ya que estos ceden una tarea pero asi mismo NO les otorgan la responsabilidad completa.
+
+
 **B) Subsistema de Aplicación de SI/TI. Planificación de la capacidad. Subsistema de Seguimiento de los SI/TI (30 ptos - 10 ptos cada respuesta completamente correcta)**
 
 **Para el escenario en estudio:**
