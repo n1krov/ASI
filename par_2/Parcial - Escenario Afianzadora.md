@@ -13,12 +13,15 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 **II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos).**
 
-**RTA.** El esquema de provisión es Outsourcing del tipo **Agencia de Servicios**, ya que Afianzadora contrata a la consultora Manas-TI para llevar a cabo el proyecto de migración de servidores, implementación de los programas virtualización y del nuevo servicio de correo electrónico, pero no le otorga una responsabilidad de management completa.
+> [!hint] **RTA.** El esquema de provisión es Outsourcing del tipo **Agencia de Servicios**, ya que Afianzadora contrata a la consultora Manas-TI para llevar a cabo el proyecto de migración de servidores, implementación de los programas virtualización y del nuevo servicio de correo electrónico, pero no le otorga una responsabilidad de management completa.
 
 
->[!HINT] Cuando habla de RECURSO es de HW o de SW y especificar con lo que dice el escenario
-> - De HW: "Los servidores Dell"
-> - De SW: "el V-Sphere de VMWARE"
+>[!info] Cuando se refieren a **recursos de SI/TI** tenemos que pensar tanto en recursos de HW y SW. Lo ideal es identificarlos en el escenario y detallarlos en la respuesta.
+>
+>Por ejemplo, en este escenario podemos identificar los siguientes: 
+>
+>* Recurso de HW: "Los servidores Dell R710."
+>* Recurso de SW: "V-Sphere  5 de VMware."
 
 
 **B) Subsistema de Aplicación de SI/TI. Planificación de la capacidad. Subsistema de Seguimiento de los SI/TI (30 ptos - 10 ptos cada respuesta completamente correcta)**
@@ -27,16 +30,34 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 **I. ¿Qué unidades de predicción natural (UPN) seleccionaría para planificar la demanda potencial en un ambiente informático de seguros de caución? Fundamente su respuesta.**
 
-**RTA.** Las unidades de predicción natural que identificamos son...
-
-* Pólizas de seguros.
-* Beneficiarios (o clientes).
-
-> [!hint] 
+> [!hint] **RTA.** Las unidades de predicción natural que identificamos son...
+> 
+> * Pólizas de seguros.
+> * Beneficiarios (o clientes).
+> 
+> Las unidades de predicción que identificamos en el escenario son las pólizas de los seguros y beneficiarios. Ambas son variables de negocio que tendrán un impacto directo en la utilización de recursos del sistema, ya que son actores de la operación diaria constituyendo la carga de trabajo. 
 
 **II. ¿Cómo considera que puede ser el comportamiento de la carga de trabajo de esas UPN? Fundamente su respuesta.**
 
+> [!hint] **RTA.** Tendencia positiva. 
+> 
+> Según lo descrito en el escenario, podemos esperar una **tendencia** hacia el crecimiento o aumento de la carga de trabajo. Esto se refleja, por ejemplo, en la situación que dio inicio al proyecto... 
+> 
+> *«Pasamos de 11 a 35 usuarios, detalla Gagazzi.»*
+> 
+> Esto nos da la pauta de que no solo habrá más beneficiarios, sino que también aumentará el número de pólizas "a procesar".
+
 **III. ¿Con qué técnica de predicción estimaría la carga futura para cada UPN identificada en el punto B.I)? Justifique la propuesta en forma individual**
+
+> [!hint] **RTA.** Regresión lineal.
+> 
+> Cuando el patrón de datos históricos muestra una tendencia uniforme de crecimiento (como en nuestro caso) o decrecimiento, la técnica más adecuada para proyectar la carga futura es la de **regresión lineal**. 
+> 
+> Si tomamos la UPN "beneficiarios" como la variable a estimar y al tiempo como la variable independiente, podemos predecir o proyectar el número que Afianzadora tendrá de dichos beneficiarios.    
+> 
+> El gráfico resultante tendrá características similares al siguiente (es una función lineal):
+> 
+![[Pasted image 20251117130446.png]]
 
 ## Artículo
 ### **Seguro virtual**
