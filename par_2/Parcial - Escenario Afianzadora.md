@@ -17,6 +17,10 @@ Outsourcing | Adquisicion de HW | Desarrollo interno
 
 >[!ERROR] Por lo visto es outsourcing, y el esquema uque de provision que mantienen  es **Agencia de Servicios** ya que estos ceden una tarea pero asi mismo NO les otorgan la responsabilidad completa.
 
+>[!HINT] Cuando habla de RECURSO es de HW o de SW y especificar con lo que dice el escenario
+> - De HW: "Los servidores Dell"
+> - De SW: "el V-Sphere de VMWARE"
+
 
 **B) Subsistema de Aplicación de SI/TI. Planificación de la capacidad. Subsistema de Seguimiento de los SI/TI (30 ptos - 10 ptos cada respuesta completamente correcta)**
 
