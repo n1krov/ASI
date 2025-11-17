@@ -27,6 +27,13 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 **I. ¿Qué unidades de predicción natural (UPN) seleccionaría para planificar la demanda potencial en un ambiente informático de seguros de caución? Fundamente su respuesta.**
 
+**RTA.** Las unidades de predicción natural que identificamos son...
+
+* Pólizas de seguros.
+* Beneficiarios (o clientes).
+
+> [!hint] 
+
 **II. ¿Cómo considera que puede ser el comportamiento de la carga de trabajo de esas UPN? Fundamente su respuesta.**
 
 **III. ¿Con qué técnica de predicción estimaría la carga futura para cada UPN identificada en el punto B.I)? Justifique la propuesta en forma individual**
