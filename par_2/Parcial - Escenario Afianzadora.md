@@ -11,7 +11,9 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 | **Especificación del criterio en el escenario** | Otro beneficio ganado es en cuanto a la capacidad de crecimiento «La posibilidad de escalar en las máquinas, sea en memoria o disco, es enorme. No se paraliza ningún procedimiento y proceso, mientras tanto, y se asegura la continuidad de la operación». | En cuanto a la disponibilidad, el gerente de operaciones es terminante: «No tuvimos caídas de servicio y ni una máquina virtual que se haya roto». | **Hardware:** Dos servidores Dell R710 con 32 GB de RAM, dos procesadores Quad-Core, cincuenta Desktops Banghó Y tres notebooks Dell. |
 | **Tipo de parámetro al que dará origen**        | CUALITATIVO                                                                                                                                                                                                                                                  | CUALITATIVO                                                                                                                                        | CUANTITATIVO                                                                                                                          |
 
-**II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos)**
+**II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos).**
+
+
 
 Outsourcing | Adquisicion de HW | Desarrollo interno
 

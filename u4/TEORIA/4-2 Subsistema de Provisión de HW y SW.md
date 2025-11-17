@@ -397,16 +397,63 @@ El **Rightsizing** es el proceso de **elegir la arquitectura de SI más adecuada
 
 La provisión externa de servicios de SI (Outsourcing) consiste en **transferir a terceros la responsabilidad de proporcionar un servicio adaptado** a las necesidades de una organización.
 
-#### **Fuentes de este esquema de provisión (Tipos de Outsourcing)**
+### Fuentes del esquema de provisión de Outsourcing (tercerización)
+#### **1. Proveedor de Tiempo Compartido**
 
-Se clasifican según el grado al cual el _management_ de los SI se transfiere a un tercero:
+**La idea central es "alquilar" poder de cómputo en bruto o una capacidad específica, pagando solo por lo que usas, cuando lo usas.** No cedes un proceso de negocio, solo alquilas la infraestructura para ejecutarlo tú mismo.
 
-1. **Proveedor de tiempo compartido:** Provee **acceso en línea a una capacidad de procesamiento externa** que se cobra según el tiempo utilizado. Se usa para optimizar la capacidad a corto plazo o como enfoque para la recuperación de un desastre informático.
-    
-2. **Agencia de servicios:** Se **cede una tarea completa** a una empresa (ej. soporte técnico, desarrollo, liquidación de haberes).
-    
-3. **Management completo de servicios:** La **cesión es completa**. El _management_ y la operación de todos los elementos del SI son responsabilidad del tercero contratado.
-    
+**Ejemplo Práctico: Renderizado de una película de animación.**
+
+Imagina que un pequeño estudio de animación crea una película como las de Pixar. Diseñar y modelar los personajes en sus computadoras de escritorio es factible. Sin embargo, el proceso final de **renderizado** (generar las imágenes finales a partir de los modelos 3D) requiere una cantidad masiva de poder de procesamiento que tomaría años en sus computadoras normales.
+
+*   **El Problema:** Comprar un supercomputador (una "granja de renderizado") para usarlo intensamente solo durante los últimos meses de producción es extremadamente caro e ineficiente.
+*   **La Solución (Outsourcing):** El estudio contrata los servicios de una "granja de renderizado en la nube" como AWS Thinkbox, Google Cloud Zync Render o Microsoft Azure Batch.
+    *   Suben sus modelos 3D a la plataforma.
+    *   Alquilan miles de procesadores por hora para realizar los cálculos.
+    *   Pagan únicamente por el **tiempo de procesamiento utilizado**.
+    *   Una vez que la película está renderizada, dejan de usar el servicio.
+
+Esto encaja perfectamente con la definición: "Provee acceso en línea a una capacidad de procesamiento externa que se cobra según el tiempo utilizado" y se usa para "optimizar la capacidad a corto plazo".
+
+#### **2. Agencia de Servicios**
+
+**La idea central es "tercerizar" un proceso de negocio completo y bien definido.** La empresa se desentiende de *cómo* se hace la tarea; solo le interesa el resultado final.
+
+**Ejemplo Práctico: Liquidación de Sueldos.**
+
+Imagina una empresa mediana de 150 empleados. Cada mes, su departamento de Recursos Humanos debe calcular los sueldos, las horas extras, las deducciones de impuestos, los aportes jubilatorios, etc. Es una tarea compleja, repetitiva y que requiere conocimiento especializado en leyes laborales y fiscales.
+
+*   **El Problema:** Mantener un especialista en nómina, junto con el software y las actualizaciones constantes, es costoso y desvía el foco del negocio principal de la empresa.
+*   **La Solución (Outsourcing):** La empresa contrata a una **agencia de servicios** especializada en liquidación de haberes, como ADP o Paychex.
+    *   Cada fin de mes, la empresa envía a la agencia un archivo con las novedades: horas trabajadas, ausencias, comisiones, etc.
+    *   La agencia se encarga de todo el proceso: calcula los sueldos, genera los recibos, realiza las transferencias bancarias y presenta las declaraciones juradas a los organismos fiscales.
+    *   La empresa simplemente paga una tarifa mensual por el servicio.
+
+Esto es exactamente lo que dice la definición: "Se cede una tarea completa a una empresa", como la "liquidación de haberes". La empresa no gestiona el software ni los servidores de la agencia, solo le entrega los datos y espera el resultado correcto.
+
+#### **3. Management Completo de Servicios**
+
+**La idea central es "entregar las llaves" de toda o una gran parte del departamento de TI a un tercero.** El proveedor no solo ejecuta las tareas, sino que también gestiona, planifica y es estratégicamente responsable de toda el área de TI.
+
+**Ejemplo Práctico: Gestión de TI de una cadena de hospitales.**
+
+Una red de 10 hospitales tiene un complejo sistema de TI: servidores en cada hospital, redes que los conectan, software de gestión de pacientes, sistemas de facturación, etc.
+
+*   **El Problema:** La gestión de esta infraestructura es crítica y compleja, pero no es el negocio principal del hospital (que es atender pacientes). Mantener un equipo de TI grande, especializado y actualizado 24/7 es un desafío enorme.
+*   **La Solución (Outsourcing):** La red de hospitales firma un contrato de 5 años con una gran consultora tecnológica (como IBM, Accenture o una gran firma local) para que se haga cargo del **management completo** de sus servicios de TI.
+    *   La consultora asume la **operación y gestión de todos los servidores**, aunque estos sigan físicamente en los sótanos de los hospitales (como dice la definición, "los elementos de los SI pueden permanecer dentro de las oficinas del cliente").
+    *   El equipo de TI del hospital (los técnicos de redes, los administradores de sistemas) puede ser transferido y pasar a ser empleado de la consultora.
+    *   La consultora se vuelve responsable de todo: desde el soporte técnico a un médico que no puede imprimir, hasta la planificación estratégica para renovar los servidores en los próximos años.
+
+Esto cumple perfectamente la definición: "La cesión es completa a UNO. El management y la operación de dichos elementos es responsabilidad del tercero contratado". El hospital ya no gestiona TI, sino que gestiona un contrato con la empresa que gestiona su TI.
+
+#### **Tabla Resumen**
+
+| Tipo de Outsourcing                  | Concepto Clave                                                   | Ejemplo Resumido                                                                               |
+| :----------------------------------- | :--------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| **Proveedor de Tiempo Compartido**   | Alquilar una herramienta específica (poder de cómputo).          | Un estudio de cine alquila un supercomputador en la nube para renderizar una película.         |
+| **Agencia de Servicios**             | Contratar a un especialista para una tarea completa.             | Una empresa contrata a otra firma para que le liquide los sueldos a sus empleados.             |
+| **Management Completo de Servicios** | Entregar las llaves de todo el taller de TI a un gestor externo. | Un grupo de hospitales contrata a IBM para que se haga cargo de toda su operación informática. |
 
 ### ¿Qué Tareas NO debes Externalizar? (Tus Actividades Esenciales)
 
