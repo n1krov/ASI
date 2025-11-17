@@ -416,7 +416,7 @@ La provisión externa de servicios de SI (Outsourcing) consiste en **transferir 
 ### Fuentes del esquema de provisión de Outsourcing (tercerización)
 #### **1. Proveedor de Tiempo Compartido**
 
-**La idea central es "alquilar" poder de cómputo en bruto o una capacidad específica, pagando solo por lo que usas, cuando lo usas.** No cedes un proceso de negocio, solo alquilas la infraestructura para ejecutarlo tú mismo.
+**La idea central es "alquilar" poder de cómputo en bruto o una capacidad específica, pagando solo por lo que usás, cuando lo usás.** No cedes un proceso de negocio, solo alquilas la infraestructura para ejecutarlo tú mismo.
 
 **Ejemplo Práctico: Renderizado de una película de animación.**
 

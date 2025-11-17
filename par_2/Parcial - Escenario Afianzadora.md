@@ -13,11 +13,8 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 **II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos).**
 
+**RTA.** El esquema de provisión es Outsourcing del tipo **Agencia de Servicios**, ya que Afianzadora contrata a la consultora Manas-TI para llevar a cabo el proyecto de migración de servidores, implementación de los programas virtualización y del nuevo servicio de correo electrónico, pero no le otorga una responsabilidad de management completa.
 
-
-Outsourcing | Adquisicion de HW | Desarrollo interno
-
->[!ERROR] Por lo visto es outsourcing, y el esquema uque de provision que mantienen  es **Agencia de Servicios** ya que estos ceden una tarea pero asi mismo NO les otorgan la responsabilidad completa.
 
 >[!HINT] Cuando habla de RECURSO es de HW o de SW y especificar con lo que dice el escenario
 > - De HW: "Los servidores Dell"
@@ -70,13 +67,13 @@ Este cambio se hizo en paralelo. «La migración de Zimbra fue conviviendo con e
 El cuello de botella fue una pequeña parte: El servidor de BlackBerry, que para Estigavirga «es una herramienta bastante tosca», aunque para Gagazzi sigue siendo bueno el resultado que obtienen los smartphones del proveedor canadiense. En cuanto a la disponibilidad, el gerente de operaciones es terminante: «No tuvimos caídas de servicio y ni una máquina virtual que se haya roto». Otro beneficio ganado es en cuanto a la capacidad de crecimiento «La posibilidad de escalar en las máquinas, sea en memoria o disco, es enorme. No se paraliza ningún procedimiento y proceso, mientras tanto, y se asegura la continuidad de la operación». 
 La administración también ganó ventajas. «La practicidad más concreta es cuando hacemos ajustes replicando el servidor físico, lo que la herramienta hace automáticamente, más las alarmas visuales que se encienden cuando el servidor necesita más rendimiento, cierra Gagazzi.
 #### **HIGHLIGHTS**
-**Objetivo:** Darle alta disponibilidad a la plataforma sin tener que complejizarla y mejorar el sistema de correo electrónico. 
+**Objetivo:** Darle alta disponibilidad a la plataforma sin tener que complejizarla y mejorar el sistema de correo electrónico.
 **Plazo:** Cuatro meses.
-**Inversión:** U\$S42.000 en hardware y software, U\$S 8.000 en consultoría e implementación. 
+**Inversión:** U\$S42.000 en hardware y software, U\$S 8.000 en consultoría e implementación.
 **Líder de proyecto:** Fernando Gagazzi, gerente de operaciones de afianzadora.
 #### **TECNOLOGÍA**
 **Solución:** VMware Sphere 5, VMware Simbra.
-**Proveedor:** Manas-TI y VMware. 
+**Proveedor:** Manas-TI y VMware.
 **IT Corporativa:** 
 **Hardware:** Dos servidores Dell R710 con 32 GB de RAM, dos procesadores Quad-Core, cincuenta Desktops Banghó Y tres notebooks Dell.
 **Software:** VMware vCenter, Zimbra Integra, Sirius, DC Sistemas, SQL Server.
