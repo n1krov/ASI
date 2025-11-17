@@ -59,7 +59,7 @@ Algunos UPNs que se nos ocurrieron...
 4. Parámetros. Identificar algunos y clasificar.
 
 Los **parámetros cuantitativos** pueden ser los 100 usuarios que tiene que soportar el sistema además de todo el HW que compraron en el cual se especificaron sus características detalladamente.
-Un **parámetro cualitativo** podría ser que se hayan quedado con el SW de "Infor" por el hecho de que es una empresa con la que trabajan hace mucho tiempo.
+Un **parámetro cualitativo** podría ser que se hayan quedado con el SW de "Infor" por el hecho de que es una empresa con la que trabajan hace mucho tiempo. Otros parámetros cualitativos mencionados son de índole estética o funcional, como se detalla en el fragmento... "El nuevo WMS, en cambio, tiene un formato amigable, está desarrollado en un entorno web, intuitivo, gráfico, y en cualquier momento se puede sacar un reporte".
 
 Partiendo de la mercadería, podemos pensar que la carga de trabajo tiene un comportamiento **estacionario** debido a que en el escenario no se menciona en ningún momento un crecimiento o comportamiento predecible o cíclico. Tampoco el cambio de sistema tiene una relación directa, en este caso, con el flujo de mercadería que procese la empresa.
 
