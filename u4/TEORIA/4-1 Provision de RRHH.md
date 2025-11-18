@@ -20,9 +20,10 @@ El Subsistema de Provisión de Recursos Humanos (RRHH) es uno de los cinco proce
 
 La finalidad de este subsistema es el **suministro de personas** a la organización.
 
-| **Proceso Principal** | **Objetivo**                                            | **Actividades Comprendidas**                                                                           |
-| --------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| **Provisión**         | Determinar **quién irá a trabajar** en la organizació * Investigación de mercado de RH <br><br>* Reclutamiento de personal <br><br>* Selección de personal sonal |
+| **Proceso Principal** | **Objetivo**                                                                                                                                                     | **Actividades Comprendidas** |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| **Provisión**         | Determinar **quién irá a trabajar** en la organizació * Investigación de mercado de RH <br><br>* Reclutamiento de personal <br><br>* Selección de personal sonal |                              |
+
 
 
 ### 🔄 Contexto y Proceso Clave

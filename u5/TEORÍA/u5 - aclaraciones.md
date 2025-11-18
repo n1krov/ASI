@@ -82,9 +82,9 @@ Si una empresa opta por una **Ubicación Descentralizada o Delegada**, donde la 
 
 ### **Cuadro Comparativo de la Relación**
 
-| Modelo de Ubicación | Objetivo Principal | Enfoques Estructurales Probables |
-| :--- | :--- | :--- |
-| **Centralizada** | Eficiencia, control, estandarización. | • Enfoque Tradicional (Centro de Datos)<br>• Estructura de Bases de Datos |
+| Modelo de Ubicación            | Objetivo Principal                                | Enfoques Estructurales Probables                                                                           |
+| :----------------------------- | :------------------------------------------------ | :--------------------------------------------------------------------------------------------------------- |
+| **Centralizada**               | Eficiencia, control, estandarización.             | • Enfoque Tradicional (Centro de Datos)<br>• Estructura de Bases de Datos                                  |
 | **Descentralizada / Delegada** | Efectividad, agilidad, alineación con el negocio. | • Grupos de Proyectos Funcionales (Matricial)<br>• Centro de Información y Apoyo<br>• Estructuras Externas |
 
 ### **Conclusión**
