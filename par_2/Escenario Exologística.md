@@ -63,7 +63,6 @@ Un **parámetro cualitativo** podría ser que se hayan quedado con el SW de "Inf
 
 Partiendo de la mercadería, podemos pensar que la carga de trabajo tiene un comportamiento **estacionario** debido a que en el escenario no se menciona en ningún momento un crecimiento o comportamiento predecible o cíclico. Tampoco el cambio de sistema tiene una relación directa, en este caso, con el flujo de mercadería que procese la empresa.
 
-
-
+----
 
 
