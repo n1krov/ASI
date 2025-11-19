@@ -186,11 +186,11 @@ Un **Sistema Abierto** es aquel que utiliza **equipos o componentes no propietar
 
 Hacer el software internamente se vuelve necesario cuando el programa te dará una **ventaja estratégica** sobre la competencia. Es decir, cuando ese software es tu "secreto para ganar".
 
-|**Factor Estratégico**|**¿Qué significa?**|
-|---|---|
-|**Ventaja Competitiva Única**|El programa que necesitas es tan **especial** que si lo usas, serás mejor que tus rivales. Si lo compras ya hecho, tu rival también podría comprarlo.|
-|**No hay Paquetes en el Mercado**|La solución que buscas es muy **novedosa o específica** para tu negocio, y simplemente no existe una aplicación estándar que la satisfaga.|
-|**Mantener el Conocimiento**|Quieres que el **conocimiento técnico** de cómo funciona ese sistema se quede en tu empresa y no se vaya a un proveedor externo.|
+| **Factor Estratégico**            | **¿Qué significa?**                                                                                                                                   |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ventaja Competitiva Única**     | El programa que necesitas es tan **especial** que si lo usas, serás mejor que tus rivales. Si lo compras ya hecho, tu rival también podría comprarlo. |
+| **No hay Paquetes en el Mercado** | La solución que buscas es muy **novedosa o específica** para tu negocio, y simplemente no existe una aplicación estándar que la satisfaga.            |
+| **Mantener el Conocimiento**      | Quieres que el **conocimiento técnico** de cómo funciona ese sistema se quede en tu empresa y no se vaya a un proveedor externo.                      |
 
 ##### b. ¿Cuándo debemos COMPRAR el Software (Paquetes Estándar)?
 
@@ -358,7 +358,7 @@ Con la pequeña excepción del ensamblaje de las microcomputadoras, todo el hard
 
 ### **14. ¿Qué es el downsizing? Detalle sus ventajas y desventajas. ¿Cuáles son los costos implícitos de downsizing?**
 
-El **Downsizing** es la **migración** de un sistema o un conjunto de sistemas desde una plataforma grande (mainframe o minicomputadora) a una **red de PC o microcomputadoras**33. Implica un alto grado de **distribución y procesamiento en red**34.
+El **Downsizing** es la **migración** de un sistema o un conjunto de sistemas desde una plataforma grande (mainframe o minicomputadora) a una **red de PC o microcomputadoras**. Implica un alto grado de **distribución y procesamiento en red**34.
 
 #### **Ventajas y Desventajas**
 
@@ -372,14 +372,14 @@ El **Downsizing** es la **migración** de un sistema o un conjunto de sistemas d
 
 #### **Costos Implícitos de Downsizing**
 
-A pesar del potencial ahorro de costos, existen costos que a menudo se **subestiman o son ocultos**35:
+A pesar del potencial ahorro de costos, existen costos que a menudo se **subestiman o son ocultos**:
 
 1. **Costo Operativo Real:** Los costos operativos reales de la nueva infraestructura distribuida.
     
 2. **Costo de Migración:** Los costos asociados al proceso de transferencia y al _know-how_ (ej. el entrenamiento necesario para el personal).
     
 
-Aun así, se determinó que, a pesar de estos costos, el _downsizing_ puede ofrecer un **rendimiento que supera de dos a cinco veces la inversión total**36.
+Aun así, se determinó que, a pesar de estos costos, el _downsizing_ puede ofrecer un **rendimiento que supera de dos a cinco veces la inversión total**.
 
 ---
 

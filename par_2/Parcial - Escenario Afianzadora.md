@@ -3,8 +3,9 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 ## Consignas
 
-**A) Provisión de SI/TI**
-**I) Los siguientes criterios han sido considerados para guiar la migración de las aplicaciones. Complete la tabla, de acuerdo con lo pedido (12ptos. 4 ptos cada criterio completamente correcto, sino 0ptos)**
+# **A) Provisión de SI/TI**
+
+## **I) Los siguientes criterios han sido considerados para guiar la migración de las aplicaciones. Complete la tabla, de acuerdo con lo pedido (12ptos. 4 ptos cada criterio completamente correcto, sino 0ptos)**
 
 |                                                 | Escalabilidad                                                                                                                                                                                                                                                | Disponibilidad                                                                                                                                     | Requerimientos de HW                                                                                                                  |
 | :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
@@ -17,9 +18,7 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 
 ***FACILIDADES*** -> Aplicacion (Software Facilityes)
 
-
-
-**II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos).**
+## **II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos).**
 
 > [!hint] **RTA.** El esquema de provisión es Outsourcing del tipo **Agencia de Servicios**, ya que Afianzadora contrata a la consultora Manas-TI para llevar a cabo el proyecto de migración de servidores, implementación de los programas virtualización y del nuevo servicio de correo electrónico, pero no le otorga una responsabilidad de management completa.
 
@@ -32,11 +31,31 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 >* Recurso de SW: "V-Sphere  5 de VMware."
 
 
-**B) Subsistema de Aplicación de SI/TI. Planificación de la capacidad. Subsistema de Seguimiento de los SI/TI (30 ptos - 10 ptos cada respuesta completamente correcta)**
+Para ver esto pensa lo siguiente: Los esquemas de provision de HW/SW son 3
+- ***DESARROLLO***
+	- Cuando en el escenario te diga que los tipos decidieron armar una solucion de SW propia.
+	- El programa que necesitas es tan **especial** que si lo usas, serás mejor que tus rivales. Si lo compras ya hecho, tu rival también podría comprarlo.
+	- La solución que buscas es muy **novedosa o específica** para tu negocio, y simplemente no existe una aplicación estándar que la satisfaga.
+- ***ADQUISICION***
+	- Una pequeña empresa que necesita un sistema contable que funcione bien con el sistema de ventas, sin tener que gastar en modificaciones.
+	- Usar software genérico que cualquier empresa necesita (ej. un programa de correo electrónico o una hoja de cálculo).
+- ***OUTSOURCING***
+	- Tercerizar. Tiene diferentes tipos.
+
+
+| Tipo de Outsourcing                  | Concepto Clave                                                                                                                                   | Ejemplo Resumido                                                                               |
+| :----------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| **Proveedor de Tiempo Compartido**   | Alquilar una herramienta específica (poder de cómputo).<br>- Tarea pequeña y para procesamiento externo.<br>- Te cobran por el tiempo. Ej.: AWS. | Un estudio de cine alquila un supercomputador en la nube para renderizar una película.         |
+| **Agencia de Servicios**             | Contratar a un especialista para una tarea completa.                                                                                             | Una empresa contrata a otra firma para que le liquide los sueldos a sus empleados.             |
+| **Management Completo de Servicios** | Entregar las llaves de todo el taller de TI a un gestor externo.                                                                                 | Un grupo de hospitales contrata a IBM para que se haga cargo de toda su operación informática. |
+|                                      |                                                                                                                                                  |                                                                                                |
+
+
+## **B) Subsistema de Aplicación de SI/TI. Planificación de la capacidad. Subsistema de Seguimiento de los SI/TI (30 ptos - 10 ptos cada respuesta completamente correcta)**
 
 **Para el escenario en estudio:**
 
-**I. ¿Qué unidades de predicción natural (UPN) seleccionaría para planificar la demanda potencial en un ambiente informático de seguros de caución? Fundamente su respuesta.**
+## **I. ¿Qué unidades de predicción natural (UPN) seleccionaría para planificar la demanda potencial en un ambiente informático de seguros de caución? Fundamente su respuesta.**
 
 > [!hint] **RTA.** Las unidades de predicción natural que identificamos son...
 > 
