@@ -99,18 +99,22 @@ El autor Xavier Molero en su libro *"Evaluación y modelado del rendimiento de l
     *   **¿Cómo se ve?:** Como una línea que, en general, sube o baja.
     *   **Ejemplo:** El número de usuarios activos mensuales de una nueva aplicación (tiende a crecer). El espacio libre en un disco duro (tiende a decrecer).
 
-
-2.  **Estacional (Seasonal):** Los datos muestran picos y valles que se repiten en intervalos de tiempo fijos y predecibles (horas del día, días de la semana, meses del año).
+**PATRON: ESTACIONAL/CICLICO -> *SUAVIZADO EXPONENCIAL***
+1.  **Estacional (Seasonal):** Los datos muestran picos y valles que se repiten en intervalos de tiempo fijos y predecibles (horas del día, días de la semana, meses del año).
     *   **¿Cómo se ve?:** Como una onda regular y repetitiva.
     *   **Ejemplo:** El tráfico de una red corporativa, que tiene un pico de 9 a.m. a 5 p.m. y es casi nulo por la noche, repitiéndose cada día. Las ventas de un e-commerce, que siempre tienen un pico en diciembre.
 
-3.  **Cíclico (Cyclical):** Similar a la estacionalidad, pero los picos y valles ocurren en intervalos de tiempo más largos e irregulares. A menudo están ligados a ciclos económicos o de negocio.
+	*   **Por qué funciona:** Da más peso a los datos nuevos, permitiendo que la predicción "aprenda" y se ajuste rápidamente a los cambios recientes en el comportamiento de la carga.
+	*   **Cuándo NO funciona:** La versión simple descrita en tu material no maneja bien ni la tendencia ni la estacionalidad por sí sola (aunque existen versiones avanzadas como Holt-Winters que sí lo hacen).
+
+2.  **Cíclico (Cyclical):** Similar a la estacionalidad, pero los picos y valles ocurren en intervalos de tiempo más largos e irregulares. A menudo están ligados a ciclos económicos o de negocio.
     *   **¿Cómo se ve?:** Como ondas más largas y menos predecibles que las estacionales.
     *   **Ejemplo:** Los ciclos de inversión en hardware de una empresa, que pueden ocurrir cada 3-5 años sin una fecha fija.
 
-4.  **Estacionario o Aleatorio (Stationary / Random):** Los datos no muestran ninguna tendencia ni patrón estacional. Fluctúan alrededor de un valor promedio constante. Puede haber variaciones, pero son impredecibles a corto plazo.
+3.  **Estacionario o Aleatorio (Stationary / Random):** Los datos no muestran ninguna tendencia ni patrón estacional. Fluctúan alrededor de un valor promedio constante. Puede haber variaciones, pero son impredecibles a corto plazo.
     *   **¿Cómo se ve?:** Como un conjunto de puntos dispersos horizontalmente alrededor de una media.
     *   **Ejemplo:** El número de fallos de red por día en un sistema estable.
+
 
 
 | ***Patrón de Datos Históricos (Diagnóstico)*** | ***Descripción Visual***                                  | ***Método de Predicción Adecuado (Prescripción)***     | ***Razón de la Relación (Por qué funciona)***                                                                  |
@@ -119,7 +123,6 @@ El autor Xavier Molero en su libro *"Evaluación y modelado del rendimiento de l
 | **Estacional**                                 | Ondas regulares y predecibles.                            | **Suavizado** (Métodos estacionales como Holt-Winters) | Estos métodos aprenden el patrón de la onda y lo replican en el futuro.                                        |
 | **Cíclico**                                    | Ondas largas e irregulares.                               | **Suavizado** (Análisis más complejo)                  | Intenta capturar la duración y amplitud de las ondas, aunque es más difícil.                                   |
 | **Estacionario**                               | Puntos dispersos horizontalmente sin dirección.           | **Medias Móviles**                                     | Asumen que el futuro será similar al promedio del pasado. El suavizado es más rápido para adaptarse a cambios. |
-
 
 
 ## Artículo

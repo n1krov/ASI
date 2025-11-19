@@ -199,4 +199,4 @@ Ahora conectemos cada patrón con su método de predicción adecuado, explicando
 | **Cíclico**                              | Ondas largas e irregulares.                               | **Suavizado** (Análisis más complejo)                  | Intenta capturar la duración y amplitud de las ondas, aunque es más difícil.                                   |
 | **Estacionario**                         | Puntos dispersos horizontalmente sin dirección.           | **Medias Móviles**                                     | Asumen que el futuro será similar al promedio del pasado. El suavizado es más rápido para adaptarse a cambios. |
 
-En conclusión, la relación es intrínseca y fundamental: **la forma de tus datos históricos dicta la herramienta que debes usar para predecir su futuro.**
+En conclusión, la relación es intrínseca y fundamental: **la forma de tus datos históricos dicta la herramienta que debes usar para pr edecir su futuro.**
