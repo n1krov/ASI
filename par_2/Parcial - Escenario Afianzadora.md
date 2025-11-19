@@ -12,12 +12,10 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 | **Tipo de parámetro al que dará origen**        | CUALITATIVO                                                                                                                                                                                                                                                  | CUALITATIVO                                                                                                                                        | CUANTITATIVO                                                                                                                          |
 
 >[!important]
->**PARAMETRO CUANTITATIVO**: Relacionarlo con la carga de trabajo empresarial (Especificar con un numero concreto porque vienen de calculos).
->**PARAMETRO CUALITATIVO**: Sujeto a preferecias y subjetividad de la empresa (No tiene numeros, puede tener porcentajes). Habla de **funcionalidades** que puede tener o funcionalidades.
+>**PARÁMETRO CUANTITATIVO**: Relacionarlo con la carga de trabajo empresarial (especificar con un numero concreto porque vienen de cálculos).
+>**PARÁMETRO CUALITATIVO**: Sujeto a preferencias y subjetividad de la empresa (no tiene números, puede tener porcentajes). Habla de **funcionalidades** que puede tener o funcionalidades.
 
-***FACILIDADES*** -> Aplicacion (Software Facilityes)
-
-
+***FACILIDADES*** -> Aplicación (Software Facilites).
 
 **II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos).**
 
