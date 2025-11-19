@@ -173,11 +173,6 @@ Un **Sistema Abierto** es aquel que utiliza **equipos o componentes no propietar
 ---
 
 ## ⚙️ Subsistema de Provisión de SW y HW (Preguntas 9 - 16)
-
-¡Claro! El punto 9 es un poco largo, pero la idea central es sencilla: **Obtener programas (Software) es complejo, pero obtener equipos (Hardware) es simple.**
-
-Aquí tienes la explicación dividida en las secciones más fáciles de entender:
-
 #### 💾 La Diferencia entre Obtener Software y Hardware
 
 ##### La Gran Diferencia: Flexibilidad
