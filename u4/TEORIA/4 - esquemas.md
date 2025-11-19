@@ -53,3 +53,8 @@
 ![[Pasted image 20251118115500.png]]
 
 ![[Pasted image 20251118115511.png]]
+
+> [!hint] Este es un esquema que representa al proceso completo de provisión de SI/TI.
+> 
+![[Proceso completo de provisión de SI-TI.png]]
+
