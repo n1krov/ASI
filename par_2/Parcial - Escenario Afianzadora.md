@@ -99,6 +99,7 @@ El autor Xavier Molero en su libro *"Evaluación y modelado del rendimiento de l
     *   **¿Cómo se ve?:** Como una línea que, en general, sube o baja.
     *   **Ejemplo:** El número de usuarios activos mensuales de una nueva aplicación (tiende a crecer). El espacio libre en un disco duro (tiende a decrecer).
 
+
 2.  **Estacional (Seasonal):** Los datos muestran picos y valles que se repiten en intervalos de tiempo fijos y predecibles (horas del día, días de la semana, meses del año).
     *   **¿Cómo se ve?:** Como una onda regular y repetitiva.
     *   **Ejemplo:** El tráfico de una red corporativa, que tiene un pico de 9 a.m. a 5 p.m. y es casi nulo por la noche, repitiéndose cada día. Las ventas de un e-commerce, que siempre tienen un pico en diciembre.
@@ -112,6 +113,12 @@ El autor Xavier Molero en su libro *"Evaluación y modelado del rendimiento de l
     *   **Ejemplo:** El número de fallos de red por día en un sistema estable.
 
 
+| ***Patrón de Datos Históricos (Diagnóstico)*** | ***Descripción Visual***                                  | ***Método de Predicción Adecuado (Prescripción)***     | ***Razón de la Relación (Por qué funciona)***                                                                  |
+| :--------------------------------------------- | :-------------------------------------------------------- | :----------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| **Tendencia**                                  | Los puntos siguen una dirección general (arriba o abajo). | **Regresión Lineal**                                   | Modela matemáticamente esa línea de tendencia y la proyecta.                                                   |
+| **Estacional**                                 | Ondas regulares y predecibles.                            | **Suavizado** (Métodos estacionales como Holt-Winters) | Estos métodos aprenden el patrón de la onda y lo replican en el futuro.                                        |
+| **Cíclico**                                    | Ondas largas e irregulares.                               | **Suavizado** (Análisis más complejo)                  | Intenta capturar la duración y amplitud de las ondas, aunque es más difícil.                                   |
+| **Estacionario**                               | Puntos dispersos horizontalmente sin dirección.           | **Medias Móviles**                                     | Asumen que el futuro será similar al promedio del pasado. El suavizado es más rápido para adaptarse a cambios. |
 
 
 
