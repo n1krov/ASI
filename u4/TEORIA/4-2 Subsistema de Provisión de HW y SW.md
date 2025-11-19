@@ -14,7 +14,7 @@ El subsistema de provisión de SW y HW incluye el **conjunto de procedimientos, 
 Las **cuestiones clave** que deben tenerse en cuenta en la provisión son:
 - Determinar la **mejor alternativa técnico-operativa-económica** para proveer el SW y/o HW.
 - La selección debe basarse en **técnicas de calificación y priorización**, siguiendo **pautas formales y el criterio profesional**.
-- El proceso de determinar las **fuentes de provisión no es un proceso puramente técnico**, sino un **proceso de toma de decisiones**.
+- El proceso de determinar las **fuentes de provisión *NO* es un proceso puramente técnico**, sino un **proceso de toma de decisiones**.
 - **Evaluar la implicancia de todas las aplicaciones** con sumo cuidado, ya que el **sentido empresarial** a menudo impone limitaciones estrictas al proceso.  
 - Elegir y planificar los **enfoques de conversión** (Abrupto, En fases, Paralelo, Piloto) antes de la adquisición, ya que esto influye en otras opciones del proceso de selección.
 
@@ -29,12 +29,12 @@ La **Ubicación de los SI/TI** (Centralizada, Descentralizada o Delegada) afecta
 
 El esquema de ubicación impone un **marco de control** que la provisión debe obedecer:
 
-|**Esquema de Ubicación**|**Foco Estratégico y Control**|**Efecto en Políticas y Proceso de Provisión**|
-|---|---|---|
-|**(Re)Centralizada**|Foco en la **Eficiencia**, el **Control Total** y la **Integración**.|✅ **Políticas Rígidas y Uniformes**: Se favorecen políticas de provisión de **Normas Fijas**, donde el catálogo de SW y HW es limitado y estandarizado.|
-||**Decisiones de Control Centralizadas**.|✅ **Proceso Orientado a la Eficiencia**: Busca **economías de escala** y evita la **duplicación** de recursos (mínima incompatibilidad), aunque puede ser lento y **separado de las prioridades del negocio real**.|
-|**Descentralizada/ Delegada**|Foco en la **Efectividad**, la **Velocidad** y la **Autonomía** del usuario final.|✅ **Políticas Flexibles y Adaptables**: Se requieren políticas de **Libertad Total** o **Intercambio de Datos** para que cada área pueda responder a sus necesidades específicas.|
-||**Decisiones de Control Dispersas** (al usuario final).|✅ **Proceso Orientado a la Efectividad**: Prioriza la **capacidad de respuesta** y la **integración con el negocio**; sin embargo, aumenta el riesgo de **incompatibilidades futuras** y **altos costos agregados** por la duplicación.|
+| **Esquema de Ubicación**      | **Foco Estratégico y Control**                                                     | **Efecto en Políticas y Proceso de Provisión**                                                                                                                                                                                          |
+| ----------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **(Re)Centralizada**          | Foco en la **Eficiencia**, el **Control Total** y la **Integración**.              | ✅ **Políticas Rígidas y Uniformes**: Se favorecen políticas de provisión de **Normas Fijas**, donde el catálogo de SW y HW es limitado y estandarizado.                                                                                 |
+|                               | **Decisiones de Control Centralizadas**.                                           | ✅ **Proceso Orientado a la Eficiencia**: Busca **economías de escala** y evita la **duplicación** de recursos (mínima incompatibilidad), aunque puede ser lento y **separado de las prioridades del negocio real**.                     |
+| **Descentralizada/ Delegada** | Foco en la **Efectividad**, la **Velocidad** y la **Autonomía** del usuario final. | ✅ **Políticas Flexibles y Adaptables**: Se requieren políticas de **Libertad Total** o **Intercambio de Datos** para que cada área pueda responder a sus necesidades específicas.                                                       |
+|                               | **Decisiones de Control Dispersas** (al usuario final).                            | ✅ **Proceso Orientado a la Efectividad**: Prioriza la **capacidad de respuesta** y la **integración con el negocio**; sin embargo, aumenta el riesgo de **incompatibilidades futuras** y **altos costos agregados** por la duplicación. |
 
 ##### Conclusión Final
 
