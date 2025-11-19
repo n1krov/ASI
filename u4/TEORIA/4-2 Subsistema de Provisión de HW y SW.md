@@ -173,6 +173,7 @@ Un **Sistema Abierto** es aquel que utiliza **equipos o componentes no propietar
 ---
 
 ## ⚙️ Subsistema de Provisión de SW y HW (Preguntas 9 - 16)
+
 #### 💾 La Diferencia entre Obtener Software y Hardware
 
 ##### La Gran Diferencia: Flexibilidad
@@ -492,7 +493,7 @@ Un principio general del outsourcing es **retener el control** de las actividade
     
 - Actividades que conducen a crecimiento futuro e innovación o actualización de la organización.
 
-### **17. ¿Qué factores deben tenerse en cuenta para el _outsourcing_?**
+### **17. ¿Qué factores o criterios deben tenerse en cuenta para el _outsourcing_?**
 
 Al evaluar la provisión externa de servicios de SI, se deben considerar los siguientes factores, ya que las distintas rutas de adquisición requieren diferentes aptitudes de _management_ 1:
 

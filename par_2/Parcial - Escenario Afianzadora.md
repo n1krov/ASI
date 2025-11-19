@@ -19,7 +19,6 @@ Se adjunta Caso de Estudio: "SEGURO VIRTUAL" (Fuente: Revista mensual **Informat
 ***FACILIDADES*** -> Aplicacion (Software Facilityes)
 
 ## **II) ¿Qué esquema de provisión y de qué recurso de SI/TI mantienen Afianzadora Latinoamericana con la empresa Manas-TI?. Explique detallada, profunda y fundadamente. (8ptos).**
-
 > [!hint] **RTA.** El esquema de provisión es Outsourcing del tipo **Agencia de Servicios**, ya que Afianzadora contrata a la consultora Manas-TI para llevar a cabo el proyecto de migración de servidores, implementación de los programas virtualización y del nuevo servicio de correo electrónico, pero no le otorga una responsabilidad de management completa.
 
 
