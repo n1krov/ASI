@@ -46,7 +46,7 @@ Para ver esto pensa lo siguiente: Los esquemas de provision de HW/SW son 3
 | Tipo de Outsourcing                  | Concepto Clave                                                                                                                                   | Ejemplo Resumido                                                                               |
 | :----------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
 | **Proveedor de Tiempo Compartido**   | Alquilar una herramienta específica (poder de cómputo).<br>- Tarea pequeña y para procesamiento externo.<br>- Te cobran por el tiempo. Ej.: AWS. | Un estudio de cine alquila un supercomputador en la nube para renderizar una película.         |
-| **Agencia de Servicios**             | Contratar a un especialista para una tarea completa.                                                                                             | Una empresa contrata a otra firma para que le liquide los sueldos a sus empleados.             |
+| **Agencia de Servicios**             | Contratar a un especialista para una **tarea completa**.                                                                                         | Una empresa contrata a otra firma para que le liquide los sueldos a sus empleados.             |
 | **Management Completo de Servicios** | Entregar las llaves de todo el taller de TI a un gestor externo.                                                                                 | Un grupo de hospitales contrata a IBM para que se haga cargo de toda su operación informática. |
 |                                      |                                                                                                                                                  |                                                                                                |
 
@@ -85,6 +85,35 @@ Para ver esto pensa lo siguiente: Los esquemas de provision de HW/SW son 3
 > El gráfico resultante tendrá características similares al siguiente (es una función lineal):
 > 
 ![[Pasted image 20251117130446.png]]
+
+
+##### como hacemos esta cagada?
+
+![[Pasted image 20251115182942.png]]
+
+
+El autor Xavier Molero en su libro *"Evaluación y modelado del rendimiento de los sistemas informáticos"* describe cuatro patrones básicos que se pueden encontrar en la carga de un sistema:
+
+##### **PATRÓN: TENDENCIA → *MÉTODO: REGRESIÓN LINEAL***
+1.  **Tendencia (Trend):** Los datos muestran un movimiento sostenido a largo plazo, ya sea hacia arriba (crecimiento) o hacia abajo (decrecimiento).
+    *   **¿Cómo se ve?:** Como una línea que, en general, sube o baja.
+    *   **Ejemplo:** El número de usuarios activos mensuales de una nueva aplicación (tiende a crecer). El espacio libre en un disco duro (tiende a decrecer).
+
+2.  **Estacional (Seasonal):** Los datos muestran picos y valles que se repiten en intervalos de tiempo fijos y predecibles (horas del día, días de la semana, meses del año).
+    *   **¿Cómo se ve?:** Como una onda regular y repetitiva.
+    *   **Ejemplo:** El tráfico de una red corporativa, que tiene un pico de 9 a.m. a 5 p.m. y es casi nulo por la noche, repitiéndose cada día. Las ventas de un e-commerce, que siempre tienen un pico en diciembre.
+
+3.  **Cíclico (Cyclical):** Similar a la estacionalidad, pero los picos y valles ocurren en intervalos de tiempo más largos e irregulares. A menudo están ligados a ciclos económicos o de negocio.
+    *   **¿Cómo se ve?:** Como ondas más largas y menos predecibles que las estacionales.
+    *   **Ejemplo:** Los ciclos de inversión en hardware de una empresa, que pueden ocurrir cada 3-5 años sin una fecha fija.
+
+4.  **Estacionario o Aleatorio (Stationary / Random):** Los datos no muestran ninguna tendencia ni patrón estacional. Fluctúan alrededor de un valor promedio constante. Puede haber variaciones, pero son impredecibles a corto plazo.
+    *   **¿Cómo se ve?:** Como un conjunto de puntos dispersos horizontalmente alrededor de una media.
+    *   **Ejemplo:** El número de fallos de red por día en un sistema estable.
+
+
+
+
 
 ## Artículo
 ### **Seguro virtual**
