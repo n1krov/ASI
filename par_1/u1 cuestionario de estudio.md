@@ -29,7 +29,7 @@ Visualizar los videos disponibles en el **aula virtual** sobre *Administración*
 
 - [x] 
 ## 1 ✍️ Interpretar, teniendo en cuenta la definición de si stemas de información propuesta por **Andreu, Ricart y Valor**, la ubicación y función de los **SI/TI en la cadena de valor** de la organización.
-1. [[El SI en el contexto de la Cadena de Valor]]
+1. [[par_1/u1/El SI en el contexto de la Cadena de Valor]]
 2. [[Ubicacion del SI-TI en la cadena de valor (Interpretacion)]]
 
 - [x] 
