@@ -53,6 +53,6 @@ Es el "paquete" de cierre que formaliza todo el esfuerzo de alineamiento estrat�
 
 ---
 
-### La conclusión ganadora del cuadro abajo 📌
+### La conclusión ganadora del cuadro abajo
 
 El recuadro del final resume el gran logro de tu TP: con este plan, la Dirección de Vialidad Provincial del Chaco no solo moderniza sus oficinas, sino que gana **soberanía tecnológica** (son dueños de sus propios sistemas), logra un **dato único auditable** (se acabaron las planillas de papel cruzadas a mano) y hace **planificación territorial basada en datos** (las rutas se priorizan con mapas técnicos e índices reales de accidentes).
