@@ -1,5 +1,5 @@
 ---
-title: "Unidad VI - Seguridad y Auditoría de Sistemas de Información"
+title: "Unidad III - Subsistema de Aplicación"
 subtitle: "Administración de Sistemas de Información"
 author: n1krov
 date: \today
@@ -20,16 +20,15 @@ urlcolor: NavyBlue
 toccolor: NavyBlue
 classoption: numbers=enddot
 highlight-style: tango
-header-includes:
-  - |
-    ```{=latex}
-    \usepackage{float}
-    \floatplacement{figure}{H}
-    \usepackage{fvextra}
-    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-    \usepackage{newunicodechar}
-    \newfontfamily\symfont{DejaVu Sans}
-    \newunicodechar{►}{{\symfont ►}}
-    \newunicodechar{✓}{{\symfont ✓}}
-    ```
+header-includes: |
+  \usepackage{float}
+  \let\origfigure\figure
+  \let\endorigfigure\endfigure
+  \renewenvironment{figure}[1][2] {
+      \expandafter\origfigure\expandafter[H]
+  } {
+      \endorigfigure
+  }
+  \usepackage{fvextra}
+  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
 ---
