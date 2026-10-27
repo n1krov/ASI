@@ -1,5 +1,6 @@
 ---
-title: UNIDAD 5 - Subsitema de Aplicacion
+title: "Unidad III - Subsistema de Aplicación"
+subtitle: "Administración de Sistemas de Información"
 author: n1krov
 date: \today
 lang: es
@@ -16,6 +17,8 @@ numbersections: true
 colorlinks: true
 linkcolor: NavyBlue
 urlcolor: NavyBlue
+toccolor: NavyBlue
+classoption: numbers=enddot
 highlight-style: tango
 header-includes: |
   \usepackage{float}
@@ -29,6 +32,9 @@ header-includes: |
   \usepackage{fvextra}
   \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
 ---
+
+\newpage
+
 # Subsistema de aplicación de RRHH.
 
 > **Del Chiavenato**
@@ -91,12 +97,32 @@ Los más utilizados son:
 4. **Grupos de trabajo**: El gerente puede encomendar la integración del nuevo empleado a un grupo de trabajo. La aceptación del grupo es fuente fundamental de satisfacción de las necesidades sociales. Además, los grupos de trabajo influyen bastante en las creencias y actitudes de los individuos frente a la organización, así como la manera de comportarse. El grupo funciona como una “escuela informal” que enseña cómo comportarse, cómo trabajar y cómo adaptarse al clima de la empresa.
 5. **Programas de integración**. Entrenamiento intensivo inicial dirigido a los nuevos miembros de la organización para familiarizarlos con el lenguaje habitual de la organización, los usos y costumbres internos (cultura organizacional), la estructura de la organización (áreas o departamentos existentes), los principales productos o servicios, la misión de la organización y los objetivos organizacionales, etc. El programa de integración busca que el/nuevo empleado asimile con rapidez e intensidad, en una situación de laboratorio, la cultura de la organización, y de ahí en adelante se comporte como un miembro comprometido con la organización. Los principales ítems de un programa de integración son:
 
-|                          |                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Asuntos organizacionales | a. Misión y objetivos básicos de la organización  <br>b. Políticas: medios a través de los cuales se alcanzarán los objetivos  <br>c. Cómo se organiza y estructura la empresa: qué hace cada área o departamento  <br>d. Distribución física del área que utilizará el nuevo miembro  <br>e. Principales productos y servicios de la organización  <br>f. Normas y reglamentos internos  <br>g. Procedimientos de seguridad en el trabajo |
-| Beneficios               | a. Horario de trabajo, de descanso y de comida (o refrigerios)  <br>b. Días de pago y anticipos salariales  <br>c. Beneficios sociales ofrecidos por la organización                                                                                                                                                                                                                                                                       |
-| Presentación             | a. A los superiores y los colegas de trabajo                                                                                                                                                                                                                                                                                                                                                                                               |
-| Deberes de los cargos    | a. Responsabilidades básicas confiadas al nuevo empleado  <br>b. Tareas del cargo  <br>c. Objetivos del cargo  <br>d. Visión general del cargo                                                                                                                                                                                                                                                                                             |
+**Asuntos organizacionales:**
+
+a. Misión y objetivos básicos de la organización
+b. Políticas: medios a través de los cuales se alcanzarán los objetivos
+c. Cómo se organiza y estructura la empresa: qué hace cada área o departamento
+d. Distribución física del área que utilizará el nuevo miembro
+e. Principales productos y servicios de la organización
+f. Normas y reglamentos internos
+g. Procedimientos de seguridad en el trabajo
+
+**Beneficios:**
+
+a. Horario de trabajo, de descanso y de comida (o refrigerios)
+b. Días de pago y anticipos salariales
+c. Beneficios sociales ofrecidos por la organización
+
+**Presentación:**
+
+a. A los superiores y los colegas de trabajo
+
+**Deberes de los cargos:**
+
+a. Responsabilidades básicas confiadas al nuevo empleado
+b. Tareas del cargo
+c. Objetivos del cargo
+d. Visión general del cargo
 
 El programa de integración busca que el nuevo empleado asimile con rapidez e intensidad, en una situación de laboratorio, la cultura de la organización, y de ahí en adelante se comporte como un miembro comprometido con la organización. En algunas organizaciones, los programas de integración los desarrolla el órgano encargado del entrenamiento, mientras que en otras sólo los coordinan y ejecutan los gerentes de línea en los diversos aspectos tratados. Son programas que duran entre uno y cinco días, dependiendo de la intensidad de la integración que la organización pretenda lograr, y cuentan con un seguimiento del empleado a mediano plazo, llevado a cabo por el gerente o el supervisor que fungen de tutores de los nuevos empleados y que se responsabilizan de la evaluación de su desempeño.
 

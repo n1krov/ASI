@@ -1,6 +1,7 @@
 ---
-title: "UNIDAD 3 - Seguridad y Auditoria"
-author: "n1krov"
+title: "Unidad VI - Seguridad y Auditoría de Sistemas de Información"
+subtitle: "Administración de Sistemas de Información"
+author: n1krov
 date: \today
 lang: es
 documentclass: scrartcl
@@ -16,9 +17,19 @@ numbersections: true
 colorlinks: true
 linkcolor: NavyBlue
 urlcolor: NavyBlue
+toccolor: NavyBlue
+classoption: numbers=enddot
 highlight-style: tango
-header-includes: |
-  \usepackage{float}
-  \floatplacement{figure}{H}
+header-includes:
+  - |
+    ```{=latex}
+    \usepackage{float}
+    \floatplacement{figure}{H}
+    \usepackage{fvextra}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+    \usepackage{newunicodechar}
+    \newfontfamily\symfont{DejaVu Sans}
+    \newunicodechar{►}{{\symfont ►}}
+    \newunicodechar{✓}{{\symfont ✓}}
+    ```
 ---
-

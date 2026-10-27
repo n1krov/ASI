@@ -1,3 +1,37 @@
+---
+title: "Unidad VI - Seguridad y Auditoría de Sistemas de Información"
+subtitle: "Administración de Sistemas de Información"
+author: n1krov
+date: \today
+lang: es
+documentclass: scrartcl
+fontsize: 11pt
+geometry: margin=2.5cm
+linestretch: 1.15
+mainfont: Libertinus Serif
+sansfont: Inter
+monofont: JetBrains Mono
+toc: true
+toc-depth: 3
+numbersections: true
+colorlinks: true
+linkcolor: NavyBlue
+urlcolor: NavyBlue
+toccolor: NavyBlue
+classoption: numbers=enddot
+highlight-style: tango
+header-includes: |2-
+    \usepackage{float}
+    \floatplacement{figure}{H}
+    \usepackage{fvextra}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+    \usepackage{newunicodechar}
+    \newfontfamily\symfont{DejaVu Sans}
+    \newunicodechar{►}{{\symfont ►}}
+    \newunicodechar{✓}{{\symfont ✓}}
+---
+
+\newpage
 
 # Control del Ambiente Informático.
 

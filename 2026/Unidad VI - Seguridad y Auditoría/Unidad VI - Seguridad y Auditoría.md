@@ -1,32 +1,4 @@
----
-title: UNIDAD 3 - Seguridad y Auditoria
-author: n1krov
-date: \today
-lang: es
-documentclass: scrartcl
-fontsize: 11pt
-geometry: margin=2.5cm
-linestretch: 1.15
-mainfont: Libertinus Serif
-sansfont: Inter
-monofont: JetBrains Mono
-toc: true
-toc-depth: 3
-numbersections: true
-colorlinks: true
-linkcolor: NavyBlue
-urlcolor: NavyBlue
-highlight-style: tango
-header-includes: |2-
-    \usepackage{float}
-    \floatplacement{figure}{H}
-    \usepackage{fvextra}
-    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-    \usepackage{newunicodechar}
-    \newfontfamily\symfont{DejaVu Sans}
-    \newunicodechar{►}{{\symfont ►}}
-    \newunicodechar{✓}{{\symfont ✓}}
----
+
 # Control del Ambiente Informático.
 
 Es el conjunto conformado por la **seguridad, la auditoria y los controles** aplicados sobre el área del SI y sus recursos, así como sobre todos los sectores asociados al procesamiento de información de la organización.
