@@ -5,8 +5,8 @@
 #   ./compilar.sh apunte.md [carpeta_imagenes] [salida.pdf]
 #
 # Ejemplos:
-#   ./compilar.sh "UNIDAD 3 - Seguridad y Auditoria.md" ../../assets
-#   ./compilar.sh "UNIDAD 5 - Subsitema de Aplicacion.md" ../../assets
+#   ./compilar.sh "Unidad III - Subsistema de Aplicación.md" ../../assets
+#   ./compilar.sh "Unidad VI - Seguridad y Auditoría.md" ../../assets
 #
 # - El PDF se llama igual que el .md (en la misma carpeta), salvo que pases un 3er argumento.
 # - La cabecera se toma de header.yaml / header.yml (junto al script, o junto al .md,

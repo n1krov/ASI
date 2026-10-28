@@ -1,5 +1,6 @@
 ---
-title: UNIDAD 5 - Subsitema de Aplicacion
+title: "Unidad III - Subsistema de Aplicación"
+subtitle: "Administración de Sistemas de Información"
 author: n1krov
 date: \today
 lang: es
@@ -16,6 +17,8 @@ numbersections: true
 colorlinks: true
 linkcolor: NavyBlue
 urlcolor: NavyBlue
+toccolor: NavyBlue
+classoption: numbers=enddot
 highlight-style: tango
 header-includes: |
   \usepackage{float}
@@ -29,24 +32,27 @@ header-includes: |
   \usepackage{fvextra}
   \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
 ---
+
+\newpage
+
 # Subsistema de aplicación de RRHH.
 
 > **Del Chiavenato**
 
-Es el puente entre conseguir personas (provisión) y mantenerlas/motivarlas (mantenimiento), asegurando que cada persona ocupe un cargo
+Es el puente entre conseguir personas (provisión) y mantenerlas/motivarlas (mantenimiento), asegurando que cada persona ocupe un cargo.
 
 Es el subsistema cuya finalidad es la de emplear los recursos humanos y designar al personal del área de acuerdo con los esquemas de trabajo y explotación de la infraestructura de información.
 
-Es como hago funcionar los recursos en términos de la estructura que tengo de acuerdo a ciertas normas, reglas para que los recursos estén trabajando.
+Es cómo hago funcionar los recursos en términos de la estructura que tengo de acuerdo a ciertas normas, reglas para que los recursos estén trabajando.
 
-Se nutre de la provisión y es en donde se si yo necesito aprovisionar, por ej si tengo movimiento de personal o de acuerdo a la carga que tengo voy a saber si necesito HW (Aplicación de SI/TI).
+Se nutre de la provisión y es en donde sé si yo necesito aprovisionar, por ej., si tengo movimiento de personal o de acuerdo a la carga que tengo voy a saber si necesito HW (Aplicación de SI/TI).
 
-Se alimenta de la planificación estratégica pero también puede venir de esta gestión que estoy haciendo de los recursos aplicados para lograr resultados.
+Se alimenta de la planificación estratégica, pero también puede venir de esta gestión que estoy haciendo de los recursos aplicados para lograr resultados.
 
 Tiene 3 dimensiones:
 
 - **Socialización organizacional**: Integrar a las personas en el contexto laboral, específico y el cultural.
-- **Diseño de cargos**: Elaborar y diseñar los cargos del área de SI/TI (organigrama)
+- **Diseño de cargos**: Elaborar y diseñar los cargos del área de SI/TI (organigrama).
 - **Evaluar el desempeño**: Evaluar el desempeño de cada miembro respecto de su cargo. Es con respecto a la socialización.
 
 **Los procesos de aplicación de personas incluyen los primeros pasos de la integración de los nuevos miembros en la organización, el diseño del cargo que debe desempeñarse y la evaluación del desempeño en el cargo.**
@@ -58,7 +64,7 @@ Tiene 3 dimensiones:
 <aside>  
 💡
 
-El subsistema de aplicación se nutre de la provisión, es el sistema que va a saber si necesito la provisión, porque es el subsistema que me va a decir que si necesito incorporar recursos humanos, hw, sw. La provisión se nutre de la estrategia organizativa y del subsistema de aplicación.
+El subsistema de aplicación se nutre de la provisión, es el sistema que va a saber si necesito la provisión, porque es el subsistema que me va a decir si necesito incorporar recursos humanos, HW, SW. La provisión se nutre de la estrategia organizativa y del subsistema de aplicación.
 
 </aside>
 
@@ -72,33 +78,53 @@ Es el proceso permanente de inculcar en todos los empleados las actitudes, norma
 
 **Termina cuando el nuevo miembro se siente a gusto con la organización y su puesto, cuando se ha aceptado las normas y valores de la organización.**
 
-La organización trata de inducir la adaptación del comportamiento del individuo a sus necesidades y objetivos imprimiéndole sus características con firmeza. Entre tanto, el nuevo miembro tratara de influir en la organización y el gerente para crear una situación laboral que le proporcione satisfacción y le permita alcanzar sus objetivos personales. En muchas ocasiones, este proceso de personalización está en conflicto con el proceso de socialización propuesto por la organización.
+La organización trata de inducir la adaptación del comportamiento del individuo a sus necesidades y objetivos imprimiéndole sus características con firmeza. Entre tanto, el nuevo miembro tratará de influir en la organización y el gerente para crear una situación laboral que le proporcione satisfacción y le permita alcanzar sus objetivos personales. En muchas ocasiones, este proceso de personalización está en conflicto con el proceso de socialización propuesto por la organización.
 
 ![[Pasted image 20261024181324.png]]
 
-el plan de carrera ofrece caminos para que la personalización (metas y preferencias del individuo) conviva con lo que la organización necesita.
+El plan de carrera ofrece caminos para que la personalización (metas y preferencias del individuo) conviva con lo que la organización necesita.
 
 ### Métodos para promover la socialización.
 
 Los más utilizados son:
 
 1. **Planeación del proceso selectivo (Para tramos finales)**. Esquema de entrevistas de selección mediante el cual se trata de permitir que el candidato, antes de ser admitido, obtenga información y sepa cómo funciona la organización y cómo se comportan las personas que conviven en ella. Es decir, se piensan formas de ir socializando a un nivel mínimo en el mismo proceso de selección.
-2. **Contenido inicial de la tarea**. El gerente puede asignar al nuevo empleado tareas retadoras y capaces de garantizarle el éxito al comienzo de la carrera en la organización, y entregarle después tareas gradualmente más complejas y cada vez más exigentes. Esto es porque el empleado principiante tiende a incorporar altos patrones de desempeño y expectativas positivas acerca de las recompensas que peude llegar a tener si su desempeño es excelente. Cuando se asignan tareas fáciles al principiante, estas no le brindan la oportunidad de lograr éxito ni obtener motivación.
-3. **Papel del gerente**. Para el empleado nuevo, el gerente representa la imagen de la organización. El gerente puede designar a un supervisor para que se encargue de ser el tutor del nuevo empleado y lo oriente y lo guie durante el periodo inicial en la organización. Si el supervisor desempeña un buen trabajo en la ejecución de tareas clave, el empleado ve la organización de manera positiva; si, por el contrario, el supervisor es ineficiente en su labor con el nuevo empleado, este verá la organización de modo negativo. El superior debe cumplir tres funciones básicas con el nuevo empleado:
+2. **Contenido inicial de la tarea**. El gerente puede asignar al nuevo empleado tareas retadoras y capaces de garantizarle el éxito al comienzo de la carrera en la organización, y entregarle después tareas gradualmente más complejas y cada vez más exigentes. Esto es porque el empleado principiante tiende a incorporar altos patrones de desempeño y expectativas positivas acerca de las recompensas que puede llegar a tener si su desempeño es excelente. Cuando se asignan tareas fáciles al principiante, estas no le brindan la oportunidad de lograr éxito ni obtener motivación.
+3. **Papel del gerente**. Para el empleado nuevo, el gerente representa la imagen de la organización. El gerente puede designar a un supervisor para que se encargue de ser el tutor del nuevo empleado y lo oriente y lo guíe durante el periodo inicial en la organización. Si el supervisor desempeña un buen trabajo en la ejecución de tareas clave, el empleado ve la organización de manera positiva; si, por el contrario, el supervisor es ineficiente en su labor con el nuevo empleado, este verá la organización de modo negativo. El superior debe cumplir tres funciones básicas con el nuevo empleado:
     - Entregar al nuevo empleado una descripción clara de la tarea que debe desempeñar.
     - Suministrar toda la información técnica acerca de cómo realizarla.
     - Proporcionar retroalimentación adecuada al nuevo empleado sobre la calidad de su desempeño.
 4. **Grupos de trabajo**: El gerente puede encomendar la integración del nuevo empleado a un grupo de trabajo. La aceptación del grupo es fuente fundamental de satisfacción de las necesidades sociales. Además, los grupos de trabajo influyen bastante en las creencias y actitudes de los individuos frente a la organización, así como la manera de comportarse. El grupo funciona como una “escuela informal” que enseña cómo comportarse, cómo trabajar y cómo adaptarse al clima de la empresa.
-5. **Programas de integración**. Entrenamiento intensivo inicial dirigido a los nuevos miembros de la organización para familiarizarlos con el lenguaje habitual de la organización, los usos y costumbres internos (cultura organizacional), la estructura de la organización (áreas o departamentos existentes), los principales productos o servicios, la misión de la organización y los objetivos organizacionales, etc. El programa de integración busca que el/nuevo empleado asimile con rapidez e intensidad, en una situación de laboratorio, la cultura de la organización, y de ahí en adelante se comporte como un miembro comprometido con la organización. Los principales ítems de un programa de integración son:
+5. **Programas de integración**. Entrenamiento intensivo inicial dirigido a los nuevos miembros de la organización para familiarizarlos con el lenguaje habitual de la organización, los usos y costumbres internos (cultura organizacional), la estructura de la organización (áreas o departamentos existentes), los principales productos o servicios, la misión de la organización y los objetivos organizacionales, etc. El programa de integración busca que el nuevo empleado asimile con rapidez e intensidad, en una situación de laboratorio, la cultura de la organización, y de ahí en adelante se comporte como un miembro comprometido con la organización. Los principales ítems de un programa de integración son:
 
-|                          |                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Asuntos organizacionales | a. Misión y objetivos básicos de la organización  <br>b. Políticas: medios a través de los cuales se alcanzarán los objetivos  <br>c. Cómo se organiza y estructura la empresa: qué hace cada área o departamento  <br>d. Distribución física del área que utilizará el nuevo miembro  <br>e. Principales productos y servicios de la organización  <br>f. Normas y reglamentos internos  <br>g. Procedimientos de seguridad en el trabajo |
-| Beneficios               | a. Horario de trabajo, de descanso y de comida (o refrigerios)  <br>b. Días de pago y anticipos salariales  <br>c. Beneficios sociales ofrecidos por la organización                                                                                                                                                                                                                                                                       |
-| Presentación             | a. A los superiores y los colegas de trabajo                                                                                                                                                                                                                                                                                                                                                                                               |
-| Deberes de los cargos    | a. Responsabilidades básicas confiadas al nuevo empleado  <br>b. Tareas del cargo  <br>c. Objetivos del cargo  <br>d. Visión general del cargo                                                                                                                                                                                                                                                                                             |
+**Asuntos organizacionales:**
 
-El programa de integración busca que el nuevo empleado asimile con rapidez e intensidad, en una situación de laboratorio, la cultura de la organización, y de ahí en adelante se comporte como un miembro comprometido con la organización. En algunas organizaciones, los programas de integración los desarrolla el órgano encargado del entrenamiento, mientras que en otras sólo los coordinan y ejecutan los gerentes de línea en los diversos aspectos tratados. Son programas que duran entre uno y cinco días, dependiendo de la intensidad de la integración que la organización pretenda lograr, y cuentan con un seguimiento del empleado a mediano plazo, llevado a cabo por el gerente o el supervisor que fungen de tutores de los nuevos empleados y que se responsabilizan de la evaluación de su desempeño.
+a. Misión y objetivos básicos de la organización
+b. Políticas: medios a través de los cuales se alcanzarán los objetivos
+c. Cómo se organiza y estructura la empresa: qué hace cada área o departamento
+d. Distribución física del área que utilizará el nuevo miembro
+e. Principales productos y servicios de la organización
+f. Normas y reglamentos internos
+g. Procedimientos de seguridad en el trabajo
+
+**Beneficios:**
+
+a. Horario de trabajo, de descanso y de comida (o refrigerios)
+b. Días de pago y anticipos salariales
+c. Beneficios sociales ofrecidos por la organización
+
+**Presentación:**
+
+a. A los superiores y los colegas de trabajo
+
+**Deberes de los cargos:**
+
+a. Responsabilidades básicas confiadas al nuevo empleado
+b. Tareas del cargo
+c. Objetivos del cargo
+d. Visión general del cargo
+
+El programa de integración busca que el nuevo empleado asimile con rapidez e intensidad, en una situación de laboratorio, la cultura de la organización, y de ahí en adelante se comporte como un miembro comprometido con la organización. En algunas organizaciones, los programas de integración los desarrolla el órgano encargado del entrenamiento, mientras que en otras solo los coordinan y ejecutan los gerentes de línea en los diversos aspectos tratados. Son programas que duran entre uno y cinco días, dependiendo de la intensidad de la integración que la organización pretenda lograr, y cuentan con un seguimiento del empleado a mediano plazo, llevado a cabo por el gerente o el supervisor que fungen de tutores de los nuevos empleados y que se responsabilizan de la evaluación de su desempeño.
 
 ## La empresa como sistema de roles
 
@@ -106,16 +132,16 @@ El programa de integración busca que el nuevo empleado asimile con rapidez e in
 
 ### Desempeño del rol
 
-El proceso comienza cuando el jefe explica al subordinado lo que debe hacer (expectativa del rol); el empleado recibe las explicaciones e interpreta las expectativas que se le comunican, con algunas distorsiones provenientes del proceso de comunicación (**rol percibido**) y realiza lo que se le pidió, según su interpretación personal (**comportamiento del rol)**. Cumplido este paso, el jefe evalúa el desempeño del subordinado (**comportamiento controlado**) y compara este desempeño con la expectativa del rol.
+El proceso comienza cuando el jefe explica al subordinado lo que debe hacer (expectativa del rol); el empleado recibe las explicaciones e interpreta las expectativas que se le comunican, con algunas distorsiones provenientes del proceso de comunicación (**rol percibido**) y realiza lo que se le pidió, según su interpretación personal (**comportamiento del rol**). Cumplido este paso, el jefe evalúa el desempeño del subordinado (**comportamiento controlado**) y compara este desempeño con la expectativa del rol.
 
 ![[Pasted image 20261024181416.png]]
 
-El desempeño del rol no siempre está de acuerdo con las expectativas, pues en este proceso pueden ocurrir cuatro discrepancia:
+El desempeño del rol no siempre está de acuerdo con las expectativas, pues en este proceso pueden ocurrir cuatro discrepancias:
 
 1. **Discrepancia de la expectativa**. Diferencia entre la expectativa del rol transmitida por el jefe y el rol percibido por el subordinado, de acuerdo con su interpretación. No siempre aquello que explica el jefe lo entiende perfectamente el subordinado.
-2. **Discrepancia con el rol**. Diferencia entre el rol percibido por el subordinado y el comportamiento del rol que desempeña. El subordinado no siempre consigue ejecutar lo que entiende que debe hacer, o no es capaz de realizarlo de manera efectiva. A veces tiene q ver con capacitacion, cosas personales
+2. **Discrepancia con el rol**. Diferencia entre el rol percibido por el subordinado y el comportamiento del rol que desempeña. El subordinado no siempre consigue ejecutar lo que entiende que debe hacer, o no es capaz de realizarlo de manera efectiva. A veces tiene que ver con capacitación, cosas personales.
 3. **Retroalimentación de la discrepancia**. Diferencia entre el comportamiento del rol del subordinado y el comportamiento controlado por el jefe. El jefe no siempre evalúa adecuadamente todo lo que el subordinado realiza.
-4. **Discrepancia en el desempeño**. Diferencia entre el comportamiento controlado por el jefe y la expectativa del rol que el transmitió al subordinado. El subordinado no siempre realiza lo que se le dice que ejecute.
+4. **Discrepancia en el desempeño**. Diferencia entre el comportamiento controlado por el jefe y la expectativa del rol que él transmitió al subordinado. El subordinado no siempre realiza lo que se le dice que ejecute.
 
 La comprensión del desempeño del rol debe tener en cuenta los cuatro aspectos mencionados con anterioridad. Para efectos de lo que se estudiará en este libro, es conveniente relacionar los conceptos de rol y de cargo, aunque sean bastante diferentes entre sí. De aquí en adelante, en vez de hablar de roles, hablaremos de **cargos**.
 
@@ -128,8 +154,8 @@ Para la organización, el cargo es la base de la aplicación de las personas en 
 El concepto del cargo se fundamenta en las nociones de tarea, atribución y función.
 
 - **Tarea**. Actividad individual que ejecuta el ocupante del cargo. En general, es la actividad asignada a cargos simples y rutinarios.
-- **Atribución**. Actividad individual que ejecuta la persona que ocupa un cargo. En general, se refiere a cargos más diferenciados. Es algo sobre lo cual uno puede decidir, y la responsabilidad recae sobre él. Poder de decisión
-- **Función**. Conjunto de tareas (cargos por horas) o atribuciones (cargos por meses) que el ocupante del cargo ejecuta de manera sistemática y reiterada. También puede ejecutarlas un individuo que, sin ocupar un cargo, desempeña una función de manera transitoria o definitiva. ( Como el trabajo real y los proyectos se mueven más rápido que el organigrama, es normal que alguien asuma funciones sin que su cargo (título) cambie todavía. para este caso se aplicarian los metodos de DyAc. Tambien para actualizar cargos). Para que un conjunto de tareas o atribuciones constituya una función, se requiere que se ejecuten de modo repetido.
+- **Atribución**. Actividad individual que ejecuta la persona que ocupa un cargo. En general, se refiere a cargos más diferenciados. Es algo sobre lo cual uno puede decidir, y la responsabilidad recae sobre él. Poder de decisión.
+- **Función**. Conjunto de tareas (cargos por horas) o atribuciones (cargos por meses) que el ocupante del cargo ejecuta de manera sistemática y reiterada. También puede ejecutarlas un individuo que, sin ocupar un cargo, desempeña una función de manera transitoria o definitiva. (Como el trabajo real y los proyectos se mueven más rápido que el organigrama, es normal que alguien asuma funciones sin que su cargo (título) cambie todavía. Para este caso se aplicarían los métodos de DyAC. También para actualizar cargos). Para que un conjunto de tareas o atribuciones constituya una función, se requiere que se ejecuten de modo repetido.
 
 <aside>  
 💡
@@ -138,32 +164,32 @@ El concepto del cargo se fundamenta en las nociones de tarea, atribución y func
 - La **atribución** es _lo que puede o debe decidir_.
 - La **función** es _para qué lo hace_ (el propósito).
 - Y el **cargo** es _el puesto formal_ que integra todo eso dentro de la organización.  
-    </aside>
+</aside>
 
 **Cargo**: Conjunto de funciones (tareas o atribuciones) con posición definida en la estructura organizacional, en el organigrama. Un cargo constituye una unidad de la organización y consiste en un conjunto de deberes que lo separan y distinguen de los demás cargos. La posición del cargo en el organigrama define su nivel jerárquico, la subordinación, los subordinados, y el departamento o división donde está situado. Un **puesto** es una ocurrencia de un cargo. Un cargo puede tener muchos puestos.
 
-conjunto de funciones con posición definida en el organigrama (nivel, dependencia, subordinados). Es unidad organizacional con deberes propios y fuente de motivación/expectativa para la persona que lo ocupa
+Conjunto de funciones con posición definida en el organigrama (nivel, dependencia, subordinados). Es unidad organizacional con deberes propios y fuente de motivación/expectativa para la persona que lo ocupa.
 
 En el organigrama, cada cargo se representa mediante un rectángulo con dos terminales de comunicación. El terminal de arriba, que lo liga al cargo superior, refleja la responsabilidad en términos de subordinación. El terminal de abajo, que lo liga a los cargos inferiores, refleja la autoridad en términos de supervisión. **Ubicar un cargo en el organigrama implica indicar su nivel jerárquico** (por ejemplo, dirección, gerencia, supervisión, ejecución), **el área en que está situado** (departamento o división), **a quién reporta** (quién es su superior inmediato), **a quién supervisa** (cuáles son sus subordinados directos) y **cuáles son los cargos con que mantiene relaciones laterales**.
 
 El ocupante es la persona designada para desempeñar un cargo. Toda persona que trabaje en una organización ocupa un cargo. Existen cargos que tienen un solo ocupante, en tanto que otros tienen varios ocupantes que realizan las mismas tareas. Las tareas o atribuciones constituyen las actividades realizadas por quien ocupa el cargo. Cuando una persona ocupa determinado cargo, se espera que ejecute las tareas o atribuciones propias del cargo, dependa de un superior, administre sus subordinados y responda por su unidad de trabajo.
 
-El cargo es una conjunción de: **Funciones + Rol** (conductas y comportamientos, lo que se espera de la persona que ejerce el cargo) < como espero que esa persona actúe y se mueva. Como desempeñe su cargo. > (EL ROL ES SUBJETIVO).
+El cargo es una conjunción de: **Funciones + Rol** (conductas y comportamientos, lo que se espera de la persona que ejerce el cargo; cómo espero que esa persona actúe y se mueva, cómo desempeñe su cargo) (EL ROL ES SUBJETIVO).
 
-Rol: Expectativa de conducta asociada al cargo. Ejemplol de Rol: liderazgo servicial, comunicación clara, negociación con cliente.
+Rol: Expectativa de conducta asociada al cargo. Ejemplo de Rol: liderazgo servicial, comunicación clara, negociación con cliente.
 
 ### Concepto de diseño de cargo.
 
 Diseñar un cargo significa establecer cuatro condiciones fundamentales:
 
 - Conjunto de tareas o atribuciones que el ocupante deberá cumplir (**contenido del cargo**).
-- Como deberá cumplir esas atribuciones y tareas (**métodos y procesos de trabajo**) → Ejemplo: para un programador: Por las metodologías definidas.
-- A quien deberá reportar el ocupante del cargo (**responsabilidad**); es decir, la relación con su jefe, porque responde que cosas puedo responder. Ejemplo programador: su responsabilidad es la de los equipos portátiles que se le asigne para desempeñar su trabajo (debe estar establecido).
-- A quien deberá supervisar o dirigir (**autoridad**); es decir, la relación con los subordinados. Un programador no responde ante los niveles que tomen decisiones.
+- Cómo deberá cumplir esas atribuciones y tareas (**métodos y procesos de trabajo**) → Ejemplo: para un programador: Por las metodologías definidas.
+- A quién deberá reportar el ocupante del cargo (**responsabilidad**); es decir, la relación con su jefe, por qué responde, qué cosas puedo responder. Ejemplo programador: su responsabilidad es la de los equipos portátiles que se le asignen para desempeñar su trabajo (debe estar establecido).
+- A quién deberá supervisar o dirigir (**autoridad**); es decir, la relación con los subordinados. Un programador no responde ante los niveles que tomen decisiones.
 
-El diseño de los cargos representa el modelo que los administradores emplean para proyectar los cargos individuales y combinarlos en unidades, departamentos, y organizaciones.
+El diseño de los cargos representa el modelo que los administradores emplean para proyectar los cargos individuales y combinarlos en unidades, departamentos y organizaciones.
 
-Los cargos no son estables, estáticos, ni definitivos, si no que están en evolución, innovación y cambio continuos para adaptarse a las constantes transformaciones tecnológicas, económicas, sociales, culturales y legales.
+Los cargos no son estables, estáticos, ni definitivos, sino que están en evolución, innovación y cambio continuos para adaptarse a las constantes transformaciones tecnológicas, económicas, sociales, culturales y legales.
 
 ### Modelos de diseño de cargo.
 
@@ -171,7 +197,7 @@ _**Modelo clásico o tradicional de diseño de los cargos**_
 
 Diseña cargos **para hacer, no para pensar**, con tareas simples y repetitivas orientadas a la **eficiencia y productividad**, sin considerar los factores humanos o motivacionales.
 
-Utilizado por los ingenieros pioneros de la teoría administrativa. Su enfoque de la administración científica destaca que, mediante métodos científicos, pueden proyectarse cargos y entrenar a las personas para obtener la máxima eficiencia. Se establecía una separación entre pensamiento (gerencia) y actividad (obreros): los cargos se proyectan según el modelo de hacer y no de pensar, y el entrenamiento en el cargo, estaba restringido a las habilidades específicas necesarias para la ejecución de las tareas. El punto de vista dominante era que **cuanto más simples y repetitivas fueran las labores, mayor sería la eficiencia del trabajador.**
+Utilizado por los ingenieros pioneros de la teoría administrativa. Su enfoque de la administración científica destaca que, mediante métodos científicos, pueden proyectarse cargos y entrenar a las personas para obtener la máxima eficiencia. Se establecía una separación entre pensamiento (gerencia) y actividad (obreros): los cargos se proyectan según el modelo de hacer y no de pensar, y el entrenamiento en el cargo estaba restringido a las habilidades específicas necesarias para la ejecución de las tareas. El punto de vista dominante era que **cuanto más simples y repetitivas fueran las labores, mayor sería la eficiencia del trabajador.**
 
 En esta lógica fría y mecanicista, el resultado esperado es la eficiencia máxima. Además, aumentarán las utilidades de la organización y, gracias a los incentivos salariales, los salarios de los trabajadores serán mayores.
 
@@ -187,7 +213,7 @@ La única diferencia radica en las implicaciones humanas, puesto que el modelo h
 
 Este modelo permite una mayor interacción entre las personas y sus superiores y la participación en algunas decisiones acerca de las tareas de la unidad, como medio de satisfacer las necesidades individuales y de aumentar la moral del personal. Permite el desarrollo de relaciones entre colegas y deja margen para algunas oportunidades de desarrollo individual. El superior debe organizar un grupo de trabajo cohesionado y de apoyo, promover una atmósfera amigable y cooperativa, independientemente de la condición de trabajo, y minimizar los roces entre los empleados.
 
-las personas no son máquinas; necesitan reconocimiento y relaciones sociales. El diseño del cargo tiene en cuenta el contexto social y las condiciones humanas.
+Las personas no son máquinas; necesitan reconocimiento y relaciones sociales. El diseño del cargo tiene en cuenta el contexto social y las condiciones humanas.
 
 ![[Pasted image 20261024181451.png]]
 
@@ -195,7 +221,7 @@ _**Modelo situacional o contingencial**_
 
 Diseña los cargos **según las circunstancias**, combinando eficiencia y satisfacción para adaptarse a las condiciones del entorno y de las personas.
 
-Es el enfoque más amplio y complejo; tiene en cuenta dos variables: las diferencias individuales de las personas y las tareas involucradas. De ahí la denominación de situacional, porque depende de la adecuación del diseño del cargo a esas dos variables. En el modelo **situacional** convergen **tres variables:** la estructura de la organización, la tarea y la persona que la ejecutara.
+Es el enfoque más amplio y complejo; tiene en cuenta dos variables: las diferencias individuales de las personas y las tareas involucradas. De ahí la denominación de situacional, porque depende de la adecuación del diseño del cargo a esas dos variables. En el modelo **situacional** convergen **tres variables:** la estructura de la organización, la tarea y la persona que la ejecutará.
 
 No se basan en la suposición de estabilidad y permanencia de los objetivos y los procesos organizacionales, sino que, al contrario, son dinámicas y se basan en la ampliación continua del cargo mediante el enriquecimiento de tareas.
 
@@ -222,11 +248,11 @@ Las cinco dimensiones esenciales o profundas crean condiciones para que el emple
 
 ![[Pasted image 20261024181510.png]]
 
-El enriquecimiento del cargo consiste en ampliar la responsabilidad, los objetivos y los desafios de las tareas del cargo. Muy útil para preparar a alguien para un **plan de carrera** y sumarle habilidades, aunque permanezca en el cargo un tiempo más. El enriquecimiento del cargo puede ser **lateral** (adición de responsabilidades en el mismo nivel) o **vertical** (adicción de responsabilidades de nivel gradualmente más elevado).
+El enriquecimiento del cargo consiste en ampliar la responsabilidad, los objetivos y los desafíos de las tareas del cargo. Muy útil para preparar a alguien para un **plan de carrera** y sumarle habilidades, aunque permanezca en el cargo un tiempo más. El enriquecimiento del cargo puede ser **lateral** (adición de responsabilidades en el mismo nivel) o **vertical** (adición de responsabilidades de nivel gradualmente más elevado).
 
-Si el cargo se amplía para que el empleado cumpla una mayor variedad de tareas o un mayor número de operaciones, el cargo se enriquece horizontal o lateralmente (Por ejemplo, si solo esta en programacion incorporar diseño, pruebas). Por el contrario, si el empleado debe involucrarse en la planeación, organización, e inspección, además de realizar su trabajo, el cargo se enriquece verticalmente (Si agrego responsabilidades mas elevadas o delego en otra persona/automatizo tareas operativas).
+Si el cargo se amplía para que el empleado cumpla una mayor variedad de tareas o un mayor número de operaciones, el cargo se enriquece horizontal o lateralmente (Por ejemplo, si solo está en programación incorporar diseño, pruebas). Por el contrario, si el empleado debe involucrarse en la planeación, organización e inspección, además de realizar su trabajo, el cargo se enriquece verticalmente (Si agrego responsabilidades más elevadas o delego en otra persona/automatizo tareas operativas).
 
-Si bien el enriquecimiento del cargo produce efectos convenientes y positivos, también puede generar efectos colaterales inconvenientes, en especial si las organizaciones privilegian el estatus quo. La principal dificultad del enriquecimiento de los cargos está en la resistencia al cambio ante el incremento de las tareas y atribuciones.
+Si bien el enriquecimiento del cargo produce efectos convenientes y positivos, también puede generar efectos colaterales inconvenientes, en especial si las organizaciones privilegian el statu quo. La principal dificultad del enriquecimiento de los cargos está en la resistencia al cambio ante el incremento de las tareas y atribuciones.
 
 ![[Pasted image 20261024181527.png]]
 
@@ -239,7 +265,7 @@ Las **necesidades básicas de recursos humanos para la organización**, sea en c
 La descripción del cargo se refiere a las tareas, los deberes y las responsabilidades del cargo, en tanto que la especificación del cargo se ocupa de los requisitos que el aspirante necesita cumplir. Por lo tanto, los cargos se proveen de acuerdo con esas descripciones y especificaciones. El ocupante del cargo debe tener características compatibles con las especificaciones del cargo y el rol que deberá desempeñar es el contenido del cargo registrado en la descripción.
 
 - La **descripción** define **qué hay que hacer en el cargo (qué, cuándo, cómo y por qué)**.
-- La **especificación** define que se necesita para poder ejercer el cargo.
+- La **especificación** define qué se necesita para poder ejercer el cargo.
 
 Es necesario que se analicen y se describan los cargos para conocer su contenido y sus especificaciones, con el fin de administrar los recursos humanos empleados en ellos.
 
@@ -247,25 +273,25 @@ Es necesario que se analicen y se describan los cargos para conocer su contenido
 
 Es necesario describir un cargo, para conocer su contenido.
 
-Es un proceso que consiste **enumerar las tareas o atribuciones** que conforman un cargo y que lo diferencian de los demás cargos que existen en la empresa; es la enumeración de detallada de las atribuciones o tareas del cargo (**que hace el ocupante**), la periodicidad de la ejecución (**cuando lo hace**), los métodos aplicados para la ejecución de las atribuciones o tareas (**como lo hace**) y los objetivos del cargo (**por que lo hace**).
+Es un proceso que consiste en **enumerar las tareas o atribuciones** que conforman un cargo y que lo diferencian de los demás cargos que existen en la empresa; es la enumeración detallada de las atribuciones o tareas del cargo (**qué hace el ocupante**), la periodicidad de la ejecución (**cuándo lo hace**), los métodos aplicados para la ejecución de las atribuciones o tareas (**cómo lo hace**) y los objetivos del cargo (**por qué lo hace**).
 
-Un cargo puede ser descrito como una **unidad de la organización**, que consiste en un conjunto de deberes y responsabilidades que lo distinguen de los demás cargos. Los deberes y responsabilidades de un cargo corresponden al empleado que lo desempeña, y proporcionan los medios con que los empleados al logro de los objetivos en una empresa.
+Un cargo puede ser descrito como una **unidad de la organización**, que consiste en un conjunto de deberes y responsabilidades que lo distinguen de los demás cargos. Los deberes y responsabilidades de un cargo corresponden al empleado que lo desempeña, y proporcionan los medios con que los empleados contribuyen al logro de los objetivos en una empresa.
 
-Básicamente, tareas o funciones “**son los elementos que conforman un rol de trabajo y que debe cumplir el ocupante del cargo**”. Un cargo es la reunión de todas aquellas actividades realizadas por una sola persona, que pueden unificarse en un sólo concepto y ocupa un lugar formal en el organigrama.
+Básicamente, tareas o funciones “**son los elementos que conforman un rol de trabajo y que debe cumplir el ocupante del cargo**”. Un cargo es la reunión de todas aquellas actividades realizadas por una sola persona, que pueden unificarse en un solo concepto y ocupa un lugar formal en el organigrama.
 
-Osea digamos osea en resumidas cuentas, la descripción de un cargo está orientada hacia el contenido de los cargos, es decir, hacia los **aspectos intrínsecos de los cargos**.
+O sea, digamos, o sea, en resumidas cuentas, la descripción de un cargo está orientada hacia el contenido de los cargos, es decir, hacia los **aspectos intrínsecos de los cargos**.
 
 ### Análisis del cargo.
 
-Después de la descripción, sigue el análisis del cargo. Una vez que se identifica el contenido de un cargo (aspectos intrínsecos), se pasa analizar el cargo en relación con los **aspectos extrínsecos (responsabilidades)**, es decir, con los **requisitos que el cargo exige a su ocupante**.
+Después de la descripción, sigue el análisis del cargo. Una vez que se identifica el contenido de un cargo (aspectos intrínsecos), se pasa a analizar el cargo en relación con los **aspectos extrínsecos (responsabilidades)**, es decir, con los **requisitos que el cargo exige a su ocupante**.
 
-La descripción de cargos y análisis de cargos están estrechamente relacionados en su finalidad y en el proceso de obtención de datos; a pesar de esto están perfectamente diferenciados entre sí: **la descripción se preocupa por el contenido del cargo _(qué hace el ocupante, cuándo lo hace, cómo lo hace y por qué lo hace_**), **en tanto que el análisis pretende estudiar y determinar todos los requisitos de calificación, responsabilidades implícitas y las condiciones que el cargo exige, para poder desempeñarlo de manera adecuada**. Este análisis es la base para la evaluación y la clasificación que se harán de los cargos para efectos de comparación.
+La descripción de cargos y análisis de cargos están estrechamente relacionados en su finalidad y en el proceso de obtención de datos; a pesar de esto están perfectamente diferenciados entre sí: **la descripción se preocupa por el contenido del cargo (_qué hace el ocupante, cuándo lo hace, cómo lo hace y por qué lo hace_), en tanto que el análisis pretende estudiar y determinar todos los requisitos de calificación, responsabilidades implícitas y las condiciones que el cargo exige, para poder desempeñarlo de manera adecuada**. Este análisis es la base para la evaluación y la clasificación que se harán de los cargos para efectos de comparación.
 
 ![[Pasted image 20261024181606.png]]
 
 _**Estructura del análisis de cargos**_
 
-El análisis de cargos determina cuales son los **requisitos físicos e intelectuales** que debería tener el ocupante para el desempeño adecuado del cargo, cuáles son las **responsabilidades** que el cargo impone y **en qué condiciones debe desempeñarse el cargo**.
+El análisis de cargos determina cuáles son los **requisitos físicos e intelectuales** que debería tener el ocupante para el desempeño adecuado del cargo, cuáles son las **responsabilidades** que el cargo impone y **en qué condiciones debe desempeñarse el cargo**.
 
 Por lo general, el análisis de cargos se refiere a cuatro áreas de requisitos, aplicados casi siempre a cualquier tipo o nivel de cargo.
 
@@ -274,7 +300,7 @@ Por lo general, el análisis de cargos se refiere a cuatro áreas de requisitos,
 3. Responsabilidades implícitas
 4. Condiciones de trabajo
 
-Cada una de ésta áreas está dividida en varios factores de especificaciones. Los factores de especificaciones son puntos de referencia que permiten analizar una gran cantidad de cargos de manera objetiva.
+Cada una de estas áreas está dividida en varios factores de especificaciones. Los factores de especificaciones son puntos de referencia que permiten analizar una gran cantidad de cargos de manera objetiva.
 
 **Requisitos Intelectuales**: Tienen que ver con las exigencias del cargo, en lo que hace referencia a los requisitos intelectuales que el aspirante debe poseer para poder desempeñar el cargo de manera adecuada. Los factores de especificación son los siguientes:
 
@@ -286,10 +312,10 @@ Cada una de ésta áreas está dividida en varios factores de especificaciones. 
 
 **Requisitos físicos**: Tienen que ver con la cantidad y continuidad de energía y esfuerzos físicos y mentales requeridos, y la fatiga provocada, y también con la constitución física que necesita el ocupante para desempeñar el cargo adecuadamente.
 
-1. Esfuerzo físico necesario
-2. Capacidad visual
-3. Destreza o habilidad
-4. Constitución física necesaria
+1. Esfuerzo físico necesario.
+2. Capacidad visual.
+3. Destreza o habilidad.
+4. Constitución física necesaria.
 
 **Responsabilidades implícitas**: Se refiere a la responsabilidad que el ocupante del cargo tiene, además del trabajo normal y de sus funciones (atribuciones), con la supervisión del trabajo de sus subordinados, con el material, con las herramientas o equipos, con el patrimonio de la empresa, etc.
 
@@ -323,7 +349,7 @@ Es uno de los métodos más utilizados, tanto por ser el más antiguo como por s
 
 Es más recomendable para aplicarlo a los trabajos que comprenden **operaciones manuales o que sean sencillos y repetitivos**.
 
-Dado que no en todos los casos la observación responde todas las preguntas, ésta suele ir acompañada de entrevista y análisis con el ocupante o con su supervisor.
+Dado que no en todos los casos la observación responde todas las preguntas, esta suele ir acompañada de entrevista y análisis con el ocupante o con su supervisor.
 
 **Características**: La participación del analista de cargos en la recolección de información es activa, la del ocupante es pasiva.
 
@@ -332,7 +358,7 @@ Dado que no en todos los casos la observación responde todas las preguntas, és
 - Veracidad de los datos obtenidos ya que se originan en una sola fuente y la misma es ajena a los intereses de quien ejecuta el cargo.
 - No requiere que el ocupante del cargo deje de hacer sus labores.
 - Ideal para aplicarlo en cargos simples y repetitivos.
-- Correspondencia adecuada entre los datos obtenidos y la formula básica del análisis de cargos (que hace, como lo hace y por qué lo hace).
+- Correspondencia adecuada entre los datos obtenidos y la fórmula básica del análisis de cargos (qué hace, cómo lo hace y por qué lo hace).
 
 **Desventajas**:
 
@@ -340,7 +366,7 @@ Dado que no en todos los casos la observación responde todas las preguntas, és
 - La simple observación, sin el contacto directo y verbal con el ocupante del cargo no permite obtener datos importantes para el análisis.
 - No se recomienda aplicarlos a cargos que no sean sencillos y repetitivos.
 
-Se recomienda aplicarlo en combinación con otros para que el análisis sea más completo y preciso
+Se recomienda aplicarlo en combinación con otros para que el análisis sea más completo y preciso.
 
 ### Cuestionario
 
@@ -365,7 +391,7 @@ Cuando se trata de una **gran cantidad de cargos semejantes, de naturaleza rutin
 
 ### Entrevista Directa
 
-Es el enfoque más flexible. Si está bien estructurada puede obtenerse información acerca de todos los aspectos del cargo, de la naturaleza y la secuencia de las diversas tareas que comprende el cargo, y de los porque y cuando. Permite comparar la información obtenida por medio de los ocupantes de otros cargos similares y verificar las incoherencias de la información. Garantiza una interacción frente a frente entre el analista y el empleado. Lo cual permite la eliminación de dudas y desconfianzas.
+Es el enfoque más flexible. Si está bien estructurada puede obtenerse información acerca de todos los aspectos del cargo, de la naturaleza y la secuencia de las diversas tareas que comprende el cargo, y de los porqués y cuándo. Permite comparar la información obtenida por medio de los ocupantes de otros cargos similares y verificar las incoherencias de la información. Garantiza una interacción frente a frente entre el analista y el empleado. Lo cual permite la eliminación de dudas y desconfianzas.
 
 **Características**: La participación del analista y del ocupante es activa.
 
@@ -387,10 +413,10 @@ Es el enfoque más flexible. Si está bien estructurada puede obtenerse informac
 
 Para contrarrestar las desventajas y obtener el mayor provecho posible de las ventajas. Los métodos mixtos son combinaciones de dos o más métodos de análisis. Las combinaciones más comunes son:
 
-- Cuestionario y entrevista, ambos con el ocupante del cargo
-- Cuestionario con el ocupante y entrevista con el supervisor
-- Cuestionario y entrevista, ambos con el supervisor
-- Observación directa con el ocupante y entrevista con el supervisor
+- Cuestionario y entrevista, ambos con el ocupante del cargo.
+- Cuestionario con el ocupante y entrevista con el supervisor.
+- Cuestionario y entrevista, ambos con el supervisor.
+- Observación directa con el ocupante y entrevista con el supervisor.
 - Cuestionario y observación directa, ambos con el ocupante del cargo.
 - Cuestionario con el superior y observación directa con el ocupante del cargo, etc.
 
@@ -404,9 +430,9 @@ Los principales objetivos son:
 - Determinar el perfil ideal del ocupante del cargo, como base para la **selección de personal**.
 - Suministrar el material necesario según el contenido de los programas de capacitación, como base para la **capacitación de personal**.
 - Determinar las franjas salariales, como base para la **administración de salarios**.
-- Estimular la motivación del personal, para facilitar la **evaluación de desempeño** y verificar el mérito funcional
-- Servir de guía del supervisor en el trabajo con sus subordinados, y guía del empleado para el desempeño de sus funciones
-- Suministrar datos relacionados con **higiene y seguridad** industrial los datos relacionados para minimizar la insalubridad y peligrosidad de ciertos cargos.
+- Estimular la motivación del personal, para facilitar la **evaluación de desempeño** y verificar el mérito funcional.
+- Servir de guía del supervisor en el trabajo con sus subordinados, y guía del empleado para el desempeño de sus funciones.
+- Suministrar datos relacionados con **higiene y seguridad** industrial, los datos relacionados para minimizar la insalubridad y peligrosidad de ciertos cargos.
 
 ## Etapas del análisis de cargos.
 
@@ -416,9 +442,9 @@ Se planea todo el trabajo del análisis de cargos. Tiene los siguientes pasos:
 
 1. **Determinación de los cargos que deben describirse**, analizarse e incluirse en el programa de análisis, así como sus características.
 2. **Elaboración del organigrama de cargos** y ubicación de los cargos en este. Se logra definir el nivel jerárquico, autoridad, responsabilidad y área de actuación.
-3. **Elaboración del cronograma de trabajo** que especifique por donde iniciara el programa de análisis, el cual puede ir de arriba hacia abajo o viceversa o desarrollar una secuencia horizontal.
+3. **Elaboración del cronograma de trabajo** que especifique por dónde iniciará el programa de análisis, el cual puede ir de arriba hacia abajo o viceversa o desarrollar una secuencia horizontal.
 4. **Elección de los métodos de análisis que van a aplicarse** según la naturaleza y característica de los cargos a analizar. Se suelen elegir varios métodos de análisis.
-5. **Selección de los factores de especificaciones** que se utilizaran en el análisis basada en 2 criterios:
+5. **Selección de los factores de especificaciones** que se utilizarán en el análisis basada en 2 criterios:
     1. **Criterio de universalidad**: los factores de especificaciones deben estar presentes en la totalidad de los cargos o por lo menos en un 75% para comparar características ideales de los ocupantes.
     2. **Criterio de discriminación**: los factores de especificaciones deben variar según el cargo.
 6. **Dimensionamiento de los factores de especificaciones**: determinar el campo o amplitud de variación de cada factor dentro del conjunto de cargos que se pretende analizar.
@@ -428,10 +454,10 @@ Se planea todo el trabajo del análisis de cargos. Tiene los siguientes pasos:
 
 Se aprestan las personas, los esquemas y los materiales de trabajo:
 
-- **Reclutamiento, selección y entrenamiento** de los analistas de cargos que conformaran el equipo de trabajo.
+- **Reclutamiento, selección y entrenamiento** de los analistas de cargos que conformarán el equipo de trabajo.
 - **Preparación del material de trabajo** (formularios, folletos, etc.).
 - **Disposición del ambiente** (informes a la dirección, a la gerencia y a todo el personal incluido en el programa de análisis de cargos).
-- **Recolección previa de datos** (nombres de los ocupantes de los cargos que se analizaran, elaboración de una relación de los equipos, etc.).
+- **Recolección previa de datos** (nombres de los ocupantes de los cargos que se analizarán, elaboración de una relación de los equipos, etc.).
 
 ### 3. Etapa de ejecución
 
@@ -450,9 +476,9 @@ Se recolectan los datos relativos a los cargos que van a analizarse y se redacta
 
 Los equipos surgen como una necesidad organizacional dado que por más estructuras orgánicas que se compongan, tienen componentes fijos. Cuando se forma un equipo se genera más rápido el objetivo a través de ellos.
 
-Los equipos de trabajo son distintos de los grupos de trabajo y tienen sus propios rasgos definitorios. Antes que nada, los grupos de trabajo interactúan para compartir información y tomar decisiones que contribuyan a la ejecución más eficiente y eficaz de las tareas asignadas a sus integrantes. En ellos no existe la necesidad ni la oportunidad de participar en trabajos colectivos que exijan un esfuerzo conjunto. En contraste, **los equipos de trabajo** son grupos cuyos miembros trabajan intensamente en un cumplimiento de un objetivo común específico (generalmente producto o servicio), utilizando su sinergia positiva, su responsabilidad individual y mutua, y sus habilidades complementarias.
+Los equipos de trabajo son distintos de los grupos de trabajo y tienen sus propios rasgos definitorios. Antes que nada, los grupos de trabajo interactúan para compartir información y tomar decisiones que contribuyan a la ejecución más eficiente y eficaz de las tareas asignadas a sus integrantes. En ellos no existe la necesidad ni la oportunidad de participar en trabajos colectivos que exijan un esfuerzo conjunto. En contraste, **los equipos de trabajo** son grupos cuyos miembros trabajan intensamente en el cumplimiento de un objetivo común específico (generalmente producto o servicio), utilizando su sinergia positiva, su responsabilidad individual y mutua, y sus habilidades complementarias.
 
-Un equipo de trabajo es una unidad de dos o mas personas con habilidades complementarias comprometridas con un proposito común y con una serie de metas de rendimiento y de expectativas que hay que cumplir, no solo llegar al objetivo, sino de esta forma, cumpliendo estas cosas. Ademas hay una norma colectiva de como yo respondo…
+Un equipo de trabajo es una unidad de dos o más personas con habilidades complementarias comprometidas con un propósito común y con una serie de metas de rendimiento y de expectativas que hay que cumplir, no solo llegar al objetivo, sino de esta forma, cumpliendo estas cosas. Además hay una norma colectiva de cómo yo respondo.
 
 ![[Pasted image 20261024181833.png]]
 
@@ -465,12 +491,12 @@ Características de un equipo de trabajo:
 - Comprometidas con un propósito común.
 - Metas de desempeño bien definidas: comunicación, manejo de conflicto, el enfoque hacia los resultados.
 - Comparten una metodología.
-- Se sienten responsables antes los miembros del equipo. Un equipo tiene que tener sinergia → el todo es más que las sumas de las partes.
+- Se sienten responsables ante los miembros del equipo. Un equipo tiene que tener sinergia → el todo es más que la suma de las partes.
 
 El desarrollo de un equipo pasa por **cinco etapas** principales:
 
 - **Formación:** comienza cuando las personas se incorporan al grupo. Se define su propósito, estructura y liderazgo. Predomina la **incertidumbre**, ya que los miembros exploran comportamientos aceptables hasta que comienzan a identificarse como parte del grupo.
-- **Tormenta o confusión:** surgen **conflictos** internos por el control y la definición de objetivos. Se establece una jerarquía y una dirección común. El gerente _**tiene que tratar que sea breve, trabajando sobre metas, propósito…**_
+- **Tormenta o confusión:** surgen **conflictos** internos por el control y la definición de objetivos. Se establece una jerarquía y una dirección común. El gerente _**tiene que tratar que sea breve, trabajando sobre metas, propósito.**_
 - **Normatividad:** se consolidan **relaciones de confianza** y cohesión. El grupo desarrolla una identidad y reglas compartidas de comportamiento.
 - **Desempeño:** la estructura se estabiliza y la energía se dirige al cumplimiento de tareas. Es la **fase de máxima productividad**, característica de los grupos permanentes.
 - **Disolución:** ocurre en grupos **temporales** (como equipos de proyecto). Se centra en cerrar actividades y evaluar logros. Los miembros pueden sentirse **satisfechos o nostálgicos** por el fin del grupo.
@@ -488,10 +514,7 @@ Los **equipos de alto desempeño** comparten características clave que les perm
 - **Buena comunicación:** se expresan con claridad, comparten ideas con fluidez y usan la retroalimentación para corregir errores.
 - **Habilidades de negociación:** ajustan roles y resuelven diferencias con flexibilidad y madurez.
 - **Liderazgo apropiado:** los líderes actúan como guías y facilitadores, inspiran confianza y ayudan al equipo a alcanzar su potencial.
-
-**Apoyo interno y externo:**
-
-cuentan con capacitación, incentivos, recursos y un entorno organizacional que respalda su desempeño.
+- **Apoyo interno y externo:** cuentan con capacitación, incentivos, recursos y un entorno organizacional que respalda su desempeño.
 
 ## Equipos de proyecto.
 
@@ -501,12 +524,12 @@ cuentan con capacitación, incentivos, recursos y un entorno organizacional que 
 
 **El gerente de proyecto - responsabilidades**.
 
-- Integrar los esfuerzos de las personas provenientes de la distintas áreas de la organización para alcanzar los objetivos del proyecto
-- Definir la metodología de trabajo
-- Proveer recursos
-- Asegurar contrataciones adecuadas
-- Evaluar progresos
-- Establecer medidas correctivas
+- Integrar los esfuerzos de las personas provenientes de las distintas áreas de la organización para alcanzar los objetivos del proyecto.
+- Definir la metodología de trabajo.
+- Proveer recursos.
+- Asegurar contrataciones adecuadas.
+- Evaluar progresos.
+- Establecer medidas correctivas.
 
 **Equipo de proyecto**: Grupo de personas lideradas por el Gerente de Proyecto, pueden representar áreas funcionales u organizaciones o bien profesionales independientes, que desempeñan roles específicos, su número suele variar durante el avance del proyecto. Al final del proyecto son asignadas a un nuevo emprendimiento o retornan a sus áreas u organizaciones o se desvinculan (en el caso de profesionales independientes).
 
@@ -514,9 +537,9 @@ cuentan con capacitación, incentivos, recursos y un entorno organizacional que 
 
 Los equipos de proyecto:
 
-- **Son creados a partir de la tarea**: Los equipos de proyectos se integran por la selección de especialistas técnicos que son elegidos primordialmente por su capacidad para desarrollar una determinada función en el proyecto y si bien es conveniente tomar en cuenta su afinidad personal, éste nunca es un factor determinante.
+- **Son creados a partir de la tarea**: Los equipos de proyectos se integran por la selección de especialistas técnicos que son elegidos primordialmente por su capacidad para desarrollar una determinada función en el proyecto y si bien es conveniente tomar en cuenta su afinidad personal, este nunca es un factor determinante.
 - **Se integran una vez establecido el objetivo**: La organización que requiere un producto o servicio establece primero el objetivo y posteriormente integra al grupo, los miembros del equipo deberán adherirse al fin una vez que han ingresado al equipo.
-- **No necesariamente comparten valores ni modelos mentales**: La selección a partir de la especialidad técnica, hace que el equipo tienda a ser "multicultural".
+- **No necesariamente comparten valores ni modelos mentales**: La selección a partir de la especialidad técnica hace que el equipo tienda a ser "multicultural".
 - **Tienen una existencia efímera**: La naturaleza única del proyecto hace que se formen grupos nuevos, que durante el proyecto se incorporen nuevos participantes y que los esfuerzos de comunicación e integración deban dar resultados en muy corto plazo, a fin de resultar de utilidad para el proyecto.
 - **Están subordinados al objetivo**: El sentido de utilidad es muy intenso en el proyecto, la integración del equipo es un medio para lograr el objetivo y nunca un fin por sí mismo.
 
@@ -524,7 +547,7 @@ Los equipos de proyecto:
 
 Es la apreciación sistemática del desempeño de cada persona en el cargo o del potencial de desarrollos futuros. Es un proceso para estimular o juzgar el valor, la excelencia, las cualidades de una persona. Es una responsabilidad de línea. Está centrada en el periodo que pongo para que la persona se integre al cargo (Socialización).
 
-No estamos interesados en el desempeño general, sino en el **desempeño del cargo**, en el comportamiento de rol del ocupante de cargo. El desempeño del cargo es situacional en extremo. El **valor de las recompensas** y la **percepción de que las recompensas depende del esfuerzo** determinan el volumen de **esfuerzo individual** que la persona está dispuesta a realizar, una perfecta relación costo-beneficio. A su vez, el esfuerzo individual depende de las **habilidades y capacidades de la persona**, y de su **percepción del papel que desempeñará**. Todas estas **variables condicionan el desempeño del cargo**.
+No estamos interesados en el desempeño general, sino en el **desempeño del cargo**, en el comportamiento de rol del ocupante de cargo. El desempeño del cargo es situacional en extremo. El **valor de las recompensas** y la **percepción de que las recompensas dependen del esfuerzo** determinan el volumen de **esfuerzo individual** que la persona está dispuesta a realizar, una perfecta relación costo-beneficio. A su vez, el esfuerzo individual depende de las **habilidades y capacidades de la persona**, y de su **percepción del papel que desempeñará**. Todas estas **variables condicionan el desempeño del cargo**.
 
 ![[Pasted image 20261024181923.png]]
 
@@ -544,14 +567,14 @@ Algunas organizaciones más democráticas permiten que el mismo individuo respon
 
 _**El empleado y el gerente**_
 
-En la actualidad las organizaciones están adoptando un esquema dinámico y avanzado de administración del desempeño. Aquí resurge la vieja administración por objetivos (𝐴𝑃𝑂). Ahora la APO es democrática, participativa, involucradora y muy motivadora. En esta APO que emerge, la evaluación del desempeño recorre los siguientes caminos:
+En la actualidad las organizaciones están adoptando un esquema dinámico y avanzado de administración del desempeño. Aquí resurge la vieja administración por objetivos (APO). Ahora la APO es democrática, participativa, involucradora y muy motivadora. En esta APO que emerge, la evaluación del desempeño recorre los siguientes caminos:
 
-1. Formulación de objetivos por consenso: entre el gerente y el evaluado. Supone una verdadera negocación para llegar a un consenso, los cuales no deben de imponerse.
+1. Formulación de objetivos por consenso: entre el gerente y el evaluado. Supone una verdadera negociación para llegar a un consenso, los cuales no deben imponerse.
 2. Compromiso del personal en la consecución de los objetivos fijados en conjunto. Siempre es necesario que el evaluado acepte plenamente los objetivos y que se comprometa a alcanzarlos.
 3. Actuación y negociación con el gerente en la asignación de los recursos y los medios necesarios para alcanzar los objetivos. Definidos los objetivos por consenso, el paso siguiente es conseguir los recursos, si no los hay, los objetivos se tornan inalcanzables.
 4. Desempeño: Comportamiento del evaluado en la búsqueda de los objetivos fijados. Constituye la estrategia individual para lograr los objetivos deseados.
 5. Medición constante de los resultados y comparación con los objetivos fijados. Verificación de los costos y beneficios involucrados en el proceso.
-6. Retroalimentación intensiva y medición conjunta continúa. El evaluado debe tener una percepción de cómo va marchando, para establecer una relación entre el esfuerzo y el resultado alcanzado.
+6. Retroalimentación intensiva y medición conjunta continua. El evaluado debe tener una percepción de cómo va marchando, para establecer una relación entre el esfuerzo y el resultado alcanzado.
 
 En esta concepción, la evaluación del desempeño no comienza por la apreciación del pasado, sino por la preparación del futuro. Se halla más orientada hacia la planeación del desempeño futuro que hacia el juzgamiento del desempeño del pasado.
 
@@ -567,7 +590,7 @@ En este caso, el órgano de gestión de personal responde por la evaluación del
 
 _**Comité de evaluación**_
 
-La evaluación del desempeño corresponde un comité nombrado para este fin, y constituido por los empleados permanentes o transitorios, pertenecientes a diferentes departamentos. La evaluación es colectiva y la realiza un grupo de personas.
+La evaluación del desempeño corresponde a un comité nombrado para este fin, y constituido por los empleados permanentes o transitorios, pertenecientes a diferentes departamentos. La evaluación es colectiva y la realiza un grupo de personas.
 
 Los miembros permanentes o estables participan en todas las evaluaciones, y su papel es mantener el equilibrio de los juicios, el acatamiento de los estándares y la permanencia del sistema. Los miembros transitorios son el gerente de cada evaluado o su supervisor.
 
@@ -575,11 +598,11 @@ Esta alternativa también recibe críticas por su aspecto centralizador y por su
 
 _**Evaluador de 360°**_
 
-Es una innovación reciente en la apreciación del desempeño, según la cual cada persona es evaluada por personas de su entorno; esto significa cualquier persona que mantenga cierta interacción o intercambio participa en la evaluación de su desempeño: El superior, los subordinados, colegas, proveedores y clientes internos, de modo que ésta refleje los puntos de vista de los diversos individuos involucrados en el trabajo de cada persona.
+Es una innovación reciente en la apreciación del desempeño, según la cual cada persona es evaluada por personas de su entorno; esto significa que cualquier persona que mantenga cierta interacción o intercambio participa en la evaluación de su desempeño: el superior, los subordinados, colegas, proveedores y clientes internos, de modo que esta refleje los puntos de vista de los diversos individuos involucrados en el trabajo de cada persona.
 
 ### Objetivos de la evaluación de desempeño.
 
-La evaluación de desempeño no puede reducirse al simple juicio superficial y unilateral del jefe con respecto al comportamiento del subordinado; es necesario ir a un nivel de mayor profundidad, ubicar causas y establecer perspectivas de común acuerdo con el evaluado. Si debe modificarse el desempeño, el evaluado que es el mayor interesado, debe adquirir conocimientos del cambio planeado, y saber también por qué y cómo deberá implementarse este, debe recibir retroalimentación adecuada y reducir discrepancias con respecto a su actuación en la organización.
+La evaluación de desempeño no puede reducirse al simple juicio superficial y unilateral del jefe con respecto al comportamiento del subordinado; es necesario ir a un nivel de mayor profundidad, ubicar causas y establecer perspectivas de común acuerdo con el evaluado. Si debe modificarse el desempeño, el evaluado, que es el mayor interesado, debe adquirir conocimientos del cambio planeado, y saber también por qué y cómo deberá implementarse este, debe recibir retroalimentación adecuada y reducir discrepancias con respecto a su actuación en la organización.
 
 En la mayoría de las organizaciones, el programa tradicional y amplio de evaluación de desempeño tiene dos propósitos principales:
 
@@ -593,7 +616,7 @@ La evaluación de desempeño no es por sí misma un fin, sino una herramienta pa
 3. Promociones;
 4. Incentivo salarial por buen desempeño;
 5. Mejoramiento de las relaciones humanas entre supervisor y subordinado;
-6. Auto perfeccionamiento del empleado;
+6. Autoperfeccionamiento del empleado;
 7. Informaciones básicas para la investigación de recursos humanos;
 8. Cálculo del potencial de desarrollo de los recursos humanos;
 9. Estímulo a la mayor productividad;
@@ -603,39 +626,39 @@ La evaluación de desempeño no es por sí misma un fin, sino una herramienta pa
 
 Los objetivos fundamentales de la evaluación de desempeño son:
 
-1. Permitir condiciones de medición del potencial humano
-2. Convertir el tratamiento de los recursos humanos como un recurso básico de la empresa, como una importante ventaja competitiva, y cuya productividad puede desarrollarse indefinidamente
+1. Permitir condiciones de medición del potencial humano.
+2. Convertir el tratamiento de los recursos humanos como un recurso básico de la empresa, como una importante ventaja competitiva, y cuya productividad puede desarrollarse indefinidamente.
 3. Dar oportunidades de crecimiento y condiciones de efectiva participación a todos los miembros de la organización, teniendo en cuenta los objetivos empresariales y los individuales.
 
 ### Beneficios de la evaluación del desempeño.
 
-Por lo general, los principales beneficiarios son el individuo, el jefe, la empresa, y la comunidad.
+Por lo general, los principales beneficiarios son el individuo, el jefe, la empresa y la comunidad.
 
 1. Beneficios para el jefe
-    1. Evaluar mejor el desempeño y el comportamiento de los subordinados, contando con un sistema de medición capaz de neutralizar la subjetividad
-    2. Proponer medidas orientadas a mejorar el patrón de comportamiento de sus subordinados
-    3. Comunicarse con sus subordinados para que comprendan la mecánica de evaluación, y mediante este sistema la manera como está desarrollándose su comportamiento
+    1. Evaluar mejor el desempeño y el comportamiento de los subordinados, contando con un sistema de medición capaz de neutralizar la subjetividad.
+    2. Proponer medidas orientadas a mejorar el patrón de comportamiento de sus subordinados.
+    3. Comunicarse con sus subordinados para que comprendan la mecánica de evaluación, y mediante este sistema la manera como está desarrollándose su comportamiento.
 2. Beneficios para el subordinado
-    1. Conoce los aspectos de comportamiento y de desempeño que la empresa valora más en sus funcionarios
-    2. Conoce cuales son las expectativas de su jefe acerca de su desempeño, y sus fortalezas y debilidades, según la evaluación del jefe
-    3. Sabe que medidas está tomando su jefe con el fin de mejorar su desempeño, y las que el propio subordinado deberá tomar por su cuenta
+    1. Conoce los aspectos de comportamiento y de desempeño que la empresa valora más en sus funcionarios.
+    2. Conoce cuáles son las expectativas de su jefe acerca de su desempeño, y sus fortalezas y debilidades, según la evaluación del jefe.
+    3. Sabe qué medidas está tomando su jefe con el fin de mejorar su desempeño, y las que el propio subordinado deberá tomar por su cuenta.
     4. Adquiere condiciones para hacer autoevaluación y autocrítica para su desarrollo y su autocontrol.
-        1. Está en condiciones de evaluar su potencial humano a corto, mediano y largo plazo y definir la contribución de cada empleado
+        1. Está en condiciones de evaluar su potencial humano a corto, mediano y largo plazo y definir la contribución de cada empleado.
 3. Beneficios para la empresa
-    1. Puede identificar los empleados que necesitan reciclaje y/o perfeccionamiento, y seleccionar los que tienen condiciones de transferencia o promoción
-    2. Puede estimular la productividad y mejorar las relaciones humanas en el trabajo
+    1. Puede identificar los empleados que necesitan reciclaje y/o perfeccionamiento, y seleccionar los que tienen condiciones de transferencia o promoción.
+    2. Puede estimular la productividad y mejorar las relaciones humanas en el trabajo.
 
 ### Métodos tradicionales de evaluación del desempeño.
 
 La evaluación de desempeño es un medio, un método, una herramienta, y no un fin en sí misma. Es un medio para obtener datos e información que puedan registrarse, procesarse y canalizarse para mejorar el desempeño humano en las organizaciones. Los principales métodos tradicionales de evaluación del desempeño son:
 
-1. Método de las escalas graficas
+1. Método de las escalas gráficas
 2. Método de elección forzada
 3. Método de investigación de campo
 4. Método de los incidentes críticos
 5. Métodos mixtos
 
-_**Método de las escalas graficas**_
+_**Método de las escalas gráficas**_
 
 Es el método de evaluación del desempeño más utilizado y divulgado. En apariencia, es el método más sencillo, pero su aplicación exige múltiples cuidados, con el fin de evitar la subjetividad y los prejuicios del evaluador.
 
@@ -645,19 +668,19 @@ Este método evalúa el desempeño de las personas mediante factores de evaluaci
 
 Entre los extremos de evaluación existen tres alternativas:
 
-Escalas graficas continuas. Escalas donde solo están definidos los extremos; la evaluación del desempeño puede situarse en cualquier punto de la línea que los une.
+Escalas gráficas continuas. Escalas donde solo están definidos los extremos; la evaluación del desempeño puede situarse en cualquier punto de la línea que los une.
 
 ![[Pasted image 20261024181957.png]]
 
-Escalas graficas semicontinuas. Idénticas a las escalas continuas, excepto que se incluyen puntos intermedios definidos entre los extremos (límite mínimo y límite máximo) para facilitar la evaluación.
+Escalas gráficas semicontinuas. Idénticas a las escalas continuas, excepto que se incluyen puntos intermedios definidos entre los extremos (límite mínimo y límite máximo) para facilitar la evaluación.
 
 ![[Pasted image 20261024182001.png]]
 
-Escalas graficas discontinuas. En estas, la posición de las marcaciones ya está fijada y descrita con anterioridad; el evaluador solo debe seleccionar una de ellas para evaluar el desempeño del empleado.
+Escalas gráficas discontinuas. En estas, la posición de las marcaciones ya está fijada y descrita con anterioridad; el evaluador solo debe seleccionar una de ellas para evaluar el desempeño del empleado.
 
 ![[Pasted image 20261024182006.png]]
 
-Para facilitar las evaluaciones, las escalas discontínuas se representan mediante gráficas de dos entradas: en las entradas horizontales (filas) se escriben los factores de evaluación del desempeño, y en las entradas verticales (columnas) se escriben los grados o las graduaciones de los factores. De ahí el cuadro de dos entradas que caracteriza este método de evaluación.
+Para facilitar las evaluaciones, las escalas discontinuas se representan mediante gráficas de dos entradas: en las entradas horizontales (filas) se escriben los factores de evaluación del desempeño, y en las entradas verticales (columnas) se escriben los grados o las graduaciones de los factores. De ahí el cuadro de dos entradas que caracteriza este método de evaluación.
 
 ![[Pasted image 20261024182017.png]]
 
@@ -671,7 +694,7 @@ Para facilitar las evaluaciones, las escalas discontínuas se representan median
 
 **Desventajas**
 
-- No permite mucha flexibilidad al evaluador; en consecuencia, dene ajustarse al instrumento, y no éste a las caracteristicas del evaluado.
+- No permite mucha flexibilidad al evaluador; en consecuencia, debe ajustarse al instrumento, y no este a las características del evaluado.
 - Está sujeto a distorsiones e interferencias personales de los evaluadores.
 - Tiende a rutinizar y generalizar los resultados de las evaluaciones.
 - Requiere procedimientos matemáticos y estadísticos para corregir las distorsiones y la influencia personal de los evaluadores.
@@ -685,8 +708,8 @@ Consiste en evaluar el desempeño de los individuos mediante frases descriptivas
 
 La naturaleza de las frases varía bastante; no obstante, hay dos formas de componerlas:
 
-1. Se forman bloques de dos frases de significado positivo y dos de significado negativo: AI juzgar al empleado, el supervisor o evaluador elige la frase que más se ajusta y, luego, la que menos se ajusta al desempeño del evaluado.
-2. Se forman bloques de solo cuatro frases de significado positivo. AI juzgar al empleado, el supervisor o evaluador elige las frases que más se ajustan al desempeño del evaluado.
+1. Se forman bloques de dos frases de significado positivo y dos de significado negativo: Al juzgar al empleado, el supervisor o evaluador elige la frase que más se ajusta y, luego, la que menos se ajusta al desempeño del evaluado.
+2. Se forman bloques de solo cuatro frases de significado positivo. Al juzgar al empleado, el supervisor o evaluador elige las frases que más se ajustan al desempeño del evaluado.
 
 ![[Pasted image 20261024182034.png]]
 
@@ -697,14 +720,14 @@ La naturaleza de las frases varía bastante; no obstante, hay dos formas de comp
 
 **Desventajas**
 
-- Su elaboración es compleja, exigen una planeación muy cuidadosa y demorada.
-- Es un método comparativo y discriminatorio, y presenta resultados globales; distingue sólo los buenos empleados, medios e insuficientes, sin dar mayor información.
+- Su elaboración es compleja, exige una planeación muy cuidadosa y demorada.
+- Es un método comparativo y discriminatorio, y presenta resultados globales; distingue solo los buenos empleados, medios e insuficientes, sin dar mayor información.
 - Cuando se utiliza para el desarrollo de RRHH requiere información complementaria acerca de las necesidades de capacitación, potencial de desarrollo, etc.
 - Deja al evaluador sin ninguna noción del resultado de la evaluación con respecto a sus subordinados.
 
 _**Método de investigación de campo**_
 
-Está desarrollado con base en entrevistas de un especialista en evaluación con un supervisor inmediato, mediante el cual se evalúa el desempeño de sus subordinados, determinándose las causas, los orígenes y los motivos de tal desempeño, por medio del análisis de hechos y de situaciones. Es un método de evaluación más amplio ya que permite además de un diagnóstico del desempeño del empleado, la posibilidad de planear junto con el supervisor inmediato su desarrollo en el cargo y en la organización. También permite acompañar el desempeño del empleado de manera mucho más dinámica que otros métodos.
+Está desarrollado con base en entrevistas de un especialista en evaluación con un supervisor inmediato, mediante el cual se evalúa el desempeño de sus subordinados, determinándose las causas, los orígenes y los motivos de tal desempeño, por medio del análisis de hechos y de situaciones. Es un método de evaluación más amplio ya que permite, además de un diagnóstico del desempeño del empleado, la posibilidad de planear junto con el supervisor inmediato su desarrollo en el cargo y en la organización. También permite acompañar el desempeño del empleado de manera mucho más dinámica que otros métodos.
 
 La evaluación de desempeño la efectúa el supervisor (jefe), pero con asesoría de un especialista (staff) en evaluación del desempeño. El especialista va a cada una de las secciones para entrevistar a los jefes sobre el desempeño de sus respectivos subordinados.
 
@@ -746,7 +769,7 @@ Este método es ligeramente diferente del método de elección forzada porque no
 
 ![[Pasted image 20261024182055.png]]
 
-## La evaluación de desempeño como elemento integrador de las practicas de la ARH
+## La evaluación de desempeño como elemento integrador de las prácticas de la ARH
 
 - **Procesos de provisión**: seguir y localizar a las personas con características adecuadas para los negocios de la empresa.
 - **Procesos de aplicación**: indicar si las personas se hallan bien integradas en sus cargos y funciones.
@@ -760,7 +783,7 @@ Es la última etapa de la evaluación de desempeño. La comunicación del result
 
 Los propósitos de esta entrevista son:
 
-- Dar al subordinado las condiciones necesarias para mejorar su trabajo mediante una comunicación clara e inequívoca de su estándar de desempeño. Le brinda la posibilidad al subordinado de aprender y conocer lo que el jefe espera de el en términos de calidad, cantidad y métodos de trabajo.
+- Dar al subordinado las condiciones necesarias para mejorar su trabajo mediante una comunicación clara e inequívoca de su estándar de desempeño. Le brinda la posibilidad al subordinado de aprender y conocer lo que el jefe espera de él en términos de calidad, cantidad y métodos de trabajo.
 - Dar al subordinado una idea clara acerca de cómo está desempeñando su trabajo, destacando sus fortalezas y sus debilidades y comparándolas con los estándares de desempeño esperados.
 - Discutir entre el empleado y el jefe las medidas y los planes para desarrollar y utilizar mejor las aptitudes del subordinado.
 - Estimular las relaciones personales más fuertes entre el jefe y los subordinados, en las cuales ambos estén en condiciones de hablar con franqueza lo referente al trabajo.
@@ -775,8 +798,8 @@ El management de los recursos de SI consiste en **estructurar, organizar y admin
 _**Organizar** significa ordenar actividades comunes para lograr la eficacia del conjunto._
 
 - Implica **modificar o diseñar** la estructura organizativa del área de SI/TI.
-- Para elaborar la estructura es parte de los planes (objetivo, actividades y recursos)
-- El resultado del proceso de organizar es una **estructura organizativa**, que incluye no sólo jerarquías y departamentos, sino también **procesos de coordinación, conducción y uso de tecnologías**.
+- Para elaborar la estructura es parte de los planes (objetivo, actividades y recursos).
+- El resultado del proceso de organizar es una **estructura organizativa**, que incluye no solo jerarquías y departamentos, sino también **procesos de coordinación, conducción y uso de tecnologías**.
 - El objetivo final es lograr un **efecto sinérgico**: que las partes trabajen de manera integrada y el todo funcione mejor que la suma de sus componentes.
 
 La estructura del área de SI depende de:
@@ -814,26 +837,26 @@ Elementos claves:
 
 El alineamiento me da el marco para tomar decisiones sobre el RUO.
 
-La estructura de un área de SI varia segun el tamaño y las necesidades de la organización y puede manifestarse en organigramas funcionales, matriciales o basados en proyectos.
+La estructura de un área de SI varía según el tamaño y las necesidades de la organización y puede manifestarse en organigramas funcionales, matriciales o basados en proyectos.
 
 Existen tres temas específicos que deben resolverse en los sistemas de información, estos son:
 
-- **¿Qué harán los SI/TI?** se refiere a la naturaleza de las interacciones con su entorno, es decir, cómo se relaciona con las demás áreas, qué funciones cumple y qué responsabilidades tiene dentro de la empresa. Denominaremos a este aspecto el **rol** de los IS. El rol refleja el tipo de relación que va a tener el área de SI/TI con el negocio.  
-    _¿Como se relacionara el area de si/ti con las areas usuarias? voy a ser un modelo de negocio, un soporte? voy a marcar las app que esta gente necesita?_
-- **¿Dónde estarán los SI/TI?** se refiere a la perspectiva empresarial de los recursos de IS e incluye la ubicación del área de SI/TI dentro de la empresa, tanto desde el punto de vista físico como de management. Lo llamaremos la **ubicación** de los IS.  
-    _¿En cuanto centralizar o descentralizar las decisiones dentro del área de SI/TI?  
-    Si la empresa tiene varias sucursales, voy a tener areas de sistemas en cada sucursal, es determinar que decisiones voy a delegar y cuales no, que poder de decisión sobre los sistemas delego en las sucursales o lo retengo. Determina la distribución de la gestión de los sistemas_
-- **¿Cómo se dispondrán los SI/TI?** se refiere a cómo se estructura internamente el área de SI/TI. Implica como estarán agrupadas las personas, que responsabilidades tendrán y bajo qué jerarquías estarán distribuidos. Usaremos el término **organización** de los IS.  
-    _¿Cómo voy a estructurar el área (como departamentalizar, niveles gerenciales, bajo que criterio)?_
+- **¿Qué harán los SI/TI?** Se refiere a la naturaleza de las interacciones con su entorno, es decir, cómo se relaciona con las demás áreas, qué funciones cumple y qué responsabilidades tiene dentro de la empresa. Denominaremos a este aspecto el **rol** de los IS. El rol refleja el tipo de relación que va a tener el área de SI/TI con el negocio.  
+    _¿Cómo se relacionará el área de SI/TI con las áreas usuarias? ¿Voy a ser un modelo de negocio, un soporte? ¿Voy a marcar las apps que esta gente necesita?_
+- **¿Dónde estarán los SI/TI?** Se refiere a la perspectiva empresarial de los recursos de IS e incluye la ubicación del área de SI/TI dentro de la empresa, tanto desde el punto de vista físico como de management. Lo llamaremos la **ubicación** de los IS.  
+    _¿En cuánto centralizar o descentralizar las decisiones dentro del área de SI/TI?  
+    Si la empresa tiene varias sucursales, voy a tener áreas de sistemas en cada sucursal, es determinar qué decisiones voy a delegar y cuáles no, qué poder de decisión sobre los sistemas delego en las sucursales o lo retengo. Determina la distribución de la gestión de los sistemas._
+- **¿Cómo se dispondrán los SI/TI?** Se refiere a cómo se estructura internamente el área de SI/TI. Implica cómo estarán agrupadas las personas, qué responsabilidades tendrán y bajo qué jerarquías estarán distribuidos. Usaremos el término **organización** de los IS.  
+    _¿Cómo voy a estructurar el área (cómo departamentalizar, niveles gerenciales, bajo qué criterio)?_
 
 **ACLARACIÓN: Cuando hablamos de IS en esta unidad hace referencia al ÁREA de sistemas, no a las aplicaciones.**
 
-**Esto es una definición de cómo disponer los RR.HH , es algo organizativo, no tecnológico.**
+**Esto es una definición de cómo disponer los RR.HH., es algo organizativo, no tecnológico.**
 
 <aside>  
 💡
 
-Como consejo de CASO: Planteo la Organización, veo si esa organización me ayuda al rol y esta relacionado a la ubicación.
+Como consejo de CASO: Planteo la Organización, veo si esa organización me ayuda al rol y está relacionado a la ubicación.
 
 </aside>
 
@@ -843,26 +866,25 @@ Como consejo de CASO: Planteo la Organización, veo si esa organización me ayud
 👉🏿
 
 **Sacado del Robson  
-Se habla siempre del area SI/TI dentro de la organización.**
+Se habla siempre del área SI/TI dentro de la organización.**
 
 </aside>
 
-Existen dos visiones divididas acerca del rol de los IS, algunos le atribuyen una función estratégica y critica (managers de SI), mientras que otros (nivel gerencial) piensan que su función es el apoyo para la eficiencia.
+Existen dos visiones divididas acerca del rol de los IS, algunos le atribuyen una función estratégica y crítica (managers de SI), mientras que otros (nivel gerencial) piensan que su función es el apoyo para la eficiencia.
 
 La siguiente tabla muestra las relaciones entre IS y usuarios, y su evolución.
 
 |**Rol de IS**|**Relación**|**Estructura**|
 |---|---|---|
-|**Hacerles algo a ellos**|El grupo de IS establece las reglas|Enfoque “tradicional”/ funcional|
+|**Hacerles algo a ellos**|El grupo de IS establece las reglas|Enfoque “tradicional” / funcional|
 |**Hacer algo para ellos**|Orientación al servicio|Guiada por bases de datos|
 |**Hacer algo con ellos**|Puentes y participación|Grupos de proyectos funcionales|
-|**Ayudarlos a que lo hagan por si mismos**|Influencia más que control|Centros de información y apoyo para las decisiones|
-|**Mantener un depósito de información**|Puente entre proveedores de información –||
-|usuarios de información|Enfoque externo||
+|**Ayudarlos a que lo hagan por sí mismos**|Influencia más que control|Centros de información y apoyo para las decisiones|
+|**Mantener un depósito de información**|Puente entre proveedores de información – usuarios de información|Enfoque externo|
 
 - **Hacerles algo a ellos**: el área de SI/TI manda y los usuarios obedecen. El área de sistemas decide todo, los usuarios no tienen voz. Ejemplo: “Te paso este sistema, usalo así y listo”.
     
-    el area dice: vos necesitas esta app, te vamos a hacer esto. los usuarios no tienen intervencion
+    El área dice: vos necesitás esta app, te vamos a hacer esto. Los usuarios no tienen intervención.
     
 - **Hacer algo para ellos**: el área de SI/TI empieza a servir al usuario. Ya no es imponer, sino dar soluciones hechas a medida. Ejemplo: un sistema de sueldos hecho especialmente para RRHH.
     
@@ -877,22 +899,22 @@ Este cambio refleja una **transformación del rol del SI**: de un agente de cont
 
 Una forma de categorizar o denominar los recursos de SI (_**se refiere a todo lo que compone la función de los Sistemas de Información dentro de una organización**_) es centrarse en la relación entre los SI y los usuarios, planteando cinco modelos de estructura de los SI:
 
-- **Modelo de servicio:** formaliza la interacción entre los SI y los usuarios como una obligación de servicio. El área de SI/TI esta para servir al usuario, el usuario pide y el SI lo entrega.
+- **Modelo de servicio:** formaliza la interacción entre los SI y los usuarios como una obligación de servicio. El área de SI/TI está para servir al usuario, el usuario pide y el SI lo entrega.
     
-- **Modelo de participación:** separa las lineas funcionales del modelo de servicio para desarrollar una estrecha correspondencia entre los SI y los usuarios empresariales. Usuario y el área de SI/TI trabajan codo a codo para diseñar y adaptar soluciones que respondan a las necesidades del negocio
+- **Modelo de participación:** separa las líneas funcionales del modelo de servicio para desarrollar una estrecha correspondencia entre los SI y los usuarios empresariales. Usuario y el área de SI/TI trabajan codo a codo para diseñar y adaptar soluciones que respondan a las necesidades del negocio.
     
-- **Modelo de vendedor:** los SI buscan comercializarse a así mismos y vender servicios al grupo de usuarios. Las empresas que son atraídas por este negocio son aquellas que les interesa el valor que aportan los SI al negocio.  
+- **Modelo de vendedor:** los SI buscan comercializarse a sí mismos y vender servicios al grupo de usuarios. Las empresas que son atraídas por este negocio son aquellas a las que les interesa el valor que aportan los SI al negocio.  
     El área de SI/TI ‘vende’ sus servicios internamente, compite por demostrar su valor frente a las alternativas externas.
     
     El SI “vende” sus servicios internamente y EXTERNAMENTE (CASO AGUNSA). Compite por demostrar su valor frente a alternativas externas.
     
-- **Modelo de expansión:** es un modelo en el cual los SI crean una arquitectura flexible que sustentara los sistemas comunes para dar cabida a una serie de aspectos relacionados con los usuarios. El SI construye plataformas flexibles que los usuarios pueden adaptar, por ejemplo, un sistema modular que cada área configura a su gusto.  
-    El área de SI/TI deja de entregar ‘sistemas cerrados’ y pasa a diseñar plataformas modulares sobre la cuál las áreas usuarias pueden configurar y adaptarlas según sus necesidades.
+- **Modelo de expansión:** es un modelo en el cual los SI crean una arquitectura flexible que sustentará los sistemas comunes para dar cabida a una serie de aspectos relacionados con los usuarios. El SI construye plataformas flexibles que los usuarios pueden adaptar, por ejemplo, un sistema modular que cada área configura a su gusto.  
+    El área de SI/TI deja de entregar ‘sistemas cerrados’ y pasa a diseñar plataformas modulares sobre la cual las áreas usuarias pueden configurar y adaptarlas según sus necesidades.
     
     El modelo de expansión plantea que el área de SI deja de “entregar sistemas cerrados” y pasa a diseñar y custodiar una arquitectura flexible y común (plataformas, estándares, datos maestros, APIs, identidad, integración) sobre la que las áreas usuarias pueden configurar y extender sus propias soluciones según sus necesidades.
     
 - **Modelo de ventaja estratégica:** la identificación entre los SI y los usuarios es tan estrecha que los productos competitivos se desarrollan en forma conjunta. SI y usuarios son un solo equipo que co-crea valor competitivo.  
-    La diferencia principal es el grado de integración entre el área de SI/TI y el negocio. En el modelo de participación, ambos trabajan juntos para diseñar y adaptar soluciones, manteniendo cierta separación de roles: el área de SI/TI colabora activamente con los usuarios, pero sigue siendo un área de soporte. En cambio, en el modelo de ventaja estratégica, la unión es total: el área de SI/TI se convierte en un socio estratégico del negocio y, junto con los usuarios forman un solo equipo que co-crea productos, procesos y ventajas competitivas, de modo que la tecnología deja de ser solo apoyo operativo y se convierte en un factor estratégico central del negocio.
+    La diferencia principal es el grado de integración entre el área de SI/TI y el negocio. En el modelo de participación, ambos trabajan juntos para diseñar y adaptar soluciones, manteniendo cierta separación de roles: el área de SI/TI colabora activamente con los usuarios, pero sigue siendo un área de soporte. En cambio, en el modelo de ventaja estratégica, la unión es total: el área de SI/TI se convierte en un socio estratégico del negocio y, junto con los usuarios, forman un solo equipo que co-crea productos, procesos y ventajas competitivas, de modo que la tecnología deja de ser solo apoyo operativo y se convierte en un factor estratégico central del negocio.
     
 
 En principio, dentro del área de SI/TI se pueden distinguir dos tipos de actividades:
@@ -900,7 +922,7 @@ En principio, dentro del área de SI/TI se pueden distinguir dos tipos de activi
 - Por un lado, las operaciones técnicas específicas de los SI, como diseñar, desarrollar, mantener y operar sistemas que apoyan al management.
 - Por otro lado, las actividades administrativas internas del área de SI, como la planificación del área, la elaboración de presupuestos, o la gestión del personal técnico.
 
-Los SI podrían verse como una función separada, con su ****propia “cadena de valor”**,** es decir, con actividades específicas que crean valor dentro de su ámbito (mejorar procesos, automatizar tareas, etc)**,** independiente del resto de la administración.
+Los SI podrían verse como una función separada, con su **propia “cadena de valor”**, es decir, con actividades específicas que crean valor dentro de su ámbito (mejorar procesos, automatizar tareas, etc.), independiente del resto de la administración.
 
 Aunque en papel esa separación suena ordenada, en la práctica las funciones de SI están más distribuidas y entrelazadas, por varias razones:
 
@@ -908,7 +930,7 @@ Aunque en papel esa separación suena ordenada, en la práctica las funciones de
 - Algunos servicios de SI se prestan internamente, otros **se** tercerizan (outsourcing).
 - Hay servicios “core” (como infraestructura) y otros “de apoyo” (como soporte al usuario final).
 
-Estos roles separados representan las actividades _lógicas y_ no los distintos departamentos o secciones. Esto, no se refiere a que haya un departamento diferente para cada función, sino a que hay que pensar en los diferentes _roles o funciones_ que cumplen los SI, aunque estén repartidos entre varias áreas.
+Estos roles separados representan las actividades _lógicas y_ no los distintos departamentos o secciones. Esto no se refiere a que haya un departamento diferente para cada función, sino a que hay que pensar en los diferentes _roles o funciones_ que cumplen los SI, aunque estén repartidos entre varias áreas.
 
 Por ejemplo:
 
@@ -918,43 +940,43 @@ Por ejemplo:
 
 Entonces, los “roles” son una forma de pensar el trabajo, no necesariamente estructuras formales.
 
-Los roles de los SI con múltiples y entre los roles que tienen que estructurarse en forma diferenciada, se encuentran el management y la provisión de:
+Los roles de los SI son múltiples y entre los roles que tienen que estructurarse en forma diferenciada, se encuentran el management y la provisión de:
 
-- **Infraestructura de IS** (operación y administración)**:** implica que los servicios centrales de la empresa tienen que brindarse en una forma efectiva y confiable para asegurar su calidad. Este rol abarca el management de redes, bbdd, y provisión de servicios compartidos como el email. No se enfatizan aspectos técnicos, sino los relacionados con el servicio.  
+- **Infraestructura de IS (operación y administración):** implica que los servicios centrales de la empresa tienen que brindarse en una forma efectiva y confiable para asegurar su calidad. Este rol abarca el management de redes, BBDD, y provisión de servicios compartidos como el email. No se enfatizan aspectos técnicos, sino los relacionados con el servicio.  
     Se encarga de asegurar el funcionamiento diario y estable de toda la infraestructura tecnológica de la empresa.
-- **Investigación y desarrollo a largo plazo:** las directivas a largo plazo tienen que estar separadas de las preocupaciones actuales. Las decisiones con respecto a las políticas de los sistemas de información solo estarán dentro de la órbita de los IS. La Investigación y el desarrollo de nuevas tecnologías deberán permitir que la función asesora de los IS sea realista e innovadora en lo que hace a apreciar el potencial del negocio.  
+- **Investigación y desarrollo a largo plazo:** las directivas a largo plazo tienen que estar separadas de las preocupaciones actuales. Las decisiones con respecto a las políticas de los sistemas de información solo estarán dentro de la órbita de los IS. La investigación y el desarrollo de nuevas tecnologías deberán permitir que la función asesora de los IS sea realista e innovadora en lo que hace a apreciar el potencial del negocio.  
     Se trata de analizar y planificar la evolución tecnológica de la empresa, separando las decisiones de largo plazo de las preocupaciones cotidianas.
 - **Facilitar la informática a nivel de usuario final:** es la función de apoyo de los IS para con el usuario. Se refiere a persuadir al usuario y a permitirle conceptualizar los problemas, a seleccionar la tecnología apropiada, a diseñar soluciones adecuadas y a implementarlas. Es la función 'asesora' de los IS, acá actúan como consultor.  
     Es el rol de apoyo, guía y capacitación del área de sistemas hacia los usuarios de la empresa. Busca que las personas puedan usar la tecnología de forma autónoma y efectiva para resolver sus propios problemas.
 
 ## Ubicación de los SI/TI
 
-Para el TP: DIGO QUE DECISIONES DESCENTRALIZO O CENTRALIZO O DELEGO
+Para el TP: DIGO QUÉ DECISIONES DESCENTRALIZO O CENTRALIZO O DELEGO.
 
 Se refiere a la perspectiva empresarial de los recursos de SI e incluye la ubicación de los SI dentro de la empresa, tanto desde el punto de vista físico como de management.
 
 La manera de decidir con respecto a una ubicación adecuada para los elementos de los SI es confrontarlos contra la estrategia de SI que define sus objetivos. Es muy útil diferenciar entre tres tipos de ubicación:
 
-- **Centralizada**: una función de un único acceso. Los SI proveen un solo servicio, con un solo acceso. Las decisiones se toman en un solo lugar. La gestión y administración está en ese lugar. Ejemplo: Administración contable financiera del estado provincial.  
+- **Centralizada**: una función de un único acceso. Los SI proveen un solo servicio, con un solo acceso. Las decisiones se toman en un solo lugar. La gestión y administración está en ese lugar. Ejemplo: Administración contable financiera del estado provincial.  
     **Retengo en un punto de la gerencia de SI, TODAS LAS DECISIONES.**
-- **Descentralizada**: muchas funciones con un único acceso cada una. Los SI se dividen en una serie de centros pequeños con accesos únicos, un conjunto de mini departamentos de procesamiento de datos. _**Son réplicas de la centralización**_. Ejemplo: Sistema de registro académico de la UTN. Con el Sysacad hay uno que está en cada regional, pero son réplicas de la que está en el rectorado. ACA EN LAS SUCURSALES NO HAY GENTE QUE ME DESARROLLE. Se delegan decisiones operativas.
+- **Descentralizada**: muchas funciones con un único acceso cada una. Los SI se dividen en una serie de centros pequeños con accesos únicos, un conjunto de mini departamentos de procesamiento de datos. _**Son réplicas de la centralización**_. Ejemplo: Sistema de registro académico de la UTN. Con el Sysacad hay uno que está en cada regional, pero son réplicas de la que está en el rectorado. ACÁ EN LAS SUCURSALES NO HAY GENTE QUE ME DESARROLLE. Se delegan decisiones operativas.
 - **Delegada**: dispersas desde el punto de vista geográfico y de management. Los SI son una red de uniones laterales junto con un grado significativo de control por parte del usuario final con respecto al procesamiento, al desarrollo y al entorno de los sistemas. _**Son los opuestos a los centralizados**_. **Respondo a la necesidad de un ámbito local o regional**. Las áreas toman las decisiones en cada lugar que están, por ejemplo, sucursales. Son autónomas en decidir. Ejemplo: Sistema de registro de expedientes en UTN.
 
-Son los SI delegados lo que verdaderamente se oponen a los centralizados y no los descentralizados, ya que estos pueden crear repeticiones de los mismos atributos de los centralizados.
+Son los SI delegados los que verdaderamente se oponen a los centralizados y no los descentralizados, ya que estos pueden crear repeticiones de los mismos atributos de los centralizados.
 
 Cualquiera de las tres ubicaciones es posible y, por lo general, las empresas agregan facetas de cada categoría. Si se comprenden las ventajas y desventajas de cada alternativa, se podrán desarrollar los esquemas apropiados.
 
 La ubicación de los IS involucra tres aspectos:
 
 - **Localización:** es la ubicación física del sistema.
-- **Control***:* el nivel empresarial al cual se toman las decisiones; cuando el sistema está centralizado, los niveles de management superiores toman todas las decisiones.
-- **Estructura:** las responsabilidades de los sistemas pueden estar centralizada en la función de los IS o transferida al grupo de usuarios.
+- **Control:** el nivel empresarial al cual se toman las decisiones; cuando el sistema está centralizado, los niveles de management superiores toman todas las decisiones.
+- **Estructura:** las responsabilidades de los sistemas pueden estar centralizadas en la función de los IS o transferidas al grupo de usuarios.
 
-Como las cuestiones técnicas se han solucionado, el debate ha pasado a enfocarse en los aspectos de management, es decir, en donde se debe ubicar la coordinación y el control. La complejidad creciente significa que la empresa debe considerar ahora que **componente** de los IS ubicar en cada lugar. En otras palabras, qué centralizar, cómo y en qué medida hacerlo.
+Como las cuestiones técnicas se han solucionado, el debate ha pasado a enfocarse en los aspectos de management, es decir, en dónde se debe ubicar la coordinación y el control. La complejidad creciente significa que la empresa debe considerar ahora qué **componente** de los IS ubicar en cada lugar. En otras palabras, qué centralizar, cómo y en qué medida hacerlo.
 
 ### SI Centralizados
 
-Una ubicación centralizada de los sistemas de información puede ser una continuación de haber estado _siempre,_ en ese estado o puede surgir como consecuencia de un reordenamiento en respuesta a presiones para ahorrar costos.
+Una ubicación centralizada de los sistemas de información puede ser una continuación de haber estado _siempre_ en ese estado o puede surgir como consecuencia de un reordenamiento en respuesta a presiones para ahorrar costos.
 
 **Ventajas de la ubicación y el control centralizados**
 
@@ -969,11 +991,11 @@ Una ubicación centralizada de los sistemas de información puede ser una contin
 
 - Los IS están separados del terreno de los negocios reales, de sus preocupaciones y prioridades.
     
-    El “centro” puede perder contexto de la operación diaria y priorizar su backlog/estándares sobre necesidades locales, generando tiempos de respuesta pobres o soluciones poco ajustadas
+    El “centro” puede perder contexto de la operación diaria y priorizar su backlog/estándares sobre necesidades locales, generando tiempos de respuesta pobres o soluciones poco ajustadas.
     
 - No hay mucho campo para prestar atención a un grupo en particular. Puede hacer que se olviden las prioridades del negocio.
     
-    Al optimizar “para el promedio”, casos de nicho quedan rezagados
+    Al optimizar “para el promedio”, casos de nicho quedan rezagados.
     
 - Como el servicio está separado de la _acción,_ tiene que adoptar una serie de políticas específicas para su desarrollo, aunque quizás sean inapropiadas.
     
@@ -981,17 +1003,17 @@ Una ubicación centralizada de los sistemas de información puede ser una contin
     
 - Si se usan sistemas de contabilidad de usuarios, lo que es muy común en este enfoque que considera a los usuarios como clientes _externos,_ existe un gran riesgo de deshonestidad, a menos que se usen sistemas apropiados.
     
-    Si se “cobra” al usuario como si fuera externo, pueden aparecer incentivos perversos (subdeclaración, sobreconsumo oculto)
+    Si se “cobra” al usuario como si fuera externo, pueden aparecer incentivos perversos (subdeclaración, sobreconsumo oculto).
     
 - Los costos de comunicación pueden ser muy altos porque las distancias entre huésped y cliente quizás sean grandes. Las nuevas tecnologías de comunicaciones están reduciendo estos costos.
     
 
 **Entorno para una localización centralizada**
 
-Una localización centralizada parece funcionar bien cuando los recursos de Si son costosos y su uso es relativamente limitado. Existen circunstancias en las que es probable que la localización y el control centralizados sean adecuados
+Una localización centralizada parece funcionar bien cuando los recursos de SI son costosos y su uso es relativamente limitado. Existen circunstancias en las que es probable que la localización y el control centralizados sean adecuados:
 
-- _Sistema para sénior management:_ por lo general será complejo, basado en información sensible, y sensible en su desarrollo y aplicación. Por este motivo, tendera a necesitar control corporativo. **EIS**.
-- **Servicio común a las unidades de negocios (Ej.: liquidación de sueldos)**
+- _Sistema para sénior management:_ por lo general será complejo, basado en información sensible, y sensible en su desarrollo y aplicación. Por este motivo, tenderá a necesitar control corporativo. **EIS**.
+- **Servicio común a las unidades de negocios (Ej.: liquidación de sueldos).**
 - **La unidad de negocios es muy pequeña.**
 - **La integración es vital.**
 - **El tiempo de respuesta no es crítico.**
@@ -1011,7 +1033,7 @@ La descentralización tal vez sea una cara de la moneda o una etapa en una progr
 
 La diferencia entre los IS descentralizados y delegados está en el grado de dispersión del control y la autoridad. Los IS delegados se refieren al conjunto de actividades que incluyen la informática a nivel departamental y todas las formas de computación manejadas por el propio usuario. Las ventajas y desventajas de los sistemas delegados están dadas justamente por ese grado de dispersión del control. La delegación se suma a la dispersión técnica inherente a la computación distribuida, pero reemplaza el control central de los sistemas de información con la cooperación y la coordinación a nivel de toda la empresa para obtener una mayor integración.
 
-Como es probable que la delegación haga que las cuestiones de seguridad no recaigan bajo la responsabilidad de nadie, entonces es preciso automatizarlos al máximo posible. La otra área que también es preciso automatizar es el management de la red misma.
+Como es probable que la delegación haga que las cuestiones de seguridad no recaigan bajo la responsabilidad de nadie, entonces es preciso automatizarlas al máximo posible. La otra área que también es preciso automatizar es el management de la red misma.
 
 La descentralización y la computación distribuida tienden a crear islas de tecnología, en tanto la delegación pone los recursos en aquellos puntos en donde son necesarios para el negocio.
 
@@ -1031,9 +1053,9 @@ Se dice que en un entorno delegado/descentralizado el sistema está más “cerc
     
     Al emplazar capacidades cerca de cada área, se reduce tráfico WAN y latencias; los sistemas locales suelen ser más simples, por lo que se administran y controlan con mayor facilidad.
     
-- El desarrollo de los IS está más integrado con los negocios. Los _IS_ estarán más cerca de los usuarios desde el punto de vista físico y emocional, y serán más sensibles a sus requerimientos
+- El desarrollo de los IS está más integrado con los negocios. Los _IS_ estarán más cerca de los usuarios desde el punto de vista físico y emocional, y serán más sensibles a sus requerimientos.
     
-    El IS “vive” el proceso: entiende prioridades y responde con sensibilidad a requerimientos específico
+    El IS “vive” el proceso: entiende prioridades y responde con sensibilidad a requerimientos específicos.
     
 - Cuanto más delegados están los IS, permitirán que los usuarios tengan una mayor percepción del balance entre costos y beneficios.
     
@@ -1042,19 +1064,19 @@ Se dice que en un entorno delegado/descentralizado el sistema está más “cerc
 
 **Desventajas de los IS no centralizados**
 
-- Cuanto más delegados están los servicios, más probable es que existan altos costos agregados, que se generan por la duplicación
+- Cuanto más delegados están los servicios, más probable es que existan altos costos agregados, que se generan por la duplicación.
     
 - Los servicios delegados corren el riesgo de que se produzcan incompatibilidades futuras. Quizás las más críticas no sean dentro del campo técnico, sino en la infraestructura de recursos humanos y de información.
     
-    Se fragmentan estándares, datos, perfiles y prácticas;
+    Se fragmentan estándares, datos, perfiles y prácticas.
     
 - Cuando se enfrentan a la complejidad, los sistemas delegados tienen limitaciones. Su tamaño reducido implica una menor disponibilidad de experiencia y capacidad, lo que impide hacer frente a situaciones sofisticadas.
     
     Las células pequeñas tienen menos experticia y capacidad para proyectos sofisticados; la delegación exige automatizar seguridad, gestión de red y mantenimiento para compensar la dispersión.
     
-- Las posibilidades de que los especialistas desarrollen una carrera dentro de la empresa pueden verse limitada. Se requiere personal más multifuncional.
+- Las posibilidades de que los especialistas desarrollen una carrera dentro de la empresa pueden verse limitadas. Se requiere personal más multifuncional.
     
-    ; se pide generalismo y eso puede limitar retención/desarrollo de expertos
+    Se pide generalismo y eso puede limitar retención/desarrollo de expertos.
     
 - La duplicación de actividades implica ineficiencia.
     
@@ -1065,9 +1087,9 @@ Se dice que en un entorno delegado/descentralizado el sistema está más “cerc
 
 **Entorno para IS no centralizados**
 
-- Requerimiento de **velocidad y flexibilidad**
-- **Servicio Único:** **cuando un servicio es único para una parte de la empresa, debe ser administrado y controlado dentro de esa sección.
-- _Coherencia con los objetivos:_ **cuando los objetivos se relacionan con la efectividad**, está claro que la descentralización es apropiada a no ser que las circunstancias particulares indiquen lo contrario
+- Requerimiento de **velocidad y flexibilidad**.
+- **Servicio Único:** **cuando un servicio es único para una parte de la empresa**, debe ser administrado y controlado dentro de esa sección.
+- _Coherencia con los objetivos:_ **cuando los objetivos se relacionan con la efectividad**, está claro que la descentralización es apropiada a no ser que las circunstancias particulares indiquen lo contrario.
 
 En general, los delegados son apropiados cuando los costos de los recursos son extremadamente bajos, pero el uso es alto y variado.
 
@@ -1075,16 +1097,15 @@ En general, los delegados son apropiados cuando los costos de los recursos son e
 
 ![[Pasted image 20261024182128.png]]
 
-LA GERENCIA MEDIA: ej subgerente de comunicaciones, de seguridad. Es el que tiene a cargo algo que dependera del criterio con el que voy a departamentalizar. ESTOS DETERMINAN QUE APPS SON PARA QUIEN -> EL uso de los si/ti
+LA GERENCIA MEDIA: ej. subgerente de comunicaciones, de seguridad. Es el que tiene a cargo algo que dependerá del criterio con el que voy a departamentalizar. ESTOS DETERMINAN QUÉ APPS SON PARA QUIÉN -> El uso de los SI/TI.
 
-|Nivel|Qué administra|Quiénes lo integran|Qué hacen|
+|**Nivel**|**Qué administra**|**Quiénes lo integran**|**Qué hacen**|
 |---|---|---|---|
-|**Administración de la información**|La **estrategia general** del área de sistemas y su alineación con el negocio.|||
-|Define la visión y los planes de SI/TI|**Gerencia estratégica** → el **CIO (Chief Information Officer)**.|Traduce las necesidades del negocio en planes de SI/TI. Decide _qué dirección_ tecnológica tomará la empresa.||
-|**Administración del uso de los sistemas de información**|El **uso** que hacen las distintas áreas de los sistemas.|||
-|Define que sistemas se usan y cómo se gestionan.|**Gerencias tácticas o medias** → _Subgerencia de Seguridad, Subgerencia de Desarrollo, etc._|Determinan _qué sistemas se usan, por quién y para qué_. Controlan políticas de uso, seguridad, desarrollo y mantenimiento.||
-|**Administración de la tecnología**|La **infraestructura y operación técnica**: hardware, software, redes, servidores.|||
-|Ejecuta técnicamente las decisiones.|**Supervisión o gerencia de primera línea** → _CTO (Chief Technology Officer), jefes de servidores, jefes de proyectos, soporte técnico_.|Deciden _qué versión de programa se instala_, _cómo se configura_, _qué servidores se usan_. Ejecutan las [decisiones.LA](http://decisiones.LA) PRIMERA LINEA: adm de bbdd, son los que definen que version del antivirus me instalan por ej.||
+|**Administración de la información**|La **estrategia general** del área de sistemas y su alineación con el negocio. Define la visión y los planes de SI/TI.|**Gerencia estratégica** → el **CIO (Chief Information Officer)**.|Traduce las necesidades del negocio en planes de SI/TI. Decide _qué dirección_ tecnológica tomará la empresa.|
+|**Administración del uso de los sistemas de información**|El **uso** que hacen las distintas áreas de los sistemas. Define qué sistemas se usan y cómo se gestionan.|**Gerencias tácticas o medias** → _Subgerencia de Seguridad, Subgerencia de Desarrollo, etc._|Determinan _qué sistemas se usan, por quién y para qué_. Controlan políticas de uso, seguridad, desarrollo y mantenimiento.|
+|**Administración de la tecnología**|La **infraestructura y operación técnica**: hardware, software, redes, servidores. Ejecuta técnicamente las decisiones.|**Supervisión o gerencia de primera línea** → _CTO (Chief Technology Officer), jefes de servidores, jefes de proyectos, soporte técnico_.|Deciden _qué versión de programa se instala_, _cómo se configura_, _qué servidores se usan_. Ejecutan las decisiones.|
+
+LA PRIMERA LÍNEA: adm. de BBDD, son los que definen qué versión del antivirus me instalan, por ej.
 
 Se refiere a la organización de aquellas personas que serán consideradas profesionales de SI. Implica cómo estarán agrupados, qué responsabilidades tendrán y bajo qué jerarquías estarán distribuidos.
 
@@ -1096,7 +1117,7 @@ Orientada a la **eficiencia técnica y control centralizado**, separando desarro
 
 Es bastante rígida, en la que las aplicaciones de **desarrollo, mantenimiento y operación** de los sistemas están separadas. Cada una de estas áreas tendrá objetivos, estilos de administración y estructuras diferentes y requerirá de distintas habilidades.
 
-El personal de **operación** deberá trabajar por turnos para maximizar el uso y los beneficios de estos recursos altamente costosos, y porque ninguna instalación, podría funcionar sin control. Dentro del personal se incluyen **programadores** de sistemas.
+El personal de **operación** deberá trabajar por turnos para maximizar el uso y los beneficios de estos recursos altamente costosos, y porque ninguna instalación podría funcionar sin control. Dentro del personal se incluyen **programadores** de sistemas.
 
 La sección de **desarrollo** de sistemas originalmente estaba formada por **analistas de sistemas**. El análisis y el diseño eran actividades separadas, lo que generaba graves problemas de comunicación y llevaba a dejar de lado los objetivos globales del desarrollo. Esta estructura se asocia principalmente con una era de desarrollos internos, de ahí el número de programadores que se requería. Este tipo de estructura todavía existe y se la denomina Centro de datos.
 
@@ -1112,12 +1133,12 @@ Algunas actividades son tratadas adecuadamente en el marco de los centros de dat
 
 La máxima virtud de este enfoque es que soporta un amplio grado de especialización.
 
-Como cada proyecto tiene que moverse entre distintos equipos, es fundamental que exista un nivel de estandarización que, si bien aumentara la eficiencia, también generara cierta burocracia que hará que el desarrollo de los sistemas no sea tan rápido. Las desventajas asociadas con el Departamento de procesamiento de datos son:
+Como cada proyecto tiene que moverse entre distintos equipos, es fundamental que exista un nivel de estandarización que, si bien aumentará la eficiencia, también generará cierta burocracia que hará que el desarrollo de los sistemas no sea tan rápido. Las desventajas asociadas con el Departamento de procesamiento de datos son:
 
 - _Retraso:_ los nuevos desarrollos pueden llevar años e incluso las modificaciones de sistemas previos pueden insumir varios meses.
-- _Sistemas proscriptos:_ El fuerte énfasis en los aspectos técnicos hace que se preste más atención a la 'elegancia' del sistema que a sus características de uso.
+- _Sistemas proscriptos:_ el fuerte énfasis en los aspectos técnicos hace que se preste más atención a la 'elegancia' del sistema que a sus características de uso.
 - Sistemas inflexibles, se deben producir especificaciones formales para los grupos que están aislados de los usuarios.
-- Mantenimiento costoso
+- Mantenimiento costoso.
 
 ![[Pasted image 20261024182151.png]]
 
@@ -1149,25 +1170,25 @@ Los equipos de proyectos funcionales son una forma de la matriz de management, p
 
 Esta agrupación del personal de IS según las funciones empresariales ha estimulado el desarrollo de sistemas más relevantes, pero al mismo tiempo, ha contribuido a crear 'murallas chinas' entre las distintas áreas de sistemas, de modo que se han generado barreras que impiden el intercambio de información.
 
-Cada equipo interpreta los hechos empresariales de distinta manera y maneja sus datos de forma particular. Una desventaja que puede pasar es que exista una carga despareja de trabajo, que puede hacer que los sistemas de marketing se desarrollen para mantener ocupado a ese equipo mientras otros posponen desarrollos mas importantes por carga de trabajo.
+Cada equipo interpreta los hechos empresariales de distinta manera y maneja sus datos de forma particular. Una desventaja que puede pasar es que exista una carga despareja de trabajo, que puede hacer que los sistemas de marketing se desarrollen para mantener ocupado a ese equipo mientras otros posponen desarrollos más importantes por carga de trabajo.
 
 ![[Pasted image 20261024182216.png]]
 
-Éste enfoque hizo mucho para que el usuario se involucrara y realizara más por sí mismo, a la vez que permitía que el personal de IS desarrollara más conciencia del negocio.
+Este enfoque hizo mucho para que el usuario se involucrara y realizara más por sí mismo, a la vez que permitía que el personal de IS desarrollara más conciencia del negocio.
 
 ![[Pasted image 20261024182222.png]]
 
 _**Centro de información y apoyo a decisiones**_
 
-Las estructuras orientadas al apoyo para la toma de decisiones están estrechamente ligadas a los centros de información y organizan la función de los IS para servir de apoyo a las decisiones de management de los usuarios, aunque no necesariamente con esos usuarios consolando la naturaleza de los sistemas. Los sistemas de información ya no son responsables solo de los sistemas de procesamiento de datos sino también del manejo _efectivo_ de los IS.
+Las estructuras orientadas al apoyo para la toma de decisiones están estrechamente ligadas a los centros de información y organizan la función de los IS para servir de apoyo a las decisiones de management de los usuarios, aunque no necesariamente con esos usuarios controlando la naturaleza de los sistemas. Los sistemas de información ya no son responsables solo de los sistemas de procesamiento de datos sino también del manejo _efectivo_ de los IS.
 
-Ambas estructuras tienen el objetivo de dar apoyo y fomentar el desarrollo de la computación controlada por el usuario y el management hibrido, y ambas requieren la existencia de estructuras de SI como estas:
+Ambas estructuras tienen el objetivo de dar apoyo y fomentar el desarrollo de la computación controlada por el usuario y el management híbrido, y ambas requieren la existencia de estructuras de SI como estas:
 
 ![[Pasted image 20261024182232.png]]
 
 _**Estructuras externas**_
 
-Éste último tipo de estructura de IS se centra en el ambiente y se da por medio de dos aspectos. La función se estructura en torno a líneas de servicio al consumidor para satisfacer la organización del negocio, que es el entorno _inmediato_ de los IS. Los grupos de IS alcanzan acuerdos de servicio con la comunidad de usuarios, quienes definen tanto las _obligaciones_ de los IS como las percepciones de _valor_ del negocio. El segundo aspecto es que los SI, al igual que toda la empresa deben estar enfocados hacia el exterior, hacia los clientes reales, el entorno empresarial afectara a los SI y los SI influirán en la naturaleza del negocio.
+Este último tipo de estructura de IS se centra en el ambiente y se da por medio de dos aspectos. La función se estructura en torno a líneas de servicio al consumidor para satisfacer la organización del negocio, que es el entorno _inmediato_ de los IS. Los grupos de IS alcanzan acuerdos de servicio con la comunidad de usuarios, quienes definen tanto las _obligaciones_ de los IS como las percepciones de _valor_ del negocio. El segundo aspecto es que los SI, al igual que toda la empresa, deben estar enfocados hacia el exterior, hacia los clientes reales, el entorno empresarial afectará a los SI y los SI influirán en la naturaleza del negocio.
 
 ![[Pasted image 20261024182241.png]]
 
@@ -1180,19 +1201,19 @@ En otras palabras, tratan de solucionar los inconvenientes de las estructuras tr
 <aside>  
 💡
 
-Hay diferentes cargas de trabajo y un conjunto de tareas y formas de procesamiento que difieren no solo en su tipo sino en las condiciones que deben ejecutarse (comparación de sistemas que hizo CASO) Es decir que los sistemas también DIFIEREN EN SUS PRESTACIONES.
+Hay diferentes cargas de trabajo y un conjunto de tareas y formas de procesamiento que difieren no solo en su tipo sino en las condiciones en que deben ejecutarse (comparación de sistemas que hizo CASO). Es decir que los sistemas también DIFIEREN EN SUS PRESTACIONES.
 
 </aside>
 
-Es el subsistema cuya finalidad es disponer los recursos (hardware y software) de SI/TI en función a la carga de trabajo y los niveles de servicios requerido para satisfacer el nivel de prestaciones de la organización.
+Es el subsistema cuya finalidad es disponer los recursos (hardware y software) de SI/TI en función a la carga de trabajo y los niveles de servicios requeridos para satisfacer el nivel de prestaciones de la organización.
 
 Por tanto, el subsistema de aplicación consiste en las actividades de asignar, configurar, planificar la capacidad, explotar y evaluar los recursos de software y hardware.
 
 Las tareas que se realizan son:
 
 1. Dimensionar la carga de trabajo → **análisis y representación de la carga de trabajo**
-2. Asignar los recursos en base a prestaciones requeridas → planificación de las prestaciones
-3. Evaluar el funcionamiento de las prestaciones → evaluación de las prestaciones
+2. Asignar los recursos en base a prestaciones requeridas → **planificación de las prestaciones**
+3. Evaluar el funcionamiento de las prestaciones → **evaluación de las prestaciones**
 
 ## Evaluación del rendimiento de un sistema informático.
 
@@ -1228,9 +1249,9 @@ Por lo tanto, es necesario evaluar un sistema informático cuando se quiere:
 
 ## Magnitudes que se deben medir
 
-Para evaluar el comportamiento de un sistema hay que hacer referencia a unas medidas cuantitativas o unos parámetros que van a caracterizar el comportamiento del hardware y software del ordenador o que van a hacer referencia a como el usuario (_visión externa_) y el responsable del sistema (_visión interna_) ven su comportamiento.
+Para evaluar el comportamiento de un sistema hay que hacer referencia a unas medidas cuantitativas o unos parámetros que van a caracterizar el comportamiento del hardware y software del ordenador o que van a hacer referencia a cómo el usuario (_visión externa_) y el responsable del sistema (_visión interna_) ven su comportamiento.
 
-Una magnitud es t**odo aquello que puede ser medido** y que se puede expresar mediante un número y una unidad.
+Una magnitud es **todo aquello que puede ser medido** y que se puede expresar mediante un número y una unidad.
 
 Las magnitudes que se deben medir son:
 
@@ -1248,23 +1269,23 @@ Las magnitudes que se deben medir son:
 
 ## Variables internas o del sistema.
 
-> No se pueden ver al menos que tenga el monitor. No se pueden percibir ni ver a simple vista.
+> No se pueden ver a menos que tenga el monitor. No se pueden percibir ni ver a simple vista.
 
 - Factor de utilización de un componente: Es el porcentaje de tiempo durante el cual un componente del sistema informático (CPU, canal, dispositivo de E/S, etc.) ha sido realmente utilizado.
 - Solapamiento de componentes: Es el porcentaje de tiempo durante el cual dos o más componentes del sistema han sido utilizados simultáneamente.
 - Overhead: Es el porcentaje de tiempo que los distintos dispositivos del sistema (CPU, discos, memoria, etc.) han sido utilizados en tareas del sistema no directamente imputables a ninguno de los trabajos en curso.
-- Factor de carga de multiprogramación: Es la relación entre el tiempo de respuesta de un trabajo en un determinado entorno de multiprogramación y su tiempo de respuesta en mono programación.
+- Factor de carga de multiprogramación: Es la relación entre el tiempo de respuesta de un trabajo en un determinado entorno de multiprogramación y su tiempo de respuesta en monoprogramación.
 - Frecuencia de fallo de página: Es el número de fallos de página que se producen por unidad de tiempo en un sistema de memoria virtual paginada.
-- Factor de ganancia de multiprogramación: Es la relación entre el tiempo total necesario para ejecutar un conjunto de programas secuencialmente en mono programación y en multiprogramación.
-- Frecuencia de swapping: es el número de programas expulsados de memoria por unidad de tiempo a causa de falta de espacio o con el fin de permitir su reorganización para recuperar espacio en ella o para disminuir la paginación.
+- Factor de ganancia de multiprogramación: Es la relación entre el tiempo total necesario para ejecutar un conjunto de programas secuencialmente en monoprogramación y en multiprogramación.
+- Frecuencia de swapping: Es el número de programas expulsados de memoria por unidad de tiempo a causa de falta de espacio o con el fin de permitir su reorganización para recuperar espacio en ella o para disminuir la paginación.
 
-_**Ejemplo de variables en clase**_: % de uso de cpu del sistema, % de uso de cpu del usuario. Cantidad de memoria usada, cantidad de memoria total, carga de trabajo en x tiempo (mag trabajo realizado), tasa de recepcion (datos recibidos por segundo), tasa de transmisión (mag trabajo realizado), tasa de escritura y lectura en disco, % de uso de cpu por proceso, % de uso de memoria por proceso, cantidad de memoria usada por el proceso, tiempo que se esta ejecutándose un proceso, cantidad de hilos por proceso…
+_**Ejemplo de variables en clase**_: % de uso de CPU del sistema, % de uso de CPU del usuario. Cantidad de memoria usada, cantidad de memoria total, carga de trabajo en x tiempo (mag. trabajo realizado), tasa de recepción (datos recibidos por segundo), tasa de transmisión (mag. trabajo realizado), tasa de escritura y lectura en disco, % de uso de CPU por proceso, % de uso de memoria por proceso, cantidad de memoria usada por el proceso, tiempo que se está ejecutando un proceso, cantidad de hilos por proceso…
 
 ## Magnitudes referidas al comportamiento (variables de comportamiento)
 
-Tienen más que ver más con aspectos funcionales del sistema informático que con las prestaciones.
+Tienen que ver más con aspectos funcionales del sistema informático que con las prestaciones.
 
-- **Fiabilidad**: es la probabilidad que el sistema trabaje correctamente a lo largo de un intervalo de tiempo dado. Se mide por la probabilidad de fallos por unidad de tiempo, o por el tiempo medio entre fallos.
+- **Fiabilidad**: es la probabilidad de que el sistema trabaje correctamente a lo largo de un intervalo de tiempo dado. Se mide por la probabilidad de fallos por unidad de tiempo, o por el tiempo medio entre fallos.
 - **Disponibilidad**: probabilidad de que el sistema esté trabajando correctamente y que esté disponible para realizar sus funciones en el instante considerado _**t**_.
 - **Seguridad**: probabilidad de que el sistema no perturbe el funcionamiento de otros sistemas ni comprometa la seguridad de las personas relacionadas con él.
 - **Performabilidad**: probabilidad de que las prestaciones del sistema estarán por encima de un cierto nivel en un instante determinado.
@@ -1279,14 +1300,14 @@ Las modificaciones que se pueden introducir en un sistema para mejorar su compor
     - **Prioridad interna**: Es el nivel inicial de prioridad interna que recibe un programa en función de la prioridad externa asignada.
     - **Factor de multiprogramación**: Es el número máximo de trabajos que están simultáneamente en memoria principal y tienen la opción de usar la CPU y los demás recursos activos del sistema.
     - **Tamaño de la partición de memoria**: Es la cantidad fija de memoria principal asignada a cada trabajo.
-    - **Tamaño de la ventana**. Es el intervalo de tiempo durante el cual el sistema toma medidas para determinar el conjunto de trabajos de un programa en un entorno de memoria virtual paginada que use esa política.
+    - **Tamaño de la ventana**: Es el intervalo de tiempo durante el cual el sistema toma medidas para determinar el conjunto de trabajos de un programa en un entorno de memoria virtual paginada que use esa política.
     - **Máxima frecuencia de fallo de página**.
     - **Índice de supervivencia de las páginas**: Es el número de ráfagas de CPU recibidas por un programa antes de que saque de la memoria principal una página que no haya sido referenciada durante ese periodo.
     - **Número de usuarios simultáneos**: Es el número máximo de usuarios de terminales permitidos por un sistema de tiempo compartido.
-    - **Modificación de los programas**: de forma que su ejecución promedio requiera menos recursos, ya sea por recodificación de los caminos del programa recorrido con mayor asiduidad, o por un montaje que agrupe en la misma página o segmento aquellos módulos de programas que deben coexistir en memoria para la ejecución del programa, etc. Esto provoca la modificación de la carga.
+    - **Modificación de los programas**: de forma que su ejecución promedio requiera menos recursos, ya sea por recodificación de los caminos del programa recorridos con mayor asiduidad, o por un montaje que agrupe en la misma página o segmento aquellos módulos de programas que deben coexistir en memoria para la ejecución del programa, etc. Esto provoca la modificación de la carga.
 - **Modificación de las políticas de gestión del sistema operativo**: Es posible que en determinados SO, las políticas no sean las más adecuadas en un caso concreto, por lo que puede ser conveniente y recomendable la sustitución de la rutina encargada de la gestión de un determinado recurso por otra que utilice una política más idónea.
 - **Equilibrado de la distribución de la carga**.
-- **Sustitución o ampliación de los componentes del sistema**: modificación de la configuración del sistema, bien sea sustituyendo determinados elementos por otros de capacidad o rapidez, o por el aumento del número de dispositivos que constituyen la configuración del sistema.
+- **Sustitución o ampliación de los componentes del sistema**: modificación de la configuración del sistema, bien sea sustituyendo determinados elementos por otros de mayor capacidad o rapidez, o por el aumento del número de dispositivos que constituyen la configuración del sistema.
 
 ## Sistemas de referencia (tipos de sistemas de información)
 
@@ -1297,7 +1318,7 @@ Estos trabajos realizan ciclos de uso de la CPU y de los discos de forma continu
 Índices característicos:
 
 - **Turnaround time (equivalente al tiempo de respuesta en estos sistemas)**: Es el tiempo que transcurre desde que se lanza la ejecución de un trabajo hasta que finaliza.
-- **Productividad**: Medida en trabajo por unidad de tiempo
+- **Productividad**: Medida en trabajos por unidad de tiempo.
 
 ### Sistema transaccional
 
@@ -1314,20 +1335,20 @@ Es el tipo más común de sistemas, las partes interactúan entre ellas mediante
 
 Un sistema interactivo permite a los usuarios acceder a programas ejecutados en un servidor desde terminales remotos, limitando la comunicación a solicitudes y respuestas. Estos sistemas pueden dividirse conceptualmente en dos componentes principales: el **subsistema de terminales**, que modela el tiempo de reflexión del usuario, y el **subsistema central**, que abarca los dispositivos físicos del computador considerados por el modelo.
 
-El tiempo de reflexión _**(think time),**_ identificado habitualmente mediante la variable 𝑍*,* es el tiempo que transcurre desde que un trabajo abandona el subsistema central hasta que entra de nuevo en él.
+El tiempo de reflexión _**(think time)**_, identificado habitualmente mediante la variable $Z$, es el tiempo que transcurre desde que un trabajo abandona el subsistema central hasta que entra de nuevo en él.
 
 Este sistema espera órdenes del usuario, para continuar.
 
-En estos sistemas, pues, l**a generación de una nueva petición depende de la recepción de la respuesta a la petición anterior.**
+En estos sistemas, pues, **la generación de una nueva petición depende de la recepción de la respuesta a la petición anterior.**
 
 Índices característicos:
 
-- **Tiempo de reflexión (Z) es del usuario**
+- **Tiempo de reflexión ($Z$) es del usuario**.
 - **Tiempo de respuesta**: Es la sumatoria de los siguientes tiempos:
     - **Tiempo de reacción**: tiempo que transcurre desde que el usuario finaliza la petición hasta que el sistema comienza su ejecución.
     - **Tiempo de ejecución**: tiempo que transcurre desde que el sistema comienza la ejecución de la petición hasta que termina.
     - **Tiempo de retorno**: tiempo que transcurre desde que finaliza la ejecución hasta que se completa la recepción de la respuesta en el usuario.
-- **Productividad**: Medida en peticiones cumplidas por unidad de tiempo
+- **Productividad**: Medida en peticiones cumplidas por unidad de tiempo.
 
 ## Técnicas más comunes a la hora de evaluar un sistema
 
@@ -1335,11 +1356,11 @@ Se denominan **técnicas de evaluación** a los métodos y herramientas que perm
 
 _**Monitorización**_
 
-Los monitores son las herramientas de medición que permiten seguir el comportamiento de los principales elementos de un sistema informático cuando éste se halla sometido a una carga de trabajo determinada.
+Los monitores son las herramientas de medición que permiten seguir el comportamiento de los principales elementos de un sistema informático cuando este se halla sometido a una carga de trabajo determinada.
 
 _**Modelado**_
 
-Ésta es la herramienta que hay que utilizar cuando se trata de evaluar el comportamiento de un sistema en el que hay algún elemento (hardware o software) que no está instalado.
+Esta es la herramienta que hay que utilizar cuando se trata de evaluar el comportamiento de un sistema en el que hay algún elemento (hardware o software) que no está instalado.
 
 _**Benchmarking**_
 
@@ -1362,15 +1383,15 @@ El resultado de las medidas de prestaciones de un sistema es función y, por tan
 En general, se ve, pues, que las relaciones entre el sistema, la carga y las prestaciones pueden ser muy complejas. Las principales causas de esta complejidad son:
 
 - La carga está continuamente fluctuando.
-- La carga interacciona con su entorno
+- La carga interacciona con su entorno.
 
-Como solución a estos problemas se establece un **modelo de la carga**
+Como solución a estos problemas se establece un **modelo de la carga**.
 
-“caracterizar” una carga de trabajo significa construir un modelo de carga que reproduzca lo más fielmente posible cómo se comporta la carga real. Ese modelo se define con los parámetros que afectan al comportamiento del sistema y según los objetivos del estudio (qué querés evaluar), y combina medidas cuantitativas con rasgos cualitativos.
+“Caracterizar” una carga de trabajo significa construir un modelo de carga que reproduzca lo más fielmente posible cómo se comporta la carga real. Ese modelo se define con los parámetros que afectan al comportamiento del sistema y según los objetivos del estudio (qué querés evaluar), y combina medidas cuantitativas con rasgos cualitativos.
 
 Estas consideraciones justifican la necesidad de llegar a definir cuantitativamente la carga de un sistema, es decir, llegar a establecer un **modelo de la carga**.
 
-Una carga está correctamente caracterizada si, y sólo si, su resultado es un conjunto de parámetros cuantitativos seleccionados de acuerdo con los objetivos de la operación de caracterización. Por lo tanto, lo primero que se deben definir son los **objetivos**.
+Una carga está correctamente caracterizada si, y solo si, su resultado es un conjunto de parámetros cuantitativos seleccionados de acuerdo con los objetivos de la operación de caracterización. Por lo tanto, lo primero que se deben definir son los **objetivos**.
 
 Una vez establecidos los objetivos, deben determinarse las herramientas que manipularán (modelos analíticos, simulación, el sistema real, etc.) el modelo de la carga.
 
@@ -1392,11 +1413,11 @@ Independientemente de la forma como se represente, la _**carga de prueba o de te
 - **Flexibilidad**: que indica si es posible y poco costoso variar el modelo.
 - **Independencia del sistema**: importante en los problemas de selección.
 
-Se llama _**sesión de medida**_ al intervalo de tiempo en que se realiza un experimento. Esta no tiene por qué se continúa en el tiempo.
+Se llama _**sesión de medida**_ al intervalo de tiempo en que se realiza un experimento. Esta no tiene por qué ser continua en el tiempo.
 
 ## Magnitudes que caracterizan la carga
 
-Para evaluar correctamente las prestaciones de un sistema informático, la carga debe de ser seleccionada cuidadosamente.
+Para evaluar correctamente las prestaciones de un sistema informático, la carga debe ser seleccionada cuidadosamente.
 
 El término _**carga de prueba o MODELO DE CARGA**_ se utiliza para denominar la carga usada en el estudio de prestaciones. Esta carga puede _**ser real o sintética**_.
 
@@ -1406,7 +1427,7 @@ La **carga sintética** está constituida por el conjunto de programas extraído
 
 Las magnitudes que caracterizan la carga pueden establecerse en distintos niveles (niveles de caracterización de la carga): para cada componente de carga, para el conjunto de la carga o para cargas interactivas.
 
-Algunas de las magnitudes que caracterizaran la carga se presentan a continuación:
+Algunas de las magnitudes que caracterizarán la carga se presentan a continuación:
 
 ### Variables que sirven para cada componente de la carga.
 
@@ -1431,45 +1452,45 @@ Algunas de las magnitudes que caracterizaran la carga se presentan a continuaci�
 
 ## Representatividad de un modelo de carga
 
-La carga puede representarse a distintos niveles, correspondientes a aquéllos en que puede describirse un sistema informático. Esto significa que no hay un criterio único para evaluar la representatividad de un modelo.
+La carga puede representarse a distintos niveles, correspondientes a aquellos en que puede describirse un sistema informático. Esto significa que no hay un criterio único para evaluar la representatividad de un modelo.
 
 ### Representatividad a nivel físico
 
-El modelo de la carga se basa en los consumos absolutos o unitarios de los recursos hardware y software. Este nivel de modelado se basa en una caracterización orientada a recursos y depende fuertemente del sistema empleado
+El modelo de la carga se basa en los consumos absolutos o unitarios de los recursos hardware y software. Este nivel de modelado se basa en una caracterización orientada a recursos y depende fuertemente del sistema empleado.
 
 La mayoría de los parámetros usados en la modelización a este nivel están recopilados por las rutinas de contabilidad (logging o accounting) presentes en la práctica totalidad de los sistemas operativos.
 
-**Se dice que un modelo de la carga W’ representa perfectamente la carga W si solicita los mismos recursos físicos en las mismas proporciones que W**.
+**Se dice que un modelo de la carga $W'$ representa perfectamente la carga $W$ si solicita los mismos recursos físicos en las mismas proporciones que $W$**.
 
 **Características**:
 
-- Orientación al consumo de recursos físicos
-- Gran dependencia del sistema
-- Relativamente fáciles de construir
+- Orientación al consumo de recursos físicos.
+- Gran dependencia del sistema.
+- Relativamente fáciles de construir.
 
 **Campos de aplicación**:
 
 - Sintonización del sistema: Modificación del consumo de recursos para un mejor funcionamiento.
     
-    si estas viendo que parametro del SO cambiar, la carga tiene que pedir los mismos recursos para analizar que pasa al cambiar algo
+    Si estás viendo qué parámetro del SO cambiar, la carga tiene que pedir los mismos recursos para analizar qué pasa al cambiar algo.
     
-- Planificación de la capacidad residual: Porcentaje del equipo que no está siendo usado
+- Planificación de la capacidad residual: Porcentaje del equipo que no está siendo usado.
     
-- Diseño
+- Diseño.
     
 
 ### Representatividad a nivel virtual
 
-En este nivel se consideran los recursos del sistema a nivel lógico (ejemplo: accesos a la base de datos, número de sentencias). Causa de este tipo de parámetros, los modelos de este nivel están próximos al punto de vista del programador y son menos dependientes del sistema que los modelos a nivel físico. Tiene como desventaja, que es más difícil obtener los parámetros para la construcción del modelo.
+En este nivel se consideran los recursos del sistema a nivel lógico (ejemplo: accesos a la base de datos, número de sentencias). A causa de este tipo de parámetros, los modelos de este nivel están próximos al punto de vista del programador y son menos dependientes del sistema que los modelos a nivel físico. Tiene como desventaja que es más difícil obtener los parámetros para la construcción del modelo.
 
-**Se dice que un modelo de la carga W’ representa perfectamente la carga W si solicita los mismos recursos lógicos con la misma frecuencia que W**.
+**Se dice que un modelo de la carga $W'$ representa perfectamente la carga $W$ si solicita los mismos recursos lógicos con la misma frecuencia que $W$**.
 
 **Características**:
 
-- Orientación a recursos lógicos
-- Menor dependencia del sistema
-- Mayor proximidad al punto de vista del usuario
-- Mayor dificultad para obtener los parámetros de construcción del modelo
+- Orientación a recursos lógicos.
+- Menor dependencia del sistema.
+- Mayor proximidad al punto de vista del usuario.
+- Mayor dificultad para obtener los parámetros de construcción del modelo.
 
 **Campos de aplicación**:
 
@@ -1483,24 +1504,24 @@ En el modelo deben aparecer programas que efectúen las mismas funciones que en 
 
 Así pues, las funciones que componen la carga deben describirse de forma independiente del sistema. Este nivel de carga trae aparejada una dificultad para diseñar sistemáticamente.
 
-**Se dice que un modelo de la carga W’ representa perfectamente la carga W si realiza las mismas funciones con las mismas proporciones que W**.
+**Se dice que un modelo de la carga $W'$ representa perfectamente la carga $W$ si realiza las mismas funciones con las mismas proporciones que $W$**.
 
 **Características**:
 
-- Orientación a aplicaciones
-- Independencia del sistema
-- Dificultad para diseñar sistemáticamente
+- Orientación a aplicaciones.
+- Independencia del sistema.
+- Dificultad para diseñar sistemáticamente.
 
 **Campos de aplicación**:
 
-- Selección de un computador
+- Selección de un computador.
 - Planificación de la capacidad.
 
 ### Representatividad a nivel de comportamiento
 
-En modelo de carga deben aparecer las mismas variables de comportamiento que los de la carga original. Ejemplo: reproducción de esquemas de seguridad, capacidad, fiabilidad del sistema.
+En el modelo de carga deben aparecer las mismas variables de comportamiento que los de la carga original. Ejemplo: reproducción de esquemas de seguridad, capacidad, fiabilidad del sistema.
 
-**Un modelo W’ representa perfectamente la carga W, si produce los mismos valores de los índices de comportamiento que W, cuando se ejecuta en el mismo sistema**.
+**Un modelo $W'$ representa perfectamente la carga $W$, si produce los mismos valores de los índices de comportamiento que $W$, cuando se ejecuta en el mismo sistema**.
 
 Se considera como criterio de la precisión del modelo, la diferencia que puede existir entre los valores de los índices de comportamiento que produzca la carga y su modelo.
 
@@ -1525,7 +1546,7 @@ La **carga sintética** está constituida por un conjunto de programas extraído
 Se clasifican en:
 
 1. **Cargas de prueba sintéticas naturales**: Se dice que es sintética natural o un benchmark en sentido estricto, si consta de un conjunto de programas extraídos de la carga real. Se aplican principalmente en el campo de estudios de selección y aplicación.
-2. **Cargas de prueba sintéticas hibridas**: Se puede adoptar este tipo de solución cuando la carga a modelar no existe completamente. Se presenta la carga conocida con un conjunto de programas extraídos de ella, y la no existente mediante algunos de los elementos artificiales.
+2. **Cargas de prueba sintéticas híbridas**: Se puede adoptar este tipo de solución cuando la carga a modelar no existe completamente. Se presenta la carga conocida con un conjunto de programas extraídos de ella, y la no existente mediante algunos de los elementos artificiales.
 
 ### Cargas de test artificiales
 
@@ -1584,24 +1605,23 @@ Un asunto de suma importancia cuando se planifica la capacidad de una instalaci�
 
 1. **Los acuerdos de nivel de servicio** (Service Level Agreements, SLA, ANS): Son umbrales de productividad, rendimiento y de disponibilidad exigidos y pactados entre los grupos de usuarios y la organización de soporte de los sistemas informáticos de la instalación.
 
-Aquí se debe introducir el término **calidad de servicio** (Quality of Service, QoS). Una forma de cuantificar la calidad de servicio es calcular el ratio de la deficiencia de la calidad de servicio ante un nivel deseado de la misma, tal como se indica en la siguiente ecuación:
+    Aquí se debe introducir el término **calidad de servicio** (Quality of Service, QoS). Una forma de cuantificar la calidad de servicio es calcular el ratio de la deficiencia de la calidad de servicio ante un nivel deseado de la misma, tal como se indica en la siguiente ecuación:
 
-![[Pasted image 20261024182343.png]]
+    ![[Pasted image 20261024182343.png]]
 
-
-1. **La arquitectura del sistema**: la capacidad adecuada para alcanzar un nivel de servicio acordado se puede conseguir utilizando dispositivos y subsistemas de tipos distintos. La arquitectura seleccionada puede depender de las exigencias del aplicativo que se ejecuta en el sistema, del grado de experiencia y madurez en la explotación del sistema, de la facilidad de administración o de otros motivos, que no tienen por qué estar directamente relacionados con el rendimiento.
-2. **Presupuesto**: Todas las organizaciones tienen presupuestos que restringen la capacidad de la que se puede disponer. Se debe evaluar el coste total de la propiedad, que es la suma del costo de implementación (compra de hardware, software, formación inicial del personal) y el costo de operación (mantenimiento de hardware y software, de personal, consumo eléctrico, etc.).
+2. **La arquitectura del sistema**: la capacidad adecuada para alcanzar un nivel de servicio acordado se puede conseguir utilizando dispositivos y subsistemas de tipos distintos. La arquitectura seleccionada puede depender de las exigencias del aplicativo que se ejecuta en el sistema, del grado de experiencia y madurez en la explotación del sistema, de la facilidad de administración o de otros motivos, que no tienen por qué estar directamente relacionados con el rendimiento.
+3. **Presupuesto**: Todas las organizaciones tienen presupuestos que restringen la capacidad de la que se puede disponer. Se debe evaluar el coste total de la propiedad, que es la suma del costo de implementación (compra de hardware, software, formación inicial del personal) y el costo de operación (mantenimiento de hardware y software, de personal, consumo eléctrico, etc.).
 
 Se podría decir que un sistema informático **tiene una capacidad adecuada si los niveles de servicio se cumplen continuamente para una tecnología y estándares especificados**, y si los servicios se suministran dentro de los límites de coste acordados.
 
 ### Niveles de gestión y planificación
 
-- **Nivel 0** No hay un programa de gestión de la capacidad. La gestión de la capacidad se realiza ocasionalmente.
-- **Nivel 1** Se realizan medidas de tendencia y predicción de la utilización en periodos de pico. Se planifica la capacidad de los recursos con unas revisiones periódicas.
-- **Nivel 2** Se conoce exactamente las utilizaciones de cada uno de los recursos debidas a las cargas de trabajo significativas.
-- **Nivel 3** Existe un sistema automático de análisis y predicción de la carga de trabajo.
-- **Nivel 4** Se predicen automáticamente los niveles de servicio a partir de las predicciones de capacidad.
-- **Nivel 5** Se utilizan los criterios de las aplicaciones de negocio a través de un modelo que sirve para predecir los niveles de servicio.
+- **Nivel 0:** No hay un programa de gestión de la capacidad. La gestión de la capacidad se realiza ocasionalmente.
+- **Nivel 1:** Se realizan medidas de tendencia y predicción de la utilización en periodos de pico. Se planifica la capacidad de los recursos con unas revisiones periódicas.
+- **Nivel 2:** Se conoce exactamente las utilizaciones de cada uno de los recursos debidas a las cargas de trabajo significativas.
+- **Nivel 3:** Existe un sistema automático de análisis y predicción de la carga de trabajo.
+- **Nivel 4:** Se predicen automáticamente los niveles de servicio a partir de las predicciones de capacidad.
+- **Nivel 5:** Se utilizan los criterios de las aplicaciones de negocio a través de un modelo que sirve para predecir los niveles de servicio.
 
 ### Métodos de Predicción
 
@@ -1613,7 +1633,7 @@ Los **métodos cualitativos** son un proceso subjetivo basado en el análisis y 
 
 A la hora de seleccionar la técnica de predicción cuantitativa más adecuada se han de considerar los factores siguientes:
 
-- La disponibilidad y la habilidad de los datos históricos.
+- La disponibilidad y la fiabilidad de los datos históricos.
 - La exactitud y el horizonte de planificación.
 - El patrón encontrado en los datos históricos.
 
@@ -1634,31 +1654,31 @@ Las técnicas de regresión son apropiadas para trabajar con datos no estacional
 
 La ecuación general para calcular la línea de regresión viene dada por:
 
-$$  
-y=a+b×x  
+$$
+y = a + b \times x
 $$
 
-El método de los mínimos cuadrados determina los valores de a y b:
+El método de los mínimos cuadrados determina los valores de $a$ y $b$:
 
 ![[Pasted image 20261024182408.png]]
 
-**Medias móviles**: Esta es una técnica de predicción simple que hace que el valor predicho para el siguiente periodo sea la media de observaciones previas. Cuando se aplica a datos casi **estacionarios**, la exactitud alcanzada por la técnica es normalmente alta. (_**Y para poder predecir a corto plazo también sirve medias moviles**_)
+**Medias móviles**: Esta es una técnica de predicción simple que hace que el valor predicho para el siguiente periodo sea la media de observaciones previas. Cuando se aplica a datos casi **estacionarios**, la exactitud alcanzada por la técnica es normalmente alta. (_**Y para poder predecir a corto plazo también sirve medias móviles**_).
 
-El valor predicho viene dado por la ecuación
+El valor predicho viene dado por la ecuación:
 
 ![[Pasted image 20261024182413.png]]
 
-Donde 𝑓𝑡+1 es el valor de la predicción, 𝑦𝑡 es el valor observado hasta el instante 𝑡, y 𝑛 es el número de observaciones utilizadas para calcular 𝑓𝑡+1. Se debería seleccionar un valor de n que minimice el error de predicción, que es definido mediante el cuadrado de la diferencia entre el valor predicho y el valor actual. El error cuadrático medio viene dado por el valor:
+Donde $f_{t+1}$ es el valor de la predicción, $y_t$ es el valor observado hasta el instante $t$, y $n$ es el número de observaciones utilizadas para calcular $f_{t+1}$. Se debería seleccionar un valor de $n$ que minimice el error de predicción, que es definido mediante el cuadrado de la diferencia entre el valor predicho y el valor actual. El error cuadrático medio viene dado por el valor:
 
 ![[Pasted image 20261024182419.png]]
 
-Se pueden probar diferentes valores de 𝑛 para encontrar el que da un menor error cuadrático medio.
+Se pueden probar diferentes valores de $n$ para encontrar el que da un menor error cuadrático medio.
 
 Aplicable cuando la demanda real:
 
-- No presenta mayores variaciones a corto plazo
-- No presente una tendencia marcada
-- Idealmente, no presenta estacionalidades
+- No presenta mayores variaciones a corto plazo.
+- No presenta una tendencia marcada.
+- Idealmente, no presenta estacionalidades.
 
 **Suavizado exponencial**: Esta técnica se debería utilizar para datos **no estacionales que no muestran una tendencia sistemática**. El suavizado exponencial realiza una media ponderada de las observaciones pasadas y la presente para predecir un valor. Este valor se puede interpretar como el valor esperado en el futuro. La diferencia con medias móviles está en que el suavizado exponencial coloca más peso en las observaciones recientes.
 
@@ -1670,7 +1690,7 @@ Es decir, el valor que se obtiene en la predicción es la suma del valor de la p
 
 ![[Pasted image 20261024182432.png]]
 
-Donde 𝑓𝑡+1 es el valor esperado del periodo 𝑡 + 1, 𝑦𝑡+1 es el valor observado en el instante 𝑡 + 1, 𝑓 es el valor estimado en el instante 𝑡 y 𝛼 es el peso que se le otorga al valor observado más reciente (0 < 𝛼 < 1).
+Donde $f_{t+1}$ es el valor esperado del periodo $t + 1$, $y_{t+1}$ es el valor observado en el instante $t + 1$, $f_t$ es el valor estimado en el instante $t$ y $\alpha$ es el peso que se le otorga al valor observado más reciente ($0 < \alpha < 1$).
 
 En la aproximación de Tustin, se puede tomar más de un valor estimado anterior (si se quiere dar mayor relevancia a lo estimado), o bien se puede tomar más de un valor observado (si se pretende dar mayor relevancia a varias observaciones consecutivas).
 
@@ -1683,12 +1703,12 @@ Es una variable de negocio que me va a marcar la carga que voy a tener y las pre
 Por ejemplo:
 
 - **Alumnos para el Sysacad**. **NO** cantidad de alumnos.  
-    Es crecimiento, se que los alumnos van a crecer. Por ello voy a tener más inscriptos a exámenes, más inscriptos a materias, etc.
+    Es crecimiento, sé que los alumnos van a crecer. Por ello voy a tener más inscriptos a exámenes, más inscriptos a materias, etc.
 - **Clientes para un sistema de ventas**.
 - **Inmuebles para una inmobiliaria**.  
-    </aside>
+</aside>
 
-Una unidad de predicción natural (Natural Forecast Unit. NFU) es una variable de negocio cuyo valor está directamente relacionado con los recursos consumidos por una o varias aplicaciones.
+Una unidad de predicción natural (Natural Forecast Unit, NFU) es una variable de negocio cuyo valor está directamente relacionado con los recursos consumidos por una o varias aplicaciones.
 
 Los **componentes esenciales** de la caracterización de la carga utilizando las unidades de predicción natural para los propósitos de estimación del rendimiento son los siguientes:
 
