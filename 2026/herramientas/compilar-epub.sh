@@ -5,10 +5,12 @@
 #   ./compilar-epub.sh apunte.md [carpeta_imagenes] [salida.epub]
 #
 # Ejemplos:
-#   ./compilar-epub.sh "Unidad III - Subsistema de Aplicación.md" ../../assets
-#   ./compilar-epub.sh "Unidad VI - Seguridad y Auditoría.md" ../../assets resumen-u6.epub
+#   ./compilar-epub.sh "../Unidad III - Subsistema de Aplicación.md"
+#   ./compilar-epub.sh "../Unidad VI - Seguridad y Auditoría.md" ../../assets ../build/resumen-u6.epub
 #
-# - El EPUB se llama igual que el .md (en la misma carpeta), salvo que pases un 3er argumento.
+# - Por defecto genera el EPUB en ../build/<nombre-del-md>.epub (crea build/ si no existe),
+#   salvo que pases un 3er argumento.
+# - Si no pasás carpeta_imagenes, usa ../../assets (si existe) o la carpeta actual.
 # - La cabecera sale de header-epub.yaml (junto al script o junto al .md).
 #   El campo "title:" se reemplaza por el nombre del .md.
 # - El estilo sale de estilo-epub.css (junto al script o junto al .md), si existe.
@@ -23,16 +25,19 @@
 set -euo pipefail
 
 if [[ $# -lt 1 || "$1" == "-h" || "$1" == "--help" ]]; then
-  sed -n '2,20p' "$0" | sed 's/^# \{0,1\}//'
+  awk 'NR>1 && /^#/ { sub(/^# ?/, ""); print; next } NR>1 { exit }' "$0"
   exit 1
 fi
 
-MD="$1"
-IMG_DIR="${2:-.}"
-BASE="$(basename "${MD%.md}")"
-OUT="${3:-${MD%.md}.epub}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-MD_DIR="$(cd "$(dirname "$MD")" && pwd)"
+BUILD_DIR="$(cd "$SCRIPT_DIR/.." && pwd)/build"
+DEFAULT_IMG="."
+[[ -d "$SCRIPT_DIR/../../assets" ]] && DEFAULT_IMG="$SCRIPT_DIR/../../assets"
+
+MD="$1"
+IMG_DIR="${2:-$DEFAULT_IMG}"
+BASE="$(basename "${MD%.md}")"
+OUT="${3:-$BUILD_DIR/$BASE.epub}"
 MATH="${MATH:-mathml}"
 
 # Comprobaciones
@@ -40,6 +45,8 @@ MATH="${MATH:-mathml}"
 [[ -d "$IMG_DIR" ]] || { echo "Error: no existe la carpeta de imágenes '$IMG_DIR'" >&2; exit 1; }
 command -v pandoc >/dev/null || { echo "Error: pandoc no está instalado (sudo pacman -S pandoc-cli)" >&2; exit 1; }
 command -v perl >/dev/null || { echo "Error: perl no está instalado" >&2; exit 1; }
+
+MD_DIR="$(cd "$(dirname "$MD")" && pwd)"
 
 # Buscar un archivo en las carpetas habituales
 buscar() {
@@ -133,6 +140,7 @@ esac
 [[ -n "$CSS_FILE" ]] && ARGS+=(--css "$CSS_FILE")
 [[ -n "${PORTADA:-}" ]] && ARGS+=(--epub-cover-image "$PORTADA")
 
+mkdir -p "$(dirname "$OUT")"
 echo "Cabecera: $HEADER_FILE"
 echo "Estilo:   ${CSS_FILE:-(ninguno)}"
 echo "Compilando '$MD' -> '$OUT' ..."

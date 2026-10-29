@@ -12,7 +12,7 @@ Los dos hacen el preprocesado de Obsidian automáticamente:
 - Le ponen una cabecera YAML con el título igual al nombre del `.md` (si el archivo ya tenía un front matter `--- ... ---`, lo reemplazan).
 - Convierten las imágenes de Obsidian `![[Pasted image X.png]]` (con o sin tamaño `|400`) en imágenes normales apuntando a tu carpeta de imágenes.
 - Convierten los wikilinks `[[nota]]` / `[[nota|alias]]` en texto plano.
-- Generan el archivo con el mismo nombre que el `.md` (salvo que pases otra ruta de salida, como `../build/...`).
+- Generan por defecto el archivo en `2026/build/` con el mismo nombre que el `.md` (salvo que pases otra ruta de salida).
 
 Solo `compilar.sh` normaliza las letras matemáticas Unicode (`𝐴`, `𝑓`, `𝛼`, etc.) y reemplaza o elimina emojis, porque XeLaTeX no los renderiza con las fuentes de texto. En el EPUB se dejan como están, ya que los dibuja el lector.
 
@@ -21,7 +21,8 @@ Solo `compilar.sh` normaliza las letras matemáticas Unicode (`𝐴`, `𝑓`, `�
 ```
 ASI/
 ├── 2026/
-│   ├── .gitignore                                  <- ignora build/
+│   ├── .gitignore                                  <- regla de build/ comentada por ahora
+│   ├── README.md
 │   ├── herramientas/
 │   │   ├── README.md
 │   │   ├── compilar.sh
@@ -29,14 +30,14 @@ ASI/
 │   │   ├── header.yaml                             <- cabecera del PDF (o header.yml)
 │   │   ├── header-epub.yaml                        <- cabecera del EPUB
 │   │   └── estilo-epub.css                         <- estilo del EPUB
-│   ├── build/                                      <- salida generada (PDF/EPUB), ignorada por git
+│   ├── build/                                      <- salida por defecto (PDF/EPUB), subida al repo por ahora
 │   ├── Unidad I/
 │   ├── Unidad III - Subsistema de Aplicación.md
 │   └── Unidad VI - Seguridad y Auditoría.md
 └── assets/                                         <- carpeta de imágenes (../../assets desde herramientas/)
 ```
 
-Los scripts buscan sus archivos de cabecera (y el CSS) junto al script y, si no están, junto al `.md`. El título del PDF y del EPUB sale del nombre del archivo `.md` (sin importar cómo llames al archivo de salida), así que conviene no renombrar los apuntes. Los archivos dentro de `2026/build/` son salidas generadas e ignoradas por git (`2026/.gitignore`).
+Los scripts buscan sus archivos de cabecera (y el CSS) junto al script y, si no están, junto al `.md`. El título del PDF y del EPUB sale del nombre del archivo `.md` (sin importar cómo llames al archivo de salida), así que conviene no renombrar los apuntes. Por defecto los dos scripts guardan los artefactos generados en `2026/build/` (creándola si no existe); por ahora `build/` no se ignora en git (`#build/` en `2026/.gitignore`) para subir los PDFs y EPUBs ya compilados al repositorio.
 
 ## Dependencias
 
@@ -100,7 +101,6 @@ Parado dentro de `2026/herramientas/`:
 ```bash
 cd 2026/herramientas
 chmod +x compilar.sh compilar-epub.sh    # solo la primera vez
-mkdir -p ../build                        # crea la carpeta de salida si no existe
 ```
 
 ### PDF
@@ -109,11 +109,12 @@ mkdir -p ../build                        # crea la carpeta de salida si no exist
 ./compilar.sh apunte.md [carpeta_imagenes] [salida.pdf]
 ```
 
-Ejemplos:
+Ejemplos (guardan por defecto en `../build/`):
 
 ```bash
-./compilar.sh "../Unidad III - Subsistema de Aplicación.md" ../../assets ../build/Unidad\ III.pdf
-./compilar.sh "../Unidad VI - Seguridad y Auditoría.md" ../../assets ../build/Unidad\ VI.pdf
+./compilar.sh "../Unidad III - Subsistema de Aplicación.md"
+./compilar.sh "../Unidad VI - Seguridad y Auditoría.md" ../../assets
+./compilar.sh "../Unidad VI - Seguridad y Auditoría.md" ../../assets ../build/resumen-u6.pdf
 ```
 
 ### EPUB
@@ -122,11 +123,12 @@ Ejemplos:
 ./compilar-epub.sh apunte.md [carpeta_imagenes] [salida.epub]
 ```
 
-Ejemplos:
+Ejemplos (guardan por defecto en `../build/`):
 
 ```bash
-./compilar-epub.sh "../Unidad III - Subsistema de Aplicación.md" ../../assets ../build/Unidad\ III.epub
-./compilar-epub.sh "../Unidad VI - Seguridad y Auditoría.md" ../../assets ../build/Unidad\ VI.epub
+./compilar-epub.sh "../Unidad III - Subsistema de Aplicación.md"
+./compilar-epub.sh "../Unidad VI - Seguridad y Auditoría.md" ../../assets
+./compilar-epub.sh "../Unidad VI - Seguridad y Auditoría.md" ../../assets ../build/resumen-u6.epub
 ```
 
 ### Argumentos (iguales en los dos scripts)
@@ -134,26 +136,26 @@ Ejemplos:
 | Argumento | Descripción | Por defecto |
 |---|---|---|
 | `apunte.md` | Archivo a convertir | (obligatorio) |
-| `carpeta_imagenes` | Carpeta donde están las imágenes | `.` (carpeta actual) |
-| `salida.pdf` / `salida.epub` | Ruta del archivo de salida | mismo nombre y carpeta que el `.md` |
+| `carpeta_imagenes` | Carpeta donde están las imágenes | `../../assets` (si existe) o `.` |
+| `salida.pdf` / `salida.epub` | Ruta del archivo de salida | `../build/<nombre-del-md>.pdf` / `.epub` |
 
 ### Variables opcionales
 
 Para el PDF:
 
 ```bash
-HEADER=/otra/ruta/header.yaml ./compilar.sh ../apunte.md ../../assets ../build/apunte.pdf   # usar otra cabecera
-AUTOR="Otro nombre" ./compilar.sh ../apunte.md ../../assets ../build/apunte.pdf             # cambiar el author:
+HEADER=/otra/ruta/header.yaml ./compilar.sh ../apunte.md   # usar otra cabecera
+AUTOR="Otro nombre" ./compilar.sh ../apunte.md             # cambiar el author:
 ```
 
 Para el EPUB:
 
 ```bash
-HEADER=/otra/ruta/header-epub.yaml ./compilar-epub.sh ../apunte.md ../../assets ../build/apunte.epub   # otra cabecera
-CSS=/otra/ruta/estilo.css ./compilar-epub.sh ../apunte.md ../../assets ../build/apunte.epub            # otro estilo
-AUTOR="Otro nombre" ./compilar-epub.sh ../apunte.md ../../assets ../build/apunte.epub                  # cambiar el author:
-PORTADA=portada.png ./compilar-epub.sh ../apunte.md ../../assets ../build/apunte.epub                  # agregar portada
-MATH=webtex ./compilar-epub.sh ../apunte.md ../../assets ../build/apunte.epub                          # fórmulas como imágenes
+HEADER=/otra/ruta/header-epub.yaml ./compilar-epub.sh ../apunte.md   # otra cabecera
+CSS=/otra/ruta/estilo.css ./compilar-epub.sh ../apunte.md            # otro estilo
+AUTOR="Otro nombre" ./compilar-epub.sh ../apunte.md                  # cambiar el author:
+PORTADA=portada.png ./compilar-epub.sh ../apunte.md                  # agregar portada
+MATH=webtex ./compilar-epub.sh ../apunte.md                          # fórmulas como imágenes
 ```
 
 `MATH` vale `mathml` (por defecto) o `webtex`. MathML se ve bien en Apple Books, Calibre y la mayoría de las apps, pero algunos e-readers viejos no lo soportan. `webtex` convierte las fórmulas en imágenes y necesita internet al compilar.
@@ -163,15 +165,15 @@ MATH=webtex ./compilar-epub.sh ../apunte.md ../../assets ../build/apunte.epub   
 Validar la estructura (atrapa errores antes de abrirlo):
 
 ```bash
-epubcheck ../build/Unidad\ III.epub
-unzip -l ../build/Unidad\ III.epub    # las imágenes deben estar en EPUB/media/
+epubcheck "../build/Unidad III - Subsistema de Aplicación.epub"
+unzip -l "../build/Unidad III - Subsistema de Aplicación.epub"    # las imágenes deben estar en EPUB/media/
 ```
 
 Abrirlo en la compu:
 
 ```bash
-foliate ../build/Unidad\ III.epub
-ebook-viewer ../build/Unidad\ III.epub     # viene con calibre
+foliate "../build/Unidad III - Subsistema de Aplicación.epub"
+ebook-viewer "../build/Unidad III - Subsistema de Aplicación.epub"     # viene con calibre
 ```
 
 Cosas a revisar: que las imágenes aparezcan y no se pasen del ancho, que se vean las fórmulas y que las tablas no queden ilegibles en pantalla chica.

@@ -5,10 +5,12 @@
 #   ./compilar.sh apunte.md [carpeta_imagenes] [salida.pdf]
 #
 # Ejemplos:
-#   ./compilar.sh "Unidad III - Subsistema de Aplicación.md" ../../assets
-#   ./compilar.sh "Unidad VI - Seguridad y Auditoría.md" ../../assets
+#   ./compilar.sh "../Unidad III - Subsistema de Aplicación.md"
+#   ./compilar.sh "../Unidad VI - Seguridad y Auditoría.md" ../../assets
 #
-# - El PDF se llama igual que el .md (en la misma carpeta), salvo que pases un 3er argumento.
+# - Por defecto genera el PDF en ../build/<nombre-del-md>.pdf (crea build/ si no existe),
+#   salvo que pases un 3er argumento.
+# - Si no pasás carpeta_imagenes, usa ../../assets (si existe) o la carpeta actual.
 # - La cabecera se toma de header.yaml / header.yml (junto al script, o junto al .md,
 #   o la ruta que pongas en la variable HEADER). El campo "title:" se reemplaza por el
 #   nombre del .md.
@@ -20,22 +22,28 @@
 set -euo pipefail
 
 if [[ $# -lt 1 || "$1" == "-h" || "$1" == "--help" ]]; then
-  sed -n '2,17p' "$0" | sed 's/^# \{0,1\}//'
+  awk 'NR>1 && /^#/ { sub(/^# ?/, ""); print; next } NR>1 { exit }' "$0"
   exit 1
 fi
 
-MD="$1"
-IMG_DIR="${2:-.}"
-BASE="$(basename "${MD%.md}")"
-OUT="${3:-${MD%.md}.pdf}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-MD_DIR="$(cd "$(dirname "$MD")" && pwd)"
+BUILD_DIR="$(cd "$SCRIPT_DIR/.." && pwd)/build"
+DEFAULT_IMG="."
+[[ -d "$SCRIPT_DIR/../../assets" ]] && DEFAULT_IMG="$SCRIPT_DIR/../../assets"
+
+MD="$1"
+IMG_DIR="${2:-$DEFAULT_IMG}"
+BASE="$(basename "${MD%.md}")"
+OUT="${3:-$BUILD_DIR/$BASE.pdf}"
 
 # Comprobaciones
 [[ -f "$MD" ]] || { echo "Error: no existe el archivo '$MD'" >&2; exit 1; }
 [[ -d "$IMG_DIR" ]] || { echo "Error: no existe la carpeta de imágenes '$IMG_DIR'" >&2; exit 1; }
 command -v pandoc >/dev/null || { echo "Error: pandoc no está instalado (sudo pacman -S pandoc-cli)" >&2; exit 1; }
 command -v xelatex >/dev/null || { echo "Error: xelatex no está instalado (sudo pacman -S texlive-xetex)" >&2; exit 1; }
+command -v perl >/dev/null || { echo "Error: perl no está instalado" >&2; exit 1; }
+
+MD_DIR="$(cd "$(dirname "$MD")" && pwd)"
 
 # Buscar la cabecera
 HEADER_FILE=""
@@ -117,6 +125,7 @@ awk 'NR==1 && /^---$/ {skip=1; next} skip && /^---$/ {skip=0; next} !skip' "$MD"
 cat "$TMP/header.yaml" "$TMP/cuerpo.md" > "$TMP/final.md"
 
 # 3) Compilar
+mkdir -p "$(dirname "$OUT")"
 echo "Cabecera: $HEADER_FILE"
 echo "Compilando '$MD' -> '$OUT' ..."
 pandoc "$TMP/final.md" -o "$OUT" \
