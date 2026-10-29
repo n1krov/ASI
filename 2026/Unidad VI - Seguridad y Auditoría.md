@@ -1,7 +1,7 @@
 ---
 title: "Unidad VI - Seguridad y Auditoría de Sistemas de Información"
 subtitle: "Administración de Sistemas de Información"
-author: n1krov
+author: n1krov, Juani, Pollo y Chipancho
 date: \today
 lang: es
 documentclass: scrartcl
