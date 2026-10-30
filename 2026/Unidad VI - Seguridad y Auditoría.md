@@ -12,7 +12,7 @@ mainfont: Libertinus Serif
 sansfont: Inter
 monofont: JetBrains Mono
 toc: true
-toc-depth: 3
+toc-depth: 5
 numbersections: true
 colorlinks: true
 linkcolor: NavyBlue
