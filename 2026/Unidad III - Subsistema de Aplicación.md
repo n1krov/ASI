@@ -1,7 +1,7 @@
 ---
 title: "Unidad III - Subsistema de Aplicación"
 subtitle: "Administración de Sistemas de Información"
-author: n1krov
+author: n1krov, Juani, Pollo y Chipancho
 date: \today
 lang: es
 documentclass: scrartcl
@@ -12,7 +12,7 @@ mainfont: Libertinus Serif
 sansfont: Inter
 monofont: JetBrains Mono
 toc: true
-toc-depth: 3
+toc-depth: 5
 numbersections: true
 colorlinks: true
 linkcolor: NavyBlue
@@ -20,6 +20,7 @@ urlcolor: NavyBlue
 toccolor: NavyBlue
 classoption: numbers=enddot
 highlight-style: tango
+ancho-imagenes: 100%
 header-includes: |
   \usepackage{float}
   \let\origfigure\figure
@@ -1574,7 +1575,7 @@ Un asunto de suma importancia al planificar la capacidad de una instalación es 
 1. **Los acuerdos de nivel de servicio** (*Service Level Agreements*, SLA; ANS): umbrales de productividad, rendimiento y disponibilidad exigidos y pactados entre los grupos de usuarios y la organización de soporte de los sistemas informáticos de la instalación.
     - Aquí se introduce el término **calidad de servicio** (*Quality of Service*, QoS). Una forma de cuantificarla es calcular el ratio de deficiencia de la calidad de servicio respecto de un nivel deseado, como indica la siguiente ecuación:
 
-    ![[Pasted image 20261024182343.png]]
+    ![[Pasted image 20261024182343.png|400]]
 
 2. **La arquitectura del sistema**: la capacidad adecuada para alcanzar un nivel de servicio acordado puede conseguirse con dispositivos y subsistemas de distintos tipos. La arquitectura seleccionada puede depender de las exigencias de la aplicación que se ejecuta en el sistema, del grado de experiencia y madurez en su explotación, de la facilidad de administración o de otros motivos que no necesariamente se relacionan con el rendimiento.
 3. **El presupuesto**: todas las organizaciones tienen presupuestos que restringen la capacidad de la que pueden disponer. Se debe evaluar el **costo total de la propiedad**, que es la suma del costo de implementación (compra de hardware y software, formación inicial del personal) y del costo de operación (mantenimiento de hardware y software, personal, consumo eléctrico, etc.).
@@ -1628,7 +1629,7 @@ $$
 
 El método de los mínimos cuadrados determina los valores de $a$ y $b$:
 
-![[Pasted image 20261024182408.png]]
+![[Pasted image 20261024182408.png|250]]
 
 ### Medias móviles
 
@@ -1636,13 +1637,13 @@ Es una técnica de predicción simple en la que el valor predicho para el siguie
 
 El valor predicho viene dado por la ecuación:
 
-![[Pasted image 20261024182413.png]]
+![[Pasted image 20261024182413.png|250]]
 
 Donde $f_{t+1}$ es el valor de la predicción, $y_t$ es el valor observado hasta el instante $t$ y $n$ es el número de observaciones utilizadas para calcular $f_{t+1}$.
 
 Se debería seleccionar un valor de $n$ que minimice el error de predicción, definido como el cuadrado de la diferencia entre el valor predicho y el valor actual. El error cuadrático medio viene dado por:
 
-![[Pasted image 20261024182419.png]]
+![[Pasted image 20261024182419.png|150]]
 
 Se pueden probar diferentes valores de $n$ para encontrar el que da el menor error cuadrático medio.
 
@@ -1658,15 +1659,108 @@ Esta técnica debería utilizarse para datos **no estacionales que no muestran u
 
 El valor que se quiere predecir se calcula como:
 
-![[Pasted image 20261024182425.png]]
+![[Pasted image 20261024182425.png|200]]
 
 Es decir, el valor de la predicción es la suma del valor predicho para el periodo anterior más el valor observado en la actualidad, ponderados según una probabilidad que puede ser fija o variable. Operando sobre la expresión anterior se obtiene:
 
-![[Pasted image 20261024182432.png]]
+![[Pasted image 20261024182432.png|200]]
 
 Donde $f_{t+1}$ es el valor esperado del periodo $t + 1$, $y_{t+1}$ es el valor observado en el instante $t + 1$, $f_t$ es el valor estimado en el instante $t$ y $\alpha$ es el peso que se otorga al valor observado más reciente ($0 < \alpha < 1$).
 
 En la **aproximación de Tustin** se puede tomar más de un valor estimado anterior (si se quiere dar mayor relevancia a lo estimado) o más de un valor observado (si se pretende dar mayor relevancia a varias observaciones consecutivas).
+
+### Explicación extra sobre las técnicas cuantitativas para la predicción de la carga
+
+Las **técnicas cuantitativas para la predicción de la carga** (dentro de la *Planificación de la Capacidad*, basadas en la bibliografía de Molero) utilizan datos históricos del sistema para estimar los valores futuros que tendrán los parámetros de la carga de trabajo.
+
+Para elegir qué técnica usar, primero tenés que mirar **qué forma o patrón tienen tus datos históricos** a lo largo del tiempo (tendencia, cíclico, estacional o estacionario) y cuál es tu horizonte de planificación.
+
+---
+
+#### Regresión Lineal
+
+* **¿Qué es y cómo funciona?** Estima el valor de una variable dependiente ($y$, por ejemplo, el uso de CPU o la cantidad de transacciones) en función de una variable independiente ($x$, generalmente el tiempo o una Unidad de Predicción Natural como la cantidad de clientes). Busca trazar una recta que ajuste los puntos históricos mediante el método de los mínimos cuadrados:
+
+
+$$y = a + b \cdot x$$
+
+
+* **¿Para qué sirve?** Para proyectar crecimientos (o caídas) sostenidos a mediano y largo plazo, o para relacionar cómo crece el consumo de un recurso a medida que crece una variable del negocio.
+
+
+* **¿Cuándo es propicio utilizarla?**
+* Cuando los datos históricos muestran un patrón de **tendencia** (evolución lineal sostenida hacia arriba o hacia abajo) y **no son estacionales**.
+
+
+* *Ejemplo práctico:* Una empresa suma 500 clientes nuevos todos los meses de forma constante y querés predecir cuántas transacciones por segundo tendrá la base de datos dentro de 6 meses.
+
+---
+
+#### Medias Móviles
+
+* **¿Qué es y cómo funciona?** Es una técnica simple donde el valor predicho para el periodo siguiente ($f_{t+1}$) se calcula como el **promedio aritmético simple** de las últimas $n$ observaciones previas ($y_t, y_{t-1}, \dots$):
+
+
+
+$$f_{t+1} = \frac{y_t + y_{t-1} + \dots + y_{t-n+1}}{n}$$
+
+
+
+*(Todos los datos dentro de la ventana $n$ pesan exactamente lo mismo, y se busca el valor de $n$ que minimice el Error Cuadrático Medio)*.
+
+
+* **¿Para qué sirve?** Para "alisar" pequeñas fluctuaciones o ruidos puntuales y predecir el valor inmediato en el **corto plazo**.
+
+
+* **¿Cuándo es propicio utilizarla?**
+* Cuando el patrón de los datos es **estacionario** (o casi estacionario), es decir, los valores oscilan alrededor de un promedio constante.
+
+
+* Cuando la demanda real **no presenta mayores variaciones a corto plazo**.
+
+
+* Cuando **no hay una tendencia marcada** ni estacionalidades.
+
+
+* *Ejemplo práctico:* Un servidor interno de correo o de fichaje de empleados donde todos los días hábiles entra más o menos la misma cantidad de tráfico sin crecer mes a mes, y querés estimar la carga de la semana que viene.
+
+---
+
+#### Suavizado Exponencial
+
+* **¿Qué es y cómo funciona?** Calcula una **media ponderada** entre el valor observado más reciente y la predicción que se había hecho para el periodo anterior, usando una constante de suavizado $\alpha$ (donde $0 < \alpha < 1$):
+
+
+
+$$f_{t+1} = (1 - \alpha) f_t + \alpha y_{t+1} \quad \Longleftrightarrow \quad f_{t+1} = f_t + \alpha (y_{t+1} - f_t)$$
+
+
+
+La diferencia fundamental con las medias móviles es que el suavizado exponencial **le otorga más peso a las observaciones más recientes** (cuanto más cercano a $1$ sea $\alpha$, más rápido reacciona el modelo a los cambios recientes; cuanto más cercano a $0$, más peso tiene la historia acumulada).
+
+
+* **¿Para qué sirve?** Para predecir el comportamiento futuro adaptándose rápidamente a los giros o fluctuaciones recientes de la carga sin necesidad de almacenar largos historiales de datos.
+
+
+* **¿Cuándo es propicio utilizarla?**
+* En la definición base del método: para datos que **no muestran una tendencia sistemática** (no van en línea recta) pero donde los valores recientes son mejores indicadores del futuro inmediato que los antiguos.
+
+
+* En la clasificación de patrones de tu cátedra: aparece asociado a los patrones **cíclicos** (ondas que suben y bajan suavemente en el tiempo) y **estacionales** (escalones que se repiten por temporadas).
+
+
+* *Ejemplo práctico:* Un sistema cuyo tráfico fluctúa por rachas o ciclos de actividad comercial y donde lo que pasó ayer o esta mañana importa mucho más para predecir mañana que lo que pasó hace un mes.
+
+
+---
+
+#### Cuadro resumen para el examen
+
+| Técnica Cuantitativa | Patrón de datos históricos ideal | Característica clave |
+| :--- | :--------- | :----------- |
+| **Regresión Lineal** | **Tendencia** (evolución lineal sostenida, sin estacionalidad). | Ajusta una recta ($y = a + bx$) por mínimos cuadrados para proyectar el crecimiento. |
+| **Medias Móviles** | **Estacionario** (estable, sin tendencia marcada ni grandes variaciones a corto plazo). | Promedio simple de las últimas $n$ mediciones; todas pesan igual. Ideal para corto plazo. |
+| **Suavizado Exponencial** | Sin tendencia lineal sistemática / Patrones **Cíclicos o Estacionales** (según el esquema de cátedra). | Promedio ponderado con factor $\alpha$ ($0 < \alpha < 1$) que **da más peso a las observaciones recientes**. |
 
 ## Unidades de predicción natural (UPN)
 
@@ -1683,3 +1777,62 @@ Los **componentes esenciales** de la caracterización de la carga mediante unida
 - Las medidas del trabajo solicitado al sistema, utilizando como métrica variables de negocio, que son propiamente las unidades de predicción natural.
 - Las relaciones que muestran el número de transacciones generadas por cada unidad de predicción natural en el periodo caracterizado.
 - Las relaciones que indican los recursos del sistema que consume cada transacción.
+
+### Explicación extra sobre las UPN
+
+Una **Unidad de Predicción Natural (UPN o NFU)** es el "traductor" entre el lenguaje de los gerentes de negocio y el lenguaje técnico de sistemas.
+
+Si vos le preguntás al Rector de la facultad o al dueño de una empresa: *"¿Cuántos milisegundos de CPU y cuántas operaciones de lectura/escritura en disco vamos a necesitar el año que viene?"*, no tiene la menor idea. Pero sí sabe perfectamente **cuántos alumnos nuevos espera inscribir**, **cuántos clientes planea sumar** o **cuántos inmuebles va a administrar**. Esas variables del negocio son las UPN.
+
+#### ¿Qué significa la parte de "Caracterización de la carga mediante UPN"?
+
+Caracterizar la carga usando UPN consiste en armar una **cadena de conversión de 3 eslabones** (los tres puntos que están al final de tu imagen) para transformar esa variable de negocio en consumo real de hardware:
+
+1. **Eslabón 1: Definir y medir la variable de negocio (la UPN)**
+
+* *Qué dice el apunte:* "Las medidas del trabajo solicitado al sistema, utilizando como métrica variables de negocio, que son propiamente las unidades de predicción natural".
+
+
+* *En simple:* Elegís cuál es el "motor" del negocio que genera trabajo en tu sistema (por ejemplo: **Alumnos** en el Sysacad, **Clientes** en ventas, o **Inmuebles** en una inmobiliaria). *(Nota: La aclaración de tu apunte sobre "Alumnos, no la cantidad" significa que la UPN como concepto es la unidad "Alumno", y lo que vas a proyectar es su crecimiento)*.
+
+
+
+
+2. **Eslabón 2: Relacionar UPN → Transacciones**
+
+* *Qué dice el apunte:* "Las relaciones que muestran el número de transacciones generadas por cada unidad de predicción natural en el periodo caracterizado".
+
+
+* *En simple:* Medís cuántas transacciones informáticas dispara **cada unidad** de negocio en un momento determinado.
+
+
+* *Ejemplo:* Observás el sistema y descubrís que, en semana de exámenes, **1 Alumno (UPN)** genera en promedio **5 transacciones** (1 inicio de sesión + 2 consultas de correlativas + 2 inscripciones a materias/exámenes).
+
+
+
+
+3. **Eslabón 3: Relacionar Transacciones → Recursos físicos (Hardware)**
+
+* *Qué dice el apunte:* "Las relaciones que indican los recursos del sistema que consume cada transacción".
+
+
+* *En simple:* Medís cuánto hardware gasta **cada una** de esas transacciones.
+
+
+* *Ejemplo:* Con un monitor del sistema ves que **1 transacción** de inscripción consume **10 ms de CPU**, **4 operaciones de E/S en disco** y **2 MB de RAM**.
+
+
+
+---
+
+#### Ejemplo completo paso a paso (Sysacad)
+
+Imaginá que las autoridades de la facultad te dicen: *"El año que viene abrimos una carrera nueva y van a ingresar **1.000 alumnos más**"*. ¿Cómo sabés si el servidor aguanta usando los 3 componentes esenciales?
+
+| Componente esencial del apunte | Pregunta que responde | Cálculo en el ejemplo del Sysacad |
+| :----- | :------ | :------------ |
+| **1. Medida en UPN** (Variable de negocio) | ¿Cuánto crece el negocio? | $+1.000 \text{ Alumnos}$ |
+| **2. Relación `UPN → Transacciones`** | ¿Cuántas transacciones genera cada alumno en el periodo pico? | Si $1 \text{ Alumno} = 5 \text{ transacciones}$: \newline $1.000 \times 5 = \mathbf{5.000 \text{ transacciones nuevas}}$. |
+| **3. Relación `Transacción → Recursos`** | ¿Cuánto hardware consume cada transacción? | Si $1 \text{ transacción} = 10\text{ ms de CPU y } 4\text{ E/S de disco}$: \newline $5.000 \times 10\text{ ms} = \mathbf{50\text{ seg extra de CPU}}$ \newline $5.000 \times 4 = \mathbf{20.000\text{ accesos a disco extra}}$. |
+
+Gracias a esa regla de tres encadenada (`Negocio → Transacciones → Hardware`), podés traducir cualquier plan comercial o de crecimiento de la empresa directamente a necesidades de CPU, memoria, disco o red para planificar la capacidad.
