@@ -1575,7 +1575,7 @@ Un asunto de suma importancia al planificar la capacidad de una instalación es 
 1. **Los acuerdos de nivel de servicio** (*Service Level Agreements*, SLA; ANS): umbrales de productividad, rendimiento y disponibilidad exigidos y pactados entre los grupos de usuarios y la organización de soporte de los sistemas informáticos de la instalación.
     - Aquí se introduce el término **calidad de servicio** (*Quality of Service*, QoS). Una forma de cuantificarla es calcular el ratio de deficiencia de la calidad de servicio respecto de un nivel deseado, como indica la siguiente ecuación:
 
-    ![[Pasted image 20261024182343.png]]
+    ![[Pasted image 20261024182343.png|400]]
 
 2. **La arquitectura del sistema**: la capacidad adecuada para alcanzar un nivel de servicio acordado puede conseguirse con dispositivos y subsistemas de distintos tipos. La arquitectura seleccionada puede depender de las exigencias de la aplicación que se ejecuta en el sistema, del grado de experiencia y madurez en su explotación, de la facilidad de administración o de otros motivos que no necesariamente se relacionan con el rendimiento.
 3. **El presupuesto**: todas las organizaciones tienen presupuestos que restringen la capacidad de la que pueden disponer. Se debe evaluar el **costo total de la propiedad**, que es la suma del costo de implementación (compra de hardware y software, formación inicial del personal) y del costo de operación (mantenimiento de hardware y software, personal, consumo eléctrico, etc.).
@@ -1629,7 +1629,7 @@ $$
 
 El método de los mínimos cuadrados determina los valores de $a$ y $b$:
 
-![[Pasted image 20261024182408.png|300]]
+![[Pasted image 20261024182408.png|250]]
 
 ### Medias móviles
 
@@ -1637,13 +1637,13 @@ Es una técnica de predicción simple en la que el valor predicho para el siguie
 
 El valor predicho viene dado por la ecuación:
 
-![[Pasted image 20261024182413.png|200]]
+![[Pasted image 20261024182413.png|250]]
 
 Donde $f_{t+1}$ es el valor de la predicción, $y_t$ es el valor observado hasta el instante $t$ y $n$ es el número de observaciones utilizadas para calcular $f_{t+1}$.
 
 Se debería seleccionar un valor de $n$ que minimice el error de predicción, definido como el cuadrado de la diferencia entre el valor predicho y el valor actual. El error cuadrático medio viene dado por:
 
-![[Pasted image 20261024182419.png|200]]
+![[Pasted image 20261024182419.png|150]]
 
 Se pueden probar diferentes valores de $n$ para encontrar el que da el menor error cuadrático medio.
 
