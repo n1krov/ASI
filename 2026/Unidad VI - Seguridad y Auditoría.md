@@ -511,6 +511,9 @@ Cualquier política debe contemplar seis elementos clave de la seguridad de un s
     2. **Monitoreo**: consiste en realizar un seguimiento de la efectividad de la política e informar sobre ella.
     3. **Garantía de cumplimiento**: identifica los incumplimientos de la política para, después de analizar sus causas, intentar evitar que se repitan.
     4. **Mantenimiento**: la política es contingente.
+
+    > Decir que la política es "contingente" significa que no es estática ni definitiva, sino que depende de las circunstancias del entorno y está sujeta a cambios continuos.
+
 4. **Fase de eliminación**:
     1. **Retiro**: una vez que la política cumplió su finalidad y ya no es necesaria (por ejemplo, por grandes avances tecnológicos), debe retirarse.
 
