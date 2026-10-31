@@ -1,7 +1,7 @@
 ---
 title: "Unidad VI - Seguridad y Auditoría de Sistemas de Información"
 subtitle: "Administración de Sistemas de Información"
-author: n1krov
+author: n1krov, Juani, Pollo y Chipancho
 date: \today
 lang: es
 documentclass: scrartcl
@@ -12,7 +12,7 @@ mainfont: Libertinus Serif
 sansfont: Inter
 monofont: JetBrains Mono
 toc: true
-toc-depth: 3
+toc-depth: 5
 numbersections: true
 colorlinks: true
 linkcolor: NavyBlue
@@ -101,6 +101,8 @@ El costo de no tener seguridad puede ser difícil de definir, aun cuando las fal
 - ***La seguridad total es imposible.*** NUNCA se alcanza el 100 % de seguridad; solo se logra un nivel razonable.
 - ***Mejor manejo del riesgo.*** Se busca el equilibrio entre los costos resultantes de una falla y los costos de las medidas necesarias para aumentar la seguridad.
 
+## Etapas de la Administración de Riesgos
+
 El management de la seguridad de SI se reduce a una metodología de **cuatro pasos genéricos**:
 
 1. Identificación del riesgo.
@@ -110,7 +112,7 @@ El management de la seguridad de SI se reduce a una metodología de **cuatro pas
 
 > **Enumerar y sintetizar las etapas de la administración del riesgo.** → Están enumeradas arriba; la explicación de cada una se desarrolla a continuación.
 
-## Identificación del riesgo
+### Identificación del riesgo
 
 El primer paso es identificar «todos» los riesgos a los que es vulnerable un sistema particular, un conjunto de sistemas, una función o una empresa. Para realizar esta tarea se necesitan dos cosas: **un conocimiento bastante detallado del trabajo de la organización** y un **reconocimiento de las áreas que tienden a la vulnerabilidad**. Esta segunda parte —la comprensión del riesgo probable— puede llevarse a cabo mediante consultores externos, pero la identificación de las amenazas específicas probablemente la realicen mejor el personal o los consultores internos. ***Los consultores externos ofrecen un amplio conocimiento, mientras que el personal interno ofrece una profunda comprensión de la empresa.***
 
@@ -123,7 +125,7 @@ Se trata de encontrar los puntos débiles, es decir, todo aquello a lo que está
 > **Nota...**
 > **Esto se puede expresar en una oración:** tengo este ***activo*** con esta ***vulnerabilidad***, que, como consecuencia, puede sufrir esta ***amenaza***.
 
-### Definiciones
+#### Definiciones
 
 **Amenaza**: **condición del entorno del sistema de información** (persona, máquina, suceso o idea) **que, dada una oportunidad, podría dar lugar a una violación de seguridad** (confidencialidad, integridad, disponibilidad, autenticidad, no repudio). **Es algo con capacidad de daño.** Un **ataque** es la realización de una amenaza.
 
@@ -166,7 +168,7 @@ Los activos vulnerables a pérdidas debido a una amenaza pueden ser:
 - **Riesgo Global**: una vez establecidos los elementos del riesgo, estos se combinan para formar el carácter global del riesgo (cálculo del impacto y la probabilidad de cada amenaza).
 - **Riesgo Residual**: es el nivel de riesgo que queda una vez aplicados los controles. La gerencia puede utilizarlo para identificar las áreas en las que se requiere más control para reducir aún más los riesgos, o bien para identificar puntos de control que estén sobrecontrolados.
 
-## Análisis del riesgo
+### Análisis del riesgo
 
 > Una vez identificados los riesgos, se debe cuantificar la probabilidad y la frecuencia esperada de ocurrencia de cada uno.
 
@@ -207,9 +209,7 @@ Todas las pérdidas que resultan de una falla de seguridad se relacionan con los
 
 Para evaluar la magnitud de la pérdida resultante de una falla de seguridad se deben considerar las **pérdidas directas (o consecuencias primarias)**, es decir, aquellas que se desprenden directamente —y, por lo general, de forma inmediata— de un problema de seguridad.
 
-![[Pasted image 20261024191841.png]]
-
-*Consecuencias primarias.*
+![*Consecuencias primarias.*](<Pasted image 20261024191841.png>)
 
 No todas las pérdidas empresariales son el resultado directo de una falla de seguridad. Las **pérdidas secundarias** (que surgen como consecuencia de las pérdidas primarias y no de la falla en sí misma) tienen gran importancia en el cálculo de las pérdidas.
 
@@ -217,9 +217,9 @@ No todas las pérdidas empresariales son el resultado directo de una falla de se
 
 Si las consecuencias primarias son difíciles de cuantificar, aún más difícil es evaluar las secundarias, que tienden a ser más costosas que las pérdidas directas y, como son costos empresariales, por lo general aparecen después de un largo tiempo. Pocas veces resulta práctico asignar valores monetarios detallados a las consecuencias secundarias; en su lugar, se utilizan clasificaciones cualitativas.
 
-![[Pasted image 20261024191901.png]]
 
-*Consecuencias/pérdidas secundarias.*
+![*Consecuencias secundarias.*](<Pasted image 20261024191901.png>)
+
 
 **La magnitud de la pérdida total de una falla de seguridad es la suma de las consecuencias primarias y secundarias.** Si se logran minimizar las consecuencias primarias, la ganancia es doble, porque al reducirse las pérdidas primarias también se minimizan las secundarias.
 
@@ -238,7 +238,7 @@ Si las consecuencias primarias son difíciles de cuantificar, aún más difícil
 ||Pérdida de una posición competitiva|
 ||Incapacidad de continuar con el negocio|
 
-## Manejo del riesgo
+### Manejo del riesgo
 
 > ***El resultado de la etapa 2 sirve como insumo para decidir qué estrategia de manejo del riesgo utilizar.***
 
@@ -255,11 +255,11 @@ Constituyen un proceso valioso, pero solo como un medio para alcanzar un fin. El
 1. **Prevenir el riesgo**: son medidas para **intentar evitar la amenaza**. Por ejemplo: colocar los sistemas lejos de las áreas peligrosas, ubicar los datos delicados en áreas protegidas, no descentralizar, usar ANTIVIRUS, etc.
 2. **Asumir el riesgo**: se utiliza cuando las pérdidas totales (la suma de las consecuencias primarias y secundarias) son tolerables para la organización. También debe tenerse en cuenta la probabilidad de ocurrencia.
 
-> ***Es cuando podemos afrontar la pérdida esperada de un activo.***
+    > ***Es cuando podemos afrontar la pérdida esperada de un activo.***
 
 3. **Reducir el riesgo**: resulta difícil evitar por completo el riesgo y, a veces, es inadecuado ignorarlo. Consiste en introducir controles y contramedidas para **reducir la probabilidad de ocurrencia o las pérdidas resultantes** de una falla de seguridad. Por ejemplo, el *backup*.
 
-> ***Controles que permiten reducir las pérdidas.***
+    > ***Controles que permiten reducir las pérdidas.***
 
 4. **Transferir el riesgo**: **traslada a un tercero los costos resultantes de una falla de seguridad**; en general, implica pólizas de seguro o contratos de mantenimiento.
 
@@ -284,14 +284,16 @@ Una **política de seguridad** define el nivel de seguridad que se ajusta al val
 - **Permisiva**: expresa lo que está particularmente prohibido; da más libertad o mayor amparo, ya que lo que no está expresamente prohibido está permitido.
 - **Prohibitiva**: lo que no está expresamente permitido está prohibido (es mucho más restringida).
 
-### Controles y contramedidas
+#### Controles y contramedidas
 
-Las estrategias de manejo del riesgo se implementan mediante **controles y contramedidas**. Elegir el conjunto que, de un modo efectivo en cuanto al costo, evite, reduzca o transfiera el impacto del riesgo **es, obviamente, un aspecto del management del riesgo**. Las medidas de seguridad y control deben considerarse en términos de sus costos netos y de los nuevos riesgos potenciales que genera su adopción.
+Las estrategias de manejo del riesgo se implementan a través de **controles y contramedidas**. La elección del conjunto que, de un modo efectivo con respecto al costo, evita, reduce o transfiere el impacto del riesgo es, obviamente, un aspecto del management del riesgo. Asimismo, los controles y las contramedidas se relacionan básicamente con las estrategias de **prevención y reducción** del riesgo. Las medidas de seguridad y control deben considerarse en términos de sus costos netos y de los nuevos riesgos potenciales que genera su adopción.
 
 Existen fundamentalmente dos tipos de control:
 
-- Las **contramedidas** ***(se introducen ante la ocurrencia de la amenaza)*** **generales**, que se introducen para reducir la amenaza sobre todas las actividades de los SI dentro de una organización. Un punto débil en los controles generales podría provocar una pérdida de seguridad en cualquier sistema; por eso, el costo de estas medidas debería considerarse «compartido» por todas las áreas protegidas.
+- Las **contramedidas generales** ***(se introducen ante la ocurrencia de la amenaza)***, que se introducen para reducir la amenaza sobre todas las actividades de los SI dentro de una organización. Un punto débil en los controles generales podría provocar una pérdida de seguridad en cualquier sistema; por eso, el costo de estas medidas debería considerarse «compartido» por todas las áreas protegidas.
 - Los **controles de aplicación**, diseñados para proteger de amenazas un área específica. Hasta cierto punto, para la mayoría de las empresas, los controles de aplicación son un conjunto de controles generales.
+
+> **Nota de clase…** Mientras que en el texto de Robson los términos «control» y «contramedida» se usan como sinónimos, algunos autores y apuntes de cátedra hacen una distinción según el momento en que actúan: llaman **controles** a las medidas implementadas *antes* de un incidente para prevenirlo o detectarlo tempranamente (1.ª y 2.ª línea de defensa), y **contramedidas** a las medidas tomadas *después* de ocurrido un incidente para mitigar los daños y recuperar la normalidad (3.ª línea de defensa). Las líneas de defensa las veremos más adelante.
 
 **Controles**: **prevención y detección**. Son medidas implementadas antes de un incidente para reducir la probabilidad de que ocurra o para detectarlo tempranamente.
 
@@ -313,7 +315,7 @@ Cualquier cambio en este entorno de los IS significa que las consecuencias de se
 |**Segunda línea de defensa**|**Detección**|Detectar fallas de seguridad a pesar de la primera línea de defensa. Por ejemplo: un detector de humo. «Si falla la primera línea, es decir, si ocurre el ataque, debo detectarlo».|
 |**Tercera línea de defensa**|**Recuperación**|Recuperarse de una falla de seguridad con pérdidas mínimas. Por ejemplo: *backups* de datos. «Volver al estado anterior a la amenaza».|
 
-![[Pasted image 20261024191917.png]]
+> Estas tres etapas se aplican a la mayoría de las capas de control. Por ejemplo, el software de autorización puede tratar de prevenir el uso no autorizado, pero también registra los ingresos fallidos a fin de detectar los ataques y luego utiliza la encriptación de la segunda etapa para minimizar el daño causado por la entrada ilegal al sistema.
 
 Las herramientas de seguridad son una de las contramedidas que se pueden implementar; también existen las políticas de seguridad y las buenas prácticas de seguridad.
 
@@ -334,7 +336,7 @@ Ejemplos de controles:
 - Antivirus.
 - Detección y prevención de incendios.
 
-## Recuperación ante el desastre
+### Recuperación ante el desastre
 
 Este elemento asume que la prevención total del riesgo es poco práctica o imposible y que, por lo tanto, la empresa debe definir planes que le permitan sobrevivir a algún tipo de desastre, así como los procesos que permitan la recuperación. Esto se denomina **planificación de contingencias** **e incluye planes de métodos de trabajo que permitan que la empresa sobreviva al desastre**, y procesos a largo plazo para que la organización se recupere:
 
@@ -369,13 +371,13 @@ Las soluciones de respaldo (mantenimiento) pueden clasificarse en (disponibilida
 
 Todos los enfoques de desarrollo de los SI deben ofrecer puntos de recuperación.
 
-### Evaluación de riesgos
+#### Evaluación de riesgos
 
 Los riesgos que interesan en este ámbito son los vinculados con la probabilidad de que se presente un desastre. Un **desastre** es todo suceso sujeto a cierto grado de incertidumbre en cuanto a su ocurrencia, pero que, cuando ocurre, puede interrumpir o afectar seriamente la operación normal de un negocio.
 
 Los riesgos deben clasificarse para priorizar las acciones según la sensibilidad al tiempo (el tiempo necesario para que se reanude el negocio después de un desastre). La evaluación del riesgo debe considerar la tolerancia del sistema, es decir, su capacidad para enfrentar una interrupción. La tolerancia puede expresarse como un valor monetario.
 
-### Formulación de un Plan de Contingencias
+#### Formulación de un Plan de Contingencias
 
 Consiste en definir los planes que permitan a la empresa sobrevivir a algún tipo de desastre y los procesos que permitan la recuperación. Se debe prever: el tiempo de inhabilitación, el respaldo o mantenimiento, la reinstalación y la tolerancia del sistema.
 
@@ -404,7 +406,7 @@ La formulación del plan de contingencias es responsabilidad de la gerencia supe
     - **Rutas diversificadas**: alternativas ubicadas en un lugar físico distinto.
 - Disponibilidad de una sede alternativa para el almacenamiento de los medios magnéticos (datos de *backup*) y de la documentación.
 
-### Metodologías de recuperación
+#### Metodologías de recuperación
 
 Establecen los pasos que se deben seguir en las situaciones de emergencia:
 
@@ -419,7 +421,7 @@ Establecen los pasos que se deben seguir en las situaciones de emergencia:
 - Provisión de apoyo administrativo, tareas de control y balanceo de datos.
 - Gestión de los aspectos legales derivados de la emergencia.
 
-### Técnicas de auditoría y funciones del auditor en la continuidad de las operaciones
+#### Técnicas de auditoría y funciones del auditor en la continuidad de las operaciones
 
 La revisión de la continuidad de las operaciones exige que el auditor de SI ejecute las siguientes tareas:
 
@@ -436,7 +438,7 @@ La revisión de la continuidad de las operaciones exige que el auditor de SI eje
 
 > Apunte de la profesora.
 
-El término se define, generalmente, como el conjunto de requisitos definidos por los responsables directos o indirectos de un sistema que indica, en términos generales, qué está permitido y qué no está permitido hacer en el área de seguridad durante la operación general de dicho sistema.
+*«Una **política de seguridad** es el conjunto de requisitos establecidos por los responsables directos o indirectos de un sistema que indica, en términos generales, qué está permitido y qué no está permitido hacer en materia de seguridad durante la operación de dicho sistema».*
 
 > ***Son medidas preventivas. Hay dos niveles: políticas generales, que luego se pueden especificar para cada activo y para cada perfil de usuario. Se usan en la primera línea de defensa.***
 
@@ -471,6 +473,8 @@ Cualquier política debe contemplar seis elementos clave de la seguridad de un s
 - **Autenticidad**: el sistema debe ser capaz de verificar la identidad de sus usuarios, y los usuarios, la del sistema.
 - **Confidencialidad**: la información solo debe estar disponible para agentes autorizados, especialmente para su propietario.
 - **Posesión**: los propietarios de un sistema deben ser capaces de controlarlo en todo momento; perder este control en favor de un usuario malicioso compromete la seguridad del sistema frente al resto de los usuarios.
+
+> Esas seis características son los objetivos de protección que justifican la existencia de una política de seguridad. Mientras que la política es el conjunto de reglas que indica qué está permitido y qué está prohibido hacer en el sistema, estos seis elementos definen qué es exactamente lo que esas reglas buscan garantizar y proteger.
 
 ### Definición de política
 

@@ -1,0 +1,83 @@
+# ==============================================================================
+# estilo.yaml — Archivo de "defaults" de pandoc: mi estilo para los PDF
+#
+# QUÉ ES
+#   Un archivo de "defaults" es una lista de opciones de pandoc escritas en
+#   YAML en vez de en la línea de comandos. Este junta las opciones comunes a
+#   todos mis apuntes y apunta a los otros dos archivos de esta carpeta:
+#     - metadatos.yaml  valores por defecto (idioma, márgenes, tamaño de letra)
+#     - estilo.tex      aspecto (fuentes, emojis, listas, tablas, cuadros, código);
+#                       lo carga el filtro ../filters/preambulo.lua
+#
+# CÓMO SE USA
+#   pandoc -d estilo nota.md -o nota.pdf
+#
+#   "-d estilo" (solo el nombre) hace que pandoc busque
+#   <carpeta de datos de pandoc>/defaults/estilo.yaml. La carpeta de datos es
+#   normalmente ~/.local/share/pandoc (se comprueba con:
+#   pandoc --version | grep -i "user data"). La vieja ~/.pandoc solo se usa
+#   si ~/.local/share/pandoc no existe, y si está definida la variable
+#   XDG_DATA_HOME, la carpeta es $XDG_DATA_HOME/pandoc.
+#   También se puede pasar la ruta completa: pandoc -d /ruta/a/estilo.yaml ...
+#
+# QUÉ NECESITA CADA NOTA
+#   Solo su propia cabecera YAML al principio del .md:
+#     ---
+#     title: "..."
+#     subtitle: "..."
+#     author: "..."
+#     date: "..."
+#     ---
+#
+# CAMBIAR ALGO EN UNA NOTA PUNTUAL
+#   Hay dos formas, y las dos ganan sobre metadatos.yaml:
+#     - Ponerlo en la cabecera de la nota:   geometry: margin=4cm
+#     - Pasarlo en el comando:               pandoc -d estilo -M date="..." ...
+#   El orden de prioridad (de menor a mayor) es:
+#     metadatos.yaml  <  cabecera de la nota  <  opción -M del comando
+#
+# APILAR VARIOS ESTILOS
+#   Pandoc acepta más de un -d y los aplica en orden, así que se puede crear,
+#   por ejemplo, un compacto.yaml y usarlo así:
+#     pandoc -d estilo -d compacto nota.md -o nota.pdf
+#
+# REQUISITOS (Debian/Ubuntu)
+#   sudo apt install pandoc texlive-luatex texlive-latex-recommended \
+#        texlive-latex-extra texlive-fonts-recommended lmodern \
+#        fonts-noto-color-emoji
+#   (texlive-latex-extra trae fvextra, que usa estilo.tex para cortar las
+#   líneas largas de código.)
+# ==============================================================================
+
+# Motor que convierte el LaTeX en PDF. Se usa lualatex (y no el pdflatex que
+# trae pandoc por defecto) porque permite usar emojis a color, letras griegas
+# y símbolos sin que falle la compilación.
+pdf-engine: lualatex
+
+# Colores del código. Para ver los estilos disponibles:
+#   pandoc --list-highlight-styles
+highlight-style: tango
+
+# Archivo con valores por defecto de la plantilla (idioma, márgenes, letra).
+# Se pone acá, y no directamente en este archivo bajo "variables:", a propósito:
+# lo que se escribe en "variables:" PISA a la cabecera de cada nota, y así una
+# nota no podría cambiar sus márgenes. Con metadata-files, en cambio, la nota
+# gana. ${.} significa "la carpeta donde está este archivo".
+metadata-files:
+  - ${.}/metadatos.yaml
+
+# Filtros de pandoc (en ../filters/). Cada uno explica en su encabezado qué hace.
+#   preambulo.lua        agrega estilo.tex al preámbulo de cada documento, junto
+#                        con el header-includes de la nota (si lo tiene), y
+#                        permite cambiar la letra con "mainfont" en la nota sin
+#                        perder los emojis.
+#                        (estilo.tex no se carga con "include-in-header" porque
+#                        así pandoc ignoraba el header-includes de la nota.)
+#   cortar-formulas.lua  parte en filas las fórmulas en bloque ($$ ... $$)
+#                        que no entran en el ancho de la hoja.
+#   centrar-imagenes.lua centra las imágenes que están solas en su párrafo
+#                        (o las alinea a un costado con {.izquierda} o {.derecha}).
+filters:
+  - ${.}/../filters/preambulo.lua
+  - ${.}/../filters/cortar-formulas.lua
+  - ${.}/../filters/centrar-imagenes.lua
