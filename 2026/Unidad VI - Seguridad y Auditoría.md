@@ -569,6 +569,9 @@ Una auditoría global involucra tanto la auditoría contable como la auditoría 
 
 **La auditoría general involucra una auditoría externa y una interna.** Durante su planificación debería establecerse una relación entre la actividad de los auditores externos y la de los internos. De esta forma se evitan duplicaciones inútiles de esfuerzos y el desperdicio de recursos, y la coordinación de ambos grupos permite alcanzar una cobertura de auditoría más completa. **Si los controles y los procedimientos son buenos, se hará hincapié en las pruebas de cumplimiento. Si, por el contrario, los controles son débiles o inexistentes, se harán más pruebas sustantivas.**
 
+> **Pruebas de cumplimiento (revisan "las reglas y el proceso"):** Buscan comprobar si los controles y procedimientos definidos en los manuales y políticas realmente se cumplen en el día a día de manera consistente y continua. Su insumo principal es la documentación, la observación y las entrevistas.   
+> **Pruebas sustantivas o de validación (revisan "los datos y los resultados a fondo"):** Van directamente al tratamiento de la información dentro del sistema para comprobar si los datos fueron corrompidos, alterados o si hubo fraudes o errores (como transacciones omitidas, duplicadas o cálculos mal hechos).
+
 ## Auditoría de sistemas/informática (Lardent)
 
 **La auditoría de sistemas de información ha sido definida como la revisión sistemática y organizada de los sistemas en funcionamiento para ver si verifican las propiedades de:**
@@ -644,7 +647,7 @@ La implantación de una política y una cultura de seguridad debe realizarse por
 
 La creación de un sistema de control informático es una responsabilidad de la Gerencia y un punto destacable de la política del entorno informático.
 
-![[Pasted image 20261024192007.png]]
+![[Pasted image 20261024192007.png|350]]
 
 ### Auditoría informática vs. Control Interno Informático (Piattini)
 
@@ -708,7 +711,7 @@ Por ejemplo: controlar que los operarios de Agunsa no se pasen las contraseñas,
 
 ## Etapas de la auditoría
 
-Las etapas genéricas de la ISACA son:
+Las etapas genéricas de la ISACA (*Information Systems Audit and Control Association* o Asociación de Auditoría y Control de Sistemas de Información) son:
 
 1. Planeación.
 2. Trabajo de campo y documentación.
@@ -771,9 +774,7 @@ Estos riesgos también tienen una implicancia material, es decir, económica.
 
 Una vez finalizada la planificación, y antes de ejecutar la auditoría, quedarán definidos el tema y el área que se auditará, el objetivo de la auditoría, su alcance (uno o varios sistemas, o un periodo determinado), las habilidades técnicas y los recursos necesarios, y las fuentes de información para ejecutar pruebas y revisiones. La figura indica los pasos que deben desarrollarse:
 
-![[Pasted image 20261024192036.png]]
-
-![[Pasted image 20261024192045.png]]
+![](Gemini_Generated_Image_2fru1d2fru1d2fru.jpeg)
 
 ## La importancia de los procedimientos (Soria Ojeda)
 
@@ -809,6 +810,10 @@ Se debe considerar la confiabilidad de la evidencia en la que se apoya el audito
 
 La evidencia se recopila durante el proceso de auditoría y es el fundamento sobre el cual se formulan las conclusiones. **Las pruebas son el método o proceso mediante el cual se obtiene la evidencia**: son las acciones que se realizan para recopilar la información que servirá de base para las conclusiones del auditor. En principio, las pruebas son de cumplimiento o sustantivas.
 
+> **¿Prueba o evidencia?**
+>
+> Recordá que en auditoría son dos cosas distintas: la prueba es la acción que hacés (el verbo) y la evidencia es el dato o documento que conseguís gracias a esa acción (el sustantivo).
+
 ## Tipos de pruebas
 
 La auditoría distingue dos categorías de pruebas: las de cumplimiento y las sustantivas.
@@ -843,6 +848,8 @@ Según la relación del auditor con la empresa, una auditoría puede ser interna
 
 **Es el examen crítico, sistemático y detallado de un sistema de información de una unidad económica, *realizado por un profesional con vínculos laborales con ella*, utilizando técnicas determinadas, con el objeto de emitir informes y formular sugerencias para su mejoramiento.** Estos informes son de **circulación interna.**
 
+> Acá hablamos de «unidad económica» porque es el término técnico-contable más amplio y preciso para referirse a cualquier ente organizado (empresa privada, PYME, banco, organismo estatal o universidad) que administra recursos y activos (incluida la información) para cumplir un fin, y cuyos sistemas informáticos deben ser evaluados por ese auditor externo («sin vínculos laborales con ella»).
+
 *La auditoría interna es un servicio que reporta al más alto nivel de la dirección de la organización* y tiene características de función asesora de control. Por lo tanto, no puede ni debe tener autoridad de línea sobre ningún funcionario de la empresa, salvo sobre quienes integran la planta de la oficina de auditoría interna, ni debe involucrarse o comprometerse de ningún modo con las operaciones de los sistemas de la empresa.
 
 La tarea de la auditoría interna exige una absoluta ***independencia de criterio por parte del auditor***, que se consigue mediante la **estructura organizacional y la objetividad**:
@@ -873,7 +880,7 @@ Reporta a organismos oficiales públicos o a determinadas empresas. *Tiene impli
 |Solo personal interno.|Personal interno o externo con dependencia de la organización.||
 |Alcance: el Departamento de Informática.|Alcance: cubre todos los componentes de SI de la organización. Orientada a la mejora continua.||
 
-![[Pasted image 20261024192126.png]]
+![[aInterna_vs_aExterna.jpeg|550]]
 
 ## Informes de auditoría
 
