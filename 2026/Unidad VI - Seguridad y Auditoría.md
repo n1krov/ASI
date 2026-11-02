@@ -1043,7 +1043,7 @@ Es necesario activar controles sobre esas funciones. Los controles intentan aseg
 - Plan de recuperación ante desastres y copias de seguridad.
 - Cumplimiento de las normativas de seguridad.
 
-### Técnicas de evaluación y auditoría
+## Técnicas de evaluación y auditoría
 
 Independientemente de la estrategia seleccionada para la revisión (con o sin computadora), el auditor de sistemas debe desarrollar actividades específicas como las siguientes:
 
@@ -1195,7 +1195,7 @@ Auditoría externa informática:
     1. **Planeación**: se relaciona con los dos primeros puntos, porque a partir de la revisión inicial se planifica.
     2. **Trabajo de campo y documentación**: se sale a aplicar la planificación; en cuanto a la documentación, hay que documentar las fuentes de evidencia (algo que se está separando de la norma).
     3. **Reporte y seguimiento**: el reporte es el cierre de la revisión y la elaboración del informe. El informe de auditoría expone en forma sintética todo lo que se hizo y apunta directamente a los hallazgos: primero va la opinión, en la que los auditores se pronuncian sobre el funcionamiento del sistema («razonablemente bien» o «totalmente apartado», con no conformidades), y luego las recomendaciones, que deben ayudar a mejorar.
-6. **Seguimiento**: se verifica si se llevaron adelante las recomendaciones, si fueron efectivas y si corrigieron las observaciones realizadas. Lo hace el auditor, y uno de sus insumos son todos los reportes de auditoría anteriores. Si la organización no tiene impacto social (en los bancos sí o sí lo tiene), se realizan auditorías internas y se deben aplicar las recomendaciones. Con dos dictámenes seguidos con disconformidades, se certifica.
+6. **Seguimiento**: se verifica si se llevaron adelante las recomendaciones, si fueron efectivas y si corrigieron las observaciones realizadas. Lo hace el auditor, y uno de sus insumos son todos los reportes de auditoría anteriores. Si la organización no tiene impacto social (en los bancos sí o sí lo tiene), se realizan auditorías internas y se deben aplicar las recomendaciones. Con dos dictámenes seguidos con disconformidades, no se certifica.
 
 ![[Pasted image 20261024192225.png]]
 
