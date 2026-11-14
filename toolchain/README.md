@@ -1,0 +1,182 @@
+# Toolchain Editorial Autocontenido (`toolchain/`)
+
+Pipeline unificado de normalización, linteo y compilación de apuntes en Markdown (`.md`) a **PDF (`LuaLaTeX`)** y **EPUB3** mediante **Pandoc**.
+
+> [!IMPORTANT]
+> **Autocontención total (Principio 3 de `GEMINI.md`)**: Ningún script ni archivo de configuración de esta carpeta depende de `~/.local/share/pandoc` ni de configuraciones globales del usuario. Todo se resuelve de forma relativa a la raíz del repositorio.
+
+---
+
+## 1. Arquitectura de `toolchain/`
+
+```text
+toolchain/
+├── README.md                        <- Esta documentación
+├── Dockerfile                       <- Imagen Docker precompilada (ghcr.io/gez-schegtel/asi-toolchain) con caché de luaotfload
+├── bin/
+│   ├── mdnorm                       <- Linter y normalizador de Markdown (Bash + Perl)
+│   ├── md2pdf                       <- Compilador unificado a PDF y EPUB3 (Bash + Perl + Pandoc)
+│   ├── mkrelease                    <- Empaquetador y publicador de GitHub Releases (Bash + Perl + gh)
+│   └── pdf2md                       <- Conversor inverso de PDF a Markdown (Bash + Python + mutool)
+└── pandoc/
+    ├── defaults/
+    │   ├── pdf.yaml                 <- Defaults de Pandoc para PDF (motor lualatex, filtros Lua)
+    │   ├── epub.yaml                <- Defaults de Pandoc para EPUB3 (MathML, CSS, capítulos)
+    │   └── metadatos.yaml           <- Valores base compartidos (lang: es, scrartcl, márgenes)
+    ├── fonts/
+    │   ├── libertinus-serif/        <- Fuente principal embebida (Libertinus Serif)
+    │   ├── inter/                   <- Fuente de títulos embebida (Inter)
+    │   └── jetbrains-mono/          <- Fuente monoespaciada embebida (JetBrains Mono)
+    ├── templates/
+    │   ├── estilo.tex               <- Preámbulo LaTeX (fuentes embebidas, cajas de callouts, emojis a color, fvextra)
+    │   └── estilo-epub.css          <- Hoja de estilos para lectores de libros electrónicos (EPUB3)
+    └── filters/
+        ├── preambulo.lua            <- Inyecta templates/estilo.tex respetando mainfont y header-includes
+        ├── cortar-formulas.lua      <- Parte ecuaciones en bloque ($$ ... $$) que exceden el ancho de página
+        ├── centrar-imagenes.lua     <- Centra figuras sueltas y soporta {.izquierda}, {.derecha} y anchos
+        └── tablas-listas.lua        <- Convierte viñetas en celdas de tablas a listas nativas (LaTeX/EPUB)
+```
+
+---
+
+## 2. Uso de `toolchain/bin/mdnorm` (Normalizador y Linter)
+
+Corrige automáticamente los detalles de sintaxis que hacen que Pandoc interprete mal una nota de Obsidian o Notion (líneas en blanco faltantes antes de listas/tablas/títulos/citas, sangrías de sublistas, tablas partidas, `<br>`, fórmulas `\(...\)` / `\[...\]`, letras matemáticas Unicode `𝐴` → `A`, cabeceras YAML y rutas de imágenes en `assets/`).
+
+```bash
+# Normalizar un apunte de forma interactiva (pregunta antes de guardar)
+./toolchain/bin/mdnorm "content/unidades/unidad-3/Unidad III - Subsistema de Aplicación.md"
+
+# Ver el detalle línea por línea de los cambios propuestos (-v / --verbose)
+./toolchain/bin/mdnorm -v "content/unidades/unidad-6/Unidad VI - Seguridad y Auditoría.md"
+
+# Normalizar y guardar directamente sin pedir confirmación (-y / --yes)
+./toolchain/bin/mdnorm -y "content/unidades/unidad-3/"*.md
+
+# Modo auditoría para CI (--check / -n): no modifica archivos y devuelve exit 1 si algo falla
+find content -type f -name "*.md" -print0 | xargs -0 ./toolchain/bin/mdnorm --check
+```
+
+---
+
+## 3. Uso de `toolchain/bin/md2pdf` (Compilador a PDF y EPUB3)
+
+Toma uno o varios archivos `.md`, traduce en memoria la sintaxis de Obsidian (`![[...]]`, `|400`, `|derecha`, `[[wikilinks]]`, callouts `> [!NOTE]`, letras matemáticas Unicode) y genera los documentos preservando la carpeta de la Unidad o Práctica dentro de `build/` en la raíz del repositorio (la cual está ignorada en `.gitignore`).
+
+```bash
+# Generar PDF (por defecto en build/unidad-3/<nombre>.pdf)
+./toolchain/bin/md2pdf -y "content/unidades/unidad-3/Unidad III - Subsistema de Aplicación.md"
+
+# Generar EPUB3 (en build/unidad-3/<nombre>.epub)
+./toolchain/bin/md2pdf -y --epub "content/unidades/unidad-3/Unidad III - Subsistema de Aplicación.md"
+
+# Generar PDF y EPUB3 simultáneamente de toda una Unidad (--all)
+./toolchain/bin/md2pdf -y --all "content/unidades/unidad-3/"*.md
+
+# Especificar un archivo o carpeta de salida personalizada (-o / --output)
+./toolchain/bin/md2pdf -y -o build/custom/ "content/unidades/unidad-6/"*.md
+```
+
+---
+
+## 4. Uso de `toolchain/bin/mkrelease` (Empaquetado y Publicación de Releases)
+
+Empaqueta el árbol generado en `build/` creando un `.zip` por cada Unidad/Trabajo Práctico (conservando los nombres con tildes y espacios adentro del `.zip`), translitera los archivos `.pdf` y `.epub` individuales a nombres ASCII limpios (para evitar que GitHub reemplace caracteres acentuados por puntos), construye el índice Markdown ordenado con tablas de descarga en 1 clic y actualiza atómicamente el Release en GitHub sin borrarlo.
+
+```bash
+# Simular localmente la generación de assets y notas.md sin llamar a GitHub CLI (--dry-run)
+./toolchain/bin/mkrelease --dry-run build/release-preview
+
+# Actualizar en el lugar el Release continuo principal (apuntes-al-dia -> Latest)
+./toolchain/bin/mkrelease --repo Gez-Schegtel/ASI-test --tag apuntes-al-dia --cleanup-legacy-tags
+
+# Publicar un Snapshot Histórico inmutable para un tag v* (--latest=false)
+./toolchain/bin/mkrelease --repo Gez-Schegtel/ASI-test --tag v2026-parcial1 --historical
+```
+
+---
+
+## 5. Uso de `toolchain/bin/pdf2md` (Herramienta de Ingesta Local PDF a Markdown)
+
+> [!NOTE]
+> **Herramienta de uso local exclusivo**: `pdf2md` está diseñada para la ingesta, descompilación y migración de material docente en PDF hacia Markdown en el entorno local del autor. **No forma parte del pipeline automatizado de CI/CD** (GitHub Actions), lo que permite mantener la imagen Docker de compilación editorial sumamente liviana y enfocada exclusivamente en compilar `.md` a `.pdf`/`.epub`.
+
+Convierte archivos `.pdf` a Markdown (`.md`), realizando el camino inverso de `md2pdf`. Reconstruye fielmente la cabecera YAML, la jerarquía de títulos a partir de los *outlines* del PDF, listas anidadas, tablas complejas y cuadrículas (*grid tables* de Google Docs, Word, LibreOffice y Pandoc), bloques de código con su lenguaje, código en línea, fórmulas LaTeX (`$...$` y `$$...$$`), subíndices y superíndices (`~...~` y `^...^`), citas, notas al pie, enlaces, emojis (`Noto Color Emoji`) e imágenes con sus clases y anchos (`{.derecha width=25%}`). Además, inyecta `\needspace{...}` antes de bloques de imágenes para prevenir saltos de página huérfanos.
+
+### Integración con `assets/` y Resolución de Conflictos (Principio 4 de `GEMINI.md`):
+
+- **Extracción centralizada**: Si el PDF se convierte dentro del repositorio, las imágenes extraídas se guardan directamente en la carpeta raíz `assets/` y se enlazan con su ruta relativa correspondiente.
+
+- **Deduplicación por contenido (MD5 RGB)**: Si una imagen del PDF ya existe en `assets/` (o en la carpeta del PDF), se reutiliza el archivo existente sin duplicar espacio en disco.
+
+- **Prevención de colisiones de nombres**: Si ya existe una imagen con el mismo nombre base pero con contenido gráfico diferente, `pdf2md` añade un sufijo con el hash del contenido (`<nombre>_<hash[:6]>.png`) y emite una advertencia en la consola:
+  ```text
+  ⚠️ Colisión detectada: imagen guardada en la carpeta assets/ como 'apunte_img_1_3b38cb.png'
+  ```
+  De esta forma, nunca se sobrescriben imágenes preexistentes ni se rompen apuntes anteriores.
+
+- **Notificación en consola**: Cada imagen nueva incorporada a `assets/` se notifica con un mensaje: `📷 Imagen guardada en la carpeta assets/: <nombre>`.
+
+- **Detección de PDFs escaneados**: Si un PDF contiene páginas completas escaneadas o tipografías ilegibles, `pdf2md` avisa al usuario para evitar la generación de documentos defectuosos.
+
+```bash
+# Convertir un PDF de cátedra específico
+./toolchain/bin/pdf2md apunte-catedra.pdf
+
+# Convertir sin pedir confirmación (-y / --yes)
+./toolchain/bin/pdf2md -y apunte-catedra.pdf
+
+# Convertir todos los PDFs de la carpeta actual
+./toolchain/bin/pdf2md -y
+```
+
+---
+
+## 6. Dependencias del Sistema
+
+### Dependencias para compilación (`mdnorm`, `md2pdf`, `mkrelease`)
+
+#### Opción A: Usar la imagen Docker precompilada (CI/CD y uso local sin instalar TeX Live)
+
+El repositorio cuenta con `toolchain/Dockerfile` y publica automáticamente la imagen `ghcr.io/gez-schegtel/asi-toolchain:latest` con Pandoc, LuaLaTeX y el caché de fuentes de `luaotfload` ya precalentado:
+
+```bash
+# Compilar usando el contenedor sin instalar TeX Live en el sistema anfitrión
+docker run --rm --user "$(id -u):$(id -g)" -v "$PWD:/workspace" -w /workspace \
+  ghcr.io/gez-schegtel/asi-toolchain:latest \
+  ./toolchain/bin/md2pdf -y --all "content/unidades/unidad-3/"*.md
+```
+
+#### Opción B: Instalación nativa en Debian / Ubuntu
+
+```bash
+sudo apt install bash perl pandoc \
+  texlive-luatex texlive-latex-recommended texlive-latex-extra \
+  texlive-fonts-recommended texlive-lang-spanish \
+  lmodern fonts-dejavu-core fonts-dejavu-mono fonts-noto-color-emoji
+```
+
+#### Opción C: Instalación nativa en Arch Linux
+
+```bash
+sudo pacman -S bash perl pandoc-cli \
+  texlive-luatex texlive-latexrecommended texlive-latexextra \
+  texlive-fontsrecommended texlive-plaingeneric texlive-langspanish \
+  otf-latin-modern ttf-dejavu noto-fonts-emoji
+```
+
+### Dependencias adicionales para ingesta local con `pdf2md`
+
+Para utilizar la herramienta de descompilación e ingesta `toolchain/bin/pdf2md` en tu equipo local:
+
+* **Debian / Ubuntu**:
+  ```bash
+  sudo apt install mupdf-tools python3 python3-pdfminer python3-lxml python3-pil
+  ```
+
+* **Arch Linux**:
+  ```bash
+  sudo pacman -S mupdf-tools python python-pdfminer python-lxml python-pillow
+  ```
+
+*(Las fuentes tipográficas estándar del repositorio —**Libertinus Serif** para texto, **Inter** para títulos y **JetBrains Mono** para código— están incluidas directamente en `toolchain/pandoc/fonts/`, por lo que funcionan en cualquier distribución Linux sin necesidad de instalarlas desde el gestor de paquetes).*
